@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-13
+> 最后更新: 2026-10-14
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [The State of AI Instruction Quality: Q3 2026](https://dev.to/reporails/the-state-of-ai-instruction-quality-q3-2026-19bg) (dev.to) - 91% of the most-starred repos on GitHub give their coding agent at least one ins
 - [Fallback Design in Legal Contract Review Retrieval Architecture for Teams](https://dev.to/algernoncross4103/fallback-design-in-legal-contract-review-retrieval-architecture-for-teams-42pg) (dev.to) - Use a staged retrieval design with explicit collections, bounded queries, and tr
 - [Meta and OpenAI present digital assistants that work even when you turn off the device](https://dev.to/hacksgr/meta-and-openai-present-digital-assistants-that-work-even-when-you-turn-off-the-device-54ia) (dev.to) - Meta and OpenAI introduced persistent autonomous AI agents, Muse and ChatGPT Dot
 - [Prompts mal usados y cómo corregir prompts de IA](https://dev.to/henryramireztech/prompts-mal-usados-y-como-corregir-prompts-de-ia-3oe1) (dev.to) - Los prompts mal usados y la falta de criterio técnico para corregir prompts de I
 - [README Clew 2: Built with AdaL. Labeled by Jev. Judged by Code. Explained by Haiku.](https://dev.to/earlgreyhot1701d/readme-clew-2-built-with-adal-labeled-by-jev-judged-by-code-explained-by-haiku-196e) (dev.to) - Jev labels the line. Code makes the call.   TL;DR: README Clew 2 checks whether 
-- [How Do We Extract the “Why” from a PR into a CHANGELOG with Jev? 🤔](https://dev.to/nyaomaru/how-do-we-extract-the-why-from-a-pr-into-a-changelog-with-jev-52pk) (dev.to) - Hoi hoi! 👋  I'm @nyaomaru, a frontend engineer currently building an AI-assisted
 
 ---
 
@@ -63,11 +63,11 @@
 
 ### 相关文章资源
 
-- [How to stop one customer from blowing up your OpenAI bill](https://dev.to/llmbrake/how-to-stop-one-customer-from-blowing-up-your-openai-bill-3ooh) (dev.to) - Per-customer AI budgets: price every call, check before, record after, degrade b
-- [Can a local LLM replace Claude Code? The benchmark everyone quotes is the wrong one.](https://dev.to/rudratosh/can-a-local-llm-replace-claude-code-the-benchmark-everyone-quotes-is-the-wrong-one-2kna) (dev.to) - Every "7 local models that replace Claude Code" list opens the same way: a table
-- [What happens when you delete 30 cron jobs and replace them with one heartbeat](https://dev.to/openamer/what-happens-when-you-delete-30-cron-jobs-and-replace-them-with-one-heartbeat-2kd9) (dev.to) - What happens when you delete 30 cron jobs and replace them with one heartbeat   
-- [I Asked for a Video. Claude Motion Gave Me an HTML File.](https://dev.to/dishant0406/i-asked-for-a-video-claude-motion-gave-me-an-html-file-459o) (dev.to) - Claude Motion turns prompts into animated explainers, but it's locked to Team an
-- [Shivacon-Energy: The 0.5B Energy LLM That Refuses to Hallucinate](https://dev.to/shivaysinghrajput/shivacon-energy-the-05b-energy-llm-that-refuses-to-hallucinate-59c0) (dev.to) - TL;DR: Shivacon-Energy is a LoRA fine-tune of Qwen2.5-0.5B-Instruct for energy-d
+- [How AIClaw 3.7.13 Separates Context Estimates From Provider Usage](https://dev.to/chowyu12/how-aiclaw-3713-separates-context-estimates-from-provider-usage-909) (dev.to) - Long agent sessions accumulate text, tool results, and decisions. A context mete
+- [How Kimi Powers REGLO Agent’s On-Chain Decisions](https://dev.to/edmundjeevan/how-kimi-powers-reglo-agents-on-chain-decisions-3cne) (dev.to) - REGLO Agent is an AI agent built for the Monad Metropolis hackathon that gets pa
+- [OpenAI and Anthropic call for new laws on artificial intelligence](https://dev.to/hacksgr/openai-and-anthropic-call-for-new-laws-on-artificial-intelligence-3j5b) (dev.to) - OpenAI and Anthropic representatives told a UK parliamentary committee that volu
+- [Prompts don't enforce budgets. Signatures do.](https://dev.to/payload-tools/prompts-dont-enforce-budgets-signatures-do-2a1j) (dev.to) - A spending limit written in a prompt is not a control. It is a piece of text, si
+- [Your User Closed the Tab. Your Node Server Is Still Paying for the LLM Call](https://dev.to/gabrielanhaia/your-user-closed-the-tab-your-node-server-is-still-paying-for-the-llm-call-3a11) (dev.to) - A streamed LLM call keeps running after the browser disconnects unless you cance
 
 ---
 
@@ -91,11 +91,11 @@
 
 ### 相关文章资源
 
+- [Prompt Paws: A Cozy 60 FPS AI Agent Bakery Game Teaching RAG, Guardrails & Context Caching](https://dev.to/gde/i-built-a-cozy-60-fps-ai-agent-bakery-game-to-teach-rag-guardrails-context-caching-multi-agent-2ek) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side
+- [VAI Assistant: a non-injection AI customer service tool for WeChat on Windows](https://dev.to/yichenguaitan/vai-assistant-a-non-injection-ai-customer-service-tool-for-wechat-on-windows-2c56) (dev.to) - VAI助手 (formerly "微信管家", https://vx.cuxn.cn/) is a Windows desktop app that auto-
+- [Customer-Support Knowledge Base Retrieval: 3-Stage Metadata Filter Design](https://dev.to/aldencross6847/customer-support-knowledge-base-retrieval-3-stage-metadata-filter-design-379e) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
+- [How to Build Retrieval Architecture for Financial Research Dashboard: Incremental Indexing](https://dev.to/lorenzholm3752/how-to-build-retrieval-architecture-for-financial-research-dashboard-incremental-indexing-4ail) (dev.to) - Financial research dashboards have an awkward freshness problem: an analyst want
 - [FastAPI Retrieval Collections for Fresh Semantic Matching in Developer Changelogs](https://dev.to/sullivanreed1247/fastapi-retrieval-collections-for-fresh-semantic-matching-in-developer-changelogs-4cd0) (dev.to) - Use staged retrieval with explicit collections, bounded queries, and traceable s
-- [E-commerce Product Search Retrieval Architecture — 2-Stage Metadata Filters](https://dev.to/kasimirberg5341/e-commerce-product-search-retrieval-architecture-2-stage-metadata-filters-336d) (dev.to) - Short answer: use a two-stage retrieval path. Apply tenant, catalog, and access 
-- [Retrieval Architecture for Legal Contract Review Workspace Freshness (Release Checklist)](https://dev.to/jamesanderson3589/retrieval-architecture-for-legal-contract-review-workspace-freshness-release-checklist-i7f) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [How to Build Customer-Support Retrieval Architecture: Query Limits That Hold](https://dev.to/owensullivan9135/how-to-build-customer-support-retrieval-architecture-query-limits-that-hold-hng) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [Learning LangChain](https://dev.to/sabimantock/learning-langchain-4jlp) (dev.to) - A while back I built Synapse, a small app that answers questions using my own no
 
 ---
 
@@ -114,8 +114,12 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (2题)
+### 已积累题目 (4题)
 
+- [中级] **Agent 12-Factor 第12条原则**
+  - 考点: 进程隔离, 环境一致性, 无状态执行
+  - 摘要: Agent 12-Factor 的第12条原则通常关注“管理任务”或“可观测性”。以管理任务为例，核心思想是将一次性管理任务作为独立进程运行。具体包括以下几点：
+1. 进程隔离：数据迁移、状态清理或模...
 - [中级] **Agent上下文工程**
   - 考点: 上下文窗口管理, 动态上下文组装, 信息压缩与摘要
   - 摘要: 上下文工程是指在LLM Agent中，系统性地管理和组织输入给大模型的上下文信息，以最大化模型推理性能和任务完成率。其核心在于如何在有限的上下文窗口内，提供最相关、最有效的信息。
@@ -123,14 +127,18 @@
 - [中级] **Agent实战：GenAI职业助手黑客松**
   - 考点: ReAct模式, 工具集成, 记忆机制
   - 摘要: 1. 需求分析：明确GenAI职业助手的核心功能，如简历优化、模拟面试、职位推荐及职业规划咨询。2. 架构设计：采用ReAct（Reasoning and Acting）设计模式，让Agent能够先推...
+- [中级] **Spring Cloud 微服务架构**
+  - 考点: 服务注册与发现, 配置中心, 熔断限流
+  - 摘要: Spring Cloud 是一套微服务治理框架，主要解决分布式系统中的常见问题。其核心组件和机制如下：
+1. 服务注册与发现：使用 Eureka 或 Nacos 作为注册中心，微服务启动时自动注册，消...
 
 ### 相关文章资源
 
-- [The Industrial Revolution of Software Is Here](https://dev.to/remojansen/the-industrial-revolution-of-software-is-here-14f6) (dev.to) - The Industrial Revolution changed much more than how goods were manufactured. It
-- [Your Agent's PR Grows Three 'While I Was in Here' Cleanups, and Now You Can't Review It](https://dev.to/jeff_pdc/your-agents-pr-grows-three-while-i-was-in-here-cleanups-and-now-you-cant-review-it-2oaf) (dev.to) - You asked an agent for one endpoint. The diff contains the endpoint, a rename ac
-- [Brakes Let You Go Fast: Balancing Acceleration and Safety for AI Agents](https://dev.to/dailycontext/brakes-let-you-go-fast-balancing-acceleration-and-safety-for-ai-agents-49p9) (dev.to) - Written by John Feminella  We now inhabit a world where agents can execute opera
-- [Code is abundant. Confidence is a formula.](https://dev.to/dailycontext/code-is-abundant-confidence-is-a-formula-gn6) (dev.to) - AI can make code creation abundant. The harder challenge is building confidence 
-- [We checked 49 payment MCP servers. 37 can move money. Only 4 document a spending budget.](https://dev.to/aidakh_e8124113e2a1bf1fc9/we-checked-49-payment-mcp-servers-37-can-move-money-only-4-document-a-spending-budget-1bd5) (dev.to) - Disclosure: I work on Pink Agentic AI Payments at PinkWallet, which is one of th
+- [Workday Is Buying Identity for AI Agents. Let's Build a Tiny Access Grant in TypeScript.](https://dev.to/bobbyhalljr/workday-is-buying-identity-for-ai-agents-lets-build-a-tiny-access-grant-in-typescript-25m4) (dev.to) - Workday plans to acquire C1.ai so agents get access when they are registered and
+- [How we let AI agents spend money without a blank check](https://dev.to/specstream/how-we-let-ai-agents-spend-money-without-a-blank-check-18gp) (dev.to) - If you give an agent an API key on a funded account, you've given it a card. Mos
+- [8 Frameworks in the Demo, 3 Rows in the Conformance Table: I Ran Microsoft's agent-hooks CTK](https://dev.to/fable7/8-frameworks-in-the-demo-3-rows-in-the-conformance-table-i-ran-microsofts-agent-hooks-ctk-3ac8) (dev.to) - Eight frameworks in the demo, three rows in the conformance table. I ran the kit
+- [I built an MCP server that lets AI agents investigate videos](https://dev.to/sevrin/i-built-an-mcp-server-that-lets-ai-agents-investigate-videos-32pm) (dev.to) - Hey DEV! First post here 👋  I've been working on an open-source project called U
+- [How I Built a Fully Local AI Coding Agent with Qwen 3.8, LM Studio, and Pi (No Paid APIs)](https://dev.to/vivek_shetye/how-i-built-a-fully-local-ai-coding-agent-with-qwen-38-lm-studio-and-pi-no-paid-apis-5bp7) (dev.to) - What if you could have an AI coding agent that reads your files, writes code, ex
 
 ---
 
@@ -148,11 +156,11 @@
 
 ### 相关文章资源
 
-- [Your MCP server's tool descriptions are the product: a 40-line Node script to dump and review them](https://dev.to/renev3408/your-mcp-servers-tool-descriptions-are-the-product-a-40-line-node-script-to-dump-and-review-them-4ki2) (dev.to) - Agents pick MCP tools by reading name, description and inputSchema from tools/li
-- [A browser pool for agents that stop taking each other's tabs](https://dev.to/danmercede/a-browser-pool-for-agents-that-stop-taking-each-others-tabs-2e5b) (dev.to) - How to give cooperative agents persistent Chrome identities, exclusive leases, a
-- [Shipping a Claude Code plugin with an eval suite: testing that the agent doesn't make things up](https://dev.to/vishalhabib99/shipping-a-claude-code-plugin-with-an-eval-suite-testing-that-the-agent-doesnt-make-things-up-26ck) (dev.to) - An agent calling your MCP server never sees your code. It sees tool names, descr
-- [agentevals v0.10.0: Scores Come Back as OpenTelemetry Events](https://dev.to/webofmike/agentevals-v0100-scores-come-back-as-opentelemetry-events-ko3) (dev.to) - agentevals v0.10.0 sends scores back as gen_ai.evaluation.result OpenTelemetry e
-- [stairway: from a chat idea to a running Claude Code experiment on my own server](https://dev.to/sirmmo/stairway-from-a-chat-idea-to-a-running-claude-code-experiment-on-my-own-server-2eoh) (dev.to) - Most of my side projects start the same way: I'm on my phone, talking an idea th
+- [Walter MCP in Gemini CLI: Setup and Workflows](https://dev.to/mohab_karim/walter-mcp-in-gemini-cli-setup-and-workflows-2ap5) (dev.to) - One config entry, one OAuth sign-in, and the terminal workflows that make the co
+- [Your agent has 40 tools and it still picks the wrong one](https://dev.to/jeff_pdc/your-agent-has-40-tools-and-it-still-picks-the-wrong-one-27la) (dev.to) - MCP tool sprawl looks like progress. In practice, a long, vaguely-named tool lis
+- [Building Your First MCP Server: A Practical Guide](https://dev.to/ipsphil_digital/building-your-first-mcp-server-a-practical-guide-24pa) (dev.to) - Building Your First MCP Server: A Practical Guide   The Model Context Protocol (
+- [Build, Ship, Shape: Amazon Developer Hackathon](https://dev.to/evaaliya/build-ship-shape-amazon-developer-hackathon-aid) (dev.to) - Alguard: a two-tier trust layer for agentic purchases   I just submitted Alguard
+- [Grafana MCP for Claude Code: Query Dashboards, Metrics, and Alerts Directly](https://dev.to/juholee/grafana-mcp-for-claude-code-query-dashboards-metrics-and-alerts-directly-2jak) (dev.to) - Grafana Labs’ official MCP server lets Claude Code search dashboards, run PromQL
 
 ---
 
