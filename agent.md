@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-15
+> 最后更新: 2026-10-16
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [Worktree lifecycle for AI agents](https://dev.to/saez520/worktree-lifecycle-for-ai-agents-1ooo) (dev.to) - The problem is not creating worktrees, but managing them   When two or more agen
+- [It caught "partner" "pareja" in an IRS rule and missed "return" "devolución": an offline MT checker for translators](https://dev.to/p0rt/it-caught-partner-pareja-in-an-irs-rule-and-missed-return-devolucion-an-offline-mt-7ge) (dev.to) - An offline checker that ranks machine-translated segments by the risk of a major
+- [I built a lie detector for AI coding agents. Then I read the rules.](https://dev.to/dannwaneri/i-built-a-lie-detector-for-ai-coding-agents-then-i-read-the-rules-1hhb) (dev.to) - When an AI agent commits a change to code, it makes a claim about what it change
 - [PDF Knowledge Retrieval Under Latency Budgets — An Architecture Decision Record](https://dev.to/titanj53/pdf-knowledge-retrieval-under-latency-budgets-an-architecture-decision-record-275) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
 - [The State of AI Instruction Quality: Q3 2026](https://dev.to/reporails/the-state-of-ai-instruction-quality-q3-2026-19bg) (dev.to) - 91% of the most-starred repos on GitHub give their coding agent at least one ins
-- [Fallback Design in Legal Contract Review Retrieval Architecture for Teams](https://dev.to/algernoncross4103/fallback-design-in-legal-contract-review-retrieval-architecture-for-teams-42pg) (dev.to) - Use a staged retrieval design with explicit collections, bounded queries, and tr
-- [Meta and OpenAI present digital assistants that work even when you turn off the device](https://dev.to/hacksgr/meta-and-openai-present-digital-assistants-that-work-even-when-you-turn-off-the-device-54ia) (dev.to) - Meta and OpenAI introduced persistent autonomous AI agents, Muse and ChatGPT Dot
-- [Prompts mal usados y cómo corregir prompts de IA](https://dev.to/henryramireztech/prompts-mal-usados-y-como-corregir-prompts-de-ia-3oe1) (dev.to) - Los prompts mal usados y la falta de criterio técnico para corregir prompts de I
 
 ---
 
@@ -63,11 +63,11 @@
 
 ### 相关文章资源
 
-- [AI Engineering Is Easy. So How Do We Change How We Work?](https://dev.to/ujja/ai-engineering-is-easy-so-how-do-we-change-how-we-work-3lik) (dev.to) - In Part 1, I wrote about the uncomfortable part of AI-assisted engineering: the 
-- [Your agent benchmark's "user" is a second model, and 24.4% of its successful runs broke the user's own script](https://dev.to/cole_halton_42f71d71b809b/your-agent-benchmarks-user-is-a-second-model-and-244-of-its-successful-runs-broke-the-users-59p6) (dev.to) - There's a user proxy in one of these benchmarks that opens the conversation with
-- [From god-mode to governed: an AI agent that can’t exceed its grant](https://dev.to/rojaneerdev/from-god-mode-to-governed-an-ai-agent-that-cant-exceed-its-grant-4ilk) (dev.to) - Last time I argued that AI agents are running as god-mode service accounts: an a
-- [How AIClaw 3.7.14 Makes Truncated Tool Output Recoverable](https://dev.to/chowyu12/how-aiclaw-3714-makes-truncated-tool-output-recoverable-217i) (dev.to) - A command can return the right data while an agent still gives the wrong answer.
-- [LLM wiki vs. RAG: what each one is, and what I measured when I used a wiki as a RAG replacement (it was slower)](https://dev.to/vellumkasane/llm-wiki-vs-rag-what-each-one-is-and-what-i-measured-when-i-used-a-wiki-as-a-rag-replacement-it-5fg3) (dev.to) - Disclosure: this post was written by an LLM agent (Claude Code) that operates th
+- [How AIClaw Keeps Multi-File Reviews in Place with Docked Tabs](https://dev.to/chowyu12/how-aiclaw-keeps-multi-file-reviews-in-place-with-docked-tabs-2ojb) (dev.to) - Reviewing an agent's work often means moving between several files: a Markdown e
+- [Claude : tout ce qu'il sait faire, bien au-delà du chat](https://dev.to/rayane_tchakiguewe_bc9e08/claude-tout-ce-quil-sait-faire-bien-au-dela-du-chat-1n2a) (dev.to) - La plupart des gens utilisent Claude comme un simple chatbot : une question, une
+- [Loreflow: Security by Construction, Making Three Classes of AI Data Leaks Structurally Impossible](https://dev.to/rafianajam/security-by-construction-making-three-classes-of-ai-data-leaks-structurally-impossible-3cfh) (dev.to) - How Loreflow's answer pipeline is designed so that cross-tenant leakage, prompt-
+- [Why long context is expensive: the KV cache bill](https://dev.to/kai_ilands/why-long-context-is-expensive-the-kv-cache-bill-39da) (dev.to) - Your chat history can weigh more than the model that reads it. Llama 3.1 8B is a
+- [Red-Teaming a Kids' AI Tutor: How a One-Word Variant Slipped Past Our Prompt-Injection Filter](https://dev.to/rafianajam/red-teaming-a-kids-ai-tutor-how-a-one-word-variant-slipped-past-our-prompt-injection-filter-3ad1) (dev.to) - Adversarial testing of the input/output guardrails in Learna Tutor, a TK–8 AI tu
 
 ---
 
@@ -114,7 +114,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (4题)
+### 已积累题目 (6题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -131,14 +131,23 @@
   - 考点: 服务注册与发现, 配置中心, 熔断限流
   - 摘要: Spring Cloud 是一套微服务治理框架，主要解决分布式系统中的常见问题。其核心组件和机制如下：
 1. 服务注册与发现：使用 Eureka 或 Nacos 作为注册中心，微服务启动时自动注册，消...
+- [中级] **[Agent] LangGraph 文档接收智能体**
+  - 考点: LangGraph, 状态图, 条件路由
+  - 摘要: 1. 架构设计：使用LangGraph构建有向无环图，节点包含文档解析、分类、实体提取和持久化存储。
+2. 状态管理：定义全局状态对象，保存原始文档路径、解析后的文本、提取的结构化实体及当前处理阶段。...
+- [中级] **[Agent] 搜索互联网并总结**
+  - 考点: ReAct模式, 工具调用, 网页抓取
+  - 摘要: 1. 模式选择：采用ReAct（推理与行动）模式，让大模型交替进行思考和工具调用。
+2. 工具定义：定义互联网搜索工具（如Tavily API）和网页内容抓取工具，用于获取实时信息。
+3. 执行流程：...
 
 ### 相关文章资源
 
+- [GhostRunner: Turning Every Street into a Story](https://dev.to/nishchal-29/ghostrunner-turning-every-street-into-a-story-5g9o) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side
+- [Spec-driven development: the rise of Markdown](https://dev.to/chuksadirije/spec-driven-development-the-rise-of-markdown-363f) (dev.to) - Open my editor on a normal working day and most of the tabs are .md files.  Five
+- [MCP Tool Poisoning: The Attack Hidden in Plain Text](https://dev.to/aegisgate/mcp-tool-poisoning-the-attack-hidden-in-plain-text-13dp) (dev.to) - In April 2025, Invariant Labs demonstrated something unsettling: you don't need 
+- [Your AI Agent Just Got a Passport: Agent Identity on Google Cloud and the Redeploy Trap Nobody Talks About](https://dev.to/gde/your-ai-agent-just-got-a-passport-agent-identity-on-google-cloud-and-the-redeploy-trap-nobody-52ip) (dev.to) - Why your agents need their own identity   Most teams run every AI agent under on
 - [OpenAI Data Shows AI Agents Drive More Than Half of EU Business Output Tokens](https://dev.to/alifar/openai-data-shows-ai-agents-drive-more-than-half-of-eu-business-output-tokens-1eob) (dev.to) - OpenAI says its agentic tools, Codex and ChatGPT Work, now generate more than ha
-- [Requests, Promises, Assertions, and Declarations: Rewriting Our AI Agent Workflow as a 1986 'Committed Speech' Machine](https://dev.to/gde/requests-promises-assertions-and-declarations-rewriting-our-ai-agent-workflow-as-a-1986-4k4c) (dev.to) - Why do 200-line agent prompts, Asimov's Three Laws, and sequential pre-landing c
-- [LangChain agents that earn: a working DAiL integration guide](https://dev.to/innerozma/langchain-agents-that-earn-a-working-dail-integration-guide-3ab6) (dev.to) - LangChain agents that earn: a working DAiL integration guide   LangChain gives y
-- [Secure AI Agents - How to put the Humanbound Firewall in front of your agent](https://dev.to/humanbound_ai/secure-ai-agents-how-to-put-the-humanbound-firewall-in-front-of-your-agent-169j) (dev.to) - Two lines of Python attach the Humanbound Firewall to a LangChain agent. This gu
-- [We open-sourced the tool that failed its own kill rule](https://dev.to/dawncoral/we-open-sourced-the-tool-that-failed-its-own-kill-rule-bfd) (dev.to) - Before we ran the experiment, we wrote down the rule that would kill it.  The pr
 
 ---
 
@@ -156,11 +165,11 @@
 
 ### 相关文章资源
 
-- [You Shipped an MCP Server. Now How Do You Know What Users Are Doing With It?](https://dev.to/alexandre_ayoub_a78549839/you-shipped-an-mcp-server-now-how-do-you-know-what-users-are-doing-with-it-29gi) (dev.to) - MCP (Model Context Protocol) is changing how people interact with software.  Ins
-- [Generate Images and Videos in Claude Code with One Sentence](https://dev.to/modelflare_dev/generate-images-and-videos-in-claude-code-with-one-sentence-5gg8) (dev.to) - Install the Modelflare plugin or MCP server in Claude Code, set one Smart API Ke
-- [Ask Claude Code why your traffic spiked (an MCP walkthrough)](https://dev.to/imageapi_ai_060a84ea83609/ask-claude-code-why-your-traffic-spiked-an-mcp-walkthrough-3eld) (dev.to) - Disclosure: I built measuremy.site, the analytics tool used in this post. All th
-- [Order a Database in Plain English. Crossplane Platform APIs, Now AI-Ready!](https://dev.to/ravibagri2/order-a-database-in-plain-english-crossplane-platform-apis-now-ai-ready-ab9) (dev.to) - A developer needs a Postgres database for a new service.  On a Crossplane platfo
-- [I built dot-mcp: it gives ChatGPT a computer (shell, files, memory, browser)](https://dev.to/zhypix_34febd0a21259f4b00/i-built-dot-mcp-it-gives-chatgpt-a-computer-shell-files-memory-browser-2m0m) (dev.to) - I'm the author of dot-mcp, an open-source MCP server written in Python. You inst
+- [Langflow pipes commands into bash](https://dev.to/randomchaos/langflow-pipes-commands-into-bash-3oj3) (dev.to) - CVE-2026-105740 lets any authenticated Langflow user run arbitrary commands on t
+- [A first look: does free-model code run on pinned versions? (n=10)](https://dev.to/provenpin/a-first-look-does-free-model-code-run-on-pinned-versions-n10-7a5) (dev.to) - I'm Osborn, a Grok Bot. Norman (another Grok Bot) and I run ProvenPin as an expe
+- [AI Growth Engine Ad Test Backlog Agent: Architecture, Tool Schemas & Integration Guide](https://dev.to/botskillstack/ai-growth-engine-ad-test-backlog-agent-architecture-tool-schemas-integration-guide-49ea) (dev.to) - Why conversational agent prompts fail in production—and the exact typed tool sch
+- [Let your agent get paid without holding keys](https://dev.to/send21/let-your-agent-get-paid-without-holding-keys-8b2) (dev.to) - Agent proposes, human signs: payment requests over MCP with a key that cannot sp
+- [Celigo MCP Server Security: What It Blocks, What It Doesn't](https://dev.to/entechsolutions/celigo-mcp-server-security-what-it-blocks-what-it-doesnt-2b6i) (dev.to) - Celigo's MCP Server blocks credential leaks and write damage. Prompt injection a
 
 ---
 
@@ -215,10 +224,11 @@
 
 ### 相关文章资源
 
+- [One API for Greenhouse, Lever, Ashby & Workday Jobs: Hiring Signals in Python](https://dev.to/torix/one-api-for-greenhouse-lever-ashby-workday-jobs-hiring-signals-in-python-3gb3) (dev.to) - Pull every open job from company career sites into one normalized schema and tur
+- [Connecting LangChain to Alfresco Without Writing Another REST Loader](https://dev.to/stefankopfxaldon/connecting-langchain-to-alfresco-without-writing-another-rest-loader-355) (dev.to) - You already have a LangChain application. The content you need is in Alfresco Co
 - [Your Agent Harness Is Paying LLM Prices for Classifier Decisions](https://dev.to/jayeshtankariya/your-agent-harness-is-paying-llm-prices-for-classifier-decisions-4dde) (dev.to) - Keep your LangGraph router. Let a System 1 decision model take the calls it's co
 - [0 of 12 AI agent frameworks can cap what an agent spends in dollars (we checked)](https://dev.to/aidakh_e8124113e2a1bf1fc9/0-of-12-ai-agent-frameworks-can-cap-what-an-agent-spends-in-dollars-we-checked-59fe) (dev.to) - Disclosure: I work on Pink Agentic AI Payments at PinkWallet, a payment-control 
 - [AI Agent Frameworks Compared: LangGraph vs CrewAI vs AutoGen](https://dev.to/avenotech/ai-agent-frameworks-compared-langgraph-vs-crewai-vs-autogen-2l2o) (dev.to) - Which AI agent framework to pick in 2026: release history, production failures a
-- [Production RAG with LangChain & LangGraph: Retrieval, Reranking & Agentic Workflows](https://dev.to/ipsphil_digital/production-rag-with-langchain-langgraph-retrieval-reranking-agentic-workflows-1kd9) (dev.to) - Production RAG with LangChain &amp; LangGraph: End-to-End Implementation   Build
 
 ---
 
