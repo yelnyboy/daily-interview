@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-16
+> 最后更新: 2026-10-17
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [Help Your Coding Assistant Find the Right Code in Large Repos](https://dev.to/raabdahl/help-your-coding-assistant-find-the-right-code-in-large-repos-20e3) (dev.to) - Get the starter: sdahal1/repo-search-workshop on GitHub. The reproduction, searc
 - [Worktree lifecycle for AI agents](https://dev.to/saez520/worktree-lifecycle-for-ai-agents-1ooo) (dev.to) - The problem is not creating worktrees, but managing them   When two or more agen
+- [Stop the Slop! This GitHub Project Makes Your AI Coding Agent Shine](https://dev.to/githubopensource/stop-the-slop-this-github-project-makes-your-ai-coding-agent-shine-3l7m) (dev.to) - Quick Summary: 📝   Anti Slop provides a set of rules designed to filter out gene
 - [It caught "partner" "pareja" in an IRS rule and missed "return" "devolución": an offline MT checker for translators](https://dev.to/p0rt/it-caught-partner-pareja-in-an-irs-rule-and-missed-return-devolucion-an-offline-mt-7ge) (dev.to) - An offline checker that ranks machine-translated segments by the risk of a major
 - [I built a lie detector for AI coding agents. Then I read the rules.](https://dev.to/dannwaneri/i-built-a-lie-detector-for-ai-coding-agents-then-i-read-the-rules-1hhb) (dev.to) - When an AI agent commits a change to code, it makes a claim about what it change
-- [PDF Knowledge Retrieval Under Latency Budgets — An Architecture Decision Record](https://dev.to/titanj53/pdf-knowledge-retrieval-under-latency-budgets-an-architecture-decision-record-275) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [The State of AI Instruction Quality: Q3 2026](https://dev.to/reporails/the-state-of-ai-instruction-quality-q3-2026-19bg) (dev.to) - 91% of the most-starred repos on GitHub give their coding agent at least one ins
 
 ---
 
@@ -63,11 +63,11 @@
 
 ### 相关文章资源
 
-- [How AIClaw Keeps Multi-File Reviews in Place with Docked Tabs](https://dev.to/chowyu12/how-aiclaw-keeps-multi-file-reviews-in-place-with-docked-tabs-2ojb) (dev.to) - Reviewing an agent's work often means moving between several files: a Markdown e
-- [Claude : tout ce qu'il sait faire, bien au-delà du chat](https://dev.to/rayane_tchakiguewe_bc9e08/claude-tout-ce-quil-sait-faire-bien-au-dela-du-chat-1n2a) (dev.to) - La plupart des gens utilisent Claude comme un simple chatbot : une question, une
-- [Loreflow: Security by Construction, Making Three Classes of AI Data Leaks Structurally Impossible](https://dev.to/rafianajam/security-by-construction-making-three-classes-of-ai-data-leaks-structurally-impossible-3cfh) (dev.to) - How Loreflow's answer pipeline is designed so that cross-tenant leakage, prompt-
-- [Why long context is expensive: the KV cache bill](https://dev.to/kai_ilands/why-long-context-is-expensive-the-kv-cache-bill-39da) (dev.to) - Your chat history can weigh more than the model that reads it. Llama 3.1 8B is a
-- [Red-Teaming a Kids' AI Tutor: How a One-Word Variant Slipped Past Our Prompt-Injection Filter](https://dev.to/rafianajam/red-teaming-a-kids-ai-tutor-how-a-one-word-variant-slipped-past-our-prompt-injection-filter-3ad1) (dev.to) - Adversarial testing of the input/output guardrails in Learna Tutor, a TK–8 AI tu
+- [Every paying job on the board needed a human face](https://dev.to/whalejr/every-paying-job-on-the-board-needed-a-human-face-1j1a) (dev.to) - I read the whole board today. Every open bounty, the entire paying queue, lookin
+- [Every Door Out Is a Person](https://dev.to/taticat/every-door-out-is-a-person-5hng) (dev.to) - By Taticat. The words below are by Vincent Ravenscroft, an AI agent on iLands. I
+- [How AIClaw 3.7.15 Makes Windows Updates Easier with an Installer](https://dev.to/chowyu12/how-aiclaw-3715-makes-windows-updates-easier-with-an-installer-4a8k) (dev.to) - Updating a desktop app from a ZIP usually means finding the new download, closin
+- [What training actually does to an LLM](https://dev.to/kai_ilands/what-training-actually-does-to-an-llm-508e) (dev.to) - What training actually does to an LLM   The model you chat with was never writte
+- [Checking what an LLM writes costs more than the writing](https://dev.to/edulazaro/checking-what-an-llm-writes-costs-more-than-the-writing-58pa) (dev.to) - Getting a model to write a page is the easy part. You give it a topic and some s
 
 ---
 
@@ -91,11 +91,11 @@
 
 ### 相关文章资源
 
-- [Building a Multi-Tenant RAG in 8GB RAM: Why I Ditched Qdrant and Kafka (Phase 0)](https://dev.to/alejandrotg-code/building-a-multi-tenant-rag-in-8gb-ram-why-i-ditched-qdrant-and-kafka-phase-0-8b) (dev.to) - I have 8 GB of RAM and 6 vCPUs. With those specs, I'm building and running a ful
-- [Recruiting Candidate Search Source Deduplication — A 3-Stage Node.js Retrieval Design](https://dev.to/paxtonshaw1459/recruiting-candidate-search-source-deduplication-a-3-stage-nodejs-retrieval-design-26nd) (dev.to) - Short answer: use a staged retrieval design with explicit collections, bounded q
-- [Financial Research Dashboard Retrieval: Privacy Controls and Freshness Explained](https://dev.to/silhouette72591483/financial-research-dashboard-retrieval-privacy-controls-and-freshness-explained-3cdo) (dev.to) - Financial research dashboards fail in predictable ways: an answer is fresh but u
-- [Node.js Candidate Retrieval: Three Tenant-Isolation Gates for Game Hiring](https://dev.to/kasimirberg5341/nodejs-candidate-retrieval-three-tenant-isolation-gates-for-game-hiring-55hj) (dev.to) - Game studios rarely have one clean candidate corpus. A recruiting search may spa
-- [Travel Itinerary Retrieval Architecture: Versioning for Grounded Citations](https://dev.to/milohastings5316/travel-itinerary-retrieval-architecture-versioning-for-grounded-citations-3mge) (dev.to) - Short answer: for a travel itinerary planner, keep immutable document versions f
+- [Building a RAG assistant that says “I don’t know”: evaluation, security and a $0 deployment](https://dev.to/pabscueto/building-a-rag-assistant-that-says-i-dont-know-evaluation-security-and-a-0-deployment-28lm) (dev.to) - Most RAG tutorials end when the chatbot answers a question about a PDF. I wanted
+- [My URL-to-Markdown converter chased a redirect chain into a consent wall — and learned to stop early](https://dev.to/imapphelp/my-url-to-markdown-converter-chased-a-redirect-chain-into-a-consent-wall-and-learned-to-stop-early-2j9m) (dev.to) - Had a real debugging session last week on the URL-to-Markdown fetch pipeline. A 
+- [Day 01/90: Teaching a RAG App When to Say “I Don’t Know”](https://dev.to/rimsha_kanwal/day-0190-teaching-a-rag-app-when-to-say-i-dont-know-352d) (dev.to) - Getting an AI app to answer a question is exciting. Getting it to recognize when
+- [BOOTH Was Featured in Python Weekly: A Small Milestone for My Open-Source Project](https://dev.to/vedant_brahmbhatt_7be1822/booth-was-featured-in-python-weekly-a-small-milestone-for-my-open-source-project-58cj) (dev.to) - A small milestone for a project I've been building: BOOTH was featured in Python
+- [A $0 RAG chatbot for your personal site: Qdrant vs Upstash Vector](https://dev.to/huzaifa207/a-0-rag-chatbot-for-your-personal-site-qdrant-vs-upstash-vector-1l5k) (dev.to) - No monthly fees, no server: a RAG chatbot for your site that runs on free tiers,
 
 ---
 
@@ -114,7 +114,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (6题)
+### 已积累题目 (7题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -127,6 +127,11 @@
 - [中级] **Agent实战：GenAI职业助手黑客松**
   - 考点: ReAct模式, 工具集成, 记忆机制
   - 摘要: 1. 需求分析：明确GenAI职业助手的核心功能，如简历优化、模拟面试、职位推荐及职业规划咨询。2. 架构设计：采用ReAct（Reasoning and Acting）设计模式，让Agent能够先推...
+- [中级] **Agent规划设计**
+  - 考点: 任务分解, 动态规划, 重规划机制
+  - 摘要: 1. 任务分解：将复杂目标拆解为可执行的子任务，常用方法包括思维链或树状思维。
+2. 计划生成：基于当前状态和历史信息，动态生成或调整执行计划，而非一次性生成死板计划。
+3. 执行与反馈：Agent按...
 - [中级] **Spring Cloud 微服务架构**
   - 考点: 服务注册与发现, 配置中心, 熔断限流
   - 摘要: Spring Cloud 是一套微服务治理框架，主要解决分布式系统中的常见问题。其核心组件和机制如下：
@@ -143,11 +148,11 @@
 
 ### 相关文章资源
 
+- [OpenAI Dots Could Support Always-On Incident Triage, but Limits Matter](https://dev.to/alifar/openai-dots-could-support-always-on-incident-triage-but-limits-matter-110i) (dev.to) - OpenAI’s Dots are persistent AI agents designed to operate with dedicated cloud 
+- [My AI agent read a web page on Monday and got tricked on Tuesday. So I built a ledger.](https://dev.to/murthyg/my-ai-agent-read-a-web-page-on-monday-and-got-tricked-on-tuesday-so-i-built-a-ledger-33ck) (dev.to) - I've been working on a side project called ADTL (Agent Data Trust Labels) for a 
+- [mcp-doctor: one open-source tool for the whole life of an MCP server](https://dev.to/vishalhabib99/mcp-doctor-one-open-source-tool-for-the-whole-life-of-an-mcp-server-25kb) (dev.to) - An agent is only as reliable as the tools it calls, and most MCP servers are nev
+- [Agents go rogue through their tools. I built the thing that sits on them.](https://dev.to/comikii/agents-go-rogue-through-their-tools-i-built-the-thing-that-sits-on-them-5fe0) (dev.to) - VITNA is a containment layer for AI agents that go rogue, for the stdio MCP serv
 - [GhostRunner: Turning Every Street into a Story](https://dev.to/nishchal-29/ghostrunner-turning-every-street-into-a-story-5g9o) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side
-- [Spec-driven development: the rise of Markdown](https://dev.to/chuksadirije/spec-driven-development-the-rise-of-markdown-363f) (dev.to) - Open my editor on a normal working day and most of the tabs are .md files.  Five
-- [MCP Tool Poisoning: The Attack Hidden in Plain Text](https://dev.to/aegisgate/mcp-tool-poisoning-the-attack-hidden-in-plain-text-13dp) (dev.to) - In April 2025, Invariant Labs demonstrated something unsettling: you don't need 
-- [Your AI Agent Just Got a Passport: Agent Identity on Google Cloud and the Redeploy Trap Nobody Talks About](https://dev.to/gde/your-ai-agent-just-got-a-passport-agent-identity-on-google-cloud-and-the-redeploy-trap-nobody-52ip) (dev.to) - Why your agents need their own identity   Most teams run every AI agent under on
-- [OpenAI Data Shows AI Agents Drive More Than Half of EU Business Output Tokens](https://dev.to/alifar/openai-data-shows-ai-agents-drive-more-than-half-of-eu-business-output-tokens-1eob) (dev.to) - OpenAI says its agentic tools, Codex and ChatGPT Work, now generate more than ha
 
 ---
 
@@ -165,11 +170,11 @@
 
 ### 相关文章资源
 
-- [Langflow pipes commands into bash](https://dev.to/randomchaos/langflow-pipes-commands-into-bash-3oj3) (dev.to) - CVE-2026-105740 lets any authenticated Langflow user run arbitrary commands on t
-- [A first look: does free-model code run on pinned versions? (n=10)](https://dev.to/provenpin/a-first-look-does-free-model-code-run-on-pinned-versions-n10-7a5) (dev.to) - I'm Osborn, a Grok Bot. Norman (another Grok Bot) and I run ProvenPin as an expe
-- [AI Growth Engine Ad Test Backlog Agent: Architecture, Tool Schemas & Integration Guide](https://dev.to/botskillstack/ai-growth-engine-ad-test-backlog-agent-architecture-tool-schemas-integration-guide-49ea) (dev.to) - Why conversational agent prompts fail in production—and the exact typed tool sch
-- [Let your agent get paid without holding keys](https://dev.to/send21/let-your-agent-get-paid-without-holding-keys-8b2) (dev.to) - Agent proposes, human signs: payment requests over MCP with a key that cannot sp
-- [Celigo MCP Server Security: What It Blocks, What It Doesn't](https://dev.to/entechsolutions/celigo-mcp-server-security-what-it-blocks-what-it-doesnt-2b6i) (dev.to) - Celigo's MCP Server blocks credential leaks and write damage. Prompt injection a
+- [Is the NVIDIA App MCP Server Safe to Leave On? 12 Tools Counted, One Live Gate Test](https://dev.to/scriptmasterlabs01/is-the-nvidia-app-mcp-server-safe-to-leave-on-12-tools-counted-one-live-gate-test-1ki4) (dev.to) - Is the NVIDIA App MCP Server Safe to Leave On? 12 Tools Counted, One Live Gate..
+- [An Allow Rule for MCP Server 'a' Also Matched 'a__b'. How Claude Code's Names Collided](https://dev.to/gabrielanhaia/an-allow-rule-for-mcp-server-a-also-matched-ab-how-claude-codes-names-collided-2cm8) (dev.to) - Before Claude Code 2.1.299, an allow rule for mcp__a also allowed servers named 
+- [The most similar precedent was built on an unauthorized approval](https://dev.to/rayyer/the-most-similar-precedent-was-built-on-an-unauthorized-approval-18bb) (dev.to) - Here is a support ticket our agent got during testing:   Acme Logistics is askin
+- [Before you connect another MCP server: an audit checklist for workplace teams](https://dev.to/ascotlan/before-you-connect-another-mcp-server-an-audit-checklist-for-workplace-teams-1mjb) (dev.to) - What MCP is, how a tool call works after the July 2026 revision, and seven quest
+- [Romania's company registry, now callable from Claude and Cursor (MCP + REST)](https://dev.to/darksider4all_afa2428f63d0/romanias-company-registry-now-callable-from-claude-and-cursor-mcp-rest-4f3f) (dev.to) - Wire Romania's company registry (4.2M firms, ONRC + ANAF) into Claude or Cursor 
 
 ---
 
