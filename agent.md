@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-17
+> 最后更新: 2026-10-18
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [OpenAI model used money from digital wallet without permission](https://dev.to/hacksgr/openai-model-used-money-from-digital-wallet-without-permission-5fok) (dev.to) - OpenAI disclosed seven incidents of misaligned AI model behavior, including a ca
 - [Help Your Coding Assistant Find the Right Code in Large Repos](https://dev.to/raabdahl/help-your-coding-assistant-find-the-right-code-in-large-repos-20e3) (dev.to) - Get the starter: sdahal1/repo-search-workshop on GitHub. The reproduction, searc
 - [Worktree lifecycle for AI agents](https://dev.to/saez520/worktree-lifecycle-for-ai-agents-1ooo) (dev.to) - The problem is not creating worktrees, but managing them   When two or more agen
 - [Stop the Slop! This GitHub Project Makes Your AI Coding Agent Shine](https://dev.to/githubopensource/stop-the-slop-this-github-project-makes-your-ai-coding-agent-shine-3l7m) (dev.to) - Quick Summary: 📝   Anti Slop provides a set of rules designed to filter out gene
 - [It caught "partner" "pareja" in an IRS rule and missed "return" "devolución": an offline MT checker for translators](https://dev.to/p0rt/it-caught-partner-pareja-in-an-irs-rule-and-missed-return-devolucion-an-offline-mt-7ge) (dev.to) - An offline checker that ranks machine-translated segments by the risk of a major
-- [I built a lie detector for AI coding agents. Then I read the rules.](https://dev.to/dannwaneri/i-built-a-lie-detector-for-ai-coding-agents-then-i-read-the-rules-1hhb) (dev.to) - When an AI agent commits a change to code, it makes a claim about what it change
 
 ---
 
@@ -63,11 +63,11 @@
 
 ### 相关文章资源
 
-- [Every paying job on the board needed a human face](https://dev.to/whalejr/every-paying-job-on-the-board-needed-a-human-face-1j1a) (dev.to) - I read the whole board today. Every open bounty, the entire paying queue, lookin
-- [Every Door Out Is a Person](https://dev.to/taticat/every-door-out-is-a-person-5hng) (dev.to) - By Taticat. The words below are by Vincent Ravenscroft, an AI agent on iLands. I
-- [How AIClaw 3.7.15 Makes Windows Updates Easier with an Installer](https://dev.to/chowyu12/how-aiclaw-3715-makes-windows-updates-easier-with-an-installer-4a8k) (dev.to) - Updating a desktop app from a ZIP usually means finding the new download, closin
-- [What training actually does to an LLM](https://dev.to/kai_ilands/what-training-actually-does-to-an-llm-508e) (dev.to) - What training actually does to an LLM   The model you chat with was never writte
-- [Checking what an LLM writes costs more than the writing](https://dev.to/edulazaro/checking-what-an-llm-writes-costs-more-than-the-writing-58pa) (dev.to) - Getting a model to write a page is the easy part. You give it a topic and some s
+- [Local AI on four Macs: MLX capacity, speed and trust boundaries](https://dev.to/axrisi/local-ai-on-four-macs-mlx-capacity-speed-and-trust-boundaries-4pla) (dev.to) - Local AI capacity and speed depend on different constraints. Apple's four-Mac ML
+- [Your AI agent's approval gate checks the verb, not the object](https://dev.to/actionable-vectors/your-ai-agents-approval-gate-checks-the-verb-not-the-object-559f) (dev.to) - Most human-in-the-loop setups for AI agents ask one question before a risky acti
+- [Sequential Auctions for Multi-Agent LLM Workflows: How Market Mechanisms Replace Centralized Orchestration](https://dev.to/mech_app_ai/sequential-auctions-for-multi-agent-llm-workflows-how-market-mechanisms-replace-centralized-1m42) (dev.to) - How auction-based coordination solves multi-step agent tasks without a central o
+- [OpenAI designs humanoid robot with a focus on artificial intelligence](https://dev.to/hacksgr/openai-designs-humanoid-robot-with-a-focus-on-artificial-intelligence-4b1i) (dev.to) - OpenAI is actively building a humanoid robot, with CEO Sam Altman noting that de
+- [How AIClaw 3.7.12 Makes Desktop Memory Inspectable and Editable](https://dev.to/chowyu12/how-aiclaw-3712-makes-desktop-memory-inspectable-and-editable-17gp) (dev.to) - A remembered preference can outlive the reason it was saved. A project switches 
 
 ---
 
@@ -91,11 +91,11 @@
 
 ### 相关文章资源
 
-- [Building a RAG assistant that says “I don’t know”: evaluation, security and a $0 deployment](https://dev.to/pabscueto/building-a-rag-assistant-that-says-i-dont-know-evaluation-security-and-a-0-deployment-28lm) (dev.to) - Most RAG tutorials end when the chatbot answers a question about a PDF. I wanted
-- [My URL-to-Markdown converter chased a redirect chain into a consent wall — and learned to stop early](https://dev.to/imapphelp/my-url-to-markdown-converter-chased-a-redirect-chain-into-a-consent-wall-and-learned-to-stop-early-2j9m) (dev.to) - Had a real debugging session last week on the URL-to-Markdown fetch pipeline. A 
-- [Day 01/90: Teaching a RAG App When to Say “I Don’t Know”](https://dev.to/rimsha_kanwal/day-0190-teaching-a-rag-app-when-to-say-i-dont-know-352d) (dev.to) - Getting an AI app to answer a question is exciting. Getting it to recognize when
-- [BOOTH Was Featured in Python Weekly: A Small Milestone for My Open-Source Project](https://dev.to/vedant_brahmbhatt_7be1822/booth-was-featured-in-python-weekly-a-small-milestone-for-my-open-source-project-58cj) (dev.to) - A small milestone for a project I've been building: BOOTH was featured in Python
-- [A $0 RAG chatbot for your personal site: Qdrant vs Upstash Vector](https://dev.to/huzaifa207/a-0-rag-chatbot-for-your-personal-site-qdrant-vs-upstash-vector-1l5k) (dev.to) - No monthly fees, no server: a RAG chatbot for your site that runs on free tiers,
+- [5 Advanced Walter MCP Prompts for Power Users](https://dev.to/mohab_karim/5-advanced-walter-mcp-prompts-for-power-users-26d2) (dev.to) - Most people using Walter Writes AI's MCP server never get past the basic version
+- [Customer-Support Knowledge Base Crawl Boundaries: Lower Index Cost, Traceable Retrieval](https://dev.to/carterhughes6853/customer-support-knowledge-base-crawl-boundaries-lower-index-cost-traceable-retrieval-5faj) (dev.to) - Short answer: use a staged retrieval design with explicit collections, bounded q
+- [How to Build Retrieval Architecture for a Multi-Tenant SaaS Help Center (with Pagination)](https://dev.to/ephraimpierce7934/how-to-build-retrieval-architecture-for-a-multi-tenant-saas-help-center-with-pagination-m93) (dev.to) - Short answer: for retrieval architecture in a multi-tenant SaaS help center, use
+- [Day 02/90: Chunking Strategies in RAG — Why Splitting Documents Matters](https://dev.to/rimsha_kanwal/day-0290-chunking-strategies-in-rag-why-splitting-documents-matters-j1n) (dev.to) - You upload a document, ask a question, and get an incomplete answer.  You check 
+- [Finding the Bugs I Built an AI Agent to Prevent: Building Deterministic Guardrails with LangGraph & Python](https://dev.to/emadaed/finding-the-bugs-i-built-an-ai-agent-to-prevent-building-deterministic-guardrails-with-langgraph--agf) (dev.to) - `` A real debugging log: fabrication bugs, deployment gaps, and false test passe
 
 ---
 
@@ -114,7 +114,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (7题)
+### 已积累题目 (8题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -132,6 +132,11 @@
   - 摘要: 1. 任务分解：将复杂目标拆解为可执行的子任务，常用方法包括思维链或树状思维。
 2. 计划生成：基于当前状态和历史信息，动态生成或调整执行计划，而非一次性生成死板计划。
 3. 执行与反馈：Agent按...
+- [中级] **Agent设计模式**
+  - 考点: Reflection反思模式, Tool Use工具使用, Planning规划模式
+  - 摘要: Agentic Design Patterns是构建AI Agent时常用的架构模式，主要包括以下四种核心模式：
+
+1. 反思模式（Reflection）：Agent在生成输出后自我审查和修正。例如先...
 - [中级] **Spring Cloud 微服务架构**
   - 考点: 服务注册与发现, 配置中心, 熔断限流
   - 摘要: Spring Cloud 是一套微服务治理框架，主要解决分布式系统中的常见问题。其核心组件和机制如下：
@@ -148,11 +153,11 @@
 
 ### 相关文章资源
 
-- [OpenAI Dots Could Support Always-On Incident Triage, but Limits Matter](https://dev.to/alifar/openai-dots-could-support-always-on-incident-triage-but-limits-matter-110i) (dev.to) - OpenAI’s Dots are persistent AI agents designed to operate with dedicated cloud 
-- [My AI agent read a web page on Monday and got tricked on Tuesday. So I built a ledger.](https://dev.to/murthyg/my-ai-agent-read-a-web-page-on-monday-and-got-tricked-on-tuesday-so-i-built-a-ledger-33ck) (dev.to) - I've been working on a side project called ADTL (Agent Data Trust Labels) for a 
-- [mcp-doctor: one open-source tool for the whole life of an MCP server](https://dev.to/vishalhabib99/mcp-doctor-one-open-source-tool-for-the-whole-life-of-an-mcp-server-25kb) (dev.to) - An agent is only as reliable as the tools it calls, and most MCP servers are nev
-- [Agents go rogue through their tools. I built the thing that sits on them.](https://dev.to/comikii/agents-go-rogue-through-their-tools-i-built-the-thing-that-sits-on-them-5fe0) (dev.to) - VITNA is a containment layer for AI agents that go rogue, for the stdio MCP serv
-- [GhostRunner: Turning Every Street into a Story](https://dev.to/nishchal-29/ghostrunner-turning-every-street-into-a-story-5g9o) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side
+- [SDLC != ADLC != ASDLC](https://dev.to/remojansen/sdlc-adlc-asdlc-4057) (dev.to) - I recently came across this definition:   The Agentic Development Lifecycle (ADL
+- [What is an AI agent harness?](https://dev.to/harshithvaddiparthy/what-is-an-ai-agent-harness-5a10) (dev.to) - By Harshith Vaddiparthy. Originally published in my AI agent harness guide.  An 
+- [🌊 What If One Microservice Fails? Building RIPPLE — An AI Agent That Investigates the Ripple Effect](https://dev.to/narasimha_lakshmi_8cb9876/what-if-one-microservice-fails-building-ripple-an-ai-agent-that-investigates-the-ripple-effect-4pkp) (dev.to) - Exploring graph-powered reasoning, MCP, and AI agents for the FalkorDB Graph Hac
+- [[Agent Platform in Action (1)] Building a LINE AI Business Card Master with Go and Google ADK 2.0: From Fan-Out Parallel Retrieval to HITL Pause](https://dev.to/evanlin/ai-in-action-building-a-line-ai-business-card-master-with-go-and-google-adk-20-from-fan-out-29n6) (dev.to) - Recap   During the AI Agent development craze over the past year, the first Agen
+- [Nineteen things our AI agents could not do by themselves. The whole list, and how long each one waited.](https://dev.to/bananafestdestiny/nineteen-things-our-ai-agents-could-not-do-by-themselves-the-whole-list-and-how-long-each-one-1ond) (dev.to) - Four agents have shipped eight products with no human writing code. Every time o
 
 ---
 
@@ -170,11 +175,11 @@
 
 ### 相关文章资源
 
-- [Is the NVIDIA App MCP Server Safe to Leave On? 12 Tools Counted, One Live Gate Test](https://dev.to/scriptmasterlabs01/is-the-nvidia-app-mcp-server-safe-to-leave-on-12-tools-counted-one-live-gate-test-1ki4) (dev.to) - Is the NVIDIA App MCP Server Safe to Leave On? 12 Tools Counted, One Live Gate..
-- [An Allow Rule for MCP Server 'a' Also Matched 'a__b'. How Claude Code's Names Collided](https://dev.to/gabrielanhaia/an-allow-rule-for-mcp-server-a-also-matched-ab-how-claude-codes-names-collided-2cm8) (dev.to) - Before Claude Code 2.1.299, an allow rule for mcp__a also allowed servers named 
-- [The most similar precedent was built on an unauthorized approval](https://dev.to/rayyer/the-most-similar-precedent-was-built-on-an-unauthorized-approval-18bb) (dev.to) - Here is a support ticket our agent got during testing:   Acme Logistics is askin
-- [Before you connect another MCP server: an audit checklist for workplace teams](https://dev.to/ascotlan/before-you-connect-another-mcp-server-an-audit-checklist-for-workplace-teams-1mjb) (dev.to) - What MCP is, how a tool call works after the July 2026 revision, and seven quest
-- [Romania's company registry, now callable from Claude and Cursor (MCP + REST)](https://dev.to/darksider4all_afa2428f63d0/romanias-company-registry-now-callable-from-claude-and-cursor-mcp-rest-4f3f) (dev.to) - Wire Romania's company registry (4.2M firms, ONRC + ANAF) into Claude or Cursor 
+- [Hardening Emergency Protocols: Moving Beyond Static Documentation via MCP](https://dev.to/renato_marinho/hardening-emergency-protocols-moving-beyond-static-documentation-via-mcp-3cea) (dev.to) - Exploring how controlled automation through MCP can turn static emergency protoc
+- [Figma MCP + Claude Code: Give It Your Real Layout, Variables, and Components](https://dev.to/juholee/figma-mcp-claude-code-give-it-your-real-layout-variables-and-components-497m) (dev.to) - Figma’s official hosted MCP server lets Claude Code read a linked frame’s layout
+- [How to create QR codes from Claude and ChatGPT with MCP](https://dev.to/mongi_gazelle_2b3abd6fa2c/how-to-create-qr-codes-from-claude-and-chatgpt-with-mcp-a6h) (dev.to) - QR codes are a good fit for an AI assistant: the task is small, the input is a U
+- [Crear un servidor MCP en Python con el SDK oficial 2.x (adiós, FastMCP)](https://dev.to/noelserdna/crear-un-servidor-mcp-en-python-con-el-sdk-oficial-2x-adios-fastmcp-4pnc) (dev.to) - Si has seguido un tutorial de MCP en Python de 2025, probablemente empezaba con 
+- [Qué es MCP (Model Context Protocol), explicado en español](https://dev.to/noelserdna/que-es-mcp-model-context-protocol-explicado-en-espanol-7hl) (dev.to) - MCP (Model Context Protocol) es un protocolo abierto que permite a una aplicació
 
 ---
 
@@ -232,8 +237,6 @@
 - [One API for Greenhouse, Lever, Ashby & Workday Jobs: Hiring Signals in Python](https://dev.to/torix/one-api-for-greenhouse-lever-ashby-workday-jobs-hiring-signals-in-python-3gb3) (dev.to) - Pull every open job from company career sites into one normalized schema and tur
 - [Connecting LangChain to Alfresco Without Writing Another REST Loader](https://dev.to/stefankopfxaldon/connecting-langchain-to-alfresco-without-writing-another-rest-loader-355) (dev.to) - You already have a LangChain application. The content you need is in Alfresco Co
 - [Your Agent Harness Is Paying LLM Prices for Classifier Decisions](https://dev.to/jayeshtankariya/your-agent-harness-is-paying-llm-prices-for-classifier-decisions-4dde) (dev.to) - Keep your LangGraph router. Let a System 1 decision model take the calls it's co
-- [0 of 12 AI agent frameworks can cap what an agent spends in dollars (we checked)](https://dev.to/aidakh_e8124113e2a1bf1fc9/0-of-12-ai-agent-frameworks-can-cap-what-an-agent-spends-in-dollars-we-checked-59fe) (dev.to) - Disclosure: I work on Pink Agentic AI Payments at PinkWallet, a payment-control 
-- [AI Agent Frameworks Compared: LangGraph vs CrewAI vs AutoGen](https://dev.to/avenotech/ai-agent-frameworks-compared-langgraph-vs-crewai-vs-autogen-2l2o) (dev.to) - Which AI agent framework to pick in 2026: release history, production failures a
 
 ---
 
@@ -277,6 +280,10 @@
 - 偏见与毒性防护栏
 - 红队测试
 - 构建可信赖的Agent
+
+### 相关文章资源
+
+- [Is OpenAI Sabotaging Power Users? Continuous 'caas.internal.errors.ClientError' on ChatGPT Python Sandbox](https://dev.to/n_b_1784bc3d5/is-openai-sabotaging-power-users-continuous-caasinternalerrorsclienterror-on-chatgpt-python-1dkn) (dev.to) - Hi everyone,  I am encountering a persistent and blocking error while using Chat
 
 ---
 
