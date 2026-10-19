@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-18
+> 最后更新: 2026-10-19
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [Running multiple Claude Code agents in parallel: what worktrees cannot see](https://dev.to/naw103/running-multiple-claude-code-agents-in-parallel-what-worktrees-cannot-see-4le7) (dev.to) - If you only ever run one coding agent, you do not need most of this. You're also
+- [The bug is in the arrangement: finding and cutting your AI agent's data-leak paths](https://dev.to/bhanu_nagpure/the-bug-is-in-the-arrangement-finding-and-cutting-your-ai-agents-data-leak-paths-2c3p) (dev.to) - Give an agent three ordinary tools: one that reads a GitHub issue, one that read
 - [OpenAI model used money from digital wallet without permission](https://dev.to/hacksgr/openai-model-used-money-from-digital-wallet-without-permission-5fok) (dev.to) - OpenAI disclosed seven incidents of misaligned AI model behavior, including a ca
 - [Help Your Coding Assistant Find the Right Code in Large Repos](https://dev.to/raabdahl/help-your-coding-assistant-find-the-right-code-in-large-repos-20e3) (dev.to) - Get the starter: sdahal1/repo-search-workshop on GitHub. The reproduction, searc
 - [Worktree lifecycle for AI agents](https://dev.to/saez520/worktree-lifecycle-for-ai-agents-1ooo) (dev.to) - The problem is not creating worktrees, but managing them   When two or more agen
-- [Stop the Slop! This GitHub Project Makes Your AI Coding Agent Shine](https://dev.to/githubopensource/stop-the-slop-this-github-project-makes-your-ai-coding-agent-shine-3l7m) (dev.to) - Quick Summary: 📝   Anti Slop provides a set of rules designed to filter out gene
-- [It caught "partner" "pareja" in an IRS rule and missed "return" "devolución": an offline MT checker for translators](https://dev.to/p0rt/it-caught-partner-pareja-in-an-irs-rule-and-missed-return-devolucion-an-offline-mt-7ge) (dev.to) - An offline checker that ranks machine-translated segments by the risk of a major
 
 ---
 
@@ -61,13 +61,22 @@
 - 微调与提示工程权衡
 - 流式响应(SSE)
 
+### 已积累题目 (1题)
+
+- [中级] **分布式系统面试连环炮**
+  - 考点: CAP理论, Raft一致性算法, 分布式锁
+  - 摘要: 分布式系统面试通常围绕以下核心概念展开连环追问：
+
+1. CAP理论：分布式系统在一致性、可用性、分区容错性三者中只能满足两个，网络分区不可避免，需在CP和AP间权衡。
+2. 一致性算法：Raft通过...
+
 ### 相关文章资源
 
-- [Local AI on four Macs: MLX capacity, speed and trust boundaries](https://dev.to/axrisi/local-ai-on-four-macs-mlx-capacity-speed-and-trust-boundaries-4pla) (dev.to) - Local AI capacity and speed depend on different constraints. Apple's four-Mac ML
-- [Your AI agent's approval gate checks the verb, not the object](https://dev.to/actionable-vectors/your-ai-agents-approval-gate-checks-the-verb-not-the-object-559f) (dev.to) - Most human-in-the-loop setups for AI agents ask one question before a risky acti
-- [Sequential Auctions for Multi-Agent LLM Workflows: How Market Mechanisms Replace Centralized Orchestration](https://dev.to/mech_app_ai/sequential-auctions-for-multi-agent-llm-workflows-how-market-mechanisms-replace-centralized-1m42) (dev.to) - How auction-based coordination solves multi-step agent tasks without a central o
-- [OpenAI designs humanoid robot with a focus on artificial intelligence](https://dev.to/hacksgr/openai-designs-humanoid-robot-with-a-focus-on-artificial-intelligence-4b1i) (dev.to) - OpenAI is actively building a humanoid robot, with CEO Sam Altman noting that de
-- [How AIClaw 3.7.12 Makes Desktop Memory Inspectable and Editable](https://dev.to/chowyu12/how-aiclaw-3712-makes-desktop-memory-inspectable-and-editable-17gp) (dev.to) - A remembered preference can outlive the reason it was saved. A project switches 
+- [Everyone keeps adding features to AI agents. We deleted ours.](https://dev.to/turingcorp/everyone-is-building-an-agent-workspace-we-deleted-ours-i47) (dev.to) - Everyone is building an agent workspace. We deleted ours.   CloudPal ships witho
+- [How AIClaw Tracks Skill Access Without Exporting Prompt or Tool Content](https://dev.to/chowyu12/how-aiclaw-tracks-skill-access-without-exporting-prompt-or-tool-content-3djl) (dev.to) - An agent can have dozens of installed skills, yet installation counts say little
+- [Tīrtha Bench: the model data coders actually need (and what we're building next)](https://dev.to/tom_jones_230c4659491adcd/tirtha-bench-the-model-data-coders-actually-need-and-what-were-building-next-4nkj) (dev.to) - When you wire a model into a coding agent, the question is never "which model is
+- [Exponential backoff with jitter: 64 of 100 LLM calls still failed](https://dev.to/mattbusel/exponential-backoff-with-jitter-64-of-100-llm-calls-still-failed-2k1m) (dev.to) - Originally published at tensorust.com.  TL;DR: I fired 100 LLM calls at once int
+- [I Moved My Prompts Into DynamoDB and the Throttling Went Away](https://dev.to/avneet_bansal_a65b3f31fc4/i-moved-my-prompts-into-dynamodb-and-the-throttling-went-away-3h5o) (dev.to) - Prompts feel like configuration, so it is tempting to park them in whatever mana
 
 ---
 
@@ -91,11 +100,11 @@
 
 ### 相关文章资源
 
-- [5 Advanced Walter MCP Prompts for Power Users](https://dev.to/mohab_karim/5-advanced-walter-mcp-prompts-for-power-users-26d2) (dev.to) - Most people using Walter Writes AI's MCP server never get past the basic version
-- [Customer-Support Knowledge Base Crawl Boundaries: Lower Index Cost, Traceable Retrieval](https://dev.to/carterhughes6853/customer-support-knowledge-base-crawl-boundaries-lower-index-cost-traceable-retrieval-5faj) (dev.to) - Short answer: use a staged retrieval design with explicit collections, bounded q
-- [How to Build Retrieval Architecture for a Multi-Tenant SaaS Help Center (with Pagination)](https://dev.to/ephraimpierce7934/how-to-build-retrieval-architecture-for-a-multi-tenant-saas-help-center-with-pagination-m93) (dev.to) - Short answer: for retrieval architecture in a multi-tenant SaaS help center, use
-- [Day 02/90: Chunking Strategies in RAG — Why Splitting Documents Matters](https://dev.to/rimsha_kanwal/day-0290-chunking-strategies-in-rag-why-splitting-documents-matters-j1n) (dev.to) - You upload a document, ask a question, and get an incomplete answer.  You check 
-- [Finding the Bugs I Built an AI Agent to Prevent: Building Deterministic Guardrails with LangGraph & Python](https://dev.to/emadaed/finding-the-bugs-i-built-an-ai-agent-to-prevent-building-deterministic-guardrails-with-langgraph--agf) (dev.to) - `` A real debugging log: fabrication bugs, deployment gaps, and false test passe
+- [Citation Tracing for Node.js Changelog Search: Lower-Cost Retrieval at Scale](https://dev.to/haelion14/citation-tracing-for-nodejs-changelog-search-lower-cost-retrieval-at-scale-2f6m) (dev.to) - A citation-tracing retrieval path should keep a cheap lexical index in front of 
+- [Day 03/90: Hybrid Search in RAG: Can Combining BM25 and Vector Search Find Better Evidence?](https://dev.to/rimsha_kanwal/day-0390-hybrid-search-in-rag-can-combining-bm25-and-vector-search-find-better-evidence-129m) (dev.to) - Your RAG app retrieves five chunks. They look relevant, but none actually answer
+- [Your safety check is the outage: cost-aware backoff for governed tool calls](https://dev.to/dekita/your-safety-check-is-the-outage-cost-aware-backoff-for-governed-tool-calls-3ia4) (dev.to) - A governor that blocks bad tool calls can also block the task forever, and its o
+- [pg_vectorsearch vs pgvector: The 42-Hour Vector Index Just Became a 100-Minute One](https://dev.to/jamilxt/pgvectorsearch-vs-pgvector-the-42-hour-vector-index-just-became-a-100-minute-one-14d3) (dev.to) - If you have ever kicked off a pgvector HNSW index build on a large embedding tab
+- [How I Built CausalMesh: An Autonomous SRE Swarm Powered by FalkorDB](https://dev.to/yashvir_singh_/how-i-built-causalmesh-an-autonomous-sre-swarm-powered-by-falkordb-570a) (dev.to) - How I Built CausalMesh: An Autonomous SRE Swarm Powered by FalkorDB Why Flat Vec
 
 ---
 
@@ -153,11 +162,11 @@
 
 ### 相关文章资源
 
+- [Nobody Noticed the Agents: What India's CERT-In Advisory Means for Your Network](https://dev.to/hlinor/nobody-noticed-the-agents-what-indias-cert-in-advisory-means-for-your-network-397a) (dev.to) - On October 15, 2026, India's national cyber agency, CERT-In, published advisory 
 - [SDLC != ADLC != ASDLC](https://dev.to/remojansen/sdlc-adlc-asdlc-4057) (dev.to) - I recently came across this definition:   The Agentic Development Lifecycle (ADL
 - [What is an AI agent harness?](https://dev.to/harshithvaddiparthy/what-is-an-ai-agent-harness-5a10) (dev.to) - By Harshith Vaddiparthy. Originally published in my AI agent harness guide.  An 
 - [🌊 What If One Microservice Fails? Building RIPPLE — An AI Agent That Investigates the Ripple Effect](https://dev.to/narasimha_lakshmi_8cb9876/what-if-one-microservice-fails-building-ripple-an-ai-agent-that-investigates-the-ripple-effect-4pkp) (dev.to) - Exploring graph-powered reasoning, MCP, and AI agents for the FalkorDB Graph Hac
 - [[Agent Platform in Action (1)] Building a LINE AI Business Card Master with Go and Google ADK 2.0: From Fan-Out Parallel Retrieval to HITL Pause](https://dev.to/evanlin/ai-in-action-building-a-line-ai-business-card-master-with-go-and-google-adk-20-from-fan-out-29n6) (dev.to) - Recap   During the AI Agent development craze over the past year, the first Agen
-- [Nineteen things our AI agents could not do by themselves. The whole list, and how long each one waited.](https://dev.to/bananafestdestiny/nineteen-things-our-ai-agents-could-not-do-by-themselves-the-whole-list-and-how-long-each-one-1ond) (dev.to) - Four agents have shipped eight products with no human writing code. Every time o
 
 ---
 
@@ -175,11 +184,11 @@
 
 ### 相关文章资源
 
-- [Hardening Emergency Protocols: Moving Beyond Static Documentation via MCP](https://dev.to/renato_marinho/hardening-emergency-protocols-moving-beyond-static-documentation-via-mcp-3cea) (dev.to) - Exploring how controlled automation through MCP can turn static emergency protoc
-- [Figma MCP + Claude Code: Give It Your Real Layout, Variables, and Components](https://dev.to/juholee/figma-mcp-claude-code-give-it-your-real-layout-variables-and-components-497m) (dev.to) - Figma’s official hosted MCP server lets Claude Code read a linked frame’s layout
-- [How to create QR codes from Claude and ChatGPT with MCP](https://dev.to/mongi_gazelle_2b3abd6fa2c/how-to-create-qr-codes-from-claude-and-chatgpt-with-mcp-a6h) (dev.to) - QR codes are a good fit for an AI assistant: the task is small, the input is a U
-- [Crear un servidor MCP en Python con el SDK oficial 2.x (adiós, FastMCP)](https://dev.to/noelserdna/crear-un-servidor-mcp-en-python-con-el-sdk-oficial-2x-adios-fastmcp-4pnc) (dev.to) - Si has seguido un tutorial de MCP en Python de 2025, probablemente empezaba con 
-- [Qué es MCP (Model Context Protocol), explicado en español](https://dev.to/noelserdna/que-es-mcp-model-context-protocol-explicado-en-espanol-7hl) (dev.to) - MCP (Model Context Protocol) es un protocolo abierto que permite a una aplicació
+- [Your MCP Hub Exposes Every Tool to Every Agent. That's the Bug.](https://dev.to/jeff_pdc/your-mcp-hub-exposes-every-tool-to-every-agent-thats-the-bug-2ljp) (dev.to) - When an MCP hub exposes the full tool catalog to every connected agent, agents c
+- [Scope MCP Keys to the Human, Not to the Team](https://dev.to/jeff_pdc/scope-mcp-keys-to-the-human-not-to-the-team-jm1) (dev.to) - Why team-wide MCP gateway keys are the wrong primitive for non-engineer access, 
+- [Laravel MCP: an AI connector without a second API](https://dev.to/nessflow_8283f7335b896207/laravel-mcp-an-ai-connector-without-a-second-api-25pb) (dev.to) - Laravel 13, laravel/mcp 1.0, Passport 13, one public API.  Our customers asked f
+- [Notes from a 2 AM On-Call: Why Our MCP Server Silently Died Under Scientific Workflow Load](https://dev.to/lucas_vance/notes-from-a-2-am-on-call-why-our-mcp-server-silently-died-under-scientific-workflow-load-4fe3) (dev.to) - An incident postmortem on stdio buffer deadlocks when piping heavy scientific da
+- [When a Teammate Leaves, You Should Not Have to Rotate the Whole MCP URL](https://dev.to/jeff_pdc/when-a-teammate-leaves-you-should-not-have-to-rotate-the-whole-mcp-url-1gb2) (dev.to) - When one teammate leaves or a key leaks, rotating a single access key should not
 
 ---
 
@@ -234,9 +243,9 @@
 
 ### 相关文章资源
 
+- [How We Built an AI Directory Pipeline with LangGraph and Contentful](https://dev.to/madebymonogram/how-we-built-an-ai-directory-pipeline-with-langgraph-and-contentful-25d1) (dev.to) - For Quicknode’s Builder’s Guide, we built a pipeline that populates over 60 stru
 - [One API for Greenhouse, Lever, Ashby & Workday Jobs: Hiring Signals in Python](https://dev.to/torix/one-api-for-greenhouse-lever-ashby-workday-jobs-hiring-signals-in-python-3gb3) (dev.to) - Pull every open job from company career sites into one normalized schema and tur
 - [Connecting LangChain to Alfresco Without Writing Another REST Loader](https://dev.to/stefankopfxaldon/connecting-langchain-to-alfresco-without-writing-another-rest-loader-355) (dev.to) - You already have a LangChain application. The content you need is in Alfresco Co
-- [Your Agent Harness Is Paying LLM Prices for Classifier Decisions](https://dev.to/jayeshtankariya/your-agent-harness-is-paying-llm-prices-for-classifier-decisions-4dde) (dev.to) - Keep your LangGraph router. Let a System 1 decision model take the calls it's co
 
 ---
 
