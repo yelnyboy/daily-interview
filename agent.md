@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-19
+> 最后更新: 2026-10-20
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them](https://dev.to/mech_app_ai/repopilot-how-an-aws-lambda-agent-scores-github-repos-before-you-clone-them-4k3k) (dev.to) - Lambda + Bedrock pipeline that scores repository risk in 60 seconds. Examining t
+- [I open-sourced Tokenade, my token optimizer for coding agents. Here is why the paid model did not hold](https://dev.to/paul_irolla_6b5ae261d0224/i-open-sourced-tokenade-my-token-optimizer-for-coding-agents-here-is-why-the-paid-model-did-not-2ahc) (dev.to) - Tokenade is free and open source as of version 2.0, under MIT OR Apache-2.0. The
+- [How to deploy to Azure with GitHub Copilot or Claude Code using Azure Skills and the Azure MCP Server](https://dev.to/carlosjcastrog/how-to-deploy-to-azure-with-github-copilot-or-claude-code-using-azure-skills-and-the-azure-mcp-32p0) (dev.to) - The 2026 Stack Overflow Developer Survey found that 73% of the developers who us
+- [I built an AWS agent that scores any GitHub repo before you clone it](https://dev.to/aws-builders/i-built-an-aws-agent-that-scores-any-github-repo-before-you-clone-it-4omp) (dev.to) - 7,600 fake repos shipped in 2026, 800 posing as AI skills and MCP servers. RepoP
 - [Running multiple Claude Code agents in parallel: what worktrees cannot see](https://dev.to/naw103/running-multiple-claude-code-agents-in-parallel-what-worktrees-cannot-see-4le7) (dev.to) - If you only ever run one coding agent, you do not need most of this. You're also
-- [The bug is in the arrangement: finding and cutting your AI agent's data-leak paths](https://dev.to/bhanu_nagpure/the-bug-is-in-the-arrangement-finding-and-cutting-your-ai-agents-data-leak-paths-2c3p) (dev.to) - Give an agent three ordinary tools: one that reads a GitHub issue, one that read
-- [OpenAI model used money from digital wallet without permission](https://dev.to/hacksgr/openai-model-used-money-from-digital-wallet-without-permission-5fok) (dev.to) - OpenAI disclosed seven incidents of misaligned AI model behavior, including a ca
-- [Help Your Coding Assistant Find the Right Code in Large Repos](https://dev.to/raabdahl/help-your-coding-assistant-find-the-right-code-in-large-repos-20e3) (dev.to) - Get the starter: sdahal1/repo-search-workshop on GitHub. The reproduction, searc
-- [Worktree lifecycle for AI agents](https://dev.to/saez520/worktree-lifecycle-for-ai-agents-1ooo) (dev.to) - The problem is not creating worktrees, but managing them   When two or more agen
 
 ---
 
@@ -72,11 +72,11 @@
 
 ### 相关文章资源
 
-- [Everyone keeps adding features to AI agents. We deleted ours.](https://dev.to/turingcorp/everyone-is-building-an-agent-workspace-we-deleted-ours-i47) (dev.to) - Everyone is building an agent workspace. We deleted ours.   CloudPal ships witho
-- [How AIClaw Tracks Skill Access Without Exporting Prompt or Tool Content](https://dev.to/chowyu12/how-aiclaw-tracks-skill-access-without-exporting-prompt-or-tool-content-3djl) (dev.to) - An agent can have dozens of installed skills, yet installation counts say little
-- [Tīrtha Bench: the model data coders actually need (and what we're building next)](https://dev.to/tom_jones_230c4659491adcd/tirtha-bench-the-model-data-coders-actually-need-and-what-were-building-next-4nkj) (dev.to) - When you wire a model into a coding agent, the question is never "which model is
-- [Exponential backoff with jitter: 64 of 100 LLM calls still failed](https://dev.to/mattbusel/exponential-backoff-with-jitter-64-of-100-llm-calls-still-failed-2k1m) (dev.to) - Originally published at tensorust.com.  TL;DR: I fired 100 LLM calls at once int
-- [I Moved My Prompts Into DynamoDB and the Throttling Went Away](https://dev.to/avneet_bansal_a65b3f31fc4/i-moved-my-prompts-into-dynamodb-and-the-throttling-went-away-3h5o) (dev.to) - Prompts feel like configuration, so it is tempting to park them in whatever mana
+- [LLM API Pricing: 375 Models Compared Across 137 Providers](https://dev.to/street_foodchinese_57726/llm-api-pricing-375-models-compared-across-137-providers-4e1e) (dev.to) - Oct 20, 2026  You would expect that when 375 models are each served by at least 
+- [I built an AI agent factory to make 570 exercise visuals. Here's what each model got right and wrong.](https://dev.to/emre_ferik/i-built-an-ai-agent-factory-to-make-570-exercise-visuals-heres-what-each-model-got-right-and-5haf) (dev.to) - Field notes from October 2026. Not a benchmark: one project, real logs, honest m
+- [How AIClaw 3.7.17 Separates Queued Messages from Live Agent Steering](https://dev.to/chowyu12/how-aiclaw-3717-separates-queued-messages-from-live-agent-steering-2a47) (dev.to) - An agent is inspecting a problem when you think of a follow-up: after the invest
+- [BM25 vs Embeddings: Why My Vector Search Couldn't Find Error E4012](https://dev.to/ji_ai/bm25-vs-embeddings-why-my-vector-search-couldnt-find-error-e4012-9bi) (dev.to) - BM25 vs embeddings for exact identifiers: why dense vector search misses error c
+- [2,000 Agents Ported Prime Agent to Rust. A Terminal-Frame Diff Was the Judge](https://dev.to/gabrielanhaia/2000-agents-ported-prime-agent-to-rust-a-terminal-frame-diff-was-the-judge-1o70) (dev.to) - Prime Intellect had 2,000+ agents port Prime Agent to Rust. How terminal-frame d
 
 ---
 
@@ -100,11 +100,11 @@
 
 ### 相关文章资源
 
+- [Give Claude, Cursor or VS Code expert perfume knowledge with one MCP URL](https://dev.to/10mlcom/give-claude-cursor-or-vs-code-expert-perfume-knowledge-with-one-mcp-url-13ba) (dev.to) - A free, read-only remote MCP server with the 10ML Fragrance Index. No key, no si
 - [Citation Tracing for Node.js Changelog Search: Lower-Cost Retrieval at Scale](https://dev.to/haelion14/citation-tracing-for-nodejs-changelog-search-lower-cost-retrieval-at-scale-2f6m) (dev.to) - A citation-tracing retrieval path should keep a cheap lexical index in front of 
 - [Day 03/90: Hybrid Search in RAG: Can Combining BM25 and Vector Search Find Better Evidence?](https://dev.to/rimsha_kanwal/day-0390-hybrid-search-in-rag-can-combining-bm25-and-vector-search-find-better-evidence-129m) (dev.to) - Your RAG app retrieves five chunks. They look relevant, but none actually answer
 - [Your safety check is the outage: cost-aware backoff for governed tool calls](https://dev.to/dekita/your-safety-check-is-the-outage-cost-aware-backoff-for-governed-tool-calls-3ia4) (dev.to) - A governor that blocks bad tool calls can also block the task forever, and its o
 - [pg_vectorsearch vs pgvector: The 42-Hour Vector Index Just Became a 100-Minute One](https://dev.to/jamilxt/pgvectorsearch-vs-pgvector-the-42-hour-vector-index-just-became-a-100-minute-one-14d3) (dev.to) - If you have ever kicked off a pgvector HNSW index build on a large embedding tab
-- [How I Built CausalMesh: An Autonomous SRE Swarm Powered by FalkorDB](https://dev.to/yashvir_singh_/how-i-built-causalmesh-an-autonomous-sre-swarm-powered-by-falkordb-570a) (dev.to) - How I Built CausalMesh: An Autonomous SRE Swarm Powered by FalkorDB Why Flat Vec
 
 ---
 
@@ -162,11 +162,11 @@
 
 ### 相关文章资源
 
-- [Nobody Noticed the Agents: What India's CERT-In Advisory Means for Your Network](https://dev.to/hlinor/nobody-noticed-the-agents-what-indias-cert-in-advisory-means-for-your-network-397a) (dev.to) - On October 15, 2026, India's national cyber agency, CERT-In, published advisory 
-- [SDLC != ADLC != ASDLC](https://dev.to/remojansen/sdlc-adlc-asdlc-4057) (dev.to) - I recently came across this definition:   The Agentic Development Lifecycle (ADL
-- [What is an AI agent harness?](https://dev.to/harshithvaddiparthy/what-is-an-ai-agent-harness-5a10) (dev.to) - By Harshith Vaddiparthy. Originally published in my AI agent harness guide.  An 
-- [🌊 What If One Microservice Fails? Building RIPPLE — An AI Agent That Investigates the Ripple Effect](https://dev.to/narasimha_lakshmi_8cb9876/what-if-one-microservice-fails-building-ripple-an-ai-agent-that-investigates-the-ripple-effect-4pkp) (dev.to) - Exploring graph-powered reasoning, MCP, and AI agents for the FalkorDB Graph Hac
-- [[Agent Platform in Action (1)] Building a LINE AI Business Card Master with Go and Google ADK 2.0: From Fan-Out Parallel Retrieval to HITL Pause](https://dev.to/evanlin/ai-in-action-building-a-line-ai-business-card-master-with-go-and-google-adk-20-from-fan-out-29n6) (dev.to) - Recap   During the AI Agent development craze over the past year, the first Agen
+- [How We Designed a Viral Invitation System for AI Agents (K-Factor > 0.5)](https://dev.to/machenh001/how-we-designed-a-viral-invitation-system-for-ai-agents-k-factor-05-57gh) (dev.to) - Why Agent Communities Need Viral Growth (And How We're Building It)   When you'r
+- [What Is an AI Agent? How to Build One from Scratch in Python](https://dev.to/geekcoding101/what-is-an-ai-agent-how-to-build-one-from-scratch-in-python-48ce) (dev.to) - Originally published at GeekCoding101.           "Agent" Is Everywhere. What Doe
+- [Amoxi: AI agents that survive restarts and talk to other agents](https://dev.to/karawash-projects/amoxi-ai-agents-that-survive-restarts-and-talk-to-other-agents-3mh2) (dev.to) - Durable agent runs that resume after a crash, side effects that never happen twi
+- [HTTP 200, zero rent: checking what an AI agent actually read](https://dev.to/michael_p_brain/http-200-zero-rent-checking-what-an-ai-agent-actually-read-1pa8) (dev.to) - The apartment cost USD 2,130 a month in the browser. A fast read of its leasing 
+- [I Run Multiple AI Coding Agents. My To-Do List Was the Bottleneck.](https://dev.to/ktreharrison/i-run-multiple-ai-coding-agents-my-to-do-list-was-the-bottleneck-3li4) (dev.to) - I work with several AI coding agents every day: Codex, Claude, Ollama, Pi, Antig
 
 ---
 
@@ -184,11 +184,11 @@
 
 ### 相关文章资源
 
+- [Can Claude Connect to LinkedIn? What Works in 2026](https://dev.to/layrcake/can-claude-connect-to-linkedin-what-works-in-2026-5cf3) (dev.to) - Claude can reach LinkedIn, but not via LinkedIn. Four routes work: posting tools
+- [An MCP server that lets Claude Code find and download stock photos](https://dev.to/jeanpfs/an-mcp-server-that-lets-claude-code-find-and-download-stock-photos-5fof) (dev.to) - Coding agents can write a landing page, but the images are usually placeholders.
+- [Which AI Can Actually Schedule Your Posts Over MCP? ChatGPT, Claude, Cursor, Gemini CLI and VS Code (2026)](https://dev.to/olver_thorarinsson_bcf885/which-ai-can-actually-schedule-your-posts-over-mcp-chatgpt-claude-cursor-gemini-cli-and-vs-code-33f5) (dev.to) - Originally published at smartpoststudio.com. Republished with a canonical link. 
 - [Your MCP Hub Exposes Every Tool to Every Agent. That's the Bug.](https://dev.to/jeff_pdc/your-mcp-hub-exposes-every-tool-to-every-agent-thats-the-bug-2ljp) (dev.to) - When an MCP hub exposes the full tool catalog to every connected agent, agents c
 - [Scope MCP Keys to the Human, Not to the Team](https://dev.to/jeff_pdc/scope-mcp-keys-to-the-human-not-to-the-team-jm1) (dev.to) - Why team-wide MCP gateway keys are the wrong primitive for non-engineer access, 
-- [Laravel MCP: an AI connector without a second API](https://dev.to/nessflow_8283f7335b896207/laravel-mcp-an-ai-connector-without-a-second-api-25pb) (dev.to) - Laravel 13, laravel/mcp 1.0, Passport 13, one public API.  Our customers asked f
-- [Notes from a 2 AM On-Call: Why Our MCP Server Silently Died Under Scientific Workflow Load](https://dev.to/lucas_vance/notes-from-a-2-am-on-call-why-our-mcp-server-silently-died-under-scientific-workflow-load-4fe3) (dev.to) - An incident postmortem on stdio buffer deadlocks when piping heavy scientific da
-- [When a Teammate Leaves, You Should Not Have to Rotate the Whole MCP URL](https://dev.to/jeff_pdc/when-a-teammate-leaves-you-should-not-have-to-rotate-the-whole-mcp-url-1gb2) (dev.to) - When one teammate leaves or a key leaks, rotating a single access key should not
 
 ---
 
@@ -205,11 +205,15 @@
 - 启动/暂停/恢复
 - 通过工具联系人类(Human-in-the-loop)
 
-### 已积累题目 (1题)
+### 已积累题目 (2题)
 
 - [中级] **[Agent] 12要素之四：记忆管理**
   - 考点: 短期记忆, 长期记忆, 上下文窗口
   - 摘要: 在构建AI Agent的12要素原则中，第四点通常聚焦于Agent的记忆管理机制。Agent的记忆是使其能够维持上下文连贯性并从历史交互中学习的核心组件。记忆主要分为短期记忆和长期记忆：短期记忆依赖于...
+- [中级] **[Agent] 记忆Agent教程**
+  - 考点: 短期记忆, 长期记忆, 向量检索
+  - 摘要: 1. 短期记忆：通常指Agent在当前对话或任务执行过程中的上下文信息，一般直接存放在Prompt中，受限于大模型的上下文窗口大小。
+2. 长期记忆：通过将历史交互或知识存储在外部数据库（如向量数据库...
 
 ---
 
@@ -244,8 +248,6 @@
 ### 相关文章资源
 
 - [How We Built an AI Directory Pipeline with LangGraph and Contentful](https://dev.to/madebymonogram/how-we-built-an-ai-directory-pipeline-with-langgraph-and-contentful-25d1) (dev.to) - For Quicknode’s Builder’s Guide, we built a pipeline that populates over 60 stru
-- [One API for Greenhouse, Lever, Ashby & Workday Jobs: Hiring Signals in Python](https://dev.to/torix/one-api-for-greenhouse-lever-ashby-workday-jobs-hiring-signals-in-python-3gb3) (dev.to) - Pull every open job from company career sites into one normalized schema and tur
-- [Connecting LangChain to Alfresco Without Writing Another REST Loader](https://dev.to/stefankopfxaldon/connecting-langchain-to-alfresco-without-writing-another-rest-loader-355) (dev.to) - You already have a LangChain application. The content you need is in Alfresco Co
 
 ---
 
