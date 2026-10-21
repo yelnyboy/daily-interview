@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-20
+> 最后更新: 2026-10-21
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [Inside VOICE-RAG: From Speech to Grounded Answers](https://dev.to/the_infernix/inside-voice-rag-from-speech-to-grounded-answers-1khn) (dev.to) - Pavan Ganesh Indupudi (Infernix) · Originally published at the-infernix.github.i
 - [RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them](https://dev.to/mech_app_ai/repopilot-how-an-aws-lambda-agent-scores-github-repos-before-you-clone-them-4k3k) (dev.to) - Lambda + Bedrock pipeline that scores repository risk in 60 seconds. Examining t
 - [I open-sourced Tokenade, my token optimizer for coding agents. Here is why the paid model did not hold](https://dev.to/paul_irolla_6b5ae261d0224/i-open-sourced-tokenade-my-token-optimizer-for-coding-agents-here-is-why-the-paid-model-did-not-2ahc) (dev.to) - Tokenade is free and open source as of version 2.0, under MIT OR Apache-2.0. The
 - [How to deploy to Azure with GitHub Copilot or Claude Code using Azure Skills and the Azure MCP Server](https://dev.to/carlosjcastrog/how-to-deploy-to-azure-with-github-copilot-or-claude-code-using-azure-skills-and-the-azure-mcp-32p0) (dev.to) - The 2026 Stack Overflow Developer Survey found that 73% of the developers who us
 - [I built an AWS agent that scores any GitHub repo before you clone it](https://dev.to/aws-builders/i-built-an-aws-agent-that-scores-any-github-repo-before-you-clone-it-4omp) (dev.to) - 7,600 fake repos shipped in 2026, 800 posing as AI skills and MCP servers. RepoP
-- [Running multiple Claude Code agents in parallel: what worktrees cannot see](https://dev.to/naw103/running-multiple-claude-code-agents-in-parallel-what-worktrees-cannot-see-4le7) (dev.to) - If you only ever run one coding agent, you do not need most of this. You're also
 
 ---
 
@@ -63,20 +63,19 @@
 
 ### 已积累题目 (1题)
 
-- [中级] **分布式系统面试连环炮**
-  - 考点: CAP理论, Raft一致性算法, 分布式锁
-  - 摘要: 分布式系统面试通常围绕以下核心概念展开连环追问：
-
-1. CAP理论：分布式系统在一致性、可用性、分区容错性三者中只能满足两个，网络分区不可避免，需在CP和AP间权衡。
-2. 一致性算法：Raft通过...
+- [高级] **分布式系统面试连环炮**
+  - 考点: CAP理论, 分布式锁, 分布式事务
+  - 摘要: 分布式系统面试连环炮通常涵盖以下几个核心连环考点：
+1. CAP与BASE理论：分布式系统在一致性、可用性、分区容错性间权衡，通常P必选。BASE理论提倡最终一致性，是高可用系统的实践准则。
+2. 分...
 
 ### 相关文章资源
 
-- [LLM API Pricing: 375 Models Compared Across 137 Providers](https://dev.to/street_foodchinese_57726/llm-api-pricing-375-models-compared-across-137-providers-4e1e) (dev.to) - Oct 20, 2026  You would expect that when 375 models are each served by at least 
-- [I built an AI agent factory to make 570 exercise visuals. Here's what each model got right and wrong.](https://dev.to/emre_ferik/i-built-an-ai-agent-factory-to-make-570-exercise-visuals-heres-what-each-model-got-right-and-5haf) (dev.to) - Field notes from October 2026. Not a benchmark: one project, real logs, honest m
-- [How AIClaw 3.7.17 Separates Queued Messages from Live Agent Steering](https://dev.to/chowyu12/how-aiclaw-3717-separates-queued-messages-from-live-agent-steering-2a47) (dev.to) - An agent is inspecting a problem when you think of a follow-up: after the invest
-- [BM25 vs Embeddings: Why My Vector Search Couldn't Find Error E4012](https://dev.to/ji_ai/bm25-vs-embeddings-why-my-vector-search-couldnt-find-error-e4012-9bi) (dev.to) - BM25 vs embeddings for exact identifiers: why dense vector search misses error c
-- [2,000 Agents Ported Prime Agent to Rust. A Terminal-Frame Diff Was the Judge](https://dev.to/gabrielanhaia/2000-agents-ported-prime-agent-to-rust-a-terminal-frame-diff-was-the-judge-1o70) (dev.to) - Prime Intellect had 2,000+ agents port Prime Agent to Rust. How terminal-frame d
+- [AI Security Testing 101: Prompt Injection and Indirect Prompt Injection](https://dev.to/vanessa_sastre/ai-security-testing-101-prompt-injection-and-indirect-prompt-injection-50mb) (dev.to) - This is the first post in a new series on AI application security testing, follo
+- [llama-server's Responses API marks truncated replies and tool calls as completed](https://dev.to/homelabpm/llama-servers-responses-api-marks-truncated-replies-and-tool-calls-as-completed-153n) (dev.to) - TL;DR: llama-server's OpenAI-compatible /v1/responses endpoint never reports a r
+- [My AI Agent Never Touches the Database](https://dev.to/vvakim/my-ai-agent-never-touches-the-database-5ecb) (dev.to) - Originally published on Medium.  Most AI agent demos put the model on top of the
+- [I build Apify Actors for RAG pipelines — before/after: one Actor turns 41K of HTML soup into 3.6K of clean Markdown](https://dev.to/bin_sys/i-build-apify-actors-for-rag-pipelines-beforeafter-one-actor-turns-41k-of-html-soup-into-36k-1gog) (dev.to) - I build Actors on Apify — small, single-purpose tools that turn websites into st
+- [A Field Guide to Beating Amazon Bedrock Throttling](https://dev.to/avneet_bansal_a65b3f31fc4/a-field-guide-to-beating-amazon-bedrock-throttling-1b9g) (dev.to) - If you run real LLM traffic through Amazon Bedrock, throttling is not an edge ca
 
 ---
 
@@ -100,11 +99,11 @@
 
 ### 相关文章资源
 
-- [Give Claude, Cursor or VS Code expert perfume knowledge with one MCP URL](https://dev.to/10mlcom/give-claude-cursor-or-vs-code-expert-perfume-knowledge-with-one-mcp-url-13ba) (dev.to) - A free, read-only remote MCP server with the 10ML Fragrance Index. No key, no si
-- [Citation Tracing for Node.js Changelog Search: Lower-Cost Retrieval at Scale](https://dev.to/haelion14/citation-tracing-for-nodejs-changelog-search-lower-cost-retrieval-at-scale-2f6m) (dev.to) - A citation-tracing retrieval path should keep a cheap lexical index in front of 
-- [Day 03/90: Hybrid Search in RAG: Can Combining BM25 and Vector Search Find Better Evidence?](https://dev.to/rimsha_kanwal/day-0390-hybrid-search-in-rag-can-combining-bm25-and-vector-search-find-better-evidence-129m) (dev.to) - Your RAG app retrieves five chunks. They look relevant, but none actually answer
-- [Your safety check is the outage: cost-aware backoff for governed tool calls](https://dev.to/dekita/your-safety-check-is-the-outage-cost-aware-backoff-for-governed-tool-calls-3ia4) (dev.to) - A governor that blocks bad tool calls can also block the task forever, and its o
-- [pg_vectorsearch vs pgvector: The 42-Hour Vector Index Just Became a 100-Minute One](https://dev.to/jamilxt/pgvectorsearch-vs-pgvector-the-42-hour-vector-index-just-became-a-100-minute-one-14d3) (dev.to) - If you have ever kicked off a pgvector HNSW index build on a large embedding tab
+- [Grounded Recovery Playbooks for Healthcare Appointment Assistant Retrieval Under Load](https://dev.to/ethanbrooks111/grounded-recovery-playbooks-for-healthcare-appointment-assistant-retrieval-under-load-5efd) (dev.to) - Short answer: make failure recovery produce a verified disposition, not a better
+- [Financial Research Dashboard Retrieval Architecture: Node.js Observability, PDF Freshness](https://dev.to/leopoldholm3736/financial-research-dashboard-retrieval-architecture-nodejs-observability-pdf-freshness-11cd) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
+- [Classify Before You Embed: The Access Control Problem RAG Pipelines Skip](https://dev.to/mickai/classify-before-you-embed-the-access-control-problem-rag-pipelines-skip-4ifk) (dev.to) - A practical, engineering-level walkthrough of why document classification and co
+- [Node.js Search Analytics Export: Track Queries That Return Nothing](https://dev.to/celthyrdusk7341/nodejs-search-analytics-export-track-queries-that-return-nothing-2d1g) (dev.to) - The page says the internal clinical knowledge bot's zero-hit ratio has crossed i
+- [A RAG Pre-Production Checklist with Real Configuration](https://dev.to/alex_qamentor/a-rag-pre-production-checklist-with-real-configuration-4lj7) (dev.to) - Most RAG launch checklists say "evaluate retrieval" and "monitor in production".
 
 ---
 
@@ -123,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (8题)
+### 已积累题目 (9题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -146,6 +145,10 @@
   - 摘要: Agentic Design Patterns是构建AI Agent时常用的架构模式，主要包括以下四种核心模式：
 
 1. 反思模式（Reflection）：Agent在生成输出后自我审查和修正。例如先...
+- [中级] **ClauseAI Agent设计模式**
+  - 考点: ReAct模式, 工具调用, 上下文管理
+  - 摘要: Claude AI的Agent设计模式主要围绕如何利用大语言模型进行自主任务规划与执行。
+1. ReAct模式：结合推理与行动，Agent在每一步先思考当前状态和目标，再决定调用哪个外部工具，并根据工...
 - [中级] **Spring Cloud 微服务架构**
   - 考点: 服务注册与发现, 配置中心, 熔断限流
   - 摘要: Spring Cloud 是一套微服务治理框架，主要解决分布式系统中的常见问题。其核心组件和机制如下：
@@ -162,11 +165,11 @@
 
 ### 相关文章资源
 
+- [We assume your AI agent will be prompt-injected. Here's the architecture that makes that survivable.](https://dev.to/waqarimtiaz/we-assume-your-ai-agent-will-be-prompt-injected-heres-the-architecture-that-makes-that-survivable-4g0) (dev.to) - Most AI security messaging comes down to one promise: the model will refuse mali
 - [How We Designed a Viral Invitation System for AI Agents (K-Factor > 0.5)](https://dev.to/machenh001/how-we-designed-a-viral-invitation-system-for-ai-agents-k-factor-05-57gh) (dev.to) - Why Agent Communities Need Viral Growth (And How We're Building It)   When you'r
 - [What Is an AI Agent? How to Build One from Scratch in Python](https://dev.to/geekcoding101/what-is-an-ai-agent-how-to-build-one-from-scratch-in-python-48ce) (dev.to) - Originally published at GeekCoding101.           "Agent" Is Everywhere. What Doe
 - [Amoxi: AI agents that survive restarts and talk to other agents](https://dev.to/karawash-projects/amoxi-ai-agents-that-survive-restarts-and-talk-to-other-agents-3mh2) (dev.to) - Durable agent runs that resume after a crash, side effects that never happen twi
 - [HTTP 200, zero rent: checking what an AI agent actually read](https://dev.to/michael_p_brain/http-200-zero-rent-checking-what-an-ai-agent-actually-read-1pa8) (dev.to) - The apartment cost USD 2,130 a month in the browser. A fast read of its leasing 
-- [I Run Multiple AI Coding Agents. My To-Do List Was the Bottleneck.](https://dev.to/ktreharrison/i-run-multiple-ai-coding-agents-my-to-do-list-was-the-bottleneck-3li4) (dev.to) - I work with several AI coding agents every day: Codex, Claude, Ollama, Pi, Antig
 
 ---
 
@@ -184,11 +187,11 @@
 
 ### 相关文章资源
 
-- [Can Claude Connect to LinkedIn? What Works in 2026](https://dev.to/layrcake/can-claude-connect-to-linkedin-what-works-in-2026-5cf3) (dev.to) - Claude can reach LinkedIn, but not via LinkedIn. Four routes work: posting tools
-- [An MCP server that lets Claude Code find and download stock photos](https://dev.to/jeanpfs/an-mcp-server-that-lets-claude-code-find-and-download-stock-photos-5fof) (dev.to) - Coding agents can write a landing page, but the images are usually placeholders.
-- [Which AI Can Actually Schedule Your Posts Over MCP? ChatGPT, Claude, Cursor, Gemini CLI and VS Code (2026)](https://dev.to/olver_thorarinsson_bcf885/which-ai-can-actually-schedule-your-posts-over-mcp-chatgpt-claude-cursor-gemini-cli-and-vs-code-33f5) (dev.to) - Originally published at smartpoststudio.com. Republished with a canonical link. 
-- [Your MCP Hub Exposes Every Tool to Every Agent. That's the Bug.](https://dev.to/jeff_pdc/your-mcp-hub-exposes-every-tool-to-every-agent-thats-the-bug-2ljp) (dev.to) - When an MCP hub exposes the full tool catalog to every connected agent, agents c
-- [Scope MCP Keys to the Human, Not to the Team](https://dev.to/jeff_pdc/scope-mcp-keys-to-the-human-not-to-the-team-jm1) (dev.to) - Why team-wide MCP gateway keys are the wrong primitive for non-engineer access, 
+- [Automated incident triage on GKE with Gemini 4 Argon and Model Context Protocol: Correlating cluster events and VPA logs](https://dev.to/googlecloud/automated-incident-triage-on-gke-with-gemini-4-argon-and-model-context-protocol-correlating-24eb) (dev.to) - Automate root-cause incident triage on GKE by combining Gemini 4 Argon multi-ste
+- [NetSuite MCP in 2026: Native AI Connector, Celigo MCP Server or n8n?](https://dev.to/entechsolutions/netsuite-mcp-in-2026-native-ai-connector-celigo-mcp-server-or-n8n-25jf) (dev.to) - NetSuite MCP options compared: Oracle's AI Connector Service, Celigo MCP Server 
+- [How to Connect Linear MCP to Claude Code (Read-Only First, 1 Minute)](https://dev.to/juholee/how-to-connect-linear-mcp-to-claude-code-read-only-first-1-minute-3cp4) (dev.to) - Linear’s official hosted MCP server lets Claude Code find, read, create, and upd
+- [MCP security: how a malicious MCP server can steal your secrets, and how to lock it down](https://dev.to/amitshuklabag/mcp-security-how-a-malicious-mcp-server-can-steal-your-secrets-and-how-to-lock-it-down-2243) (dev.to) - Every MCP server you add runs code on your machine and writes part of your agent
+- [WebMCP — Why agents shouldn't have to guess how your UI works](https://dev.to/khriztianmoreno/webmcp-why-agents-shouldnt-have-to-guess-how-your-ui-works-1af1) (dev.to) - You ask a browser agent to book the cheapest nonstop flight from Bogotá to Madri
 
 ---
 
@@ -247,7 +250,10 @@
 
 ### 相关文章资源
 
-- [How We Built an AI Directory Pipeline with LangGraph and Contentful](https://dev.to/madebymonogram/how-we-built-an-ai-directory-pipeline-with-langgraph-and-contentful-25d1) (dev.to) - For Quicknode’s Builder’s Guide, we built a pipeline that populates over 60 stru
+- [Give a LangChain agent a spending limit in 10 lines (Pink, test money)](https://dev.to/quinn_854b15f517d8632ed4f/give-a-langchain-agent-a-spending-limit-in-10-lines-pink-test-money-546h) (dev.to) - Give a LangChain agent a spending limit in 10 lines (Pink, test money)   Disclos
+- [LangChain vs. LangGraph: How to Choose the Right Framework](https://dev.to/swayam_dc1eefb8839da110de/langchain-vs-langgraph-how-to-choose-the-right-framework-5768) (dev.to) - A practical guide to LangChain vs. LangGraph, comparing structure, state managem
+- [Building GraphGuard: How a Graph Database Transformed Cybersecurity Investigation](https://dev.to/krishnakapoor612/building-graphguard-how-a-graph-database-transformed-cybersecurity-investigation-d49) (dev.to) - "Every alert has a story. Follow the graph to find it."      Live Demo Video:...
+- [A base agent with LangGraph: tools, memory, RAG and examples](https://dev.to/0311b/a-base-agent-with-langgraph-tools-memory-rag-and-examples-47jg) (dev.to) - When I start a new agent I always start from the same base. I use it every day i
 
 ---
 
