@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
+- [Building a Multimodal, Suggestion-Based AI Writing Coach with Gemini and Google Docs](https://dev.to/gde/building-a-multimodal-suggestion-based-ai-writing-coach-with-gemini-and-google-docs-ea4) (dev.to) - When we use generative AI to proofread our daily writing—whether technical repor
+- [AI Is Winning Literary Awards. The Data Says That's Not What's Happening.](https://dev.to/james_anderson_h/ai-is-winning-literary-awards-the-data-says-thats-not-whats-happening-179d) (dev.to) - The headlines have been impossible to miss. An AI-assisted novel takes a major p
+- [Hush: I Hid 10 Emergencies in My Own Notifications. An On-Device Gemma OS Found All 10.](https://dev.to/rajan_mishra_a9f78ad216b4/hush-i-hid-10-emergencies-in-my-own-notifications-an-on-device-gemma-os-found-all-10-m3g) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
+- [Why an 80-Year-Old Math Book Fixed My AI Coding Agent](https://dev.to/gulajavaministudio/why-an-80-year-old-math-book-fixed-my-ai-coding-agent-517b) (dev.to) - Here is a scenario almost every developer reading this has lived through over th
 - [OpenAI in talks for mammoth $30 billion funding round](https://dev.to/hacksgr/openai-in-talks-for-mammoth-30-billion-funding-round-3de1) (dev.to) - OpenAI is currently working on a new private funding round to raise up to $30 bi
-- [Map your AI stack by layer before you pick vendors](https://dev.to/conorbronsdon/map-your-ai-stack-by-layer-before-you-pick-vendors-33b9) (dev.to) - Use a seven-layer stack map and a cost-performance curve to choose vendors witho
-- [How we review AI agent skills for security before publishing them](https://dev.to/aicraftbook/how-we-review-ai-agent-skills-for-security-before-publishing-them-4mm6) (dev.to) - A SKILL.md file is plain text, but an agent treats it as instructions. If it say
-- [OpenAI makes its new service for rapid decisions available to everyone](https://dev.to/hacksgr/openai-makes-its-new-service-for-rapid-decisions-available-to-everyone-4nne) (dev.to) - OpenAI has made its Decisions API widely available, reconfiguring technology fro
-- [The demo works. Production doesn't: what breaks when you put an LLM on your company's data](https://dev.to/sangaraju1988/the-demo-works-production-doesnt-what-breaks-when-you-put-an-llm-on-your-companys-data-28bo) (dev.to) - Every conversational analytics demo follows the same script. Someone connects a 
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (10题)
+### 已积累题目 (11题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -167,14 +167,17 @@
   - 摘要: 1. 模式选择：采用ReAct（推理与行动）模式，让大模型交替进行思考和工具调用。
 2. 工具定义：定义互联网搜索工具（如Tavily API）和网页内容抓取工具，用于获取实时信息。
 3. 执行流程：...
+- [中级] **使用LangGraph构建新闻摘要Agent**
+  - 考点: LangGraph状态图, 节点与边, 状态管理
+  - 摘要: 1. LangGraph通过将工作流建模为状态图来构建Agent，核心概念包括状态、节点和边。2. 在新闻摘要Agent中，状态用于存储当前处理的新闻URL、抓取的原始文本和最终摘要。3. 节点代表具...
 
 ### 相关文章资源
 
+- [926 Steps, Two Lobotomies, and Zero Nudges: Flight-Testing the Commitment Machine Across Gemini, Claude, and GPT-OSS](https://dev.to/gde/926-steps-two-lobotomies-and-zero-nudges-flight-testing-the-commitment-machine-across-gemini-55ca) (dev.to) - A 2026 Harvard study of 718 companies found that AI agents write 30% more code a
 - [Independent OpenAI Agent Investigation Highlights Monitoring Lessons for Businesses](https://dev.to/alifar/independent-openai-agent-investigation-highlights-monitoring-lessons-for-businesses-6f1) (dev.to) - An independent investigation by METR and a contractor from Redwood Research exam
 - [A Map, Not a Megadump: Sentinel-IR-MCP 0.2.0 Adds TypeScript, 0.2.1 Makes Missing Analysis Visible](https://dev.to/jackymencz/a-map-not-a-megadump-sentinel-ir-mcp-020-adds-typescript-021-makes-missing-analysis-visible-3n00) (dev.to) - When an AI agent opens a codebase, should it read every file first, or should it
 - [Five ways 'nothing changed since last run' is wrong](https://dev.to/pm25coder/five-ways-nothing-changed-since-last-run-is-wrong-495p) (dev.to) - Every incremental tool I have written contains the same three lines: read a wate
 - [An Agent That Asks Permission From a Model That Cannot Lie: Jev Guardrails on AWS](https://dev.to/rasik_rahman/an-agent-that-asks-permission-from-a-model-that-cannot-lie-jev-guardrails-on-aws-30a4) (dev.to) - Author: Rasik Rahman S (@rasikbuilderaws), AI/ML Engineer at ShellKode, AWS Part
-- [Who Watches the Watchers? I Built a Tamper-Evident Seal for Agent Guardrails](https://dev.to/haoli/who-watches-the-watchers-i-built-a-tamper-evident-seal-for-agent-guardrails-2o6h) (dev.to) - Today OpenAI disclosed something that should make every agent builder uncomforta
 
 ---
 
@@ -303,10 +306,6 @@
 - 偏见与毒性防护栏
 - 红队测试
 - 构建可信赖的Agent
-
-### 相关文章资源
-
-- [Is OpenAI Sabotaging Power Users? Continuous 'caas.internal.errors.ClientError' on ChatGPT Python Sandbox](https://dev.to/n_b_1784bc3d5/is-openai-sabotaging-power-users-continuous-caasinternalerrorsclienterror-on-chatgpt-python-1dkn) (dev.to) - Hi everyone,  I am encountering a persistent and blocking error while using Chat
 
 ---
 
