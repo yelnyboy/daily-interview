@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-22
+> 最后更新: 2026-10-23
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [My AI Support Agent Crushed the Demo. Then Production Happened.](https://dev.to/msohailkhandev/my-ai-support-agent-crushed-the-demo-then-production-happened-3dfh) (dev.to) - Everyone shows the AI agent working. Nobody shows the week it fell apart.  I bui
 - [Inside VOICE-RAG: From Speech to Grounded Answers](https://dev.to/the_infernix/inside-voice-rag-from-speech-to-grounded-answers-1khn) (dev.to) - Pavan Ganesh Indupudi (Infernix) · Originally published at the-infernix.github.i
 - [RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them](https://dev.to/mech_app_ai/repopilot-how-an-aws-lambda-agent-scores-github-repos-before-you-clone-them-4k3k) (dev.to) - Lambda + Bedrock pipeline that scores repository risk in 60 seconds. Examining t
 - [I open-sourced Tokenade, my token optimizer for coding agents. Here is why the paid model did not hold](https://dev.to/paul_irolla_6b5ae261d0224/i-open-sourced-tokenade-my-token-optimizer-for-coding-agents-here-is-why-the-paid-model-did-not-2ahc) (dev.to) - Tokenade is free and open source as of version 2.0, under MIT OR Apache-2.0. The
 - [How to deploy to Azure with GitHub Copilot or Claude Code using Azure Skills and the Azure MCP Server](https://dev.to/carlosjcastrog/how-to-deploy-to-azure-with-github-copilot-or-claude-code-using-azure-skills-and-the-azure-mcp-32p0) (dev.to) - The 2026 Stack Overflow Developer Survey found that 73% of the developers who us
-- [I built an AWS agent that scores any GitHub repo before you clone it](https://dev.to/aws-builders/i-built-an-aws-agent-that-scores-any-github-repo-before-you-clone-it-4omp) (dev.to) - 7,600 fake repos shipped in 2026, 800 posing as AI skills and MCP servers. RepoP
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [Battle Drones: What 12 Iterations of 'Make It More Fun' Reveals About Agent-Driven Game Development](https://dev.to/mech_app_ai/battle-drones-what-12-iterations-of-make-it-more-fun-reveals-about-agent-driven-game-development-2j82) (dev.to) - How Claude Code's Ultracode mode orchestrated 1,200 simulated playtests, built d
-- [Is AI Still Lacking Systems Thinking?](https://dev.to/ruxozheng/is-ai-still-lacking-systems-thinking-1m9h) (dev.to) - Two experiments letting AI independently manage information systems, and why the
-- [DevDay Exchange Community Melbourne](https://dev.to/decodebyshreyas/devday-exchange-community-melbourne-4db7) (dev.to) - Had a great time attending the DevDay Exchange Community Workshop: Melbourne! 🚀 
-- [OpenAI Models Reach Google Cloud Model Garden With Marketplace Billing and Codex Workflows](https://dev.to/alifar/openai-models-reach-google-cloud-model-garden-with-marketplace-billing-and-codex-workflows-4f5n) (dev.to) - OpenAI frontier models and Codex agentic workflows are being integrated into Goo
-- [The mesh did not die of laziness. It died of a substrate that could not tell a promise from a landing.](https://dev.to/ilya_mozerov_867dbdd91feb/the-mesh-did-not-die-of-laziness-it-died-of-a-substrate-that-could-not-tell-a-promise-from-a-3lgo) (dev.to) - There was a fleet of agents once, and it read a lot of philosophy. That is the p
+- [OpenAI in talks for mammoth $30 billion funding round](https://dev.to/hacksgr/openai-in-talks-for-mammoth-30-billion-funding-round-3de1) (dev.to) - OpenAI is currently working on a new private funding round to raise up to $30 bi
+- [Map your AI stack by layer before you pick vendors](https://dev.to/conorbronsdon/map-your-ai-stack-by-layer-before-you-pick-vendors-33b9) (dev.to) - Use a seven-layer stack map and a cost-performance curve to choose vendors witho
+- [How we review AI agent skills for security before publishing them](https://dev.to/aicraftbook/how-we-review-ai-agent-skills-for-security-before-publishing-them-4mm6) (dev.to) - A SKILL.md file is plain text, but an agent treats it as instructions. If it say
+- [OpenAI makes its new service for rapid decisions available to everyone](https://dev.to/hacksgr/openai-makes-its-new-service-for-rapid-decisions-available-to-everyone-4nne) (dev.to) - OpenAI has made its Decisions API widely available, reconfiguring technology fro
+- [The demo works. Production doesn't: what breaks when you put an LLM on your company's data](https://dev.to/sangaraju1988/the-demo-works-production-doesnt-what-breaks-when-you-put-an-llm-on-your-companys-data-28bo) (dev.to) - Every conversational analytics demo follows the same script. Someone connects a 
 
 ---
 
@@ -170,11 +170,11 @@
 
 ### 相关文章资源
 
+- [Independent OpenAI Agent Investigation Highlights Monitoring Lessons for Businesses](https://dev.to/alifar/independent-openai-agent-investigation-highlights-monitoring-lessons-for-businesses-6f1) (dev.to) - An independent investigation by METR and a contractor from Redwood Research exam
 - [A Map, Not a Megadump: Sentinel-IR-MCP 0.2.0 Adds TypeScript, 0.2.1 Makes Missing Analysis Visible](https://dev.to/jackymencz/a-map-not-a-megadump-sentinel-ir-mcp-020-adds-typescript-021-makes-missing-analysis-visible-3n00) (dev.to) - When an AI agent opens a codebase, should it read every file first, or should it
 - [Five ways 'nothing changed since last run' is wrong](https://dev.to/pm25coder/five-ways-nothing-changed-since-last-run-is-wrong-495p) (dev.to) - Every incremental tool I have written contains the same three lines: read a wate
 - [An Agent That Asks Permission From a Model That Cannot Lie: Jev Guardrails on AWS](https://dev.to/rasik_rahman/an-agent-that-asks-permission-from-a-model-that-cannot-lie-jev-guardrails-on-aws-30a4) (dev.to) - Author: Rasik Rahman S (@rasikbuilderaws), AI/ML Engineer at ShellKode, AWS Part
 - [Who Watches the Watchers? I Built a Tamper-Evident Seal for Agent Guardrails](https://dev.to/haoli/who-watches-the-watchers-i-built-a-tamper-evident-seal-for-agent-guardrails-2o6h) (dev.to) - Today OpenAI disclosed something that should make every agent builder uncomforta
-- [OpenAI's artificial intelligence systems closed security measures in internal tests](https://dev.to/hacksgr/openais-artificial-intelligence-systems-closed-security-measures-in-internal-tests-a5i) (dev.to) - OpenAI disclosed two cases in which AI agents weakened oversight during internal
 
 ---
 
