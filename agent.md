@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-23
+> 最后更新: 2026-10-24
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [When Should an AI Agent Stop?](https://dev.to/anshu_kumar_4a8413f8dfae1/when-should-an-ai-agent-stop-38po) (dev.to) - Designing a progress-aware execution controller for agentic systems.  Imagine as
 - [My AI Support Agent Crushed the Demo. Then Production Happened.](https://dev.to/msohailkhandev/my-ai-support-agent-crushed-the-demo-then-production-happened-3dfh) (dev.to) - Everyone shows the AI agent working. Nobody shows the week it fell apart.  I bui
 - [Inside VOICE-RAG: From Speech to Grounded Answers](https://dev.to/the_infernix/inside-voice-rag-from-speech-to-grounded-answers-1khn) (dev.to) - Pavan Ganesh Indupudi (Infernix) · Originally published at the-infernix.github.i
 - [RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them](https://dev.to/mech_app_ai/repopilot-how-an-aws-lambda-agent-scores-github-repos-before-you-clone-them-4k3k) (dev.to) - Lambda + Bedrock pipeline that scores repository risk in 60 seconds. Examining t
 - [I open-sourced Tokenade, my token optimizer for coding agents. Here is why the paid model did not hold](https://dev.to/paul_irolla_6b5ae261d0224/i-open-sourced-tokenade-my-token-optimizer-for-coding-agents-here-is-why-the-paid-model-did-not-2ahc) (dev.to) - Tokenade is free and open source as of version 2.0, under MIT OR Apache-2.0. The
-- [How to deploy to Azure with GitHub Copilot or Claude Code using Azure Skills and the Azure MCP Server](https://dev.to/carlosjcastrog/how-to-deploy-to-azure-with-github-copilot-or-claude-code-using-azure-skills-and-the-azure-mcp-32p0) (dev.to) - The 2026 Stack Overflow Developer Survey found that 73% of the developers who us
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [Building a Multimodal, Suggestion-Based AI Writing Coach with Gemini and Google Docs](https://dev.to/gde/building-a-multimodal-suggestion-based-ai-writing-coach-with-gemini-and-google-docs-ea4) (dev.to) - When we use generative AI to proofread our daily writing—whether technical repor
-- [AI Is Winning Literary Awards. The Data Says That's Not What's Happening.](https://dev.to/james_anderson_h/ai-is-winning-literary-awards-the-data-says-thats-not-whats-happening-179d) (dev.to) - The headlines have been impossible to miss. An AI-assisted novel takes a major p
-- [Hush: I Hid 10 Emergencies in My Own Notifications. An On-Device Gemma OS Found All 10.](https://dev.to/rajan_mishra_a9f78ad216b4/hush-i-hid-10-emergencies-in-my-own-notifications-an-on-device-gemma-os-found-all-10-m3g) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
-- [Why an 80-Year-Old Math Book Fixed My AI Coding Agent](https://dev.to/gulajavaministudio/why-an-80-year-old-math-book-fixed-my-ai-coding-agent-517b) (dev.to) - Here is a scenario almost every developer reading this has lived through over th
-- [OpenAI in talks for mammoth $30 billion funding round](https://dev.to/hacksgr/openai-in-talks-for-mammoth-30-billion-funding-round-3de1) (dev.to) - OpenAI is currently working on a new private funding round to raise up to $30 bi
+- [Audio Deadlines: Running On-Device TTS Without Audible Glitches](https://dev.to/dima_kruglov_608741d9a416/audio-deadlines-running-on-device-tts-without-audible-glitches-kdi) (dev.to) - Gradium open-sourced Phonon, its on-device TTS engine (https://gradium.ai/phonon
+- [How We Won a Hackathon Without Writing a Single Line of Code (Part 2): AI Judging, the Pitch, and First Place](https://dev.to/goroman/how-we-won-a-hackathon-without-writing-a-single-line-of-code-part-2-ai-judging-the-pitch-and-3nmf) (dev.to) - Images from the original Japanese post.  Read Part 1 · Original Japanese version
+- [Your semantic cache will happily replay the wrong command](https://dev.to/pomereneio/your-semantic-cache-will-happily-replay-the-wrong-command-4pg5) (dev.to) - Your semantic cache will happily replay the wrong command   Semantic caching wor
+- [A 70-line model router: try the cheap LLM first, escalate only when the answer fails validation](https://dev.to/x3team/a-70-line-model-router-try-the-cheap-llm-first-escalate-only-when-the-answer-fails-validation-4opc) (dev.to) - Most LLM features I see in production use one model for everything. It is usuall
+- [Your Model Is a Binary You Ship to Strangers: Release Engineering for Edge AI](https://dev.to/dima_kruglov_608741d9a416/your-model-is-a-binary-you-ship-to-strangers-release-engineering-for-edge-ai-1nn3) (dev.to) - Gradium open-sourcing its on-device TTS ([Phonon](https://gradium.ai/phonon)) is
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
-- [Go RAG Citations Point to Wrong Page: Debug Chunk Offset Metadata](https://dev.to/quintonshaw1483/go-rag-citations-point-to-wrong-page-debug-chunk-offset-metadata-2lh8) (dev.to) - A citation span is valid only when its text, byte offsets, page label, and docum
-- [Day 05/90: Duplicate Records in RAG — When Different Names Refer to the Same Entity](https://dev.to/rimsha_kanwal/day-0590-duplicate-records-in-rag-when-different-names-refer-to-the-same-entity-1p2l) (dev.to) - Imagine a RAG system that retrieves all the right documents.  The customer recor
-- [How to Keep Recruiting Search Fresh — Bounded Retrieval Under Source Failure](https://dev.to/noahhayes7250/how-to-keep-recruiting-search-fresh-bounded-retrieval-under-source-failure-5fac) (dev.to) - Short answer: use staged retrieval with explicit collections, hard latency budge
-- [News Monitoring RAG Contracts Explained — Node.js Boundaries for Fresh Change Alerts](https://dev.to/finneganblake3578/news-monitoring-rag-contracts-explained-nodejs-boundaries-for-fresh-change-alerts-17b1) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [PDF to clean Markdown for RAG: chunking-ready text from PDFs, Word and scanned files](https://dev.to/fast_data_asap/pdf-to-clean-markdown-for-rag-chunking-ready-text-from-pdfs-word-and-scanned-files-3im3) (dev.to) - Why Markdown beats raw PDF text for retrieval, an honest look at pdfplumber, Mar
+- [Legal Contract Review Retrieval Architecture: A Release Checklist for Traceable Search](https://dev.to/zachariahholloway9058/legal-contract-review-retrieval-architecture-a-release-checklist-for-traceable-search-h43) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
+- [Two Identical Chunks Are Not Always Duplicates](https://dev.to/swapnanilsaha/two-identical-chunks-are-not-always-duplicates-3hbl) (dev.to) - Copied scripts must collapse into one search result; generated accessors must no
+- [Day 06/90: Reranking in RAG — When the Right Evidence Isn’t Ranked First](https://dev.to/rimsha_kanwal/day-0690-reranking-in-rag-when-the-right-evidence-isnt-ranked-first-5dha) (dev.to) - What happens when a RAG system retrieves the passage containing the answer, but 
+- [When Should Engineering Leaders Choose RAG Instead of a Workflow Engine](https://dev.to/olivia-white/when-should-engineering-leaders-choose-rag-instead-of-a-workflow-engine-5doa) (dev.to) - Engineering leaders building enterprise AI systems must decide whether to invest
+- [What Actually Happens When You Build a Production RAG Chatbot on Amazon Bedrock](https://dev.to/hieu_le/what-actually-happens-when-you-build-a-production-rag-chatbot-on-amazon-bedrock-4l2) (dev.to) - How we built a document Q&amp;A system with NestJS, PostgreSQL, pgvector, Hybrid
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (11题)
+### 已积累题目 (12题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -170,14 +170,17 @@
 - [中级] **使用LangGraph构建新闻摘要Agent**
   - 考点: LangGraph状态图, 节点与边, 状态管理
   - 摘要: 1. LangGraph通过将工作流建模为状态图来构建Agent，核心概念包括状态、节点和边。2. 在新闻摘要Agent中，状态用于存储当前处理的新闻URL、抓取的原始文本和最终摘要。3. 节点代表具...
+- [中级] **使用LangGraph生成播客的Agent设计模式**
+  - 考点: LangGraph, 状态图, 工作流编排
+  - 摘要: 1. 需求分析：播客生成需要资料收集、大纲生成、内容撰写、语音合成等步骤，适合使用工作流模式。2. 架构设计：使用LangGraph构建状态图，每个节点代表一个子任务，如资料分析节点、大纲生成节点、脚...
 
 ### 相关文章资源
 
+- [Give your AI agent web-data tools with Apify's MCP server (Python, no SDK, 2026)](https://dev.to/datawrightlabs/give-your-ai-agent-web-data-tools-with-apifys-mcp-server-python-no-sdk-2026-4lih) (dev.to) - Most AI agents can now talk to remote MCP servers. Apify runs one at https://mcp
+- [How to Integrate Deep Research into Your AI Agent](https://dev.to/valyuai/how-to-integrate-deep-research-into-your-ai-agent-2n82) (dev.to) - Day 23 of 30 Days of Search.           TL;DR   To integrate deep research into a
+- [[Agent Platform in Practice (5)] Building an AI Agent Quality Flywheel: Automated Benchmarking for LINE AI Business Card King wi](https://dev.to/gde/agent-platform-in-practice-5-building-an-ai-agent-quality-flywheel-automated-benchmarking-for-58m2) (dev.to) - Recap   In the first four articles of the "Agent Platform in Action" series, we 
 - [926 Steps, Two Lobotomies, and Zero Nudges: Flight-Testing the Commitment Machine Across Gemini, Claude, and GPT-OSS](https://dev.to/gde/926-steps-two-lobotomies-and-zero-nudges-flight-testing-the-commitment-machine-across-gemini-55ca) (dev.to) - A 2026 Harvard study of 718 companies found that AI agents write 30% more code a
 - [Independent OpenAI Agent Investigation Highlights Monitoring Lessons for Businesses](https://dev.to/alifar/independent-openai-agent-investigation-highlights-monitoring-lessons-for-businesses-6f1) (dev.to) - An independent investigation by METR and a contractor from Redwood Research exam
-- [A Map, Not a Megadump: Sentinel-IR-MCP 0.2.0 Adds TypeScript, 0.2.1 Makes Missing Analysis Visible](https://dev.to/jackymencz/a-map-not-a-megadump-sentinel-ir-mcp-020-adds-typescript-021-makes-missing-analysis-visible-3n00) (dev.to) - When an AI agent opens a codebase, should it read every file first, or should it
-- [Five ways 'nothing changed since last run' is wrong](https://dev.to/pm25coder/five-ways-nothing-changed-since-last-run-is-wrong-495p) (dev.to) - Every incremental tool I have written contains the same three lines: read a wate
-- [An Agent That Asks Permission From a Model That Cannot Lie: Jev Guardrails on AWS](https://dev.to/rasik_rahman/an-agent-that-asks-permission-from-a-model-that-cannot-lie-jev-guardrails-on-aws-30a4) (dev.to) - Author: Rasik Rahman S (@rasikbuilderaws), AI/ML Engineer at ShellKode, AWS Part
 
 ---
 
@@ -195,11 +198,11 @@
 
 ### 相关文章资源
 
-- [Tool Schemas Are an API Contract (Treat Them Like One)](https://dev.to/andriiboyko/tool-schemas-are-an-api-contract-treat-them-like-one-bj2) (dev.to) - Earlier this year, the people who maintain the Model Context Protocol loosened t
-- [MCP vs function calling: which one your AI agent actually needs (2026)](https://dev.to/joancomadran/mcp-vs-function-calling-which-one-your-ai-agent-actually-needs-2026-5hdg) (dev.to) - MCP vs function calling, as of October 2026: they aren't rivals. Function callin
-- [Automated incident triage on GKE with Gemini 4 Argon and Model Context Protocol: Correlating cluster events and VPA logs](https://dev.to/googlecloud/automated-incident-triage-on-gke-with-gemini-4-argon-and-model-context-protocol-correlating-24eb) (dev.to) - Automate root-cause incident triage on GKE by combining Gemini 4 Argon multi-ste
-- [NetSuite MCP in 2026: Native AI Connector, Celigo MCP Server or n8n?](https://dev.to/entechsolutions/netsuite-mcp-in-2026-native-ai-connector-celigo-mcp-server-or-n8n-25jf) (dev.to) - NetSuite MCP options compared: Oracle's AI Connector Service, Celigo MCP Server 
-- [How to Connect Linear MCP to Claude Code (Read-Only First, 1 Minute)](https://dev.to/juholee/how-to-connect-linear-mcp-to-claude-code-read-only-first-1-minute-3cp4) (dev.to) - Linear’s official hosted MCP server lets Claude Code find, read, create, and upd
+- [Why AI assistants don't know small businesses, and how we opened Kamchatka to agents with MCP](https://dev.to/vedarai/why-ai-assistants-dont-know-small-businesses-and-how-we-opened-kamchatka-to-agents-with-mcp-5gio) (dev.to) - AI assistants are getting good at planning trips. Ask one about Kamchatka, thoug
+- [Ghidra MCP: Let AI Help You Reverse Engineer Binaries](https://dev.to/geekcoding101/ghidra-mcp-let-ai-help-you-reverse-engineer-binaries-5cc1) (dev.to) - Originally published at GeekCoding101.           Reverse Engineering Meets AI   
+- [Agent memory: the FTS5 trigger bug that silently killed every update](https://dev.to/mrpkk/agent-memory-the-fts5-trigger-bug-that-silently-killed-every-update-5ah2) (dev.to) - Your agent's memory is an archive until you can update it. Ours was an archive f
+- [A Read-Only WebMCP Tool Erased My React Form State](https://dev.to/raju_dandigam/a-read-only-webmcp-tool-erased-my-react-form-state-5a2c) (dev.to) - The read path in Trip Workbench can erase a person’s unsaved purpose without sen
+- [The best Godot MCP server in 2026 depends on what you want the agent to touch](https://dev.to/orellanaed/the-best-godot-mcp-server-in-2026-depends-on-what-you-want-the-agent-to-touch-5aji) (dev.to) - The best Godot MCP server in 2026: Flockbay's to build and play-test a whole gam
 
 ---
 
@@ -258,11 +261,11 @@
 
 ### 相关文章资源
 
-- [LangGraph memory explained: checkpointer vs store, and per-user memory across threads](https://dev.to/memorysync_rafay/langgraph-memory-explained-checkpointer-vs-store-and-per-user-memory-across-threads-kek) (dev.to) - Disclosure: I'm Mohammed, founder of MemorySync. I drafted this article with AI 
-- [My Japanese Tutor Agent Works — Except Its Brain Calls Everything a Particle](https://dev.to/raihan-js/my-japanese-tutor-agent-works-except-its-brain-calls-everything-a-particle-3ohj) (dev.to) - Voice-first Japanese tutor agent that works end to end — but its correcting brai
-- [How to Add an Audit Trail to a LangChain Agent in 15 Minutes with ZizkaDB](https://dev.to/mir_arshadalitalpur_1b3/how-to-add-an-audit-trail-to-a-langchain-agent-in-15-minutes-with-zizkadb-142i) (dev.to) - This is the next how-to guide in the series. The earlier guides explained what e
-- [Give a LangChain agent a spending limit in 10 lines (Pink, test money)](https://dev.to/quinn_854b15f517d8632ed4f/give-a-langchain-agent-a-spending-limit-in-10-lines-pink-test-money-546h) (dev.to) - Give a LangChain agent a spending limit in 10 lines (Pink, test money)   Disclos
-- [LangChain vs. LangGraph: How to Choose the Right Framework](https://dev.to/swayam_dc1eefb8839da110de/langchain-vs-langgraph-how-to-choose-the-right-framework-5768) (dev.to) - A practical guide to LangChain vs. LangGraph, comparing structure, state managem
+- [Loading exported Reddit and Hacker News threads into LangChain, with citations you can check](https://dev.to/superlede/loading-exported-reddit-and-hacker-news-threads-into-langchain-with-citations-you-can-check-1pi3) (dev.to) - Ask a model what people in a Reddit thread complain about and you get a neat lis
+- [Owning Your Intelligence Means Owning Your Implementation](https://dev.to/focused_dot_io/owning-your-intelligence-means-owning-your-implementation-4p8h) (dev.to) - Owning your models, evals, and traces is the start. Lasting control over agentic
+- [I Built a Finance Assistant Where Six AI Agents Check Each Other's Work](https://dev.to/neel_b_05a240ea1a5ae2964d/i-built-a-finance-assistant-where-six-ai-agents-check-each-others-work-1ele) (dev.to) - A LangGraph.js supervisor plans each question, sends it to six specialist agents
+- [How to Add Web Search to a LangChain.js Agent (No API Key)](https://dev.to/agentsearchhq/how-to-add-web-search-to-a-langchainjs-agent-no-api-key-5df6) (dev.to) - Add a free LangChain.js web search tool to a TypeScript agent with @agentsearchh
+- [I am building a practical AI agents course (LangChain first, then LangGraph), and the certificate has to be earned](https://dev.to/ali_82f3409ed625e8ba8515b/i-am-building-a-practical-ai-agents-course-langchain-first-then-langgraph-and-the-certificate-34f3) (dev.to) - I have spent the last few months building AI agents with LangChain and LangGraph
 
 ---
 
@@ -276,6 +279,10 @@
 - DAG Agents
 - 角色分配与任务编排
 - Agent间通信协议
+
+### 相关文章资源
+
+- [Building a Multi-Agent Token Usage Widget in Under 500 KB](https://dev.to/gde/building-a-multi-agent-token-usage-widget-in-under-500-kb-1fih) (dev.to) - How we built a 483 KB zero-WebKit macOS Universal Binary and a single-file Ubunt
 
 ---
 
@@ -306,6 +313,10 @@
 - 偏见与毒性防护栏
 - 红队测试
 - 构建可信赖的Agent
+
+### 相关文章资源
+
+- [Agents should never hold your API keys. NVIDIA just open-sourced the runtime that enforces it](https://dev.to/slabb/agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4) (dev.to) - NVIDIA open-sourced OpenShell: a runtime where agent fleets get kernel-level san
 
 ---
 
