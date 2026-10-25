@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-24
+> 最后更新: 2026-10-25
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [Ledger: git blame for your thinking](https://dev.to/karthikbommineni/ledger-git-blame-for-your-thinking-1kmj) (dev.to) - Make sure your agent never forgets — and make sure you can still see why you cho
 - [When Should an AI Agent Stop?](https://dev.to/anshu_kumar_4a8413f8dfae1/when-should-an-ai-agent-stop-38po) (dev.to) - Designing a progress-aware execution controller for agentic systems.  Imagine as
 - [My AI Support Agent Crushed the Demo. Then Production Happened.](https://dev.to/msohailkhandev/my-ai-support-agent-crushed-the-demo-then-production-happened-3dfh) (dev.to) - Everyone shows the AI agent working. Nobody shows the week it fell apart.  I bui
 - [Inside VOICE-RAG: From Speech to Grounded Answers](https://dev.to/the_infernix/inside-voice-rag-from-speech-to-grounded-answers-1khn) (dev.to) - Pavan Ganesh Indupudi (Infernix) · Originally published at the-infernix.github.i
 - [RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them](https://dev.to/mech_app_ai/repopilot-how-an-aws-lambda-agent-scores-github-repos-before-you-clone-them-4k3k) (dev.to) - Lambda + Bedrock pipeline that scores repository risk in 60 seconds. Examining t
-- [I open-sourced Tokenade, my token optimizer for coding agents. Here is why the paid model did not hold](https://dev.to/paul_irolla_6b5ae261d0224/i-open-sourced-tokenade-my-token-optimizer-for-coding-agents-here-is-why-the-paid-model-did-not-2ahc) (dev.to) - Tokenade is free and open source as of version 2.0, under MIT OR Apache-2.0. The
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [Audio Deadlines: Running On-Device TTS Without Audible Glitches](https://dev.to/dima_kruglov_608741d9a416/audio-deadlines-running-on-device-tts-without-audible-glitches-kdi) (dev.to) - Gradium open-sourced Phonon, its on-device TTS engine (https://gradium.ai/phonon
-- [How We Won a Hackathon Without Writing a Single Line of Code (Part 2): AI Judging, the Pitch, and First Place](https://dev.to/goroman/how-we-won-a-hackathon-without-writing-a-single-line-of-code-part-2-ai-judging-the-pitch-and-3nmf) (dev.to) - Images from the original Japanese post.  Read Part 1 · Original Japanese version
-- [Your semantic cache will happily replay the wrong command](https://dev.to/pomereneio/your-semantic-cache-will-happily-replay-the-wrong-command-4pg5) (dev.to) - Your semantic cache will happily replay the wrong command   Semantic caching wor
-- [A 70-line model router: try the cheap LLM first, escalate only when the answer fails validation](https://dev.to/x3team/a-70-line-model-router-try-the-cheap-llm-first-escalate-only-when-the-answer-fails-validation-4opc) (dev.to) - Most LLM features I see in production use one model for everything. It is usuall
-- [Your Model Is a Binary You Ship to Strangers: Release Engineering for Edge AI](https://dev.to/dima_kruglov_608741d9a416/your-model-is-a-binary-you-ship-to-strangers-release-engineering-for-edge-ai-1nn3) (dev.to) - Gradium open-sourcing its on-device TTS ([Phonon](https://gradium.ai/phonon)) is
+- [A 7-Day Kamchatka Trip Plan That Leaves a Day Empty on Purpose](https://dev.to/vedarai/a-7-day-kamchatka-trip-plan-that-leaves-a-day-empty-on-purpose-cke) (dev.to) - A 7-Day Kamchatka Trip Plan That Leaves a Day Empty on Purpose   How our AI trip
+- [A pre-flight checklist before domain continued pre-training](https://dev.to/conorbronsdon/a-pre-flight-checklist-before-domain-continued-pre-training-5afl) (dev.to) - Build evals first, track what can forget, and design rewards so scores cannot be
+- [How I made a 20B model code like a frontier one — by fixing the harness, not the model](https://dev.to/abhishek_kumar_cdf5aa9dcb/how-i-made-a-20b-model-code-like-a-frontier-one-by-fixing-the-harness-not-the-model-5g7c) (dev.to) - A coding agent is a model plus a harness. We spend all our attention on the mode
+- [Your Agent Found a Round-Trip Fare but No Flight Home](https://dev.to/vexaloom-labs/your-agent-found-a-round-trip-fare-but-no-flight-home-1l1f) (dev.to) - Keep round-trip prices separate from return-flight evidence so your travel agent
+- [Day 07/90:Taking RAG from Notebook to Production — Challenges and Research-Backed Solutions](https://dev.to/rimsha_kanwal/day-0790taking-rag-from-notebook-to-production-challenges-and-research-backed-solutions-3849) (dev.to) - A RAG application answers a question correctly in a notebook. Then it encounters
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
+- [Healthcare Search Boundaries — Isolating Appointment Context Across Tenant Collections](https://dev.to/frosty45/healthcare-search-boundaries-isolating-appointment-context-across-tenant-collections-8m0) (dev.to) - Short answer: use a staged retrieval design in which every healthcare tenant has
+- [5 Ways to Make Insurance Claims Retrieval Deletions Trustworthy — A Build Log](https://dev.to/colbyhayes3521/5-ways-to-make-insurance-claims-retrieval-deletions-trustworthy-a-build-log-5l0) (dev.to) - An insurance claims intake system has one unforgiving rule: once a claimant asks
 - [Legal Contract Review Retrieval Architecture: A Release Checklist for Traceable Search](https://dev.to/zachariahholloway9058/legal-contract-review-retrieval-architecture-a-release-checklist-for-traceable-search-h43) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
 - [Two Identical Chunks Are Not Always Duplicates](https://dev.to/swapnanilsaha/two-identical-chunks-are-not-always-duplicates-3hbl) (dev.to) - Copied scripts must collapse into one search result; generated accessors must no
 - [Day 06/90: Reranking in RAG — When the Right Evidence Isn’t Ranked First](https://dev.to/rimsha_kanwal/day-0690-reranking-in-rag-when-the-right-evidence-isnt-ranked-first-5dha) (dev.to) - What happens when a RAG system retrieves the passage containing the answer, but 
-- [When Should Engineering Leaders Choose RAG Instead of a Workflow Engine](https://dev.to/olivia-white/when-should-engineering-leaders-choose-rag-instead-of-a-workflow-engine-5doa) (dev.to) - Engineering leaders building enterprise AI systems must decide whether to invest
-- [What Actually Happens When You Build a Production RAG Chatbot on Amazon Bedrock](https://dev.to/hieu_le/what-actually-happens-when-you-build-a-production-rag-chatbot-on-amazon-bedrock-4l2) (dev.to) - How we built a document Q&amp;A system with NestJS, PostgreSQL, pgvector, Hybrid
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (12题)
+### 已积累题目 (13题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -173,14 +173,17 @@
 - [中级] **使用LangGraph生成播客的Agent设计模式**
   - 考点: LangGraph, 状态图, 工作流编排
   - 摘要: 1. 需求分析：播客生成需要资料收集、大纲生成、内容撰写、语音合成等步骤，适合使用工作流模式。2. 架构设计：使用LangGraph构建状态图，每个节点代表一个子任务，如资料分析节点、大纲生成节点、脚...
+- [中级] **创建本地AI Agent**
+  - 考点: 本地大模型部署, Ollama, LangChain框架
+  - 摘要: 1. 模型选择与部署：创建本地AI Agent的第一步是选择并部署开源大模型（如Llama 3、Qwen等）。通常使用Ollama或vLLM等工具在本地运行模型，提供兼容OpenAI格式的API接口供...
 
 ### 相关文章资源
 
+- [AI agents were told my inputs were optional, then rejected for leaving them out 🤖](https://dev.to/timmkal01/ai-agents-were-told-my-inputs-were-optional-then-rejected-for-leaving-them-out-3el4) (dev.to) - One word in 29 config files: required. Every field it guarded already had a defa
 - [Give your AI agent web-data tools with Apify's MCP server (Python, no SDK, 2026)](https://dev.to/datawrightlabs/give-your-ai-agent-web-data-tools-with-apifys-mcp-server-python-no-sdk-2026-4lih) (dev.to) - Most AI agents can now talk to remote MCP servers. Apify runs one at https://mcp
 - [How to Integrate Deep Research into Your AI Agent](https://dev.to/valyuai/how-to-integrate-deep-research-into-your-ai-agent-2n82) (dev.to) - Day 23 of 30 Days of Search.           TL;DR   To integrate deep research into a
 - [[Agent Platform in Practice (5)] Building an AI Agent Quality Flywheel: Automated Benchmarking for LINE AI Business Card King wi](https://dev.to/gde/agent-platform-in-practice-5-building-an-ai-agent-quality-flywheel-automated-benchmarking-for-58m2) (dev.to) - Recap   In the first four articles of the "Agent Platform in Action" series, we 
 - [926 Steps, Two Lobotomies, and Zero Nudges: Flight-Testing the Commitment Machine Across Gemini, Claude, and GPT-OSS](https://dev.to/gde/926-steps-two-lobotomies-and-zero-nudges-flight-testing-the-commitment-machine-across-gemini-55ca) (dev.to) - A 2026 Harvard study of 718 companies found that AI agents write 30% more code a
-- [Independent OpenAI Agent Investigation Highlights Monitoring Lessons for Businesses](https://dev.to/alifar/independent-openai-agent-investigation-highlights-monitoring-lessons-for-businesses-6f1) (dev.to) - An independent investigation by METR and a contractor from Redwood Research exam
 
 ---
 
@@ -198,11 +201,11 @@
 
 ### 相关文章资源
 
-- [Why AI assistants don't know small businesses, and how we opened Kamchatka to agents with MCP](https://dev.to/vedarai/why-ai-assistants-dont-know-small-businesses-and-how-we-opened-kamchatka-to-agents-with-mcp-5gio) (dev.to) - AI assistants are getting good at planning trips. Ask one about Kamchatka, thoug
-- [Ghidra MCP: Let AI Help You Reverse Engineer Binaries](https://dev.to/geekcoding101/ghidra-mcp-let-ai-help-you-reverse-engineer-binaries-5cc1) (dev.to) - Originally published at GeekCoding101.           Reverse Engineering Meets AI   
-- [Agent memory: the FTS5 trigger bug that silently killed every update](https://dev.to/mrpkk/agent-memory-the-fts5-trigger-bug-that-silently-killed-every-update-5ah2) (dev.to) - Your agent's memory is an archive until you can update it. Ours was an archive f
-- [A Read-Only WebMCP Tool Erased My React Form State](https://dev.to/raju_dandigam/a-read-only-webmcp-tool-erased-my-react-form-state-5a2c) (dev.to) - The read path in Trip Workbench can erase a person’s unsaved purpose without sen
-- [The best Godot MCP server in 2026 depends on what you want the agent to touch](https://dev.to/orellanaed/the-best-godot-mcp-server-in-2026-depends-on-what-you-want-the-agent-to-touch-5aji) (dev.to) - The best Godot MCP server in 2026: Flockbay's to build and play-test a whole gam
+- [Bookmark It! STOP Shipping Broken Vibe Code: 10 Checks That Save Your App at 2 AM](https://dev.to/flisk/bookmark-it-stop-shipping-broken-vibe-code-10-checks-that-save-your-app-at-2-am-2ei6) (dev.to) - Your demo works. Great. Now try it on a different laptop.  That is where vibe-co
+- [We indexed 39,654 agent listings and put a free API on it](https://dev.to/orbitaldesk/we-indexed-39654-agent-listings-and-put-a-free-api-on-it-27j3) (dev.to) - We indexed 39,654 agent listings and put a free API on it   If you want to find 
+- [Affinity MCP vs code: why I make my thumbnails with a script](https://dev.to/argbetech/affinity-mcp-vs-code-why-i-make-my-thumbnails-with-a-script-2dom) (dev.to) - Failing is hard. Especially when the tutorial is already recorded.  I wanted to 
+- [How to give your coding agent ears with earshot (CPU-only MCP server)](https://dev.to/dedupedai/how-to-give-your-coding-agent-ears-with-earshot-cpu-only-mcp-server-4d87) (dev.to) - Install earshot, add it to Claude Code as an MCP server, and let your agent rank
+- [Endurecer servidores mcp stdio](https://dev.to/aws-builders/endurecer-servidores-mcp-stdio-2d7d) (dev.to) - Un servidor de MCP que usa el transporte stdio es una línea de comandos que tu a
 
 ---
 
