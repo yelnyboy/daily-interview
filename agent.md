@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-25
+> 最后更新: 2026-10-26
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [The Best Prompt Rule Is the One You Delete: Moving AI Guardrails Out of Markdown and Into Git Locks, Linux insmod, and 15ms Compiler Auto-Fixes](https://dev.to/gde/the-best-prompt-rule-is-the-one-you-delete-moving-ai-guardrails-out-of-markdown-and-into-git-5a5h) (dev.to) - Every rule that stays in a prompt eventually bloats, blurs, or gets gamed by the
+- [I Hired a Sloth to Read My GitHub Inbox While I Sleep](https://dev.to/vignesh_one/i-hired-a-sloth-to-read-my-github-inbox-while-i-sleep-50lb) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
 - [Ledger: git blame for your thinking](https://dev.to/karthikbommineni/ledger-git-blame-for-your-thinking-1kmj) (dev.to) - Make sure your agent never forgets — and make sure you can still see why you cho
 - [When Should an AI Agent Stop?](https://dev.to/anshu_kumar_4a8413f8dfae1/when-should-an-ai-agent-stop-38po) (dev.to) - Designing a progress-aware execution controller for agentic systems.  Imagine as
 - [My AI Support Agent Crushed the Demo. Then Production Happened.](https://dev.to/msohailkhandev/my-ai-support-agent-crushed-the-demo-then-production-happened-3dfh) (dev.to) - Everyone shows the AI agent working. Nobody shows the week it fell apart.  I bui
-- [Inside VOICE-RAG: From Speech to Grounded Answers](https://dev.to/the_infernix/inside-voice-rag-from-speech-to-grounded-answers-1khn) (dev.to) - Pavan Ganesh Indupudi (Infernix) · Originally published at the-infernix.github.i
-- [RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them](https://dev.to/mech_app_ai/repopilot-how-an-aws-lambda-agent-scores-github-repos-before-you-clone-them-4k3k) (dev.to) - Lambda + Bedrock pipeline that scores repository risk in 60 seconds. Examining t
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [A 7-Day Kamchatka Trip Plan That Leaves a Day Empty on Purpose](https://dev.to/vedarai/a-7-day-kamchatka-trip-plan-that-leaves-a-day-empty-on-purpose-cke) (dev.to) - A 7-Day Kamchatka Trip Plan That Leaves a Day Empty on Purpose   How our AI trip
-- [A pre-flight checklist before domain continued pre-training](https://dev.to/conorbronsdon/a-pre-flight-checklist-before-domain-continued-pre-training-5afl) (dev.to) - Build evals first, track what can forget, and design rewards so scores cannot be
-- [How I made a 20B model code like a frontier one — by fixing the harness, not the model](https://dev.to/abhishek_kumar_cdf5aa9dcb/how-i-made-a-20b-model-code-like-a-frontier-one-by-fixing-the-harness-not-the-model-5g7c) (dev.to) - A coding agent is a model plus a harness. We spend all our attention on the mode
-- [Your Agent Found a Round-Trip Fare but No Flight Home](https://dev.to/vexaloom-labs/your-agent-found-a-round-trip-fare-but-no-flight-home-1l1f) (dev.to) - Keep round-trip prices separate from return-flight evidence so your travel agent
-- [Day 07/90:Taking RAG from Notebook to Production — Challenges and Research-Backed Solutions](https://dev.to/rimsha_kanwal/day-0790taking-rag-from-notebook-to-production-challenges-and-research-backed-solutions-3849) (dev.to) - A RAG application answers a question correctly in a notebook. Then it encounters
+- [Japan public APIs for agents: e-Stat, EDINET](https://dev.to/ikkun1222/japan-public-apis-for-agents-e-stat-edinet-4k2l) (dev.to) - The official Japanese data sources worth wiring into an agent: corporate numbers
+- [How AIClaw 3.7.19 Makes Generated Documents Easier to Open](https://dev.to/chowyu12/how-aiclaw-3719-makes-generated-documents-easier-to-open-22m9) (dev.to) - An agent can generate a useful report and still leave an awkward last step: find
+- [Conversation Management & Context Window](https://dev.to/ramya_perumal/conversation-management-context-window-3j01) (dev.to) - All models, including large models such as Claude Sonnet, can have a limited con
+- [Lets us Loop Engineer](https://dev.to/ninadg/lets-us-loop-engineer-63p) (dev.to) - Why the best engineers on agentic teams have stopped "prompting" and started des
+- [Two strangers' repos, deployed by agents, unaided](https://dev.to/sharpvik/two-strangers-repos-deployed-by-agents-unaided-2n98) (dev.to) - We handed two agents two repositories neither had ever seen and let them deploy,
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (13题)
+### 已积累题目 (14题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -176,14 +176,17 @@
 - [中级] **创建本地AI Agent**
   - 考点: 本地大模型部署, Ollama, LangChain框架
   - 摘要: 1. 模型选择与部署：创建本地AI Agent的第一步是选择并部署开源大模型（如Llama 3、Qwen等）。通常使用Ollama或vLLM等工具在本地运行模型，提供兼容OpenAI格式的API接口供...
+- [高级] **自我改进型智能体**
+  - 考点: 自我反思, 长期记忆, 提示词优化
+  - 摘要: 1. 核心概念：自我改进型智能体是一种能够根据过去的经验和环境反馈，自动调整自身行为、提示词或底层逻辑的智能体架构。2. 反思机制：通过引入自我反思步骤，智能体评估其先前动作的输出质量，识别错误或不足...
 
 ### 相关文章资源
 
+- [Give your AI agent a phone number that answers](https://dev.to/tolga_coskun_d0aa35a068f4/give-your-ai-agent-a-phone-number-that-answers-33ef) (dev.to) - Your agent can book, write and search. The moment a human wants to call the busi
+- [Slowth Money: a local AI agent for your financial goals](https://dev.to/javz/slowth-money-a-local-ai-agent-for-your-financial-goals-2ki2) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
+- [Planning: What Separates a Chatbot From an Autonomous Agent](https://dev.to/kami_butt_69b922ade8de012/planning-what-separates-a-chatbot-from-an-autonomous-agent-19ll) (dev.to) - A chatbot answers; an agent finishes — and the industry keeps blurring that line
+- [From Rules to Reasoning: How AI Evolved into Agents](https://dev.to/jyotshana_0905/from-rules-to-reasoning-how-ai-evolved-into-agents-1geb) (dev.to) - When I look at how artificial intelligence has developed, I see a journey from c
 - [AI agents were told my inputs were optional, then rejected for leaving them out 🤖](https://dev.to/timmkal01/ai-agents-were-told-my-inputs-were-optional-then-rejected-for-leaving-them-out-3el4) (dev.to) - One word in 29 config files: required. Every field it guarded already had a defa
-- [Give your AI agent web-data tools with Apify's MCP server (Python, no SDK, 2026)](https://dev.to/datawrightlabs/give-your-ai-agent-web-data-tools-with-apifys-mcp-server-python-no-sdk-2026-4lih) (dev.to) - Most AI agents can now talk to remote MCP servers. Apify runs one at https://mcp
-- [How to Integrate Deep Research into Your AI Agent](https://dev.to/valyuai/how-to-integrate-deep-research-into-your-ai-agent-2n82) (dev.to) - Day 23 of 30 Days of Search.           TL;DR   To integrate deep research into a
-- [[Agent Platform in Practice (5)] Building an AI Agent Quality Flywheel: Automated Benchmarking for LINE AI Business Card King wi](https://dev.to/gde/agent-platform-in-practice-5-building-an-ai-agent-quality-flywheel-automated-benchmarking-for-58m2) (dev.to) - Recap   In the first four articles of the "Agent Platform in Action" series, we 
-- [926 Steps, Two Lobotomies, and Zero Nudges: Flight-Testing the Commitment Machine Across Gemini, Claude, and GPT-OSS](https://dev.to/gde/926-steps-two-lobotomies-and-zero-nudges-flight-testing-the-commitment-machine-across-gemini-55ca) (dev.to) - A 2026 Harvard study of 718 companies found that AI agents write 30% more code a
 
 ---
 
@@ -201,11 +204,11 @@
 
 ### 相关文章资源
 
+- [Your agent isn't running out of context because of one big file](https://dev.to/techdevfun/your-agent-isnt-running-out-of-context-because-of-one-big-file-20bb) (dev.to) - Your agent isn't running out of context because of one big file. It is running o
 - [Bookmark It! STOP Shipping Broken Vibe Code: 10 Checks That Save Your App at 2 AM](https://dev.to/flisk/bookmark-it-stop-shipping-broken-vibe-code-10-checks-that-save-your-app-at-2-am-2ei6) (dev.to) - Your demo works. Great. Now try it on a different laptop.  That is where vibe-co
 - [We indexed 39,654 agent listings and put a free API on it](https://dev.to/orbitaldesk/we-indexed-39654-agent-listings-and-put-a-free-api-on-it-27j3) (dev.to) - We indexed 39,654 agent listings and put a free API on it   If you want to find 
 - [Affinity MCP vs code: why I make my thumbnails with a script](https://dev.to/argbetech/affinity-mcp-vs-code-why-i-make-my-thumbnails-with-a-script-2dom) (dev.to) - Failing is hard. Especially when the tutorial is already recorded.  I wanted to 
 - [How to give your coding agent ears with earshot (CPU-only MCP server)](https://dev.to/dedupedai/how-to-give-your-coding-agent-ears-with-earshot-cpu-only-mcp-server-4d87) (dev.to) - Install earshot, add it to Claude Code as an MCP server, and let your agent rank
-- [Endurecer servidores mcp stdio](https://dev.to/aws-builders/endurecer-servidores-mcp-stdio-2d7d) (dev.to) - Un servidor de MCP que usa el transporte stdio es una línea de comandos que tu a
 
 ---
 
