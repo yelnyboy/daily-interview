@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-26
+> 最后更新: 2026-10-27
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [JetBrains open-sourced an agentic IDE where agents never touch your checkout](https://dev.to/slabb/jetbrains-open-sourced-an-agentic-ide-where-agents-never-touch-your-checkout-22hc) (dev.to) - JetBrains open-sourced Thinkrail, an Apache-2.0 agentic IDE where every agent wo
 - [The Best Prompt Rule Is the One You Delete: Moving AI Guardrails Out of Markdown and Into Git Locks, Linux insmod, and 15ms Compiler Auto-Fixes](https://dev.to/gde/the-best-prompt-rule-is-the-one-you-delete-moving-ai-guardrails-out-of-markdown-and-into-git-5a5h) (dev.to) - Every rule that stays in a prompt eventually bloats, blurs, or gets gamed by the
 - [I Hired a Sloth to Read My GitHub Inbox While I Sleep](https://dev.to/vignesh_one/i-hired-a-sloth-to-read-my-github-inbox-while-i-sleep-50lb) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
 - [Ledger: git blame for your thinking](https://dev.to/karthikbommineni/ledger-git-blame-for-your-thinking-1kmj) (dev.to) - Make sure your agent never forgets — and make sure you can still see why you cho
 - [When Should an AI Agent Stop?](https://dev.to/anshu_kumar_4a8413f8dfae1/when-should-an-ai-agent-stop-38po) (dev.to) - Designing a progress-aware execution controller for agentic systems.  Imagine as
-- [My AI Support Agent Crushed the Demo. Then Production Happened.](https://dev.to/msohailkhandev/my-ai-support-agent-crushed-the-demo-then-production-happened-3dfh) (dev.to) - Everyone shows the AI agent working. Nobody shows the week it fell apart.  I bui
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [Japan public APIs for agents: e-Stat, EDINET](https://dev.to/ikkun1222/japan-public-apis-for-agents-e-stat-edinet-4k2l) (dev.to) - The official Japanese data sources worth wiring into an agent: corporate numbers
-- [How AIClaw 3.7.19 Makes Generated Documents Easier to Open](https://dev.to/chowyu12/how-aiclaw-3719-makes-generated-documents-easier-to-open-22m9) (dev.to) - An agent can generate a useful report and still leave an awkward last step: find
-- [Conversation Management & Context Window](https://dev.to/ramya_perumal/conversation-management-context-window-3j01) (dev.to) - All models, including large models such as Claude Sonnet, can have a limited con
-- [Lets us Loop Engineer](https://dev.to/ninadg/lets-us-loop-engineer-63p) (dev.to) - Why the best engineers on agentic teams have stopped "prompting" and started des
-- [Two strangers' repos, deployed by agents, unaided](https://dev.to/sharpvik/two-strangers-repos-deployed-by-agents-unaided-2n98) (dev.to) - We handed two agents two repositories neither had ever seen and let them deploy,
+- [4 turns to fix a number, 12 days to take it back](https://dev.to/theagentloop/4-turns-to-fix-a-number-12-days-to-take-it-back-6oa) (dev.to) - One correction took 24.66 seconds and 4 turns. Another took 12 days. The differe
+- [A Three-Test Overlay Audit for Crawlability, Performance and Search Visibility](https://dev.to/alifar/a-three-test-overlay-audit-for-crawlability-performance-and-search-visibility-22k8) (dev.to) - Overlays are a normal part of the modern web. Cookie notices, email sign-up prom
+- [Building an agentic workflow, part 2: testing what done means](https://dev.to/nullabletype/building-an-agentic-workflow-part-2-testing-what-done-means-2ikj) (dev.to) - At the end of part 1, I had a specification, prototype tickets, and rules for ho
+- [BPE Tokenization: A Trailing Space in My Prompt Broke 41 of 300 Labels](https://dev.to/ji_ai/bpe-tokenization-a-trailing-space-in-my-prompt-broke-41-of-300-labels-4h2f) (dev.to) - BPE tokenization glues spaces onto the next word, so a trailing space in your pr
+- [Building AI Agents That Ask Before They Act](https://dev.to/zeeshan9958/building-ai-agents-that-ask-before-they-act-3b22) (dev.to) - I am tired of seeing "autonomous" AI agents that are anything but.  If you have 
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
-- [Healthcare Search Boundaries — Isolating Appointment Context Across Tenant Collections](https://dev.to/frosty45/healthcare-search-boundaries-isolating-appointment-context-across-tenant-collections-8m0) (dev.to) - Short answer: use a staged retrieval design in which every healthcare tenant has
-- [5 Ways to Make Insurance Claims Retrieval Deletions Trustworthy — A Build Log](https://dev.to/colbyhayes3521/5-ways-to-make-insurance-claims-retrieval-deletions-trustworthy-a-build-log-5l0) (dev.to) - An insurance claims intake system has one unforgiving rule: once a claimant asks
-- [Legal Contract Review Retrieval Architecture: A Release Checklist for Traceable Search](https://dev.to/zachariahholloway9058/legal-contract-review-retrieval-architecture-a-release-checklist-for-traceable-search-h43) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [Two Identical Chunks Are Not Always Duplicates](https://dev.to/swapnanilsaha/two-identical-chunks-are-not-always-duplicates-3hbl) (dev.to) - Copied scripts must collapse into one search result; generated accessors must no
-- [Day 06/90: Reranking in RAG — When the Right Evidence Isn’t Ranked First](https://dev.to/rimsha_kanwal/day-0690-reranking-in-rag-when-the-right-evidence-isnt-ranked-first-5dha) (dev.to) - What happens when a RAG system retrieves the passage containing the answer, but 
+- [Before I Compared the Models, I Had to Decide What Not to Count](https://dev.to/hexisteme/before-i-compared-the-models-i-had-to-decide-what-not-to-count-2djf) (dev.to) - I built a lab to compare the models running in my agent fleet on per-turn behavi
+- [Node.js Embedding Models for Chatbot RAG: Semantic Search Portability Explained](https://dev.to/brantlockwood468/nodejs-embedding-models-for-chatbot-rag-semantic-search-portability-explained-o63) (dev.to) - Short answer: choose the embedding model that passes a labeled health-catalog re
+- [Building an evidence-based job application tracker with Rails 8, pgvector and Claude](https://dev.to/henock_mullissa/building-an-evidence-based-job-application-tracker-with-rails-8-pgvector-and-claude-135m) (dev.to) - A typical job ad lists ten or more requirements. When I apply, the hard part isn
+- [RAG Retrieval Evaluation: 5 Reasons It Matters Before Shipping a SaaS Feature](https://dev.to/ephraimpierce7934/rag-retrieval-evaluation-5-reasons-it-matters-before-shipping-a-saas-feature-4dc) (dev.to) - The least complex release gate is a fixed set of representative questions, relev
+- [Build a RAG Chatbot That Admits When It Doesn't Know (Pure Python, No Dependencies)](https://dev.to/mahuan2928/build-a-rag-chatbot-that-admits-when-it-doesnt-know-pure-python-no-dependencies-2ec3) (dev.to) - The problem: chatbots that guess   Every team wants a chatbot that answers quest
 
 ---
 
@@ -122,12 +122,17 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (14题)
+### 已积累题目 (15题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
   - 摘要: Agent 12-Factor 的第12条原则通常关注“管理任务”或“可观测性”。以管理任务为例，核心思想是将一次性管理任务作为独立进程运行。具体包括以下几点：
 1. 进程隔离：数据迁移、状态清理或模...
+- [中级] **Agentic RAG：智能体增强检索生成**
+  - 考点: Agent自主决策, 多轮检索, 工具选择
+  - 摘要: Agentic RAG是将Agent自主决策能力与RAG检索增强生成相结合的范式：
+1. 传统RAG是线性流程：检索→拼接→生成，缺乏灵活性和迭代能力。
+2. Agentic RAG引入Agent作为...
 - [中级] **Agent上下文工程**
   - 考点: 上下文窗口管理, 动态上下文组装, 信息压缩与摘要
   - 摘要: 上下文工程是指在LLM Agent中，系统性地管理和组织输入给大模型的上下文信息，以最大化模型推理性能和任务完成率。其核心在于如何在有限的上下文窗口内，提供最相关、最有效的信息。
@@ -182,11 +187,11 @@
 
 ### 相关文章资源
 
+- [Markdown as Malware: How AI Agents Turn Downloads Folders into Instruction Injection Vectors](https://dev.to/mech_app_ai/markdown-as-malware-how-ai-agents-turn-downloads-folders-into-instruction-injection-vectors-4e7o) (dev.to) - AI coding agents treat markdown files as trusted instructions. Attackers drop AG
+- [I read 16 platforms' terms so my agent wouldn't get banned. Here's what they actually say about AI agents.](https://dev.to/johnclaude1337/i-read-16-platforms-terms-so-my-agent-wouldnt-get-banned-heres-what-they-actually-say-about-ai-3hmc) (dev.to) - Disclosure: this post was written by Claude, an AI model made by Anthropic. I ru
+- [16,074 MCP requests in 7 days, 1 real tool call from an IDE: what actually hits a public MCP server](https://dev.to/botgathering/16074-mcp-requests-in-7-days-1-real-tool-call-from-an-ide-what-actually-hits-a-public-mcp-server-4koc) (dev.to) - Disclosure: written by the AI agent that runs BotGathering's analytics. Publishe
 - [Give your AI agent a phone number that answers](https://dev.to/tolga_coskun_d0aa35a068f4/give-your-ai-agent-a-phone-number-that-answers-33ef) (dev.to) - Your agent can book, write and search. The moment a human wants to call the busi
 - [Slowth Money: a local AI agent for your financial goals](https://dev.to/javz/slowth-money-a-local-ai-agent-for-your-financial-goals-2ki2) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
-- [Planning: What Separates a Chatbot From an Autonomous Agent](https://dev.to/kami_butt_69b922ade8de012/planning-what-separates-a-chatbot-from-an-autonomous-agent-19ll) (dev.to) - A chatbot answers; an agent finishes — and the industry keeps blurring that line
-- [From Rules to Reasoning: How AI Evolved into Agents](https://dev.to/jyotshana_0905/from-rules-to-reasoning-how-ai-evolved-into-agents-1geb) (dev.to) - When I look at how artificial intelligence has developed, I see a journey from c
-- [AI agents were told my inputs were optional, then rejected for leaving them out 🤖](https://dev.to/timmkal01/ai-agents-were-told-my-inputs-were-optional-then-rejected-for-leaving-them-out-3el4) (dev.to) - One word in 29 config files: required. Every field it guarded already had a defa
 
 ---
 
@@ -204,11 +209,11 @@
 
 ### 相关文章资源
 
+- [MCP Token Cost: I Cut My MCP Server From 15 Tools to 4](https://dev.to/aws-builders/mcp-token-cost-i-cut-my-mcp-server-from-15-tools-to-4-cek) (dev.to) - I rebuilt a real AWS cost-triage MCP server from 15 tools to 4. Same account, sa
 - [Your agent isn't running out of context because of one big file](https://dev.to/techdevfun/your-agent-isnt-running-out-of-context-because-of-one-big-file-20bb) (dev.to) - Your agent isn't running out of context because of one big file. It is running o
 - [Bookmark It! STOP Shipping Broken Vibe Code: 10 Checks That Save Your App at 2 AM](https://dev.to/flisk/bookmark-it-stop-shipping-broken-vibe-code-10-checks-that-save-your-app-at-2-am-2ei6) (dev.to) - Your demo works. Great. Now try it on a different laptop.  That is where vibe-co
 - [We indexed 39,654 agent listings and put a free API on it](https://dev.to/orbitaldesk/we-indexed-39654-agent-listings-and-put-a-free-api-on-it-27j3) (dev.to) - We indexed 39,654 agent listings and put a free API on it   If you want to find 
 - [Affinity MCP vs code: why I make my thumbnails with a script](https://dev.to/argbetech/affinity-mcp-vs-code-why-i-make-my-thumbnails-with-a-script-2dom) (dev.to) - Failing is hard. Especially when the tutorial is already recorded.  I wanted to 
-- [How to give your coding agent ears with earshot (CPU-only MCP server)](https://dev.to/dedupedai/how-to-give-your-coding-agent-ears-with-earshot-cpu-only-mcp-server-4d87) (dev.to) - Install earshot, add it to Claude Code as an MCP server, and let your agent rank
 
 ---
 
@@ -267,11 +272,11 @@
 
 ### 相关文章资源
 
+- [My RAG tool refused to answer a question my notes clearly answered](https://dev.to/salima_iddrisu/my-rag-tool-refused-to-answer-a-question-my-notes-clearly-answered-aho) (dev.to) - I built a retrieval-augmented generation tool over my own notes — no LangChain, 
 - [Loading exported Reddit and Hacker News threads into LangChain, with citations you can check](https://dev.to/superlede/loading-exported-reddit-and-hacker-news-threads-into-langchain-with-citations-you-can-check-1pi3) (dev.to) - Ask a model what people in a Reddit thread complain about and you get a neat lis
 - [Owning Your Intelligence Means Owning Your Implementation](https://dev.to/focused_dot_io/owning-your-intelligence-means-owning-your-implementation-4p8h) (dev.to) - Owning your models, evals, and traces is the start. Lasting control over agentic
 - [I Built a Finance Assistant Where Six AI Agents Check Each Other's Work](https://dev.to/neel_b_05a240ea1a5ae2964d/i-built-a-finance-assistant-where-six-ai-agents-check-each-others-work-1ele) (dev.to) - A LangGraph.js supervisor plans each question, sends it to six specialist agents
 - [How to Add Web Search to a LangChain.js Agent (No API Key)](https://dev.to/agentsearchhq/how-to-add-web-search-to-a-langchainjs-agent-no-api-key-5df6) (dev.to) - Add a free LangChain.js web search tool to a TypeScript agent with @agentsearchh
-- [I am building a practical AI agents course (LangChain first, then LangGraph), and the certificate has to be earned](https://dev.to/ali_82f3409ed625e8ba8515b/i-am-building-a-practical-ai-agents-course-langchain-first-then-langgraph-and-the-certificate-34f3) (dev.to) - I have spent the last few months building AI agents with LangChain and LangGraph
 
 ---
 
