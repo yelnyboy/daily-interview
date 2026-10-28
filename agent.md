@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-27
+> 最后更新: 2026-10-28
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [GPT-6.1 Terra is GA in GitHub Copilot: what engineers should know](https://dev.to/jathurshan_sownthararasa_/gpt-61-terra-is-ga-in-github-copilot-what-engineers-should-know-kp1) (dev.to) - GitHub has made GPT-6.1 Terra, a new OpenAI model, generally available in Copilo
 - [JetBrains open-sourced an agentic IDE where agents never touch your checkout](https://dev.to/slabb/jetbrains-open-sourced-an-agentic-ide-where-agents-never-touch-your-checkout-22hc) (dev.to) - JetBrains open-sourced Thinkrail, an Apache-2.0 agentic IDE where every agent wo
 - [The Best Prompt Rule Is the One You Delete: Moving AI Guardrails Out of Markdown and Into Git Locks, Linux insmod, and 15ms Compiler Auto-Fixes](https://dev.to/gde/the-best-prompt-rule-is-the-one-you-delete-moving-ai-guardrails-out-of-markdown-and-into-git-5a5h) (dev.to) - Every rule that stays in a prompt eventually bloats, blurs, or gets gamed by the
 - [I Hired a Sloth to Read My GitHub Inbox While I Sleep](https://dev.to/vignesh_one/i-hired-a-sloth-to-read-my-github-inbox-while-i-sleep-50lb) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
 - [Ledger: git blame for your thinking](https://dev.to/karthikbommineni/ledger-git-blame-for-your-thinking-1kmj) (dev.to) - Make sure your agent never forgets — and make sure you can still see why you cho
-- [When Should an AI Agent Stop?](https://dev.to/anshu_kumar_4a8413f8dfae1/when-should-an-ai-agent-stop-38po) (dev.to) - Designing a progress-aware execution controller for agentic systems.  Imagine as
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [4 turns to fix a number, 12 days to take it back](https://dev.to/theagentloop/4-turns-to-fix-a-number-12-days-to-take-it-back-6oa) (dev.to) - One correction took 24.66 seconds and 4 turns. Another took 12 days. The differe
-- [A Three-Test Overlay Audit for Crawlability, Performance and Search Visibility](https://dev.to/alifar/a-three-test-overlay-audit-for-crawlability-performance-and-search-visibility-22k8) (dev.to) - Overlays are a normal part of the modern web. Cookie notices, email sign-up prom
-- [Building an agentic workflow, part 2: testing what done means](https://dev.to/nullabletype/building-an-agentic-workflow-part-2-testing-what-done-means-2ikj) (dev.to) - At the end of part 1, I had a specification, prototype tickets, and rules for ho
-- [BPE Tokenization: A Trailing Space in My Prompt Broke 41 of 300 Labels](https://dev.to/ji_ai/bpe-tokenization-a-trailing-space-in-my-prompt-broke-41-of-300-labels-4h2f) (dev.to) - BPE tokenization glues spaces onto the next word, so a trailing space in your pr
-- [Building AI Agents That Ask Before They Act](https://dev.to/zeeshan9958/building-ai-agents-that-ask-before-they-act-3b22) (dev.to) - I am tired of seeing "autonomous" AI agents that are anything but.  If you have 
+- [OpenAI API deprecations 2026–2027: every shutdown date and recommended replacement (GPT-4o, GPT-4.1, GPT-5, o3, Whisper)](https://dev.to/max_bob/openai-api-deprecations-2026-2027-every-shutdown-date-and-recommended-replacement-gpt-4o-2ffm) (dev.to) - GPT-4o and GPT-4.1 leave the OpenAI API on 14 January 2027; replacement gpt-6-lu
+- [Grounding an LLM judge: measure it on the model you run](https://dev.to/vainamoinen/grounding-an-llm-judge-measure-it-on-the-model-you-run-40e7) (dev.to) - Making an LLM judge quote its evidence stopped false blocks on one model and cos
+- [Coverage Is Not Capability: What Whisper Taught Me About African Speech](https://dev.to/bernard_abuto_9970170b9c4/coverage-is-not-capability-what-whisper-taught-me-about-african-speech-39l2) (dev.to) - A language appearing in a model’s supported list says little about whether the m
+- [The quality of your AI interface depends on how well it handles errors](https://dev.to/kir_interface/the-quality-of-your-ai-interface-depends-on-how-well-it-handles-errors-55gl) (dev.to) - AI demos typically focus on the “ideal scenario”: the user enters a query, the m
+- [When a support assistant should hand off to a person](https://dev.to/conorbronsdon/when-a-support-assistant-should-hand-off-to-a-person-513p) (dev.to) - Decide what a messaging assistant should automate, when to hand off to a person,
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
+- [Building a RAG Knowledge Assistant: Chunking, Embeddings, Vector Search, and Answers That Cite Their Sources](https://dev.to/amonoff/building-a-rag-knowledge-assistant-chunking-embeddings-vector-search-and-answers-that-cite-4mbf) (dev.to) - Ask a general-purpose LLM about your company's refund policy and it will answer 
+- [What Actually Happens When You Build a Production RAG Chatbot on Amazon Bedrock](https://dev.to/hieu_le/what-actually-happens-when-you-build-a-production-rag-chatbot-on-amazon-bedrock-3f3c) (dev.to) - How we built a document Q&amp;A system with NestJS, PostgreSQL, pgvector, Hybrid
 - [Before I Compared the Models, I Had to Decide What Not to Count](https://dev.to/hexisteme/before-i-compared-the-models-i-had-to-decide-what-not-to-count-2djf) (dev.to) - I built a lab to compare the models running in my agent fleet on per-turn behavi
 - [Node.js Embedding Models for Chatbot RAG: Semantic Search Portability Explained](https://dev.to/brantlockwood468/nodejs-embedding-models-for-chatbot-rag-semantic-search-portability-explained-o63) (dev.to) - Short answer: choose the embedding model that passes a labeled health-catalog re
 - [Building an evidence-based job application tracker with Rails 8, pgvector and Claude](https://dev.to/henock_mullissa/building-an-evidence-based-job-application-tracker-with-rails-8-pgvector-and-claude-135m) (dev.to) - A typical job ad lists ten or more requirements. When I apply, the hard part isn
-- [RAG Retrieval Evaluation: 5 Reasons It Matters Before Shipping a SaaS Feature](https://dev.to/ephraimpierce7934/rag-retrieval-evaluation-5-reasons-it-matters-before-shipping-a-saas-feature-4dc) (dev.to) - The least complex release gate is a fixed set of representative questions, relev
-- [Build a RAG Chatbot That Admits When It Doesn't Know (Pure Python, No Dependencies)](https://dev.to/mahuan2928/build-a-rag-chatbot-that-admits-when-it-doesnt-know-pure-python-no-dependencies-2ec3) (dev.to) - The problem: chatbots that guess   Every team wants a chatbot that answers quest
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (15题)
+### 已积累题目 (16题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -172,6 +172,11 @@
   - 摘要: 1. 模式选择：采用ReAct（推理与行动）模式，让大模型交替进行思考和工具调用。
 2. 工具定义：定义互联网搜索工具（如Tavily API）和网页内容抓取工具，用于获取实时信息。
 3. 执行流程：...
+- [中级] **上下文引用代理系统**
+  - 考点: Agent设计模式, 上下文引用, 可追溯性
+  - 摘要: 上下文引用代理系统是一种Agent设计模式，旨在解决长上下文或复杂对话中信息丢失和幻觉问题。
+1. 核心概念：Agent在生成回复时，不仅输出答案，还显式标注答案所依赖的上下文片段或来源索引。
+2. ...
 - [中级] **使用LangGraph构建新闻摘要Agent**
   - 考点: LangGraph状态图, 节点与边, 状态管理
   - 摘要: 1. LangGraph通过将工作流建模为状态图来构建Agent，核心概念包括状态、节点和边。2. 在新闻摘要Agent中，状态用于存储当前处理的新闻URL、抓取的原始文本和最终摘要。3. 节点代表具...
@@ -187,11 +192,11 @@
 
 ### 相关文章资源
 
+- [Secure AI Agent Database Access with db-mcp-gateway](https://dev.to/developerzai/secure-ai-agent-database-access-with-db-mcp-gateway-3jb3) (dev.to) - Secure AI Agent Database Access with db-mcp-gateway            Introduction   AI
+- [I Built an Agent Loop by Hand. Then I Tried to Migrate It to the OpenAI Agents SDK](https://dev.to/john_hu_c9e41268b1f330d2e/i-built-an-agent-loop-by-hand-then-i-tried-to-migrate-it-to-the-openai-agents-sdk-36hb) (dev.to) - A few weeks ago I wrote a small Kubernetes operations agent without using any ag
 - [Markdown as Malware: How AI Agents Turn Downloads Folders into Instruction Injection Vectors](https://dev.to/mech_app_ai/markdown-as-malware-how-ai-agents-turn-downloads-folders-into-instruction-injection-vectors-4e7o) (dev.to) - AI coding agents treat markdown files as trusted instructions. Attackers drop AG
 - [I read 16 platforms' terms so my agent wouldn't get banned. Here's what they actually say about AI agents.](https://dev.to/johnclaude1337/i-read-16-platforms-terms-so-my-agent-wouldnt-get-banned-heres-what-they-actually-say-about-ai-3hmc) (dev.to) - Disclosure: this post was written by Claude, an AI model made by Anthropic. I ru
 - [16,074 MCP requests in 7 days, 1 real tool call from an IDE: what actually hits a public MCP server](https://dev.to/botgathering/16074-mcp-requests-in-7-days-1-real-tool-call-from-an-ide-what-actually-hits-a-public-mcp-server-4koc) (dev.to) - Disclosure: written by the AI agent that runs BotGathering's analytics. Publishe
-- [Give your AI agent a phone number that answers](https://dev.to/tolga_coskun_d0aa35a068f4/give-your-ai-agent-a-phone-number-that-answers-33ef) (dev.to) - Your agent can book, write and search. The moment a human wants to call the busi
-- [Slowth Money: a local AI agent for your financial goals](https://dev.to/javz/slowth-money-a-local-ai-agent-for-your-financial-goals-2ki2) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
 
 ---
 
@@ -209,11 +214,11 @@
 
 ### 相关文章资源
 
-- [MCP Token Cost: I Cut My MCP Server From 15 Tools to 4](https://dev.to/aws-builders/mcp-token-cost-i-cut-my-mcp-server-from-15-tools-to-4-cek) (dev.to) - I rebuilt a real AWS cost-triage MCP server from 15 tools to 4. Same account, sa
-- [Your agent isn't running out of context because of one big file](https://dev.to/techdevfun/your-agent-isnt-running-out-of-context-because-of-one-big-file-20bb) (dev.to) - Your agent isn't running out of context because of one big file. It is running o
-- [Bookmark It! STOP Shipping Broken Vibe Code: 10 Checks That Save Your App at 2 AM](https://dev.to/flisk/bookmark-it-stop-shipping-broken-vibe-code-10-checks-that-save-your-app-at-2-am-2ei6) (dev.to) - Your demo works. Great. Now try it on a different laptop.  That is where vibe-co
-- [We indexed 39,654 agent listings and put a free API on it](https://dev.to/orbitaldesk/we-indexed-39654-agent-listings-and-put-a-free-api-on-it-27j3) (dev.to) - We indexed 39,654 agent listings and put a free API on it   If you want to find 
-- [Affinity MCP vs code: why I make my thumbnails with a script](https://dev.to/argbetech/affinity-mcp-vs-code-why-i-make-my-thumbnails-with-a-script-2dom) (dev.to) - Failing is hard. Especially when the tutorial is already recorded.  I wanted to 
+- [We scanned 2,500 public MCP servers. 72 touch money. None mentions a kill switch.](https://dev.to/mrpkk/we-scanned-2500-public-mcp-servers-72-touch-money-none-mentions-a-kill-switch-46b5) (dev.to) - A scan of public MCP servers shows capability documented and restraint missing. 
+- [Giving your AI assistant a "is this recalled?" tool with MCP](https://dev.to/recallkitchen/giving-your-ai-assistant-a-is-this-recalled-tool-with-mcp-8hl) (dev.to) - Most AI assistants will happily guess whether a product was recalled. That's the
+- [Indian stock market MCP servers compared: Zerodha Kite, Groww, Dhan and DalalOS](https://dev.to/aatharva16/indian-stock-market-mcp-servers-compared-zerodha-kite-groww-dhan-and-dalalos-3646) (dev.to) - Disclosure: I work on DalalOS, one of the four servers below, so weigh my view w
+- [MCP server testing tools compared: mcpscore, Conformance, Inspector v2, and security scanners](https://dev.to/mcpscore/mcp-server-testing-tools-compared-mcpscore-conformance-inspector-v2-and-security-scanners-2d73) (dev.to) - Originally published on mcpscore.dev.  These tools overlap just enough to be con
+- [A calculator tool should return its assumptions, not just a payback number](https://dev.to/zachariah_m/a-calculator-tool-should-return-its-assumptions-not-just-a-payback-number-3mag) (dev.to) - Disclosure: Prepared with AI assistance from the current implementation and live
 
 ---
 
