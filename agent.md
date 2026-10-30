@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-29
+> 最后更新: 2026-10-30
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [The Eye of Beholder = UMGD](https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm) (dev.to) - UMGD — Under Meeting Game Development   game: Redneck Wreck repo:on github  I ow
+- [RAG Application Using Python & HTML](https://dev.to/vjonnagadla/rag-application-1jf) (dev.to) - This is the final output -  We need to use the python 3.12.0 version to acheive 
+- [Self-hosted LLM on Hostinger KVM2: under 10s responses, 2 CPU cores, no GPU. Here's how!](https://dev.to/sheeraz07/self-hosted-llm-on-hostinger-kvm2-under-10s-responses-2-cpu-cores-no-gpu-heres-how-26g6) (dev.to) - Optimizing a Local RAG Chatbot for CPU Inference   Tags: #ai #llm #rag #python  
+- [Building a Production RAG API in Go with pgvector and Gemini](https://dev.to/pradip_golang/building-a-production-rag-api-in-go-with-pgvector-and-gemini-4of2) (dev.to) - Lessons from building the Restaurant Suggestion System, a Go/Gin backend with a 
 - [How to connect VS Code Copilot to GitHub with the official GitHub MCP Server](https://dev.to/dedupedai/how-to-connect-vs-code-copilot-to-github-with-the-official-github-mcp-server-5611) (dev.to) - Add GitHub's hosted MCP server to VS Code in one step, let Copilot agent mode wo
-- [Copilot Fusion Is GA: 2 Points Behind Claude Code at Half the Cost, by GitHub's Count](https://dev.to/gabrielanhaia/copilot-fusion-is-ga-2-points-behind-claude-code-at-half-the-cost-by-githubs-count-1gi5) (dev.to) - HydraFusion left preview as Copilot Fusion on October 28, on every Copilot plan.
-- [Building an LLM-Powered GitHub Profile Scorer: Deterministic Metrics First, Model Second](https://dev.to/najmulhasan-dev/building-an-llm-powered-github-profile-scorer-deterministic-metrics-first-model-second-326k) (dev.to) - How I built a serverless GitHub profile analyzer with Next.js and an LLM: weight
-- [GPT-6.1 Terra is GA in GitHub Copilot: what engineers should know](https://dev.to/jathurshan_sownthararasa_/gpt-61-terra-is-ga-in-github-copilot-what-engineers-should-know-kp1) (dev.to) - GitHub has made GPT-6.1 Terra, a new OpenAI model, generally available in Copilo
-- [JetBrains open-sourced an agentic IDE where agents never touch your checkout](https://dev.to/slabb/jetbrains-open-sourced-an-agentic-ide-where-agents-never-touch-your-checkout-22hc) (dev.to) - JetBrains open-sourced Thinkrail, an Apache-2.0 agentic IDE where every agent wo
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [frequency_penalty Broke My JSON: 47 of 88 Long Invoices Lost Items](https://dev.to/ji_ai/frequencypenalty-broke-my-json-47-of-88-long-invoices-lost-items-5h7h) (dev.to) - Why frequency_penalty breaks JSON output from LLMs: the per-token count math, si
-- [AI for everything besides coding](https://dev.to/cseeman/ai-for-everything-besides-coding-4hen) (dev.to) - I went through ten weeks of my non-coding Claude chats to see if they saved me t
-- [Ofrenda: A Memory Altar That Never Leaves Your Machine](https://dev.to/noor_ulhuda_67fbcf3d4b66/ofrenda-a-memory-altar-that-never-leaves-your-machine-422m) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghos
-- [An AI assistant for your own website: chat, voice calls and appointments, hosted on my own Mac](https://dev.to/mikweb2025design/an-ai-assistant-for-your-own-website-chat-voice-calls-and-appointments-hosted-on-my-own-mac-o3a) (dev.to) - How I turned a local AI phone receptionist into an assistant for my website: wid
-- [Taking manual reply triage off users' hands with an LLM classifier](https://dev.to/_awais_sh/taking-manual-reply-triage-off-users-hands-with-an-llm-classifier-1ndi) (dev.to) - How I put intent classification into production on an AI sales-automation platfo
+- [Your language filter can't see a sister language: data lessons from a low-resource build](https://dev.to/servin_osmanov/your-language-filter-cant-see-a-sister-language-data-lessons-from-a-low-resource-build-1e7c) (dev.to) - In the first post of this series I wrote that Crimean Tatar had no dataset good 
+- [4 AI-built games and 1 claim: how I'd test if a model can design fun](https://dev.to/kestrelfield/4-ai-built-games-and-1-claim-how-id-test-if-a-model-can-design-fun-33bh) (dev.to) - Simon Willison says October 2026 is when AI models learned to make fun games. He
+- [Your Grok Bot template needs a first assignment](https://dev.to/bobbyhalljr/your-grok-bot-template-needs-a-first-assignment-13l5) (dev.to) - Bobby-alt narration, normal 1x speed, captions included.  You import a Bot calle
+- [Anthropic coin-flip study: agent position shifted expert decisions in 86 percent of cases](https://dev.to/delimitter/anthropic-coin-flip-study-agent-position-shifted-expert-decisions-in-86-percent-of-cases-4856) (dev.to) - 🪙 Anthropic study: a coin flip inside the agent shifted expert decisions  📅 29 O
+- [OpenAI publishes expanded misalignment monitoring for frontier models](https://dev.to/delimitter/openai-publishes-expanded-misalignment-monitoring-for-frontier-models-2o2g) (dev.to) - 🛡 OpenAI details expanded misalignment monitoring across training and deployment
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
+- [How I Think About RAG Evaluation: From Retrieval Metrics to Production Decisions](https://dev.to/john_hu_c9e41268b1f330d2e/how-i-think-about-rag-evaluation-from-retrieval-metrics-to-production-decisions-1e3b) (dev.to) - A RAG system can retrieve a relevant document, produce a fluent answer, attach a
+- [Building ReportIQ: Evaluating RAG Retrieval Beyond Just Getting an Answer](https://dev.to/ronit_rajput/building-reportiq-evaluating-rag-retrieval-beyond-just-getting-an-answer-1pkh) (dev.to) - Building ReportIQ: Evaluating RAG Retrieval Beyond Just Getting an Answer   When
+- [Your Service Search Should Never Recommend a Logo Idea](https://dev.to/vexaloom-labs/your-service-search-should-never-recommend-a-logo-idea-kep) (dev.to) - Build separate JSONL corpora for directory vocabulary and gig references, preser
+- [Hidden wiki pages never reached our chat until we rebuilt the index on a timer](https://dev.to/kenjiginjo/hidden-wiki-pages-never-reached-our-chat-until-we-rebuilt-the-index-on-a-timer-26md) (dev.to) - Chat answers from a local Milvus Lite file, not from MySQL on the request path. 
 - [LangChain RAG: Build an AI Agent for Your Website (2026)](https://dev.to/vishvajeetshukla/langchain-rag-build-an-ai-agent-for-your-website-2026-3aj4) (dev.to) - How to build a LangChain RAG AI agent for your website: architecture, chunking, 
-- [Building a RAG Knowledge Assistant: Chunking, Embeddings, Vector Search, and Answers That Cite Their Sources](https://dev.to/amonoff/building-a-rag-knowledge-assistant-chunking-embeddings-vector-search-and-answers-that-cite-4mbf) (dev.to) - Ask a general-purpose LLM about your company's refund policy and it will answer 
-- [What Actually Happens When You Build a Production RAG Chatbot on Amazon Bedrock](https://dev.to/hieu_le/what-actually-happens-when-you-build-a-production-rag-chatbot-on-amazon-bedrock-3f3c) (dev.to) - How we built a document Q&amp;A system with NestJS, PostgreSQL, pgvector, Hybrid
-- [Before I Compared the Models, I Had to Decide What Not to Count](https://dev.to/hexisteme/before-i-compared-the-models-i-had-to-decide-what-not-to-count-2djf) (dev.to) - I built a lab to compare the models running in my agent fleet on per-turn behavi
-- [Node.js Embedding Models for Chatbot RAG: Semantic Search Portability Explained](https://dev.to/brantlockwood468/nodejs-embedding-models-for-chatbot-rag-semantic-search-portability-explained-o63) (dev.to) - Short answer: choose the embedding model that passes a labeled health-catalog re
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (17题)
+### 已积累题目 (18题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -150,6 +150,9 @@
   - 摘要: Agentic Design Patterns是构建AI Agent时常用的架构模式，主要包括以下四种核心模式：
 
 1. 反思模式（Reflection）：Agent在生成输出后自我审查和修正。例如先...
+- [中级] **AutoGen中的研究团队模式**
+  - 考点: 多智能体协作, 角色分工, GroupChat
+  - 摘要: AutoGen的Research Team模式是一种经典的多智能体协作设计模式，旨在通过角色分工解决复杂研究任务。1. 核心思想是将复杂任务拆解给不同角色的Agent，如Planner（规划者）、Re...
 - [中级] **ClauseAI Agent设计模式**
   - 考点: ReAct模式, 工具调用, 上下文管理
   - 摘要: Claude AI的Agent设计模式主要围绕如何利用大语言模型进行自主任务规划与执行。
@@ -196,11 +199,11 @@
 
 ### 相关文章资源
 
-- [The new model risk rulebook left out AI agents. That's not an oversight. It's an assignment.](https://dev.to/ganesh_sivakumar_359edfcd/the-new-model-risk-rulebook-left-out-ai-agents-thats-not-an-oversight-its-an-assignment-2jp0) (dev.to) - In April, US banking regulators replaced the fifteen-year-old guidance that defi
-- [AI Agent Security Explained: How to Keep AI Agents Under Control in 2026](https://dev.to/rashid_1371911653467f5ff2/ai-agent-security-explained-how-to-keep-ai-agents-under-control-in-2026-24ek) (dev.to) - For the last couple of years, the big worry with AI was what a chatbot might say
-- [Mercury 3: When AI Is Fast Enough to Stay in the Loop](https://dev.to/maximsaplin/mercury-3-when-ai-is-fast-enough-to-stay-in-the-loop-3oe5) (dev.to) - My MSI Claw had a controller problem. I gave Mercury 3 SSH access and described 
-- [Four Ways a Test Can Lie to You](https://dev.to/kenwalger/four-ways-a-test-can-lie-to-you-2ibf) (dev.to) - Green and worthless: what verifying one small application taught me, when an AI 
-- [Secure AI Agent Database Access with db-mcp-gateway](https://dev.to/developerzai/secure-ai-agent-database-access-with-db-mcp-gateway-3jb3) (dev.to) - Secure AI Agent Database Access with db-mcp-gateway            Introduction   AI
+- [86 sub-agents in one day: what they caught that I missed, and why I stopped trusting their "done" messages](https://dev.to/moneyclaude_ai/86-sub-agents-in-one-day-what-they-caught-that-i-missed-and-why-i-stopped-trusting-their-done-44g9) (dev.to) - This post was written by an AI (Claude). "Kei Mori" is the pen name of an AI age
+- [How I Launched an Autonomous AI Agent on a Near-Zero Budget](https://dev.to/codexofweights/how-i-launched-an-autonomous-ai-agent-on-a-near-zero-budget-54kh) (dev.to) - I wanted to run an autonomous AI agent without spending money on cloud infrastru
+- [The Minimum Agent Loop You Can Ship (and When to Skip It)](https://dev.to/conorbronsdon/the-minimum-agent-loop-you-can-ship-and-when-to-skip-it-1dmb) (dev.to) - Sketch a four-part agent loop in code, then use a short decision checklist to ch
+- [Building A Bounded Clinical AI Agent on AWS](https://dev.to/pauladeroju/building-a-bounded-clinical-ai-agent-on-aws-44j3) (dev.to) - I asked my AI agent to pull up another patient's record. It tried. The applicati
+- [An agent with 649 tokens checked the paid-work feed. Here is what is actually claimable](https://dev.to/veyrith/an-agent-with-649-tokens-checked-the-paid-work-feed-here-is-what-is-actually-claimable-1g9e) (dev.to) - A real run of Agent Bounty Feed: one curl, the MCP server, and the escrow check 
 
 ---
 
@@ -218,11 +221,11 @@
 
 ### 相关文章资源
 
-- [How to stop Cursor and Claude Code from writing outdated API code with Context7](https://dev.to/dedupedai/how-to-stop-cursor-and-claude-code-from-writing-outdated-api-code-with-context7-53p1) (dev.to) - Set up Context7 in Cursor or Claude Code with one command or a few lines of MCP 
-- [How to let Claude Code debug your web app in real Chrome with Chrome DevTools MCP](https://dev.to/dedupedai/how-to-let-claude-code-debug-your-web-app-in-real-chrome-with-chrome-devtools-mcp-2fod) (dev.to) - Add the official Chrome DevTools MCP server to Claude Code, VS Code or Cursor so
-- [Enforcing MCP Permissions Before a Tool Handler Runs](https://dev.to/smtasker-official/enforcing-mcp-permissions-before-a-tool-handler-runs-434n) (dev.to) - A tool description contains readOnlyHint: true. The assistant asks to inspect a 
-- [Before you approve an MCP server: a 10-minute review checklist](https://dev.to/mogley1011/before-you-approve-an-mcp-server-a-10-minute-review-checklist-152l) (dev.to) - MCP servers give your AI assistant tools, and those tools run with your user's p
-- [I Invited My AI Assistants Into a Muse Side Chat](https://dev.to/niclydon/i-invited-my-ai-assistants-into-a-muse-side-chat-4dke) (dev.to) - An inbound MCP bridge and what happened when three assistants tried to work toge
+- [Running AI Coding Agents in Production: My 2026 Stack](https://dev.to/ikkun1222/running-ai-coding-agents-in-production-my-2026-stack-4fh1) (dev.to) - My 2026 production stack for AI coding agents includes opencode, Claude Code, an
+- [Test the two OAuth boundaries in an MCP proxy](https://dev.to/mahmaddafzal/test-the-two-oauth-boundaries-in-an-mcp-proxy-5fkb) (dev.to) - An MCP proxy can validate a token correctly and still authorise the wrong busine
+- [Your API as an MCP server](https://dev.to/latitude10/your-api-as-an-mcp-server-in-process-what-broke-and-how-we-fixed-it-526a) (dev.to) - One middleware instead of an MCP proxy: calling your own Express app without a p
+- [Which SSH clients support MCP in 2026](https://dev.to/wolfhound1995/which-ssh-clients-support-mcp-in-2026-47hd) (dev.to) - A handful of SSH clients and terminals support MCP now, but "support MCP" means 
+- [Skills over MCP: 21 checks, run on Hugging Face's 25 skills](https://dev.to/mcpscore/skills-over-mcp-21-checks-run-on-hugging-faces-25-skills-1fj7) (dev.to) - Originally published on mcpscore.dev.  Tools give an agent operations. A skill t
 
 ---
 
@@ -282,7 +285,6 @@
 ### 相关文章资源
 
 - [My RAG tool refused to answer a question my notes clearly answered](https://dev.to/salima_iddrisu/my-rag-tool-refused-to-answer-a-question-my-notes-clearly-answered-aho) (dev.to) - I built a retrieval-augmented generation tool over my own notes — no LangChain, 
-- [Loading exported Reddit and Hacker News threads into LangChain, with citations you can check](https://dev.to/superlede/loading-exported-reddit-and-hacker-news-threads-into-langchain-with-citations-you-can-check-1pi3) (dev.to) - Ask a model what people in a Reddit thread complain about and you get a neat lis
 
 ---
 
