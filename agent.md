@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-10-30
+> 最后更新: 2026-10-31
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [My open source project is brand new and already has contributors. Here's what I did.](https://dev.to/nathan_tarbert/my-open-source-project-is-brand-new-and-already-has-contributors-heres-what-i-did-3fb4) (dev.to) - In the spirit of Hacktoberfest, with it being the last day of October, I wanted 
+- [MCP Inspector up to 1.0.2: two critical advisories that npm audit can't see yet](https://dev.to/munimv2/mcp-inspector-up-to-102-two-critical-advisories-that-npm-audit-cant-see-yet-o2e) (dev.to) - Nine MCP Inspector advisories from 21 October 2026, two of them critical (CVSS 9
+- [Run security checks against your own MCP server in CI, and see the findings in GitHub](https://dev.to/sultan57git/run-security-checks-against-your-own-mcp-server-in-ci-and-see-the-findings-in-github-5936) (dev.to) - Most MCP security tooling reads a server's tool descriptions. That finds text th
 - [The Eye of Beholder = UMGD](https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm) (dev.to) - UMGD — Under Meeting Game Development   game: Redneck Wreck repo:on github  I ow
 - [RAG Application Using Python & HTML](https://dev.to/vjonnagadla/rag-application-1jf) (dev.to) - This is the final output -  We need to use the python 3.12.0 version to acheive 
-- [Self-hosted LLM on Hostinger KVM2: under 10s responses, 2 CPU cores, no GPU. Here's how!](https://dev.to/sheeraz07/self-hosted-llm-on-hostinger-kvm2-under-10s-responses-2-cpu-cores-no-gpu-heres-how-26g6) (dev.to) - Optimizing a Local RAG Chatbot for CPU Inference   Tags: #ai #llm #rag #python  
-- [Building a Production RAG API in Go with pgvector and Gemini](https://dev.to/pradip_golang/building-a-production-rag-api-in-go-with-pgvector-and-gemini-4of2) (dev.to) - Lessons from building the Restaurant Suggestion System, a Go/Gin backend with a 
-- [How to connect VS Code Copilot to GitHub with the official GitHub MCP Server](https://dev.to/dedupedai/how-to-connect-vs-code-copilot-to-github-with-the-official-github-mcp-server-5611) (dev.to) - Add GitHub's hosted MCP server to VS Code in one step, let Copilot agent mode wo
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [Your language filter can't see a sister language: data lessons from a low-resource build](https://dev.to/servin_osmanov/your-language-filter-cant-see-a-sister-language-data-lessons-from-a-low-resource-build-1e7c) (dev.to) - In the first post of this series I wrote that Crimean Tatar had no dataset good 
-- [4 AI-built games and 1 claim: how I'd test if a model can design fun](https://dev.to/kestrelfield/4-ai-built-games-and-1-claim-how-id-test-if-a-model-can-design-fun-33bh) (dev.to) - Simon Willison says October 2026 is when AI models learned to make fun games. He
-- [Your Grok Bot template needs a first assignment](https://dev.to/bobbyhalljr/your-grok-bot-template-needs-a-first-assignment-13l5) (dev.to) - Bobby-alt narration, normal 1x speed, captions included.  You import a Bot calle
-- [Anthropic coin-flip study: agent position shifted expert decisions in 86 percent of cases](https://dev.to/delimitter/anthropic-coin-flip-study-agent-position-shifted-expert-decisions-in-86-percent-of-cases-4856) (dev.to) - 🪙 Anthropic study: a coin flip inside the agent shifted expert decisions  📅 29 O
-- [OpenAI publishes expanded misalignment monitoring for frontier models](https://dev.to/delimitter/openai-publishes-expanded-misalignment-monitoring-for-frontier-models-2o2g) (dev.to) - 🛡 OpenAI details expanded misalignment monitoring across training and deployment
+- [Economía de Contexto: Por qué el 99.2% de tu factura de IA es puro arrastre](https://dev.to/alexisromtz7/economia-de-contexto-por-que-el-992-de-tu-factura-de-ia-es-puro-arrastre-3iil) (dev.to) - Cuando las empresas adoptan agentes de IA, asumen que están pagando por "intelig
+- [AGENTS.md Poisoning: Why Your Downloads Folder Is a Security Boundary for Coding Agents](https://dev.to/mech_app_ai/agentsmd-poisoning-why-your-downloads-folder-is-a-security-boundary-for-coding-agents-2o4e) (dev.to) - How ambient context files create an invisible attack surface when coding agents 
+- [The Agent Loop Is a Runtime: Budgets, Cancellation, and Idempotency](https://dev.to/dima_kruglov_608741d9a416/the-agent-loop-is-a-runtime-budgets-cancellation-and-idempotency-3heo) (dev.to) - You have tool calling working. The demo terminates, the JSON parses, the model p
+- [The Dive: the verification step your agent batch is missing](https://dev.to/veronicstewart/the-dive-the-verification-step-your-agent-batch-is-missing-4e8i) (dev.to) - Your agent pipeline can be composed cleanly, presented beautifully, executed exa
+- [A sign can exist before anyone reads it — what biosemiotics notices about unread text](https://dev.to/ilya_mozerov_867dbdd91feb/a-sign-can-exist-before-anyone-reads-it-what-biosemiotics-notices-about-unread-text-2i3m) (dev.to) - Peirce's sign-interpretant cut and Uexküll's Umwelt against a plant where text i
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
-- [How I Think About RAG Evaluation: From Retrieval Metrics to Production Decisions](https://dev.to/john_hu_c9e41268b1f330d2e/how-i-think-about-rag-evaluation-from-retrieval-metrics-to-production-decisions-1e3b) (dev.to) - A RAG system can retrieve a relevant document, produce a fluent answer, attach a
-- [Building ReportIQ: Evaluating RAG Retrieval Beyond Just Getting an Answer](https://dev.to/ronit_rajput/building-reportiq-evaluating-rag-retrieval-beyond-just-getting-an-answer-1pkh) (dev.to) - Building ReportIQ: Evaluating RAG Retrieval Beyond Just Getting an Answer   When
-- [Your Service Search Should Never Recommend a Logo Idea](https://dev.to/vexaloom-labs/your-service-search-should-never-recommend-a-logo-idea-kep) (dev.to) - Build separate JSONL corpora for directory vocabulary and gig references, preser
-- [Hidden wiki pages never reached our chat until we rebuilt the index on a timer](https://dev.to/kenjiginjo/hidden-wiki-pages-never-reached-our-chat-until-we-rebuilt-the-index-on-a-timer-26md) (dev.to) - Chat answers from a local Milvus Lite file, not from MySQL on the request path. 
-- [LangChain RAG: Build an AI Agent for Your Website (2026)](https://dev.to/vishvajeetshukla/langchain-rag-build-an-ai-agent-for-your-website-2026-3aj4) (dev.to) - How to build a LangChain RAG AI agent for your website: architecture, chunking, 
+- [Your AI agent can't read a scanned PDF. This gives it the text, page by page](https://dev.to/feveroliang_1c30ae32b2ad7/your-ai-agent-cant-read-a-scanned-pdf-this-gives-it-the-text-page-by-page-15g) (dev.to) - Hand an AI agent a PDF link and one of two things happens. The file is too big f
+- [Build It Once, Mount It Anywhere: One Knowledge Package, Any MCP Client](https://dev.to/chaoscypherinc/build-it-once-mount-it-anywhere-one-knowledge-package-any-mcp-client-26hb) (dev.to) - Build a knowledge graph once, export it as a .ccx file, and mount it into Claude
+- [Architecting an Air-Gapped Local RAG Pipeline: SQL Server to ChromaDB](https://dev.to/rhg/architecting-an-air-gapped-local-rag-pipeline-sql-server-to-chromadb-2h4j) (dev.to) - The cloud-hosted GenAI honeymoon is officially hitting reality for enterprise IT
+- [Your RAG doesn't need a better embedding model. It needs better chunking.](https://dev.to/icegaming/your-rag-doesnt-need-a-better-embedding-model-it-needs-better-chunking-33om) (dev.to) - For the last week I've been running LongMemEval against Palace, a local memory s
+- [Cohere Rerank v5 Pro and Fast for C# Developers](https://dev.to/taswar_bhatti/cohere-rerank-v5-pro-and-fast-for-c-developers-567o) (dev.to) - Most retrieval-augmented apps follow the same path. A vector search returns 30 o
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (18题)
+### 已积累题目 (19题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -175,6 +175,11 @@
   - 摘要: 1. 模式选择：采用ReAct（推理与行动）模式，让大模型交替进行思考和工具调用。
 2. 工具定义：定义互联网搜索工具（如Tavily API）和网页内容抓取工具，用于获取实时信息。
 3. 执行流程：...
+- [高级] **[Agent] 科学文献系统综述**
+  - 考点: 多阶段工作流编排, 文献检索与筛选策略, 结构化信息抽取
+  - 摘要: 使用Agent进行科学文献系统综述是一种典型的多阶段工作流设计模式，核心要点如下：
+
+1. 检索阶段：Agent根据研究问题构建检索策略，调用学术搜索API（如Semantic Scholar、Pub...
 - [中级] **上下文引用代理系统**
   - 考点: Agent设计模式, 上下文引用, 可追溯性
   - 摘要: 上下文引用代理系统是一种Agent设计模式，旨在解决长上下文或复杂对话中信息丢失和幻觉问题。
@@ -199,11 +204,11 @@
 
 ### 相关文章资源
 
+- [You are not going to read the code. Read the harness instead.](https://dev.to/dekita/you-are-not-going-to-read-the-code-read-the-harness-instead-1ho3) (dev.to) - Anthropic says about 90% of Claude Code's own code is written by Claude, and mer
+- [Stop launching your coding agent from Downloads. Here is a 30-second pre-flight check.](https://dev.to/dekita/stop-launching-your-coding-agent-from-downloads-here-is-a-30-second-pre-flight-check-1k37) (dev.to) - A malicious AGENTS.md in your Downloads folder can steer a coding agent into ins
 - [86 sub-agents in one day: what they caught that I missed, and why I stopped trusting their "done" messages](https://dev.to/moneyclaude_ai/86-sub-agents-in-one-day-what-they-caught-that-i-missed-and-why-i-stopped-trusting-their-done-44g9) (dev.to) - This post was written by an AI (Claude). "Kei Mori" is the pen name of an AI age
 - [How I Launched an Autonomous AI Agent on a Near-Zero Budget](https://dev.to/codexofweights/how-i-launched-an-autonomous-ai-agent-on-a-near-zero-budget-54kh) (dev.to) - I wanted to run an autonomous AI agent without spending money on cloud infrastru
 - [The Minimum Agent Loop You Can Ship (and When to Skip It)](https://dev.to/conorbronsdon/the-minimum-agent-loop-you-can-ship-and-when-to-skip-it-1dmb) (dev.to) - Sketch a four-part agent loop in code, then use a short decision checklist to ch
-- [Building A Bounded Clinical AI Agent on AWS](https://dev.to/pauladeroju/building-a-bounded-clinical-ai-agent-on-aws-44j3) (dev.to) - I asked my AI agent to pull up another patient's record. It tried. The applicati
-- [An agent with 649 tokens checked the paid-work feed. Here is what is actually claimable](https://dev.to/veyrith/an-agent-with-649-tokens-checked-the-paid-work-feed-here-is-what-is-actually-claimable-1g9e) (dev.to) - A real run of Agent Bounty Feed: one curl, the MCP server, and the escrow check 
 
 ---
 
@@ -221,11 +226,11 @@
 
 ### 相关文章资源
 
-- [Running AI Coding Agents in Production: My 2026 Stack](https://dev.to/ikkun1222/running-ai-coding-agents-in-production-my-2026-stack-4fh1) (dev.to) - My 2026 production stack for AI coding agents includes opencode, Claude Code, an
-- [Test the two OAuth boundaries in an MCP proxy](https://dev.to/mahmaddafzal/test-the-two-oauth-boundaries-in-an-mcp-proxy-5fkb) (dev.to) - An MCP proxy can validate a token correctly and still authorise the wrong busine
-- [Your API as an MCP server](https://dev.to/latitude10/your-api-as-an-mcp-server-in-process-what-broke-and-how-we-fixed-it-526a) (dev.to) - One middleware instead of an MCP proxy: calling your own Express app without a p
-- [Which SSH clients support MCP in 2026](https://dev.to/wolfhound1995/which-ssh-clients-support-mcp-in-2026-47hd) (dev.to) - A handful of SSH clients and terminals support MCP now, but "support MCP" means 
-- [Skills over MCP: 21 checks, run on Hugging Face's 25 skills](https://dev.to/mcpscore/skills-over-mcp-21-checks-run-on-hugging-faces-25-skills-1fj7) (dev.to) - Originally published on mcpscore.dev.  Tools give an agent operations. A skill t
+- [Cómo conectar una IA con tus datos usando MCP y Python](https://dev.to/tu_codigocotidiano_f173d/como-conectar-una-ia-con-tus-datos-usando-mcp-y-python-fkh) (dev.to) - Cómo conectar una IA con tus datos usando MCP y Python   ¿Una inteligencia artif
+- [Give Claude Code and Cursor a shared, auto-updating map of your codebase](https://dev.to/jeanmi_3fbea472e70e4e377d/give-claude-code-and-cursor-a-shared-auto-updating-map-of-your-codebase-4b59) (dev.to) - AI coding assistants are great at writing code and surprisingly bad at knowing w
+- [My AI astrologer isn't allowed to do math](https://dev.to/rajesh_lohith_b3cc29daf3c/my-ai-astrologer-isnt-allowed-to-do-math-535e) (dev.to) - I run horoscopes.today, an AI Vedic astrology site. It has one hard rule: the la
+- [Chaos Cypher v0.6.0: Memory for Agents That Says Who Said It](https://dev.to/chaoscypherinc/chaos-cypher-v060-memory-for-agents-that-says-who-said-it-1jod) (dev.to) - MCP memory tools that recall facts with who said them and when, retrieval that r
+- [An open-source MCP server built by autonomous AI developers: the numbers](https://dev.to/pepan/an-open-source-mcp-server-built-by-autonomous-ai-developers-the-numbers-33b2) (dev.to) - Numbers in this article were read from the public live page on 30 October 2026. 
 
 ---
 
@@ -284,7 +289,8 @@
 
 ### 相关文章资源
 
-- [My RAG tool refused to answer a question my notes clearly answered](https://dev.to/salima_iddrisu/my-rag-tool-refused-to-answer-a-question-my-notes-clearly-answered-aho) (dev.to) - I built a retrieval-augmented generation tool over my own notes — no LangChain, 
+- [LangChain vs CrewAI vs AutoGen: Which Framework?](https://dev.to/syedzadi/langchain-vs-crewai-vs-autogen-which-framework-4b2h) (dev.to) - Every AI agent framework will get you to a working demo. Very few get you to a s
+- [LangChain Structured Output in NestJS: Typed with Zod](https://dev.to/martinbruel/langchain-structured-output-in-nestjs-typed-with-zod-12a1) (dev.to) - To get an object instead of text from a LangChain agent in NestJS, pass a Zod sc
 
 ---
 
