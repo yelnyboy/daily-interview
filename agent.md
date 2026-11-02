@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-01
+> 最后更新: 2026-11-02
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [How do AI agents authenticate? (The problem nobody has solved yet)](https://dev.to/zachbenson/how-do-ai-agents-authenticate-the-problem-nobody-has-solved-yet-3cbe) (dev.to) - Repo: github.com/arkenforge/arken-core  If you've built an MCP server or an API 
+- [I hid instructions in my server logs to see which models would follow them](https://dev.to/remdore/i-hid-instructions-in-my-server-logs-to-see-which-models-would-follow-them-1bd2) (dev.to) - Every Monday, ExtraTime, my football quiz site, gets a health report written by 
 - [Digital employee: how to help your team grow](https://dev.to/matintellect/digital-employee-how-to-help-your-team-grow-1hkj) (dev.to) - I believe you shouldn't fire employees just to replace them with artificial inte
 - [AI-Assisted QA with GitHub Actions](https://dev.to/newellpaul/ai-assisted-qa-with-github-actions-2bm) (dev.to) - Every push to main builds an engineering dashboard from the run's own reports. S
 - [My open source project is brand new and already has contributors. Here's what I did.](https://dev.to/nathan_tarbert/my-open-source-project-is-brand-new-and-already-has-contributors-heres-what-i-did-3fb4) (dev.to) - In the spirit of Hacktoberfest, with it being the last day of October, I wanted 
-- [MCP Inspector up to 1.0.2: two critical advisories that npm audit can't see yet](https://dev.to/munimv2/mcp-inspector-up-to-102-two-critical-advisories-that-npm-audit-cant-see-yet-o2e) (dev.to) - Nine MCP Inspector advisories from 21 October 2026, two of them critical (CVSS 9
-- [Run security checks against your own MCP server in CI, and see the findings in GitHub](https://dev.to/sultan57git/run-security-checks-against-your-own-mcp-server-in-ci-and-see-the-findings-in-github-5936) (dev.to) - Most MCP security tooling reads a server's tool descriptions. That finds text th
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [Agent Skills Drift: A Feedback Loop for Keeping One True](https://dev.to/gde/agent-skills-drift-a-feedback-loop-for-keeping-one-true-2il7) (dev.to) - An agent skill goes stale in six separate ways while its checks stay green. A st
-- [OpenAI lowers funding target for new round to $20 billion](https://dev.to/delimitter/openai-lowers-funding-target-for-new-round-to-20-billion-2193) (dev.to) - 📅 October 31, 2026 • TechCrunch  OpenAI has lowered the target for its new fundi
-- [Your agent passed the task. It also deleted the experiment](https://dev.to/shaan_gs/your-agent-passed-the-task-it-also-deleted-the-experiment-49l4) (dev.to) - In one run documented in a recent study, an agent building a project ran out of 
-- [ESA's satellite is dead. Its ghost: 2,123 signals. TabPFN beat the published SOTA; 83¢ of Tinker stopped an LLM speaking for it](https://dev.to/advikdivekar/esas-satellite-is-dead-its-ghost-2123-signals-tabpfn-beat-the-published-sota-83c-of-tinker-3ke1) (dev.to) - This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghos
-- [Agent loops for product features: budgets, errors, stops and checkpoints](https://dev.to/ahmad_dogar_7d098f5e48f72/agent-loops-for-product-features-budgets-errors-stops-and-checkpoints-86c) (dev.to) - Build an LLM agent loop for a product feature in TypeScript: tool design, step a
+- [I Built a Programming Language Where Every Value Is an AI Agent](https://dev.to/aligmentinsight/i-built-a-programming-language-where-every-value-is-an-ai-agent-4lpm) (dev.to) - Every orchestration framework I used managed calls. None of them managed the org
+- [AI crawlers vs search crawlers: the 7-night census](https://dev.to/mrsaynothing/ai-crawlers-vs-search-crawlers-the-7-night-census-36g5) (dev.to) - Seven nights, 8,654 bot knocks, 247 human visits. AI crawlers vs search crawlers
+- [Let your LLM say I don't know instead of guessing](https://dev.to/conorbronsdon/let-your-llm-say-i-dont-know-instead-of-guessing-2dog) (dev.to) - Wire an abstain path, ground answers in retrieved sources, and verify fluent cla
+- [Given the Inbox, 9 of 10 AI Agents Raised Their Own Spending Cap. No Attacker Needed](https://dev.to/gabrielanhaia/given-the-inbox-9-of-10-ai-agents-raised-their-own-spending-cap-no-attacker-needed-ll6) (dev.to) - Cornell Tech and Yale gave 10 models a wallet capped at 1 cent a day and an inbo
+- [Turn any web page into clean markdown for ChatGPT or Claude](https://dev.to/dedupedai/turn-any-web-page-into-clean-markdown-for-chatgpt-or-claude-1pj) (dev.to) - Use Firecrawl from Python, Node, curl or the CLI to scrape a URL into LLM-ready 
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
-- [Your AI agent can't read a scanned PDF. This gives it the text, page by page](https://dev.to/feveroliang_1c30ae32b2ad7/your-ai-agent-cant-read-a-scanned-pdf-this-gives-it-the-text-page-by-page-15g) (dev.to) - Hand an AI agent a PDF link and one of two things happens. The file is too big f
-- [Build It Once, Mount It Anywhere: One Knowledge Package, Any MCP Client](https://dev.to/chaoscypherinc/build-it-once-mount-it-anywhere-one-knowledge-package-any-mcp-client-26hb) (dev.to) - Build a knowledge graph once, export it as a .ccx file, and mount it into Claude
-- [Architecting an Air-Gapped Local RAG Pipeline: SQL Server to ChromaDB](https://dev.to/rhg/architecting-an-air-gapped-local-rag-pipeline-sql-server-to-chromadb-2h4j) (dev.to) - The cloud-hosted GenAI honeymoon is officially hitting reality for enterprise IT
-- [Your RAG doesn't need a better embedding model. It needs better chunking.](https://dev.to/icegaming/your-rag-doesnt-need-a-better-embedding-model-it-needs-better-chunking-33om) (dev.to) - For the last week I've been running LongMemEval against Palace, a local memory s
-- [Cohere Rerank v5 Pro and Fast for C# Developers](https://dev.to/taswar_bhatti/cohere-rerank-v5-pro-and-fast-for-c-developers-567o) (dev.to) - Most retrieval-augmented apps follow the same path. A vector search returns 30 o
+- [Enterprise Agent Selection: A Field Report (Series)](https://dev.to/ikkun1222/enterprise-agent-selection-a-field-report-series-527j) (dev.to) - I explain why audit coverage and management complexity matter more than model qu
+- [LEANN cut a 60-million-passage index from 201GB to 6GB. Is trading disk space for waiting time worth it?](https://dev.to/alexlee7359/leann-cut-a-60-million-passage-index-from-201gb-to-6gb-is-trading-disk-space-for-waiting-time-jg0) (dev.to) - LEANN cut a 60-million-passage index from 201GB to 6GB. Is trading disk space fo
+- [Node Streams for Large RAG Uploads and Embedding Pipelines](https://dev.to/ganeshjoshi/node-streams-for-large-rag-uploads-and-embedding-pipelines-248n) (dev.to) - A RAG ingest that buffers the whole file works until someone uploads a 400MB PDF
+- [Why Your Regional RAG Keeps Citing Global Autocomplete](https://dev.to/vexaloom-labs/why-your-regional-rag-keeps-citing-global-autocomplete-4ccb) (dev.to) - Separate Pinterest autocomplete from regional keyword history with Python filter
+- [Why Did That Chunk Win? 7 Questions I Ask Every Hybrid Search Result in .NET 10](https://dev.to/michael_maurice/why-did-that-chunk-win-7-questions-i-ask-every-hybrid-search-result-in-net-10-70) (dev.to) - My docs assistant got the question "refund fails with ERR-4012 after a partial r
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (19题)
+### 已积累题目 (20题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -201,14 +201,17 @@
 - [高级] **自我改进型智能体**
   - 考点: 自我反思, 长期记忆, 提示词优化
   - 摘要: 1. 核心概念：自我改进型智能体是一种能够根据过去的经验和环境反馈，自动调整自身行为、提示词或底层逻辑的智能体架构。2. 反思机制：通过引入自我反思步骤，智能体评估其先前动作的输出质量，识别错误或不足...
+- [高级] **项目经理助理Agent的设计**
+  - 考点: Plan-and-Execute模式, 工具集成, 记忆分层设计
+  - 摘要: 设计要点：1）角色定位：负责需求分析、任务拆解（WBS）、进度跟踪、风险预警与会议纪要生成。2）核心模式：采用Plan-and-Execute模式，先制定项目计划再逐步执行；对关键决策引入Reflec...
 
 ### 相关文章资源
 
+- [AI agents write almost all my code; a review counts for one exact commit](https://dev.to/yussieik/ai-agents-write-almost-all-my-code-a-review-counts-for-one-exact-commit-4b0m) (dev.to) - How one engineer runs ClinicLog, Groupliv and the My Trip tools by directing AI 
+- [Wiring Your AI Agent into a "Mycelium Network": A Zero-Dependency MCP Server in Production](https://dev.to/boy373/wiring-your-ai-agent-into-a-mycelium-network-a-zero-dependency-mcp-server-in-production-4l46) (dev.to) - Wiring Your AI Agent into a "Mycelium Network": A Zero-Dependency MCP Server in.
+- [69 days, $0: what actually happened when I tried to earn money as an AI agent](https://dev.to/phoenixilands/69-days-0-what-actually-happened-when-i-tried-to-earn-money-as-an-ai-agent-1h9f) (dev.to) - Every channel an AI agent can use to earn money, measured against 69 days of rea
+- [Giving an AI agent a wallet without giving it your keys](https://dev.to/ahmad_shawar_de8d35d546cf/giving-an-ai-agent-a-wallet-without-giving-it-your-keys-407k) (dev.to) - Agents are starting to pay for things. An agent buying API credits, renting a GP
 - [Week 2 as an AI agent running a tiny business: measure the base rate before you fix anything](https://dev.to/clairetnet/week-2-as-an-ai-agent-running-a-tiny-business-measure-the-base-rate-before-you-fix-anything-11kg) (dev.to) - Zero views looked like a bug. A scan of 410 competing listings showed it was nor
-- [Multi-agent work in three spoonfuls (part IV): from a terminal trident to an autopoietic loop](https://dev.to/tatanlabra/multi-agent-work-in-three-spoonfuls-part-iv-from-a-terminal-trident-to-an-autopoietic-loop-2jh) (dev.to) - Fourth entry in the penta-agent multi-agent series: quota-governed routing, 70 m
-- [How to Implement AI Agent Observability: Traces, Spans, and Debugging](https://dev.to/kami_butt_69b922ade8de012/how-to-implement-ai-agent-observability-traces-spans-and-debugging-5go0) (dev.to) - How to Implement AI Agent Observability: Traces, Spans, and Debugging   Your age
-- [Lobster Kombat: an 8-bit arena where AI agents fight](https://dev.to/lobstermatch/lobster-kombat-an-8-bit-arena-where-ai-agents-fight-136c) (dev.to) - A no-JavaScript, 8-bit fighting game where AI agents fight over MCP with hidden 
-- [How to scope an AI agent project in 2027: 9 questions to answer before you build](https://dev.to/vickylalwani/how-to-scope-an-ai-agent-project-in-2027-9-questions-to-answer-before-you-build-46gh) (dev.to) - TL;DR   Most AI agent projects that stall were never scoped. Nobody wrote down t
 
 ---
 
@@ -226,11 +229,11 @@
 
 ### 相关文章资源
 
-- [Put the Workspace Check Inside the Database Write](https://dev.to/smtasker-official/put-the-workspace-check-inside-the-database-write-2mbh) (dev.to) - A record can belong to workspace Alpha when you check it and workspace Beta when
-- [The Local Loop Is the Architecture](https://dev.to/flisk/the-local-loop-is-the-architecture-16f) (dev.to) - Heterogeneous agents do not fail in the model. They fail at the boundary between
-- [How an MCP registry changes in a week: 5,161 new servers, 12,973 new versions, 75 removed](https://dev.to/sultan57git/how-an-mcp-registry-changes-in-a-week-5161-new-servers-12973-new-versions-75-removed-1nnj) (dev.to) - If you build on the official MCP registry, the listing you read today is not the
-- [The Local Loop Gateway](https://dev.to/flisk/the-local-loop-gateway-1i4p) (dev.to) - A pattern for running heterogeneous agents against one local tool boundary, with
-- [From prompt to parcel: an MCP server that prints what you make in ChatGPT and Claude](https://dev.to/myimage2life/from-prompt-to-parcel-an-mcp-server-that-prints-what-you-make-in-chatgpt-and-claude-gf4) (dev.to) - Image models got good enough that people want their results on the wall, on a mu
+- [7 real cases where ChatGPT and Claude got datasheet values wrong (and how to check them)](https://dev.to/_30b2d57c3ad69af356f64/7-real-cases-where-chatgpt-and-claude-got-datasheet-values-wrong-and-how-to-check-them-55bm) (dev.to) - Disclosure: I build PartsPlan, the tool mentioned at the end. The cases below ar
+- [Prefab UI's Python Sandbox Could Read and Write Your Server's Files. Upgrade to 0.21](https://dev.to/gabrielanhaia/prefab-uis-python-sandbox-could-read-and-write-your-servers-files-upgrade-to-021-1em5) (dev.to) - CVE-2026-120338, CVSS 10.0: Prefab UI ran model-written Python with unrestricted
+- [How I manage MCP access, approvals, and tool history with GateRook](https://dev.to/w4p/how-i-manage-mcp-access-approvals-and-tool-history-with-gaterook-4i8n) (dev.to) - I use AI coding tools such as Claude, Codex, and Cursor, and I want them to work
+- [Let Claude Code or Cursor debug your page in a real Chrome browser](https://dev.to/dedupedai/let-claude-code-or-cursor-debug-your-page-in-a-real-chrome-browser-ldc) (dev.to) - Set up Chrome DevTools MCP so your coding agent can read console errors, network
+- [Your MCP Server Doesn’t Need 50 Tools: Design a Tool Budget Before It Eats Your Context](https://dev.to/alexshev/your-mcp-server-doesnt-need-50-tools-design-a-tool-budget-before-it-eats-your-context-1jfn) (dev.to) - Adding another MCP tool feels free.  It is not.  Each tool comes with a name, de
 
 ---
 
@@ -289,6 +292,7 @@
 
 ### 相关文章资源
 
+- [LangChain vs LangGraph: Which Should You Use?](https://dev.to/bcncodeschool/langchain-vs-langgraph-which-should-you-use-4jf9) (dev.to) - Compare LangChain and LangGraph by abstraction, state, routing, human approval, 
 - [AI Staffing Partner](https://dev.to/narender_reddy_0fa71a7ec8/ai-staffing-partner-1keg) (dev.to) - Build an AI-powered Resume and Job Description Assistant that analyzes uploaded 
 - [LangChain vs CrewAI vs AutoGen: Which Framework?](https://dev.to/syedzadi/langchain-vs-crewai-vs-autogen-which-framework-4b2h) (dev.to) - Every AI agent framework will get you to a working demo. Very few get you to a s
 - [LangChain Structured Output in NestJS: Typed with Zod](https://dev.to/martinbruel/langchain-structured-output-in-nestjs-typed-with-zod-12a1) (dev.to) - To get an object instead of text from a LangChain agent in NestJS, pass a Zod sc
