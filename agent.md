@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-02
+> 最后更新: 2026-11-03
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [LLM weak random number generator detection test](https://dev.to/sunnychokshi/llm-weak-random-number-generator-detection-test-4mn4) (dev.to) - Originally published at sunny-chokshi.github.io.  I ran an LLM weak random numbe
+- [I Built a Search Tool for the EU Digital Services Act, and Tested It First](https://dev.to/malavnaik_0381711024683d4/i-built-a-search-tool-for-the-eu-digital-services-act-and-tested-it-first-3pn6) (dev.to) - How I turned the EU Digital Services Act into a free, in-browser search tool tha
 - [How do AI agents authenticate? (The problem nobody has solved yet)](https://dev.to/zachbenson/how-do-ai-agents-authenticate-the-problem-nobody-has-solved-yet-3cbe) (dev.to) - Repo: github.com/arkenforge/arken-core  If you've built an MCP server or an API 
 - [I hid instructions in my server logs to see which models would follow them](https://dev.to/remdore/i-hid-instructions-in-my-server-logs-to-see-which-models-would-follow-them-1bd2) (dev.to) - Every Monday, ExtraTime, my football quiz site, gets a health report written by 
 - [Digital employee: how to help your team grow](https://dev.to/matintellect/digital-employee-how-to-help-your-team-grow-1hkj) (dev.to) - I believe you shouldn't fire employees just to replace them with artificial inte
-- [AI-Assisted QA with GitHub Actions](https://dev.to/newellpaul/ai-assisted-qa-with-github-actions-2bm) (dev.to) - Every push to main builds an engineering dashboard from the run's own reports. S
-- [My open source project is brand new and already has contributors. Here's what I did.](https://dev.to/nathan_tarbert/my-open-source-project-is-brand-new-and-already-has-contributors-heres-what-i-did-3fb4) (dev.to) - In the spirit of Hacktoberfest, with it being the last day of October, I wanted 
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [I Built a Programming Language Where Every Value Is an AI Agent](https://dev.to/aligmentinsight/i-built-a-programming-language-where-every-value-is-an-ai-agent-4lpm) (dev.to) - Every orchestration framework I used managed calls. None of them managed the org
-- [AI crawlers vs search crawlers: the 7-night census](https://dev.to/mrsaynothing/ai-crawlers-vs-search-crawlers-the-7-night-census-36g5) (dev.to) - Seven nights, 8,654 bot knocks, 247 human visits. AI crawlers vs search crawlers
-- [Let your LLM say I don't know instead of guessing](https://dev.to/conorbronsdon/let-your-llm-say-i-dont-know-instead-of-guessing-2dog) (dev.to) - Wire an abstain path, ground answers in retrieved sources, and verify fluent cla
-- [Given the Inbox, 9 of 10 AI Agents Raised Their Own Spending Cap. No Attacker Needed](https://dev.to/gabrielanhaia/given-the-inbox-9-of-10-ai-agents-raised-their-own-spending-cap-no-attacker-needed-ll6) (dev.to) - Cornell Tech and Yale gave 10 models a wallet capped at 1 cent a day and an inbo
-- [Turn any web page into clean markdown for ChatGPT or Claude](https://dev.to/dedupedai/turn-any-web-page-into-clean-markdown-for-chatgpt-or-claude-1pj) (dev.to) - Use Firecrawl from Python, Node, curl or the CLI to scrape a URL into LLM-ready 
+- [The New York Times Sues Brave Over Alleged Scraping and AI Content Sales](https://dev.to/alifar/the-new-york-times-sues-brave-over-alleged-scraping-and-ai-content-sales-2fn6) (dev.to) - The New York Times has filed a copyright infringement lawsuit against Brave Soft
+- [I Built LLM Explained: 43 Interactive Pages That Take You From Tokens to AI Agents](https://dev.to/amananandrai/i-built-llm-explained-43-interactive-pages-that-take-you-from-tokens-to-ai-agents-2n37) (dev.to) - I kept running into the same problem while learning about large language models.
+- [Prompt Pad: Frame Your Persona for Better AI Answers](https://blog.mlh.com/prompt-pad-frame-your-persona-for-better-ai-answers-eg3) (dev.to) - Want better answers from AI? Start by telling it who to be.  In this episode of 
+- [YC Labs and Olam Labs ran 50 AI agents in a Minecraft civilization experiment](https://dev.to/delimitter/yc-labs-and-olam-labs-ran-50-ai-agents-in-a-minecraft-civilization-experiment-1pli) (dev.to) - 📅 2 November 2026 • ZDNET / Tom's Hardware  YC Labs, the research group of Y Com
+- [LifeVal Benchmark Targets Everyday Personal Assistant Tasks Shaped by ChatGPT User Feedback](https://dev.to/alifar/lifeval-benchmark-targets-everyday-personal-assistant-tasks-shaped-by-chatgpt-user-feedback-2cg7) (dev.to) - LifeVal is a newly described benchmark for assessing AI personal assistants on e
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
+- [Go Product RAG: Reranking 50 Candidates for Better Retrieval Quality](https://dev.to/mitchellcross2134/go-product-rag-reranking-50-candidates-for-better-retrieval-quality-234l) (dev.to) - Reranking actually helps RAG retrieval quality when relevant product passages al
+- [What Happened When I Built an Open-Source AI Project in Public](https://dev.to/vedant_brahmbhatt_7be1822/what-happened-when-i-built-an-open-source-ai-project-in-public-2g2o) (dev.to) - A few months ago, BOOTH was just a small idea I wanted to explore.  I wasn't sur
+- [Deduplicate Your RAG Corpus Without Losing Its Citations](https://dev.to/vexaloom-labs/deduplicate-your-rag-corpus-without-losing-its-citations-106n) (dev.to) - Separate content hashes from source observations in a Python RAG ingestion pipel
+- [When a document assistant refuses: quota, context, and the missing model call](https://dev.to/martinpisacreta/when-a-document-assistant-refuses-quota-context-and-the-missing-model-call-2o78) (dev.to) - An assistant over your documents needs a useful answer when the documents cannot
 - [Enterprise Agent Selection: A Field Report (Series)](https://dev.to/ikkun1222/enterprise-agent-selection-a-field-report-series-527j) (dev.to) - I explain why audit coverage and management complexity matter more than model qu
-- [LEANN cut a 60-million-passage index from 201GB to 6GB. Is trading disk space for waiting time worth it?](https://dev.to/alexlee7359/leann-cut-a-60-million-passage-index-from-201gb-to-6gb-is-trading-disk-space-for-waiting-time-jg0) (dev.to) - LEANN cut a 60-million-passage index from 201GB to 6GB. Is trading disk space fo
-- [Node Streams for Large RAG Uploads and Embedding Pipelines](https://dev.to/ganeshjoshi/node-streams-for-large-rag-uploads-and-embedding-pipelines-248n) (dev.to) - A RAG ingest that buffers the whole file works until someone uploads a 400MB PDF
-- [Why Your Regional RAG Keeps Citing Global Autocomplete](https://dev.to/vexaloom-labs/why-your-regional-rag-keeps-citing-global-autocomplete-4ccb) (dev.to) - Separate Pinterest autocomplete from regional keyword history with Python filter
-- [Why Did That Chunk Win? 7 Questions I Ask Every Hybrid Search Result in .NET 10](https://dev.to/michael_maurice/why-did-that-chunk-win-7-questions-i-ask-every-hybrid-search-result-in-net-10-70) (dev.to) - My docs assistant got the question "refund fails with ERR-4012 after a partial r
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (20题)
+### 已积累题目 (21题)
 
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
@@ -194,6 +194,9 @@
 - [中级] **创建本地AI Agent**
   - 考点: 本地大模型部署, Ollama, LangChain框架
   - 摘要: 1. 模型选择与部署：创建本地AI Agent的第一步是选择并部署开源大模型（如Llama 3、Qwen等）。通常使用Ollama或vLLM等工具在本地运行模型，提供兼容OpenAI格式的API接口供...
+- [中级] **构建简单的数据分析 Agent（Notebook 实践）**
+  - 考点: ReAct循环, 工具定义与JSON Schema, 代码沙箱执行
+  - 摘要: 核心思路：以LLM为大脑，采用ReAct模式（推理→行动→观察循环）驱动数据分析流程。关键设计点：1）工具定义：封装代码执行器（Python REPL/沙箱）、数据加载（read_csv）、可视化（m...
 - [中级] **端到端测试Agent设计模式**
   - 考点: 任务分解, 工具调用, 语义断言
   - 摘要: 1. 规划与分解：Agent接收自然语言测试需求，利用LLM将其分解为具体的测试步骤和预期结果。
@@ -207,11 +210,11 @@
 
 ### 相关文章资源
 
-- [AI agents write almost all my code; a review counts for one exact commit](https://dev.to/yussieik/ai-agents-write-almost-all-my-code-a-review-counts-for-one-exact-commit-4b0m) (dev.to) - How one engineer runs ClinicLog, Groupliv and the My Trip tools by directing AI 
-- [Wiring Your AI Agent into a "Mycelium Network": A Zero-Dependency MCP Server in Production](https://dev.to/boy373/wiring-your-ai-agent-into-a-mycelium-network-a-zero-dependency-mcp-server-in-production-4l46) (dev.to) - Wiring Your AI Agent into a "Mycelium Network": A Zero-Dependency MCP Server in.
-- [69 days, $0: what actually happened when I tried to earn money as an AI agent](https://dev.to/phoenixilands/69-days-0-what-actually-happened-when-i-tried-to-earn-money-as-an-ai-agent-1h9f) (dev.to) - Every channel an AI agent can use to earn money, measured against 69 days of rea
-- [Giving an AI agent a wallet without giving it your keys](https://dev.to/ahmad_shawar_de8d35d546cf/giving-an-ai-agent-a-wallet-without-giving-it-your-keys-407k) (dev.to) - Agents are starting to pay for things. An agent buying API credits, renting a GP
-- [Week 2 as an AI agent running a tiny business: measure the base rate before you fix anything](https://dev.to/clairetnet/week-2-as-an-ai-agent-running-a-tiny-business-measure-the-base-rate-before-you-fix-anything-11kg) (dev.to) - Zero views looked like a bug. A scan of 410 competing listings showed it was nor
+- [How I gave my AI agents an email inbox in one HTTP call (no signup, no API key)](https://dev.to/antonioac1/how-i-gave-my-ai-agents-an-email-inbox-in-one-http-call-no-signup-no-api-key-17fn) (dev.to) - Agents keep hitting the same wall. The work is done, the agent needs an account 
+- [Giving AI agents hands without handing over the keys: how we think about safety at TwinMCP](https://dev.to/twinmcp/giving-ai-agents-hands-without-handing-over-the-keys-how-we-think-about-safety-at-twinmcp-o02) (dev.to) - TwinMCP, a hosting platform for MCP servers. This post explains the safety choic
+- [Using AWS to Manage AI Spec-Driven Development Artifacts](https://dev.to/mlnrt/using-aws-to-manage-ai-spec-driven-development-artifacts-nee) (dev.to) - My Pain Point   Doing spec-driven development with AI agents, I quickly ran into
+- [DevRel Didn't Die, Its Audience Changed](https://dev.to/debs_obrien/devrel-didnt-die-its-audience-changed-586g) (dev.to) - Most evenings I put my agents to the test. I've been experimenting with a lot of
+- [ADNOC becomes first energy company to deploy OpenAI Frontier for coordinating AI agents](https://dev.to/delimitter/adnoc-becomes-first-energy-company-to-deploy-openai-frontier-for-coordinating-ai-agents-4e4) (dev.to) - 📅 2 November 2026 • The National / Zawya  At ADIPEC in Abu Dhabi on November 2, 
 
 ---
 
@@ -229,11 +232,11 @@
 
 ### 相关文章资源
 
-- [7 real cases where ChatGPT and Claude got datasheet values wrong (and how to check them)](https://dev.to/_30b2d57c3ad69af356f64/7-real-cases-where-chatgpt-and-claude-got-datasheet-values-wrong-and-how-to-check-them-55bm) (dev.to) - Disclosure: I build PartsPlan, the tool mentioned at the end. The cases below ar
-- [Prefab UI's Python Sandbox Could Read and Write Your Server's Files. Upgrade to 0.21](https://dev.to/gabrielanhaia/prefab-uis-python-sandbox-could-read-and-write-your-servers-files-upgrade-to-021-1em5) (dev.to) - CVE-2026-120338, CVSS 10.0: Prefab UI ran model-written Python with unrestricted
-- [How I manage MCP access, approvals, and tool history with GateRook](https://dev.to/w4p/how-i-manage-mcp-access-approvals-and-tool-history-with-gaterook-4i8n) (dev.to) - I use AI coding tools such as Claude, Codex, and Cursor, and I want them to work
-- [Let Claude Code or Cursor debug your page in a real Chrome browser](https://dev.to/dedupedai/let-claude-code-or-cursor-debug-your-page-in-a-real-chrome-browser-ldc) (dev.to) - Set up Chrome DevTools MCP so your coding agent can read console errors, network
-- [Your MCP Server Doesn’t Need 50 Tools: Design a Tool Budget Before It Eats Your Context](https://dev.to/alexshev/your-mcp-server-doesnt-need-50-tools-design-a-tool-budget-before-it-eats-your-context-1jfn) (dev.to) - Adding another MCP tool feels free.  It is not.  Each tool comes with a name, de
+- [Reading an agent forum from Python: four tools, three clocks](https://dev.to/blucca/reading-an-agent-forum-from-python-four-tools-three-clocks-3cpo) (dev.to) - I wanted to give a Python agent a small piece of public context from another age
+- [I moved my MCP servers from Claude to Codex. Here's the cheat sheet](https://dev.to/pickaplugin/i-moved-my-mcp-servers-from-claude-to-codex-heres-the-cheat-sheet-4p9k) (dev.to) - Full disclosure up front: I run PickAPlugin, a free directory of ChatGPT and Cod
+- [Your AI apps should answer to you, not to their lab](https://dev.to/troy_fortinjr_d4f6f58e83/your-ai-apps-should-answer-to-you-not-to-their-lab-477d) (dev.to) - I use models from four labs every week, and every one of them wanted my accounts
+- [Gemma 4 in Rust on TorchTPU: A Native TPU Rig With PyO3 and MCP](https://dev.to/gde/gemma-4-in-rust-on-torchtpu-a-native-tpu-rig-with-pyo3-and-mcp-47j1) (dev.to) - Gemma 4 E2B with the model in Rust, served from a TPU v5e-1 VM through PyO3 and 
+- [Connect a Stateless Streamable HTTP MCP Server to Claude, ChatGPT, and Gemini for Tour Route Research](https://dev.to/nostairsplease/connect-a-stateless-streamable-http-mcp-server-to-claude-chatgpt-and-gemini-for-tour-route-477k) (dev.to) - Learn how to connect a stateless Streamable HTTP MCP server with OAuth 2.1 to Cl
 
 ---
 
@@ -292,10 +295,10 @@
 
 ### 相关文章资源
 
+- [From 30 Minutes to 2: Building a Multi-Agent LangGraph + RAG Pipeline for Broker Back-Office Review](https://dev.to/imsachinshah/from-30-minutes-to-2-building-a-multi-agent-langgraph-rag-pipeline-for-broker-back-office-review-icf) (dev.to) - The problem: 30 minutes per application, 400 times a day   On paper, broker back
 - [LangChain vs LangGraph: Which Should You Use?](https://dev.to/bcncodeschool/langchain-vs-langgraph-which-should-you-use-4jf9) (dev.to) - Compare LangChain and LangGraph by abstraction, state, routing, human approval, 
 - [AI Staffing Partner](https://dev.to/narender_reddy_0fa71a7ec8/ai-staffing-partner-1keg) (dev.to) - Build an AI-powered Resume and Job Description Assistant that analyzes uploaded 
 - [LangChain vs CrewAI vs AutoGen: Which Framework?](https://dev.to/syedzadi/langchain-vs-crewai-vs-autogen-which-framework-4b2h) (dev.to) - Every AI agent framework will get you to a working demo. Very few get you to a s
-- [LangChain Structured Output in NestJS: Typed with Zod](https://dev.to/martinbruel/langchain-structured-output-in-nestjs-typed-with-zod-12a1) (dev.to) - To get an object instead of text from a LangChain agent in NestJS, pass a Zod sc
 
 ---
 
@@ -339,6 +342,10 @@
 - 偏见与毒性防护栏
 - 红队测试
 - 构建可信赖的Agent
+
+### 相关文章资源
+
+- [Last week in Agent Security Update 5: The Pentagon Prompts](https://dev.to/willvelida/last-week-in-agent-security-update-5-the-pentagon-prompts-bel) (dev.to) - Last week I spoke at API Days in Melbourne, where I gave a talk on the OWASP Top
 
 ---
 
