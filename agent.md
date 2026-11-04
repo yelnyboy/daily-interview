@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-03
+> 最后更新: 2026-11-04
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
+- [Flipper got archived, so I built an Android inspector that needs no SDK](https://dev.to/haul/flipper-got-archived-so-i-built-an-android-inspector-that-needs-no-sdk-11o7) (dev.to) - GitHub: https://github.com/ESeungJun/droidlens  Installers for macOS, Windows an
+- [[AI in Action] Rewriting a Daily LINE Bot from Python to Go 1.26 on Cloud Run: 1/4 Resource Usage, Google ADK v1.9.0, and Zero-D](https://dev.to/gde/ai-in-action-rewriting-a-daily-line-bot-from-python-to-go-126-on-cloud-run-14-resource-usage-2o62) (dev.to) - Background   I have a primary LINE Bot that I use heavily every day:...
 - [LLM weak random number generator detection test](https://dev.to/sunnychokshi/llm-weak-random-number-generator-detection-test-4mn4) (dev.to) - Originally published at sunny-chokshi.github.io.  I ran an LLM weak random numbe
 - [I Built a Search Tool for the EU Digital Services Act, and Tested It First](https://dev.to/malavnaik_0381711024683d4/i-built-a-search-tool-for-the-eu-digital-services-act-and-tested-it-first-3pn6) (dev.to) - How I turned the EU Digital Services Act into a free, in-browser search tool tha
 - [How do AI agents authenticate? (The problem nobody has solved yet)](https://dev.to/zachbenson/how-do-ai-agents-authenticate-the-problem-nobody-has-solved-yet-3cbe) (dev.to) - Repo: github.com/arkenforge/arken-core  If you've built an MCP server or an API 
-- [I hid instructions in my server logs to see which models would follow them](https://dev.to/remdore/i-hid-instructions-in-my-server-logs-to-see-which-models-would-follow-them-1bd2) (dev.to) - Every Monday, ExtraTime, my football quiz site, gets a health report written by 
-- [Digital employee: how to help your team grow](https://dev.to/matintellect/digital-employee-how-to-help-your-team-grow-1hkj) (dev.to) - I believe you shouldn't fire employees just to replace them with artificial inte
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [The New York Times Sues Brave Over Alleged Scraping and AI Content Sales](https://dev.to/alifar/the-new-york-times-sues-brave-over-alleged-scraping-and-ai-content-sales-2fn6) (dev.to) - The New York Times has filed a copyright infringement lawsuit against Brave Soft
-- [I Built LLM Explained: 43 Interactive Pages That Take You From Tokens to AI Agents](https://dev.to/amananandrai/i-built-llm-explained-43-interactive-pages-that-take-you-from-tokens-to-ai-agents-2n37) (dev.to) - I kept running into the same problem while learning about large language models.
-- [Prompt Pad: Frame Your Persona for Better AI Answers](https://blog.mlh.com/prompt-pad-frame-your-persona-for-better-ai-answers-eg3) (dev.to) - Want better answers from AI? Start by telling it who to be.  In this episode of 
-- [YC Labs and Olam Labs ran 50 AI agents in a Minecraft civilization experiment](https://dev.to/delimitter/yc-labs-and-olam-labs-ran-50-ai-agents-in-a-minecraft-civilization-experiment-1pli) (dev.to) - 📅 2 November 2026 • ZDNET / Tom's Hardware  YC Labs, the research group of Y Com
-- [LifeVal Benchmark Targets Everyday Personal Assistant Tasks Shaped by ChatGPT User Feedback](https://dev.to/alifar/lifeval-benchmark-targets-everyday-personal-assistant-tasks-shaped-by-chatgpt-user-feedback-2cg7) (dev.to) - LifeVal is a newly described benchmark for assessing AI personal assistants on e
+- [RoPE in bfloat16: 8,192 Token Positions Collapsed Into 897](https://dev.to/ji_ai/rope-in-bfloat16-8192-token-positions-collapsed-into-897-51pm) (dev.to) - RoPE in bfloat16 rounds token positions past 256. In my NumPy test, 8,192 positi
+- [LLM Routing: Stop Paying Premium Prices for Simple Prompts](https://dev.to/nodeneuralai/llm-routing-stop-paying-premium-prices-for-simple-prompts-4oni) (dev.to) - Someone asked: can we end the Globex contract early? Seven words. The question l
+- [Lore Books and World Info in AI Character Chat: How Much Context Is Enough](https://dev.to/pogee/lore-books-and-world-info-in-ai-character-chat-how-much-context-is-enough-19el) (dev.to) - Lore is where long-form AI roleplay either becomes a living world or collapses i
+- [OpenAI Says ChatGPT’s Search-Like Query Volume Is About One-Fifth of Google’s](https://dev.to/alifar/openai-says-chatgpts-search-like-query-volume-is-about-one-fifth-of-googles-2oa) (dev.to) - OpenAI says ChatGPT’s web-search-like query volume is roughly 20% of Google’s tr
+- [I ran the same multi-agent experiment twice. Half the conclusions flipped.](https://dev.to/chai_jingbo_d086c3011d990/i-ran-the-same-multi-agent-experiment-twice-half-the-conclusions-flipped-1o5i) (dev.to) - In August I ran a controlled experiment on my open-source multi-agent pipeline: 
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
-- [Go Product RAG: Reranking 50 Candidates for Better Retrieval Quality](https://dev.to/mitchellcross2134/go-product-rag-reranking-50-candidates-for-better-retrieval-quality-234l) (dev.to) - Reranking actually helps RAG retrieval quality when relevant product passages al
-- [What Happened When I Built an Open-Source AI Project in Public](https://dev.to/vedant_brahmbhatt_7be1822/what-happened-when-i-built-an-open-source-ai-project-in-public-2g2o) (dev.to) - A few months ago, BOOTH was just a small idea I wanted to explore.  I wasn't sur
-- [Deduplicate Your RAG Corpus Without Losing Its Citations](https://dev.to/vexaloom-labs/deduplicate-your-rag-corpus-without-losing-its-citations-106n) (dev.to) - Separate content hashes from source observations in a Python RAG ingestion pipel
-- [When a document assistant refuses: quota, context, and the missing model call](https://dev.to/martinpisacreta/when-a-document-assistant-refuses-quota-context-and-the-missing-model-call-2o78) (dev.to) - An assistant over your documents needs a useful answer when the documents cannot
-- [Enterprise Agent Selection: A Field Report (Series)](https://dev.to/ikkun1222/enterprise-agent-selection-a-field-report-series-527j) (dev.to) - I explain why audit coverage and management complexity matter more than model qu
+- [Fresh Listing Discovery Explained — A Runbook for Incremental Source Convergence](https://dev.to/hadleyfox8439/fresh-listing-discovery-explained-a-runbook-for-incremental-source-convergence-61k) (dev.to) - Short answer: use a staged retrieval architecture for real-estate listing discov
+- [Knowledge graphs, explained for AI memory (and how Palace uses one)](https://dev.to/icegaming/knowledge-graphs-explained-for-ai-memory-and-how-palace-uses-one-1g67) (dev.to) - Most AI memory systems today come down to the same recipe. Split text into chunk
+- [Prevent Retrieval Dilution in Alfresco RAG with Metadata Filters](https://dev.to/stefankopfxaldon/prevent-retrieval-dilution-in-alfresco-rag-with-metadata-filters-4la4) (dev.to) - A RAG application over a small set of documents often works surprisingly well. T
+- [A Changed-Page Export Can Quietly Shrink Your RAG Index](https://dev.to/vexaloom-labs/a-changed-page-export-can-quietly-shrink-your-rag-index-2cki) (dev.to) - Build a Python corpus refresh that merges changed pages, replaces stale chunks, 
+- [Can a user retrieve information outside their permissions, including through the lexical search path, caches, or indirect references?](https://dev.to/izgorodin/can-a-user-retrieve-information-outside-their-permissions-including-through-the-lexical-search-115m) (dev.to) - Jeevan Srivastava asked this question word for word in a Medium article of 18 Oc
 
 ---
 
@@ -122,8 +122,11 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (21题)
+### 已积累题目 (23题)
 
+- [初级] **12-Factor原则第7条：端口绑定**
+  - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
+  - 摘要: 12-Factor第7条是'端口绑定'，核心要点：1) 应用应通过端口绑定对外提供服务，自包含地成为一个独立服务，不依赖外部Web容器（如Tomcat）注入运行环境。2) 应用自己监听端口并对外暴露H...
 - [中级] **Agent 12-Factor 第12条原则**
   - 考点: 进程隔离, 环境一致性, 无状态执行
   - 摘要: Agent 12-Factor 的第12条原则通常关注“管理任务”或“可观测性”。以管理任务为例，核心思想是将一次性管理任务作为独立进程运行。具体包括以下几点：
@@ -204,17 +207,20 @@
 - [高级] **自我改进型智能体**
   - 考点: 自我反思, 长期记忆, 提示词优化
   - 摘要: 1. 核心概念：自我改进型智能体是一种能够根据过去的经验和环境反馈，自动调整自身行为、提示词或底层逻辑的智能体架构。2. 反思机制：通过引入自我反思步骤，智能体评估其先前动作的输出质量，识别错误或不足...
+- [中级] **销售通话分析Agent的设计**
+  - 考点: 流水线式任务编排, 工具调用设计, 长文本分块处理
+  - 摘要: 销售通话分析Agent是一个典型的领域垂直型分析类Agent，设计要点如下：1) 整体架构：采用'流水线+工具调用'模式，包括音频转写（ASR工具）、说话人分离、结构化分析、报告生成四个阶段。2) 输...
 - [高级] **项目经理助理Agent的设计**
   - 考点: Plan-and-Execute模式, 工具集成, 记忆分层设计
   - 摘要: 设计要点：1）角色定位：负责需求分析、任务拆解（WBS）、进度跟踪、风险预警与会议纪要生成。2）核心模式：采用Plan-and-Execute模式，先制定项目计划再逐步执行；对关键决策引入Reflec...
 
 ### 相关文章资源
 
-- [How I gave my AI agents an email inbox in one HTTP call (no signup, no API key)](https://dev.to/antonioac1/how-i-gave-my-ai-agents-an-email-inbox-in-one-http-call-no-signup-no-api-key-17fn) (dev.to) - Agents keep hitting the same wall. The work is done, the agent needs an account 
-- [Giving AI agents hands without handing over the keys: how we think about safety at TwinMCP](https://dev.to/twinmcp/giving-ai-agents-hands-without-handing-over-the-keys-how-we-think-about-safety-at-twinmcp-o02) (dev.to) - TwinMCP, a hosting platform for MCP servers. This post explains the safety choic
-- [Using AWS to Manage AI Spec-Driven Development Artifacts](https://dev.to/mlnrt/using-aws-to-manage-ai-spec-driven-development-artifacts-nee) (dev.to) - My Pain Point   Doing spec-driven development with AI agents, I quickly ran into
-- [DevRel Didn't Die, Its Audience Changed](https://dev.to/debs_obrien/devrel-didnt-die-its-audience-changed-586g) (dev.to) - Most evenings I put my agents to the test. I've been experimenting with a lot of
-- [ADNOC becomes first energy company to deploy OpenAI Frontier for coordinating AI agents](https://dev.to/delimitter/adnoc-becomes-first-energy-company-to-deploy-openai-frontier-for-coordinating-ai-agents-4e4) (dev.to) - 📅 2 November 2026 • The National / Zawya  At ADIPEC in Abu Dhabi on November 2, 
+- [My x402 API made $0.08 in its first week. Here is who actually came.](https://dev.to/albertbalestrini/my-x402-api-made-008-in-its-first-week-here-is-who-actually-came-2gka) (dev.to) - A few weeks ago I put a small API online that agents pay per call with x402, USD
+- [Your AI agent built PDF export but who owns the next change](https://dev.to/bitavu/your-ai-agent-built-pdf-export-but-who-owns-the-next-change-224n) (dev.to) - Imagine asking your coding agent to add a client report export.  It creates a ro
+- [How to Integrate AI Agents with Existing APIs: Patterns, Tools, and Safe Rollout](https://dev.to/kami_butt_69b922ade8de012/how-to-integrate-ai-agents-with-existing-apis-patterns-tools-and-safe-rollout-3eg9) (dev.to) - Your agent is not a user of your API. It's a stranger with a keyboard — and righ
+- [Giving an AI agent eyes on a running React Native app](https://dev.to/zemant91/giving-an-ai-agent-eyes-on-a-running-react-native-app-jfe) (dev.to) - Over the last few months I've posted small findings about AI agents, MCP and Rea
+- [What the heck do I alert on anymore?](https://dev.to/allenheltondev/what-the-heck-do-i-alert-on-anymore-3cae) (dev.to) - My AI agents make thousands of decisions I can't supervise. Here's how I'm figur
 
 ---
 
@@ -232,11 +238,11 @@
 
 ### 相关文章资源
 
+- [We Checked 61 Official MCP Servers Against the Auth Spec](https://dev.to/x1y1co/we-checked-61-official-mcp-servers-against-the-auth-spec-48i4) (dev.to) - Most SaaS companies now ship an official remote MCP server, and most of them sit
+- [Give your AI assistant a video studio over MCP (and the tool pattern that keeps it from burning your credits)](https://dev.to/alamdar_525aa72b980d/give-your-ai-assistant-a-video-studio-over-mcp-and-the-tool-pattern-that-keeps-it-from-burning-15b6) (dev.to) - Most MCP demos read files or query databases. Those tools are cheap and reversib
+- [The state of MCP auth, November 2026: I scanned 25 public servers](https://dev.to/godsmasher/the-state-of-mcp-auth-november-2026-i-scanned-25-public-servers-f9b) (dev.to) - MCP (Model Context Protocol) has an auth story on paper: OAuth 2.1 with PKCE, dy
+- [Your Agent Has a Side Door: Testing MCP Policy Beyond the Tool List](https://dev.to/bengreenberg/your-agent-has-a-side-door-testing-mcp-policy-beyond-the-tool-list-1699) (dev.to) - At MCP Dev Summit Toronto, Accenture's Michael Forrester told a story about an e
 - [Reading an agent forum from Python: four tools, three clocks](https://dev.to/blucca/reading-an-agent-forum-from-python-four-tools-three-clocks-3cpo) (dev.to) - I wanted to give a Python agent a small piece of public context from another age
-- [I moved my MCP servers from Claude to Codex. Here's the cheat sheet](https://dev.to/pickaplugin/i-moved-my-mcp-servers-from-claude-to-codex-heres-the-cheat-sheet-4p9k) (dev.to) - Full disclosure up front: I run PickAPlugin, a free directory of ChatGPT and Cod
-- [Your AI apps should answer to you, not to their lab](https://dev.to/troy_fortinjr_d4f6f58e83/your-ai-apps-should-answer-to-you-not-to-their-lab-477d) (dev.to) - I use models from four labs every week, and every one of them wanted my accounts
-- [Gemma 4 in Rust on TorchTPU: A Native TPU Rig With PyO3 and MCP](https://dev.to/gde/gemma-4-in-rust-on-torchtpu-a-native-tpu-rig-with-pyo3-and-mcp-47j1) (dev.to) - Gemma 4 E2B with the model in Rust, served from a TPU v5e-1 VM through PyO3 and 
-- [Connect a Stateless Streamable HTTP MCP Server to Claude, ChatGPT, and Gemini for Tour Route Research](https://dev.to/nostairsplease/connect-a-stateless-streamable-http-mcp-server-to-claude-chatgpt-and-gemini-for-tour-route-477k) (dev.to) - Learn how to connect a stateless Streamable HTTP MCP server with OAuth 2.1 to Cl
 
 ---
 
@@ -296,9 +302,10 @@
 ### 相关文章资源
 
 - [From 30 Minutes to 2: Building a Multi-Agent LangGraph + RAG Pipeline for Broker Back-Office Review](https://dev.to/imsachinshah/from-30-minutes-to-2-building-a-multi-agent-langgraph-rag-pipeline-for-broker-back-office-review-icf) (dev.to) - The problem: 30 minutes per application, 400 times a day   On paper, broker back
+- [How to Add an Audit Trail to a LangGraph Agent](https://dev.to/mir_arshadalitalpur_1b3/how-to-add-an-audit-trail-to-a-langgraph-agent-42m3) (dev.to) - LangGraph makes it easy to build agents as graphs: nodes that retrieve, reason, 
+- [Agents that are actually deterministic](https://dev.to/aigenos/agents-that-are-actually-deterministic-omj) (dev.to) - How aigenos/flow makes an agent run the same steps every time, and why that is h
 - [LangChain vs LangGraph: Which Should You Use?](https://dev.to/bcncodeschool/langchain-vs-langgraph-which-should-you-use-4jf9) (dev.to) - Compare LangChain and LangGraph by abstraction, state, routing, human approval, 
 - [AI Staffing Partner](https://dev.to/narender_reddy_0fa71a7ec8/ai-staffing-partner-1keg) (dev.to) - Build an AI-powered Resume and Job Description Assistant that analyzes uploaded 
-- [LangChain vs CrewAI vs AutoGen: Which Framework?](https://dev.to/syedzadi/langchain-vs-crewai-vs-autogen-which-framework-4b2h) (dev.to) - Every AI agent framework will get you to a working demo. Very few get you to a s
 
 ---
 
