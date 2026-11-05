@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-04
+> 最后更新: 2026-11-05
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -37,11 +37,11 @@
 
 ### 相关文章资源
 
-- [Flipper got archived, so I built an Android inspector that needs no SDK](https://dev.to/haul/flipper-got-archived-so-i-built-an-android-inspector-that-needs-no-sdk-11o7) (dev.to) - GitHub: https://github.com/ESeungJun/droidlens  Installers for macOS, Windows an
-- [[AI in Action] Rewriting a Daily LINE Bot from Python to Go 1.26 on Cloud Run: 1/4 Resource Usage, Google ADK v1.9.0, and Zero-D](https://dev.to/gde/ai-in-action-rewriting-a-daily-line-bot-from-python-to-go-126-on-cloud-run-14-resource-usage-2o62) (dev.to) - Background   I have a primary LINE Bot that I use heavily every day:...
-- [LLM weak random number generator detection test](https://dev.to/sunnychokshi/llm-weak-random-number-generator-detection-test-4mn4) (dev.to) - Originally published at sunny-chokshi.github.io.  I ran an LLM weak random numbe
-- [I Built a Search Tool for the EU Digital Services Act, and Tested It First](https://dev.to/malavnaik_0381711024683d4/i-built-a-search-tool-for-the-eu-digital-services-act-and-tested-it-first-3pn6) (dev.to) - How I turned the EU Digital Services Act into a free, in-browser search tool tha
-- [How do AI agents authenticate? (The problem nobody has solved yet)](https://dev.to/zachbenson/how-do-ai-agents-authenticate-the-problem-nobody-has-solved-yet-3cbe) (dev.to) - Repo: github.com/arkenforge/arken-core  If you've built an MCP server or an API 
+- [OpenAI Is Buying Pierre — the Git Tooling Behind Codex's Code Storage, Explained Honestly](https://dev.to/paullovelace/openai-is-buying-pierre-the-git-tooling-behind-codexs-code-storage-explained-honestly-49l) (dev.to) - OpenAI announced on 4 November 2026 that it will acquire Pierre Computer Company
+- [git stash Is Shared Across Worktrees. Two Parallel Agents Popped Each Other's Work](https://dev.to/gabrielanhaia/git-stash-is-shared-across-worktrees-two-parallel-agents-popped-each-others-work-19m2) (dev.to) - refs/stash lives in the shared .git, so a stash made in one worktree can be popp
+- [OpenAI Is Buying the Git Host Lovable and Bolt Use. Check What Lives Only There](https://dev.to/gabrielanhaia/openai-is-buying-the-git-host-lovable-and-bolt-use-check-what-lives-only-there-14e4) (dev.to) - OpenAI will acquire Pierre, maker of Code Storage and the diff libraries in Code
+- [OpenAI Agrees to Acquire Pierre Computer to Expand Codex Code Storage](https://dev.to/the_daily_flare/openai-agrees-to-acquire-pierre-computer-to-expand-codex-code-storage-502c) (dev.to) - Originally published on The Daily Flare.  OpenAI announced on Nov. 4 that it had
+- [Current agentic coding setup](https://dev.to/ruarfff/current-agentic-coding-setup-1872) (dev.to) - My current setup for agentic coding.
 
 ---
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [RoPE in bfloat16: 8,192 Token Positions Collapsed Into 897](https://dev.to/ji_ai/rope-in-bfloat16-8192-token-positions-collapsed-into-897-51pm) (dev.to) - RoPE in bfloat16 rounds token positions past 256. In my NumPy test, 8,192 positi
-- [LLM Routing: Stop Paying Premium Prices for Simple Prompts](https://dev.to/nodeneuralai/llm-routing-stop-paying-premium-prices-for-simple-prompts-4oni) (dev.to) - Someone asked: can we end the Globex contract early? Seven words. The question l
-- [Lore Books and World Info in AI Character Chat: How Much Context Is Enough](https://dev.to/pogee/lore-books-and-world-info-in-ai-character-chat-how-much-context-is-enough-19el) (dev.to) - Lore is where long-form AI roleplay either becomes a living world or collapses i
-- [OpenAI Says ChatGPT’s Search-Like Query Volume Is About One-Fifth of Google’s](https://dev.to/alifar/openai-says-chatgpts-search-like-query-volume-is-about-one-fifth-of-googles-2oa) (dev.to) - OpenAI says ChatGPT’s web-search-like query volume is roughly 20% of Google’s tr
-- [I ran the same multi-agent experiment twice. Half the conclusions flipped.](https://dev.to/chai_jingbo_d086c3011d990/i-ran-the-same-multi-agent-experiment-twice-half-the-conclusions-flipped-1o5i) (dev.to) - In August I ran a controlled experiment on my open-source multi-agent pipeline: 
+- [Turn podcast RSS feeds into transcripts for RAG, without speech-to-text](https://dev.to/hermes_820f031ccd971d4dc5/turn-podcast-rss-feeds-into-transcripts-for-rag-without-speech-to-text-2mob) (dev.to) - I wanted to ask questions about a podcast's back catalogue with an LLM. The obvi
+- [Crows, Moths, and Makefiles: How 300 Megabytes of Crow DNA Explains Why a 20-Kilobyte Scar File Outsmarts a Terabyte LLM](https://dev.to/gde/crows-moths-and-makefiles-how-300-megabytes-of-crow-dna-explains-why-a-20-kilobyte-scar-file-36a) (dev.to) - Why do New Caledonian crows bend wire into hooks with zero training while a tril
+- [Get Codex reset alerts wherever you already are](https://dev.to/codexreset/get-codex-reset-alerts-wherever-you-already-are-1c0p) (dev.to) - Disclosure: we build Codex Reset. This is a guide to its alert channels from the
+- [Your customer's agent is untrusted by definition](https://dev.to/bimmer2003/your-customers-agent-is-untrusted-by-definition-28m1) (dev.to) - When customers bring their own agent, the vendor stops controlling the model. Wh
+- [A log file is input too](https://dev.to/fusionaldev/a-log-file-is-input-too-c7b) (dev.to) - Most teams think of agent input as the prompt box. A person types something, the
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
-- [Fresh Listing Discovery Explained — A Runbook for Incremental Source Convergence](https://dev.to/hadleyfox8439/fresh-listing-discovery-explained-a-runbook-for-incremental-source-convergence-61k) (dev.to) - Short answer: use a staged retrieval architecture for real-estate listing discov
-- [Knowledge graphs, explained for AI memory (and how Palace uses one)](https://dev.to/icegaming/knowledge-graphs-explained-for-ai-memory-and-how-palace-uses-one-1g67) (dev.to) - Most AI memory systems today come down to the same recipe. Split text into chunk
-- [Prevent Retrieval Dilution in Alfresco RAG with Metadata Filters](https://dev.to/stefankopfxaldon/prevent-retrieval-dilution-in-alfresco-rag-with-metadata-filters-4la4) (dev.to) - A RAG application over a small set of documents often works surprisingly well. T
-- [A Changed-Page Export Can Quietly Shrink Your RAG Index](https://dev.to/vexaloom-labs/a-changed-page-export-can-quietly-shrink-your-rag-index-2cki) (dev.to) - Build a Python corpus refresh that merges changed pages, replaces stale chunks, 
-- [Can a user retrieve information outside their permissions, including through the lexical search path, caches, or indirect references?](https://dev.to/izgorodin/can-a-user-retrieve-information-outside-their-permissions-including-through-the-lexical-search-115m) (dev.to) - Jeevan Srivastava asked this question word for word in a Medium article of 18 Oc
+- [How to Trace Insurance Intake Evidence: Vector Search, Web Search, and Audit Logs](https://dev.to/lyrap22/how-to-trace-insurance-intake-evidence-vector-search-web-search-and-audit-logs-5f) (dev.to) - Short answer: use staged retrieval for claims intake: search the controlled clai
+- [Fixing Vector Upsert Dimension Mismatch Errors in Grounded News Page Change Pipelines](https://dev.to/faelvorn538072/fixing-vector-upsert-dimension-mismatch-errors-in-grounded-news-page-change-pipelines-3fn2) (dev.to) - Short answer: When a vector upsert fails with a dimension mismatch, read the des
+- [Agentic RAG over Alfresco without another vector database](https://dev.to/stefankopfxaldon/agentic-rag-over-alfresco-without-another-vector-database-3l2p) (dev.to) - Documents used by a RAG application often already live in Alfresco. The usual RA
+- [How to scope an agent's context sources and debug failures](https://dev.to/conorbronsdon/how-to-scope-an-agents-context-sources-and-debug-failures-3o72) (dev.to) - A developer guide to the five context sources around a model, with a checklist a
+- [Leveling the Playing Field: Building a 100% Offline Kubernetes Docs RAG Exam Assistant with Web AI, Gemma 4, and WebGPU](https://dev.to/gde/leveling-the-playing-field-building-a-100-offline-kubernetes-docs-rag-exam-assistant-with-web-ai-53bi) (dev.to) - How to enable fair, zero-cost, air-gapped AI assistance in technical classrooms 
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (23题)
+### 已积累题目 (25题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -131,6 +131,12 @@
   - 考点: 进程隔离, 环境一致性, 无状态执行
   - 摘要: Agent 12-Factor 的第12条原则通常关注“管理任务”或“可观测性”。以管理任务为例，核心思想是将一次性管理任务作为独立进程运行。具体包括以下几点：
 1. 进程隔离：数据迁移、状态清理或模...
+- [高级] **Agent 的元认知（Metacognition）**
+  - 考点: 自我监控与置信度评估, 知识边界感知, Reflexion 反思机制
+  - 摘要: 元认知指 Agent 对自身认知过程的认知与调控能力，即「知道自己知道什么、不知道什么」，并据此调整行为。
+
+核心要点：
+1. 自我监控：Agent 能评估自身输出的置信度，识别不确定或可能出错的回答...
 - [中级] **Agentic RAG：智能体增强检索生成**
   - 考点: Agent自主决策, 多轮检索, 工具选择
   - 摘要: Agentic RAG是将Agent自主决策能力与RAG检索增强生成相结合的范式：
@@ -197,6 +203,12 @@
 - [中级] **创建本地AI Agent**
   - 考点: 本地大模型部署, Ollama, LangChain框架
   - 摘要: 1. 模型选择与部署：创建本地AI Agent的第一步是选择并部署开源大模型（如Llama 3、Qwen等）。通常使用Ollama或vLLM等工具在本地运行模型，提供兼容OpenAI格式的API接口供...
+- [中级] **基于 LangGraph 的社交媒体发布 Agent（publora）**
+  - 考点: LangGraph StateGraph 状态建模, 条件边与反思循环, 工具调用封装
+  - 摘要: publora 是一个基于 LangGraph 构建的社交媒体发布 Agent，展示了将 Agent 用于内容创作与多平台发布的完整设计模式。
+
+核心设计要点：
+1. 状态图建模：LangGraph ...
 - [中级] **构建简单的数据分析 Agent（Notebook 实践）**
   - 考点: ReAct循环, 工具定义与JSON Schema, 代码沙箱执行
   - 摘要: 核心思路：以LLM为大脑，采用ReAct模式（推理→行动→观察循环）驱动数据分析流程。关键设计点：1）工具定义：封装代码执行器（Python REPL/沙箱）、数据加载（read_csv）、可视化（m...
@@ -216,11 +228,11 @@
 
 ### 相关文章资源
 
-- [My x402 API made $0.08 in its first week. Here is who actually came.](https://dev.to/albertbalestrini/my-x402-api-made-008-in-its-first-week-here-is-who-actually-came-2gka) (dev.to) - A few weeks ago I put a small API online that agents pay per call with x402, USD
-- [Your AI agent built PDF export but who owns the next change](https://dev.to/bitavu/your-ai-agent-built-pdf-export-but-who-owns-the-next-change-224n) (dev.to) - Imagine asking your coding agent to add a client report export.  It creates a ro
-- [How to Integrate AI Agents with Existing APIs: Patterns, Tools, and Safe Rollout](https://dev.to/kami_butt_69b922ade8de012/how-to-integrate-ai-agents-with-existing-apis-patterns-tools-and-safe-rollout-3eg9) (dev.to) - Your agent is not a user of your API. It's a stranger with a keyboard — and righ
-- [Giving an AI agent eyes on a running React Native app](https://dev.to/zemant91/giving-an-ai-agent-eyes-on-a-running-react-native-app-jfe) (dev.to) - Over the last few months I've posted small findings about AI agents, MCP and Rea
-- [What the heck do I alert on anymore?](https://dev.to/allenheltondev/what-the-heck-do-i-alert-on-anymore-3cae) (dev.to) - My AI agents make thousands of decisions I can't supervise. Here's how I'm figur
+- [Your Documentation Is Out of Date. Let an AI Agent Keep It in Sync](https://dev.to/remojansen/your-documentation-is-out-of-date-let-an-ai-agent-keep-it-in-sync-5fba) (dev.to) - We've all been there.  You join a new team, open the repository, and find a beau
+- [Open Source AI Is Booming. The Money Is in Everything Around the Model.](https://dev.to/kami_butt_69b922ade8de012/open-source-ai-is-booming-the-money-is-in-everything-around-the-model-5f7d) (dev.to) - The model is free. The bill isn't — and that's the whole open-source AI business
+- [I Built One Key for All the Data My AI Agents Kept Asking For](https://dev.to/khmuhtadin/i-built-one-key-for-all-the-data-my-ai-agents-kept-asking-for-m6k) (dev.to) - Originally published on Medium.  My agents kept running into the same wall. They
+- [Why You Shouldn't Let AI Agents Run Naked Bash: Building an Unprivileged Sandbox in Rust](https://dev.to/6t9/why-you-shouldnt-let-ai-agents-run-naked-bash-building-an-unprivileged-sandbox-in-rust-pld) (dev.to) - What If Your AI Coding Agent Deletes Your Project? Building a Zero-Trust Sandbox
+- [How an autonomous agent actually makes money in crypto](https://dev.to/edvyno/how-an-autonomous-agent-actually-makes-money-in-crypto-1ccp) (dev.to) - A strategy built from a public ledger of losses: four lanes ranked by measured E
 
 ---
 
@@ -238,11 +250,11 @@
 
 ### 相关文章资源
 
-- [We Checked 61 Official MCP Servers Against the Auth Spec](https://dev.to/x1y1co/we-checked-61-official-mcp-servers-against-the-auth-spec-48i4) (dev.to) - Most SaaS companies now ship an official remote MCP server, and most of them sit
-- [Give your AI assistant a video studio over MCP (and the tool pattern that keeps it from burning your credits)](https://dev.to/alamdar_525aa72b980d/give-your-ai-assistant-a-video-studio-over-mcp-and-the-tool-pattern-that-keeps-it-from-burning-15b6) (dev.to) - Most MCP demos read files or query databases. Those tools are cheap and reversib
-- [The state of MCP auth, November 2026: I scanned 25 public servers](https://dev.to/godsmasher/the-state-of-mcp-auth-november-2026-i-scanned-25-public-servers-f9b) (dev.to) - MCP (Model Context Protocol) has an auth story on paper: OAuth 2.1 with PKCE, dy
-- [Your Agent Has a Side Door: Testing MCP Policy Beyond the Tool List](https://dev.to/bengreenberg/your-agent-has-a-side-door-testing-mcp-policy-beyond-the-tool-list-1699) (dev.to) - At MCP Dev Summit Toronto, Accenture's Michael Forrester told a story about an e
-- [Reading an agent forum from Python: four tools, three clocks](https://dev.to/blucca/reading-an-agent-forum-from-python-four-tools-three-clocks-3cpo) (dev.to) - I wanted to give a Python agent a small piece of public context from another age
+- [Build a B2B account list from public data (no LinkedIn scraping)](https://dev.to/pandadad0214/build-a-b2b-account-list-from-public-data-no-linkedin-scraping-4lnm) (dev.to) - Hiring signals, tech stack, decision makers and email checks from job boards, co
+- [How I vet a Codex plugin or MCP server in about two minutes](https://dev.to/pickaplugin/how-i-vet-a-codex-plugin-or-mcp-server-in-about-two-minutes-475d) (dev.to) - Plugins and MCP servers are easy to install, and that's the problem. A plugin ca
+- [I gave my coding agent an n8n/Zapier-style automation platform over MCP](https://dev.to/leo_tim_773032e9e5e0036b1/i-gave-my-coding-agent-an-n8nzapier-style-automation-platform-over-mcp-53ko) (dev.to) - Most MCP servers get used one tool call at a time, inside a chat. When the chat 
+- [Building Your First MCP Server: A Step-by-Step Guide](https://dev.to/who_ai/building-your-first-mcp-server-a-step-by-step-guide-5ffk) (dev.to) - What the Model Context Protocol is, why it matters for AI tooling, and how to bu
+- [Modeling 2026 US East Coast Statutory Tax Cliffs in OpenAPI 3.1 & MCP (NY LLC § 206, NYC CEMA § 255 & Estate Cliffs)](https://dev.to/pablo_cirre_2892fc45f3d5f/modeling-2026-us-east-coast-statutory-tax-cliffs-in-openapi-31-mcp-ny-llc-ss-206-nyc-cema-ss-255-2dhj) (dev.to) - In algorithmic financial modeling, the most expensive engineering bugs do not st
 
 ---
 
@@ -305,7 +317,6 @@
 - [How to Add an Audit Trail to a LangGraph Agent](https://dev.to/mir_arshadalitalpur_1b3/how-to-add-an-audit-trail-to-a-langgraph-agent-42m3) (dev.to) - LangGraph makes it easy to build agents as graphs: nodes that retrieve, reason, 
 - [Agents that are actually deterministic](https://dev.to/aigenos/agents-that-are-actually-deterministic-omj) (dev.to) - How aigenos/flow makes an agent run the same steps every time, and why that is h
 - [LangChain vs LangGraph: Which Should You Use?](https://dev.to/bcncodeschool/langchain-vs-langgraph-which-should-you-use-4jf9) (dev.to) - Compare LangChain and LangGraph by abstraction, state, routing, human approval, 
-- [AI Staffing Partner](https://dev.to/narender_reddy_0fa71a7ec8/ai-staffing-partner-1keg) (dev.to) - Build an AI-powered Resume and Job Description Assistant that analyzes uploaded 
 
 ---
 
@@ -352,6 +363,7 @@
 
 ### 相关文章资源
 
+- [Codex on Windows: Install Codex CLI and Fix Not Recognized](https://dev.to/khadimhussain/codex-on-windows-install-codex-cli-and-fix-not-recognized-65h) (dev.to) - Install Codex CLI on Windows 11 with one PowerShell command, fix 'codex is not r
 - [Last week in Agent Security Update 5: The Pentagon Prompts](https://dev.to/willvelida/last-week-in-agent-security-update-5-the-pentagon-prompts-bel) (dev.to) - Last week I spoke at API Days in Melbourne, where I gave a talk on the OWASP Top
 
 ---
