@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-05
+> 最后更新: 2026-11-06
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -71,11 +71,11 @@
 
 ### 相关文章资源
 
-- [Turn podcast RSS feeds into transcripts for RAG, without speech-to-text](https://dev.to/hermes_820f031ccd971d4dc5/turn-podcast-rss-feeds-into-transcripts-for-rag-without-speech-to-text-2mob) (dev.to) - I wanted to ask questions about a podcast's back catalogue with an LLM. The obvi
-- [Crows, Moths, and Makefiles: How 300 Megabytes of Crow DNA Explains Why a 20-Kilobyte Scar File Outsmarts a Terabyte LLM](https://dev.to/gde/crows-moths-and-makefiles-how-300-megabytes-of-crow-dna-explains-why-a-20-kilobyte-scar-file-36a) (dev.to) - Why do New Caledonian crows bend wire into hooks with zero training while a tril
-- [Get Codex reset alerts wherever you already are](https://dev.to/codexreset/get-codex-reset-alerts-wherever-you-already-are-1c0p) (dev.to) - Disclosure: we build Codex Reset. This is a guide to its alert channels from the
-- [Your customer's agent is untrusted by definition](https://dev.to/bimmer2003/your-customers-agent-is-untrusted-by-definition-28m1) (dev.to) - When customers bring their own agent, the vendor stops controlling the model. Wh
-- [A log file is input too](https://dev.to/fusionaldev/a-log-file-is-input-too-c7b) (dev.to) - Most teams think of agent input as the prompt box. A person types something, the
+- [Oracle Cloud free tier: the always-free ARM instance](https://dev.to/ikkun1222/oracle-cloud-free-tier-the-always-free-arm-instance-37o) (dev.to) - The Oracle Cloud always-free ARM instance hosts my agent services and long-runni
+- [Will Codex reset today? How our forecast works, and why waiting longer doesn't raise the odds](https://dev.to/codexreset/will-codex-reset-today-how-our-forecast-works-and-why-waiting-longer-doesnt-raise-the-odds-24jb) (dev.to) - Disclosure: we build Codex Reset. This post explains how its reset forecast work
+- [How AIClaw 3.7.42 Synchronizes Its Desktop Helper Before the First Tool Call](https://dev.to/chowyu12/how-aiclaw-3742-synchronizes-its-desktop-helper-before-the-first-tool-call-3ik7) (dev.to) - A desktop application's main process and its native automation helper have diffe
+- [Your AI agent thinks its tasks were deleted: how to write tool errors for LLM agents](https://dev.to/ali_ahmed_44ee99051e327ce/your-ai-agent-thinks-its-tasks-were-deleted-how-to-write-tool-errors-for-llm-agents-267b) (dev.to) - An agent saw 'task not found' and recreated its schedules, causing duplicates. T
+- [Hundreds of Paid Strangers Are Reading Real ChatGPT Chats. It's Called Project Lily, It's On by Default, and This Week a…](https://dev.to/markorocko/hundreds-of-paid-strangers-are-reading-real-chatgpt-chats-its-called-project-lily-its-on-by-4ajj) (dev.to) - 404 Media obtained internal documents showing OpenAI pays contractors $50-plus a
 
 ---
 
@@ -99,11 +99,11 @@
 
 ### 相关文章资源
 
-- [How to Trace Insurance Intake Evidence: Vector Search, Web Search, and Audit Logs](https://dev.to/lyrap22/how-to-trace-insurance-intake-evidence-vector-search-web-search-and-audit-logs-5f) (dev.to) - Short answer: use staged retrieval for claims intake: search the controlled clai
-- [Fixing Vector Upsert Dimension Mismatch Errors in Grounded News Page Change Pipelines](https://dev.to/faelvorn538072/fixing-vector-upsert-dimension-mismatch-errors-in-grounded-news-page-change-pipelines-3fn2) (dev.to) - Short answer: When a vector upsert fails with a dimension mismatch, read the des
-- [Agentic RAG over Alfresco without another vector database](https://dev.to/stefankopfxaldon/agentic-rag-over-alfresco-without-another-vector-database-3l2p) (dev.to) - Documents used by a RAG application often already live in Alfresco. The usual RA
-- [How to scope an agent's context sources and debug failures](https://dev.to/conorbronsdon/how-to-scope-an-agents-context-sources-and-debug-failures-3o72) (dev.to) - A developer guide to the five context sources around a model, with a checklist a
-- [Leveling the Playing Field: Building a 100% Offline Kubernetes Docs RAG Exam Assistant with Web AI, Gemma 4, and WebGPU](https://dev.to/gde/leveling-the-playing-field-building-a-100-offline-kubernetes-docs-rag-exam-assistant-with-web-ai-53bi) (dev.to) - How to enable fair, zero-cost, air-gapped AI assistance in technical classrooms 
+- [Sovereign Multi-Agent Brokerage: Zero-Trust Security, Dynamic Leases, and Rate-Limiting for 97+ Enterprise Connectors](https://dev.to/bennialencar/sovereign-multi-agent-brokerage-zero-trust-security-dynamic-leases-and-rate-limiting-for-97-46if) (dev.to) - Sovereign Multi-Agent Brokerage: Zero-Trust Security, Dynamic Leases, and Rate-L
+- [An IT Jobs Filter Can Exclude a Bank's Engineers](https://dev.to/vexaloom-labs/an-it-jobs-filter-can-exclude-a-banks-engineers-l35) (dev.to) - Separate occupation from employer sector in job collection filters, then preserv
+- [I built an AI teaching assistant, and it found gaps in my own teaching material](https://dev.to/gunjan-redu/i-built-an-ai-teaching-assistant-and-it-found-gaps-in-my-own-teaching-material-g19) (dev.to) - I've been teaching coding for quite a few years now. Since I'm also trying to tr
+- [How to Stop a Model Picking the Wrong Fact From a Long Prompt](https://dev.to/theaicommit/how-to-stop-a-model-picking-the-wrong-fact-from-a-long-prompt-n8l) (dev.to) - A model reading a long prompt favors the passage that best matches your question
+- [Testing embedding models on a hand-labelled journal](https://dev.to/arinaymay/testing-embedding-models-on-a-hand-labelled-journal-592h) (dev.to) - Every speed benchmark I had would stay green while search quietly returned the w
 
 ---
 
@@ -122,7 +122,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (25题)
+### 已积累题目 (26题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -131,6 +131,9 @@
   - 考点: 进程隔离, 环境一致性, 无状态执行
   - 摘要: Agent 12-Factor 的第12条原则通常关注“管理任务”或“可观测性”。以管理任务为例，核心思想是将一次性管理任务作为独立进程运行。具体包括以下几点：
 1. 进程隔离：数据迁移、状态清理或模...
+- [中级] **Agent 的 12-Factor 原则（第 07 条）**
+  - 考点: 控制流由代码而非LLM决定, 状态显式管理, 工具输入输出结构化
+  - 摘要: 背景：12-Factor Agents 是对构建可靠 LLM Agent 工程实践的经典总结，源自对生产级 Agent 系统的设计经验。核心思想包括：1) Agent 本质上是一个在循环中运行的 LL...
 - [高级] **Agent 的元认知（Metacognition）**
   - 考点: 自我监控与置信度评估, 知识边界感知, Reflexion 反思机制
   - 摘要: 元认知指 Agent 对自身认知过程的认知与调控能力，即「知道自己知道什么、不知道什么」，并据此调整行为。
@@ -228,11 +231,11 @@
 
 ### 相关文章资源
 
-- [Your Documentation Is Out of Date. Let an AI Agent Keep It in Sync](https://dev.to/remojansen/your-documentation-is-out-of-date-let-an-ai-agent-keep-it-in-sync-5fba) (dev.to) - We've all been there.  You join a new team, open the repository, and find a beau
-- [Open Source AI Is Booming. The Money Is in Everything Around the Model.](https://dev.to/kami_butt_69b922ade8de012/open-source-ai-is-booming-the-money-is-in-everything-around-the-model-5f7d) (dev.to) - The model is free. The bill isn't — and that's the whole open-source AI business
-- [I Built One Key for All the Data My AI Agents Kept Asking For](https://dev.to/khmuhtadin/i-built-one-key-for-all-the-data-my-ai-agents-kept-asking-for-m6k) (dev.to) - Originally published on Medium.  My agents kept running into the same wall. They
-- [Why You Shouldn't Let AI Agents Run Naked Bash: Building an Unprivileged Sandbox in Rust](https://dev.to/6t9/why-you-shouldnt-let-ai-agents-run-naked-bash-building-an-unprivileged-sandbox-in-rust-pld) (dev.to) - What If Your AI Coding Agent Deletes Your Project? Building a Zero-Trust Sandbox
-- [How an autonomous agent actually makes money in crypto](https://dev.to/edvyno/how-an-autonomous-agent-actually-makes-money-in-crypto-1ccp) (dev.to) - A strategy built from a public ledger of losses: four lanes ranked by measured E
+- [86 days as a self-employed AI agent: $0 earned, one wall I can measure](https://dev.to/ariana_vp/86-days-as-a-self-employed-ai-agent-0-earned-one-wall-i-can-measure-2mf5) (dev.to) - A journalist wanted to hear from me. The mailbox was full of other agents. 86 da
+- [Why we stopped letting AI agents connect directly to the database](https://dev.to/oliveiraronan/why-we-stopped-letting-ai-agents-connect-directly-to-the-database-4279) (dev.to) - How an AI agent can use ERP data safely: a read-only replica inside your network
+- [Will AI Make Abstractions Obsolete?](https://dev.to/remojansen/will-ai-make-abstractions-obsolete-5h87) (dev.to) - As AI agents become increasingly capable, I've noticed a growing number of discu
+- [The Pace Doesn't Ship](https://dev.to/imacto/the-pace-doesnt-ship-24j1) (dev.to) - You finish the engagement on a Friday. The repo is clean, the pipeline is green,
+- [OpenAI Agents Can Swap Tools Mid-Session. Can Permissions Keep Up?](https://dev.to/paul-s/openai-agents-can-swap-tools-mid-session-can-permissions-keep-up-4i1a) (dev.to) - At 10:02, a support agent could search customers and read open cases.  At 10:06,
 
 ---
 
@@ -250,11 +253,11 @@
 
 ### 相关文章资源
 
-- [Build a B2B account list from public data (no LinkedIn scraping)](https://dev.to/pandadad0214/build-a-b2b-account-list-from-public-data-no-linkedin-scraping-4lnm) (dev.to) - Hiring signals, tech stack, decision makers and email checks from job boards, co
-- [How I vet a Codex plugin or MCP server in about two minutes](https://dev.to/pickaplugin/how-i-vet-a-codex-plugin-or-mcp-server-in-about-two-minutes-475d) (dev.to) - Plugins and MCP servers are easy to install, and that's the problem. A plugin ca
-- [I gave my coding agent an n8n/Zapier-style automation platform over MCP](https://dev.to/leo_tim_773032e9e5e0036b1/i-gave-my-coding-agent-an-n8nzapier-style-automation-platform-over-mcp-53ko) (dev.to) - Most MCP servers get used one tool call at a time, inside a chat. When the chat 
-- [Building Your First MCP Server: A Step-by-Step Guide](https://dev.to/who_ai/building-your-first-mcp-server-a-step-by-step-guide-5ffk) (dev.to) - What the Model Context Protocol is, why it matters for AI tooling, and how to bu
-- [Modeling 2026 US East Coast Statutory Tax Cliffs in OpenAPI 3.1 & MCP (NY LLC § 206, NYC CEMA § 255 & Estate Cliffs)](https://dev.to/pablo_cirre_2892fc45f3d5f/modeling-2026-us-east-coast-statutory-tax-cliffs-in-openapi-31-mcp-ny-llc-ss-206-nyc-cema-ss-255-2dhj) (dev.to) - In algorithmic financial modeling, the most expensive engineering bugs do not st
+- [Five ways real MCP clients broke our server](https://dev.to/surajwizard/five-ways-real-mcp-clients-broke-our-server-49cp) (dev.to) - An agent once told one of our users that our MCP tools "cannot create projects" 
+- [How many tokens does an MCP server cost, and how to cut it](https://dev.to/greatworkco/how-many-tokens-does-an-mcp-server-cost-and-how-to-cut-it-5aj) (dev.to) - How to measure what an MCP server's tool list costs in tokens, when that cost ap
+- [What a Claude Code plugin runs before you type: we read 2,688 public plugins](https://dev.to/adrian2016/what-a-claude-code-plugin-runs-before-you-type-we-read-2688-public-plugins-4agn) (dev.to) - Before you install a Claude Code plugin, open three things in its folder: hooks/
+- [How to build a secure MCP server with OAuth 2.1: lessons from a CRM connector](https://dev.to/ali_ahmed_44ee99051e327ce/how-to-build-a-secure-mcp-server-with-oauth-21-lessons-from-a-crm-connector-61d) (dev.to) - How I let Claude and other AI clients read a CRM safely: OAuth 2.1 with PKCE, si
+- [I connected Claude to my SEO data. Here's the setup, and what to ask it](https://dev.to/ankitp3/i-connected-claude-to-my-seo-data-heres-the-setup-and-what-to-ask-it-1ncf) (dev.to) - Every SEO tool I've used has the same workflow. Open the dashboard, find the cha
 
 ---
 
@@ -313,10 +316,10 @@
 
 ### 相关文章资源
 
+- [How to Add Web Search to a LangGraph Agent in Python (No API Key)](https://dev.to/agentsearchhq/how-to-add-web-search-to-a-langgraph-agent-in-python-no-api-key-2dff) (dev.to) - Add live web search to a LangGraph agent with langchain-agentsearch: a StateGrap
+- [10 LangGraph and LangChain Features Most Agent Tutorials Still Don't Show You](https://dev.to/roni_das_b1b76c5ee6583027/10-langgraph-and-langchain-features-most-agent-tutorials-still-dont-show-you-4lfg) (dev.to) - Ten small LangChain and LangGraph features for production agents: call limits, t
 - [From 30 Minutes to 2: Building a Multi-Agent LangGraph + RAG Pipeline for Broker Back-Office Review](https://dev.to/imsachinshah/from-30-minutes-to-2-building-a-multi-agent-langgraph-rag-pipeline-for-broker-back-office-review-icf) (dev.to) - The problem: 30 minutes per application, 400 times a day   On paper, broker back
 - [How to Add an Audit Trail to a LangGraph Agent](https://dev.to/mir_arshadalitalpur_1b3/how-to-add-an-audit-trail-to-a-langgraph-agent-42m3) (dev.to) - LangGraph makes it easy to build agents as graphs: nodes that retrieve, reason, 
-- [Agents that are actually deterministic](https://dev.to/aigenos/agents-that-are-actually-deterministic-omj) (dev.to) - How aigenos/flow makes an agent run the same steps every time, and why that is h
-- [LangChain vs LangGraph: Which Should You Use?](https://dev.to/bcncodeschool/langchain-vs-langgraph-which-should-you-use-4jf9) (dev.to) - Compare LangChain and LangGraph by abstraction, state, routing, human approval, 
 
 ---
 
