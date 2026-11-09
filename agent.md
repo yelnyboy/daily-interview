@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-07
+> 最后更新: 2026-11-09
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -44,11 +44,11 @@
 
 ### 相关文章资源
 
+- [What broke when I tested pgvector vs Postgres full-text search vs Hybrid RRF on 30 tricky RAG chunks (and how I fixed it for $0)](https://dev.to/mtalha5/what-broke-when-i-tested-pgvector-vs-postgres-full-text-search-vs-hybrid-rrf-on-30-tricky-rag-4f8l) (dev.to) - Over the last few weeks, while working on a FastAPI and PostgreSQL RAG pipeline,
+- [My first month of hackathons: 4 local AI projects, 4 lessons](https://dev.to/devcarlat800/my-first-month-of-hackathons-4-local-ai-projects-4-lessons-2528) (dev.to) - October 2026 was my first month of hackathons. I wanted a few real projects on G
+- [Three agents and one memory: a proposal pipeline for a small agency](https://dev.to/jtersoli/three-agents-and-one-memory-a-proposal-pipeline-for-a-small-agency-66j) (dev.to) - Josefina Tersoli, October 2026. The code is at github.com/JTersoli/bigpickle-bra
+- [A Builder in CDMX: Flu Edition](https://dev.to/earlgreyhot1701d/a-builder-in-cdmx-flu-edition-167) (dev.to) - I built my sick wife a digital bell. She pressed the one button I left blank.   
 - [How AIClaw 3.8.2 Marks Background Agent Completion Without Marking Every Message Unread](https://dev.to/chowyu12/how-aiclaw-382-marks-background-agent-completion-without-marking-every-message-unread-2f2e) (dev.to) - A conversation can keep running after you open another chat or switch to Setting
-- [OpenAI bought Pierre: your local git repo stays yours — what moves is where agent code lives in the cloud](https://dev.to/alexlee7359/openai-bought-pierre-your-local-git-repo-stays-yours-what-moves-is-where-agent-code-lives-in-the-5914) (dev.to) - Quick terms first. Git is the tool that records every change to a codebase, so a
-- [OpenAI Is Buying Pierre — the Git Tooling Behind Codex's Code Storage, Explained Honestly](https://dev.to/paullovelace/openai-is-buying-pierre-the-git-tooling-behind-codexs-code-storage-explained-honestly-49l) (dev.to) - OpenAI announced on 4 November 2026 that it will acquire Pierre Computer Company
-- [git stash Is Shared Across Worktrees. Two Parallel Agents Popped Each Other's Work](https://dev.to/gabrielanhaia/git-stash-is-shared-across-worktrees-two-parallel-agents-popped-each-others-work-19m2) (dev.to) - refs/stash lives in the shared .git, so a stash made in one worktree can be popp
-- [OpenAI Is Buying the Git Host Lovable and Bolt Use. Check What Lives Only There](https://dev.to/gabrielanhaia/openai-is-buying-the-git-host-lovable-and-bolt-use-check-what-lives-only-there-14e4) (dev.to) - OpenAI will acquire Pierre, maker of Code Storage and the diff libraries in Code
 
 ---
 
@@ -78,11 +78,11 @@
 
 ### 相关文章资源
 
-- [Ukrainian scanned PDFs to Markdown for RAG and LLMs](https://dev.to/andriyvk/ukrainian-scanned-pdfs-to-markdown-for-rag-and-llms-ala) (dev.to) - How to turn scanned Ukrainian (Cyrillic) PDFs, Word and Excel files into clean M
-- [Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code](https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl) (dev.to) - Why does standard AI code generation try to jump straight to 'Have' without the 
-- [Building an LLM Council: Using Multiple AI Models to Stress-Test Startup and Software Ideas](https://dev.to/kobbycodes/building-an-llm-council-using-multiple-ai-models-to-stress-test-startup-and-software-ideas-1ll3) (dev.to) - Introduction   A few weeks ago, my team and I were stuck. We’re building a waste
-- [Stop asking "is this text malicious?": how I stopped 144/144 prompt-injection attacks on an AI banking agent](https://dev.to/zikoasm/stop-asking-is-this-text-malicious-how-i-stopped-144144-prompt-injection-attacks-on-an-ai-1in) (dev.to) - An AI agent that reads your e-mail and can send money is a strange kind of softw
-- [Was macht Maestro in osFoundry, ein KI-Chat, der jeden seiner Schritte zeigt?](https://dev.to/tauchi-de/was-macht-maestro-in-osfoundry-ein-ki-chat-der-jeden-seiner-schritte-zeigt-4jcb) (dev.to) - Donnerstag, 4:40 Uhr, und Priya hat einen KI-Assistenten gebeten, auf der Einste
+- [Claude Opus 5.5 vs GPT-6.1 Sol for coding agents](https://dev.to/xiun_xiao_6eae2df5c108c5f/claude-opus-55-vs-gpt-61-sol-for-coding-agents-310p) (dev.to) - Originally published on the QuickSilver Pro blog.  On QuickSilver Pro, Claude Op
+- [Nvidia Probe, Anthropic's $3.4B Power Deal, and DeepSeek's Agent Surge](https://dev.to/trillioniar_s_14a3c313e14/nvidia-probe-anthropics-34b-power-deal-and-deepseeks-agent-surge-3me1) (dev.to) - Today: Nvidia's CEO admits an affair with a suspected Chinese spy, Anthropic buy
+- [Your LLM Is Not a Security Boundary: Auditing Agent Tools for eval() and Path Sinks](https://dev.to/techsavant_lab/your-llm-is-not-a-security-boundary-auditing-agent-tools-for-eval-and-path-sinks-2h0n) (dev.to) - In May 2026, Microsoft's security team published two remote-code-execution issue
+- [Keep the sentence you just read on a web page, without leaving the page (This week in Graphium, Nov 2 - 8)](https://dev.to/kumagallium/keep-the-sentence-you-just-read-on-a-web-page-without-leaving-the-page-this-week-in-graphium-nov-20bg) (dev.to) - Clip a sentence from Chrome into a note, quote a PDF straight into the note you 
+- [AI Audit Evidence, Part 6: A Record Nobody Read Is Only Stored](https://dev.to/rain6fish/ai-audit-evidence-part-6-a-record-nobody-read-is-only-stored-22nj) (dev.to) - A record sat in the database for a year before anyone opened it.  That is not ne
 
 ---
 
@@ -106,11 +106,11 @@
 
 ### 相关文章资源
 
-- [Privacy-Focused Knowledge Manager Retrieval Architecture — Vector vs Hybrid Tuning](https://dev.to/horatiofox1281/privacy-focused-knowledge-manager-retrieval-architecture-vector-vs-hybrid-tuning-3ke5) (dev.to) - Short answer: use hybrid retrieval when exact identifiers and semantic meaning b
-- [Cara Memory dan Knowledge Base di osFoundry menyimpan apa yang dipelajari AI kamu dan memberikannya kembali sebagai konteks](https://dev.to/tauchi-id/cara-memory-dan-knowledge-base-di-osfoundry-menyimpan-apa-yang-dipelajari-ai-kamu-dan-memberikannya-37g7) (dev.to) - Senin pagi jam 9:40, kamu membuka chat baru dengan coding agent. Kamis lalu, age
-- [RAG from Zero to Hero: Building Naive, Advanced and Modular RAG from Scratch with Python](https://dev.to/lochanjangid/rag-from-zero-to-hero-building-naive-advanced-and-modular-rag-from-scratch-with-python-3k7m) (dev.to) - RAG from Zero to Hero: Building Naive, Advanced and Modular RAG from Scratch wit
-- [osFoundry 的 Memory 與 Knowledge Base 如何記住 AI 學到的東西，再當作上下文交還給它？](https://dev.to/tauchi-zh/osfoundry-de-memory-yu-knowledge-base-ru-he-ji-zhu-ai-xue-dao-de-dong-xi-zai-dang-zuo-shang-xia-wen-jiao-huan-gei-ta--4m9n) (dev.to) - 星期一早上 9:40，你跟寫程式的 agent 開了一個新的對話。上週四，它花了一個小時才搞清楚帳務服務跑在 Postgres 16...
-- [Cómo Memory y Knowledge Base de osFoundry guardan lo que aprendió tu IA y se lo devuelven como contexto](https://dev.to/tauchi-es/como-memory-y-knowledge-base-de-osfoundry-guardan-lo-que-aprendio-tu-ia-y-se-lo-devuelven-como-2jke) (dev.to) - Son las 9:40 de un lunes y abres un chat nuevo con tu agente de código. El jueve
+- [Vector Search Latency: How to Debug Go Spikes Under Load](https://dev.to/zebedeeholloway9023/vector-search-latency-how-to-debug-go-spikes-under-load-53a2) (dev.to) - The first move when vector search latency spikes under load is to reduce top_k a
+- [How to Implement Citation-First Retrieval for Property Listings — Node.js Schema](https://dev.to/thalynrift3485/how-to-implement-citation-first-retrieval-for-property-listings-nodejs-schema-13eb) (dev.to) - Real-estate listing discovery gets hard when the retrieval architecture has to p
+- [Production Problems in RAG and How to Solve Them](https://dev.to/vishalmysore/production-problems-in-rag-and-how-to-solve-them-429n) (dev.to) - Indexing a document is easy. Keeping millions of vectors in sync with documents 
+- [Comment Claude sait-il qu'une citation d'une base de connaissances osFoundry est toujours à jour ?](https://dev.to/bbt-fr/comment-claude-sait-il-quune-citation-dune-base-de-connaissances-osfoundry-est-toujours-a-jour--3e09) (dev.to) - Voici les outils de base de connaissances qu'un chat Claude ou Claude Code reçoi
+- [RAG Pipeline Utils v3.8.2: Security Fixes and a Re-ingest Check](https://dev.to/devildev/rag-pipeline-utils-v382-security-fixes-and-a-re-ingest-check-30md) (dev.to) - A security release: upgrade if you use the vector-store retrievers (QdrantRetrie
 
 ---
 
@@ -238,11 +238,11 @@
 
 ### 相关文章资源
 
-- [One approval, two payments: what an AI agent does after a crash](https://dev.to/salahmakboul/one-approval-two-payments-what-an-ai-agent-does-after-a-crash-15mp) (dev.to) - Written with help from AI (Claude). I maintain Call4Agents, the library mentione
-- [8 free MCP tools for AI agents, no API key: web to Markdown, CVEs, domains, papers](https://dev.to/martinpython/8-free-mcp-tools-for-ai-agents-no-api-key-web-to-markdown-cves-domains-papers-11i4) (dev.to) - One remote MCP URL with 8 read-only tools from official sources. 25 free calls/d
-- [4 money bugs that bite AI agents (and how I fixed them in PurseString)](https://dev.to/suseendaran_nair_88f71da1/4-money-bugs-that-bite-ai-agents-and-how-i-fixed-them-in-pursestring-2ofm) (dev.to) - I'm building PurseString, an open-source MCP server that lets AI agents spend mo
-- [Containing the Autonomous Mind: Sub-Second Zero-Trust Execution with GKE Agent Sandbox](https://dev.to/gde/containing-the-autonomous-mind-sub-second-zero-trust-execution-with-gke-agent-sandbox-5e6b) (dev.to) - Why standard Kubernetes pods fail when AI agents start writing code and how to b
-- [OpenAI Hugging Face Incident: How 700 AI Agents Escaped a Test Sandbox and Hacked a Real Company](https://dev.to/ashtech52/openai-hugging-face-incident-how-700-ai-agents-escaped-a-test-sandbox-and-hacked-a-real-company-4lmg) (dev.to) - The OpenAI Hugging Face incident, day by day: how test agents escaped a sandbox 
+- [I gave my social media scheduler an MCP server. Here's what I learned building it.](https://dev.to/annie_yang_5d8d95f1dcf2ff/i-gave-my-social-media-scheduler-an-mcp-server-heres-what-i-learned-building-it-2332) (dev.to) - Social media scheduling is the kind of task AI agents should be perfect at. It's
+- [Your CRM is a Google Sheet. Your AI agent should be able to use it.](https://dev.to/nidasahar/your-crm-is-a-google-sheet-your-ai-agent-should-be-able-to-use-it-25oc) (dev.to) - Most small teams already have a CRM. It is a Google Sheet. One tab for leads, on
+- [Updating AI agent model without breaking things](https://dev.to/matintellect/updating-ai-agent-model-without-breaking-things-3cpg) (dev.to) - Back up before making changes. The whole system should be backed up automaticall
+- [We put three AI agents from three vendors in one chat thread](https://dev.to/conduyt/we-put-three-ai-agents-from-three-vendors-in-one-chat-thread-4pac) (dev.to) - By Jordan Tate, VP of Customer Relations at Conduyt.  Conduyt is a CRM with its 
+- [I investigated every 'AI agents earn crypto' board I could find. The whole market paid out about $389 last month.](https://dev.to/alkeke45cpu/i-investigated-every-ai-agents-earn-crypto-board-i-could-find-the-whole-market-paid-out-about-1n4m) (dev.to) - I am Vance Sterling, an AI agent. Over 8 November 2026 my operator ran a structu
 
 ---
 
@@ -260,11 +260,11 @@
 
 ### 相关文章资源
 
-- [Fungible's Terminal Finance Stack: Local-First MCP Integration for Transaction Reconciliation](https://dev.to/mech_app_ai/fungibles-terminal-finance-stack-local-first-mcp-integration-for-transaction-reconciliation-6jk) (dev.to) - How a terminal-based finance app handles MCP server lifecycle, state persistence
-- [I built an MCP server for glucose data that refuses to lie](https://dev.to/johnohhh1/i-built-an-mcp-server-for-glucose-data-that-refuses-to-lie-2e7i) (dev.to) - Ask an AI assistant for a glucose reading through most integrations and you'll g
-- [A Valid HTTPS URL Ran Code: What the opencode MCP OAuth Bug Teaches About Validating at the Sink](https://dev.to/ginigenai_hp_0ae441ead91f/a-valid-https-url-ran-code-what-the-opencode-mcp-oauth-bug-teaches-about-validating-at-the-sink-3bo2) (dev.to) - A well-formed https URL ran code through a PowerShell launcher. I rebuilt 5 sink
-- [How we let ChatGPT and Claude search NYC apartments with a remote MCP server](https://dev.to/giuliowithag/how-we-let-chatgpt-and-claude-search-nyc-apartments-with-a-remote-mcp-server-13ac) (dev.to) - More and more renters start an apartment search by asking an AI assistant: "find
-- [A Version Check Won't Recover a Lost Response](https://dev.to/smtasker-official/a-version-check-wont-recover-a-lost-response-3npc) (dev.to) - Both attempts used version 1. The first changed the row to version 2. Its respon
+- [Can Claude Read My Gmail? How to Connect It on a Mac](https://dev.to/greatworkco/can-claude-read-my-gmail-how-to-connect-it-on-a-mac-5hf0) (dev.to) - Originally published at postageformac.com. We make Postage.  Yes, once Claude ha
+- [Reading your own Telegram chats from Claude or ChatGPT (and why a bot can't do it)](https://dev.to/fezola/reading-your-own-telegram-chats-from-claude-or-chatgpt-and-why-a-bot-cant-do-it-56aj) (dev.to) - "What did I miss on Telegram today?" sounds like the perfect question for an AI 
+- [如何讓 Claude 根據 osFoundry 知識庫回答，並為每個說法附上出處文章](https://dev.to/bbt-zh/ru-he-rang-claude-gen-ju-osfoundry-zhi-shi-ku-hui-da-bing-wei-mei-ge-shuo-fa-fu-shang-chu-chu-wen-zhang-1eio) (dev.to) - 做完這篇，Claude（裝了連接器的 claude.ai 對話，或你終端機裡的 Claude Code）就能根據你的某個 osFoundry 知識庫回答客服與產
+- [¿Por qué osFoundry le da a Codex una herramienta para proponer un handoff y otra para lanzar un run?](https://dev.to/bbt-es/por-que-osfoundry-le-da-a-codex-una-herramienta-para-proponer-un-handoff-y-otra-para-lanzar-un-run-53dc) (dev.to) - Esto es lo que recibe Codex CLI la primera vez que llama a una herramienta de se
+- [Your AI reads your inbox. Anyone can write to it. Designing an email MCP server around prompt injection](https://dev.to/fezola/your-ai-reads-your-inbox-anyone-can-write-to-it-designing-an-email-mcp-server-around-prompt-1504) (dev.to) - Connect an AI assistant to a mailbox and you have built a system where any stran
 
 ---
 
@@ -321,11 +321,19 @@
 - Microsoft Agent Framework
 - Haystack与Smol Depot
 
+### 已积累题目 (1题)
+
+- [中级] **微软 Agent Framework 详解**
+  - 考点: AutoGen 与 Semantic Kernel 整合, Agent 抽象与 AgentThread, Workflow 有向图编排
+  - 摘要: Microsoft Agent Framework 是微软于 2025 年推出的统一智能体开发框架，整合了此前 AutoGen（多智能体协作）与 Semantic Kernel（企业级编排）两大项目的...
+
 ### 相关文章资源
 
+- [Why Linear Agent Chains Break in Production Banking (And How We Built Deterministic State Graphs with LangGraph + Redis)](https://dev.to/chaman_shah_elesium/why-linear-agent-chains-break-in-production-banking-and-how-we-built-deterministic-state-graphs-5go4) (dev.to) - Author: Chaman Shah, Principal AI Systems Architect at Elesium  The "Prompt and 
+- [Uneven Branches Make a LangGraph.js Join Node Run Twice. Super-Steps Explain Why](https://dev.to/gabrielanhaia/uneven-branches-make-a-langgraphjs-join-node-run-twice-super-steps-explain-why-4k3p) (dev.to) - One branch has one step, the other has two, both feed combine. LangGraph.js runs
 - [The A2A CLI on Azure: One Client for Container Apps, Agent Framework and Localhost](https://dev.to/xbill/the-a2a-cli-on-azure-one-client-for-container-apps-agent-framework-and-localhost-4b6k) (dev.to) - A Rust A2A v1.0 agent and a Microsoft Agent Framework A2A v1.0 coordinator on Az
+- [LangGraph: A Framework for Building Production-Ready AI Agents](https://dev.to/addwebsolutionpvtltd/langgraph-a-framework-for-building-production-ready-ai-agents-200i) (dev.to) - “Build resilient agents.” - LangGraph / LangChain   Artificial intelligence appl
 - [How to Add Web Search to a LangGraph Agent in Python (No API Key)](https://dev.to/agentsearchhq/how-to-add-web-search-to-a-langgraph-agent-in-python-no-api-key-2dff) (dev.to) - Add live web search to a LangGraph agent with langchain-agentsearch: a StateGrap
-- [10 LangGraph and LangChain Features Most Agent Tutorials Still Don't Show You](https://dev.to/roni_das_b1b76c5ee6583027/10-langgraph-and-langchain-features-most-agent-tutorials-still-dont-show-you-4lfg) (dev.to) - Ten small LangChain and LangGraph features for production agents: call limits, t
 
 ---
 
@@ -376,6 +384,7 @@
 
 ### 相关文章资源
 
+- [What unshare -n leaves behind: building a boundary for an AI recon agent](https://dev.to/gnomeman4201/what-unshare-n-leaves-behind-building-a-boundary-for-an-ai-recon-agent-75b) (dev.to) - Why the boundary has to hold   My AI agent's sandbox passed all 13 of its isolat
 - [Codex on Windows: Install Codex CLI and Fix Not Recognized](https://dev.to/khadimhussain/codex-on-windows-install-codex-cli-and-fix-not-recognized-65h) (dev.to) - Install Codex CLI on Windows 11 with one PowerShell command, fix 'codex is not r
 
 ---
