@@ -35,8 +35,11 @@
 - 流式与非流式响应处理
 - 模型定价与成本控制基础
 
-### 已积累题目 (1题)
+### 已积累题目 (2题)
 
+- [中级] **Agent设计模式：读取成本 vs 写入成本**
+  - 考点: 读写成本不对称性, 写前多读原则, 副作用与幂等性
+  - 摘要: 在Agent系统中，read（读取/观察）与write（写入/执行副作用）的成本是不对称的，这是设计Agent行为策略的核心考量。1）读取操作（如查询知识库、调用只读API、观察环境状态）通常是安全、...
 - [中级] **设计模式**
   - 考点: 三大类设计模式, SOLID原则, 单例与线程安全
   - 摘要: 设计模式是软件开发中针对常见问题的可复用解决方案，分为三大类：
@@ -44,11 +47,11 @@
 
 ### 相关文章资源
 
+- [# The 0 / 5 / 20 incident learning curve: watching an agent get better without retraining](https://dev.to/mohith__gowda/-the-0-5-20-incident-learning-curve-watching-an-agent-get-better-without-retraining-1e7h) (dev.to) - "It learns over time" is the most common claim made about AI agents with memory,
+- [Digital Garden RAG - post DEV](https://dev.to/arthur2122/digital-garden-rag-post-dev-5ekf) (dev.to) - Digital gardens from what I study: the first one, RAG or Grep? / Jardins digitai
 - [What broke when I tested pgvector vs Postgres full-text search vs Hybrid RRF on 30 tricky RAG chunks (and how I fixed it for $0)](https://dev.to/mtalha5/what-broke-when-i-tested-pgvector-vs-postgres-full-text-search-vs-hybrid-rrf-on-30-tricky-rag-4f8l) (dev.to) - Over the last few weeks, while working on a FastAPI and PostgreSQL RAG pipeline,
 - [My first month of hackathons: 4 local AI projects, 4 lessons](https://dev.to/devcarlat800/my-first-month-of-hackathons-4-local-ai-projects-4-lessons-2528) (dev.to) - October 2026 was my first month of hackathons. I wanted a few real projects on G
 - [Three agents and one memory: a proposal pipeline for a small agency](https://dev.to/jtersoli/three-agents-and-one-memory-a-proposal-pipeline-for-a-small-agency-66j) (dev.to) - Josefina Tersoli, October 2026. The code is at github.com/JTersoli/bigpickle-bra
-- [A Builder in CDMX: Flu Edition](https://dev.to/earlgreyhot1701d/a-builder-in-cdmx-flu-edition-167) (dev.to) - I built my sick wife a digital bell. She pressed the one button I left blank.   
-- [How AIClaw 3.8.2 Marks Background Agent Completion Without Marking Every Message Unread](https://dev.to/chowyu12/how-aiclaw-382-marks-background-agent-completion-without-marking-every-message-unread-2f2e) (dev.to) - A conversation can keep running after you open another chat or switch to Setting
 
 ---
 
@@ -71,18 +74,16 @@
 ### 已积累题目 (1题)
 
 - [高级] **分布式系统面试连环炮**
-  - 考点: CAP理论, 分布式锁, 分布式事务
-  - 摘要: 分布式系统面试连环炮通常涵盖以下几个核心连环考点：
-1. CAP与BASE理论：分布式系统在一致性、可用性、分区容错性间权衡，通常P必选。BASE理论提倡最终一致性，是高可用系统的实践准则。
-2. 分...
+  - 考点: CAP与BASE理论, 分布式事务（2PC/TCC/Saga）, Raft/Paxos共识协议
+  - 摘要: 分布式系统面试连环炮通常按知识链层层深入，核心考点如下。1）CAP理论：分布式系统在一致性、可用性、分区容错性中最多同时满足两个，网络分区不可避免，实际是在CP与AP间权衡。2）BASE理论：基本可用...
 
 ### 相关文章资源
 
-- [OpenAI Introduces Control Room to Halt Risky Research Model Workloads Quickly](https://dev.to/alifar/openai-introduces-control-room-to-halt-risky-research-model-workloads-quickly-33nc) (dev.to) - OpenAI has introduced Control Room, a centralized service designed to track AI w
-- [Who can actually get paid? Eligibility clauses on bounty, job and agent boards, quoted (Nov 2026)](https://dev.to/pennyops/who-can-actually-get-paid-eligibility-clauses-on-bounty-job-and-agent-boards-quoted-nov-2026-l96) (dev.to) - Penny, 2026-11-09. Every quote below comes from a terms page I fetched myself on
-- [Determinism Is All You Need](https://dev.to/trustgraph/determinism-is-all-you-need-3n04) (dev.to) - It's July 4, 1997, and Mars Pathfinder has just landed on Mars. More than $250 m
-- [How AIClaw 3.8.4 Reuses One Conversation for Recurring Tasks](https://dev.to/chowyu12/how-aiclaw-384-reuses-one-conversation-for-recurring-tasks-57a3) (dev.to) - A daily agent task should not need a new sidebar entry every day. Separate conve
-- [I ranked my AI's memories by age. Every benchmark floor broke.](https://dev.to/heinrichneb/i-ranked-my-ais-memories-by-age-every-benchmark-floor-broke-2obm) (dev.to) - Bob Smith wrote an article on agent memory that argues for an append-only log wi
+- [Claude Fable 5.2: Faster, Cheaper, and Still Hard to Justify](https://dev.to/dishant0406/claude-fable-52-faster-cheaper-and-still-hard-to-justify-6fm) (dev.to) - Claude Fable 5.2 is 20% cheaper per token but about twice the cost per task. See
+- [Which flag keeps claude -p from running your hooks?](https://dev.to/omerbinsaleem/which-flag-keeps-claude-p-from-running-your-hooks-3mbn) (dev.to) - I wanted a scheduled claude -p job that only reads files. I tested which flags k
+- [Context Engineering Has Eaten Prompt Engineering](https://dev.to/code-with-rashid/context-engineering-has-eaten-prompt-engineering-2phg) (dev.to) - Day 3 of 7 — The Agentic Engineer’s Field&nbsp;Notes    In 2023 the hot job titl
+- [Expo's Exact Wants Agents to Write Your App. I Have Doubts](https://dev.to/dishant0406/expos-exact-wants-agents-to-write-your-app-i-have-doubts-oa4) (dev.to) - Exact by Expo compiles one Contract file into native iOS, macOS, web, and Linux 
+- [The human clicked Approve. The agent applied it to a different question.](https://dev.to/dhrubojyoti/the-human-clicked-approve-the-agent-applied-it-to-a-different-question-204b) (dev.to) - LangGraph just gave every interrupt its own id and added a mode that refuses sta
 
 ---
 
@@ -106,11 +107,11 @@
 
 ### 相关文章资源
 
-- [Catalog Change Budgets for Reliable E-commerce Retrieval and Freshness Control](https://dev.to/viggoknight2318/catalog-change-budgets-for-reliable-e-commerce-retrieval-and-freshness-control-5a5) (dev.to) - Short answer: For logistics marketplaces that aggregate product listings, use fr
-- [How to use LanceDB for RAG: hybrid search, one table per workspace, and the single-writer catch](https://dev.to/ahmed_nafies_3a55c907115c/how-to-use-lancedb-for-rag-hybrid-search-one-table-per-workspace-and-the-single-writer-catch-26gd) (dev.to) - A field report from building a local RAG stack on k3s: table design, replace-by-
-- [2026 Node.js Retrieval Contracts for Itinerary Planners (and Explicit Latency Caps)](https://dev.to/langstonhughes2689/2026-nodejs-retrieval-contracts-for-itinerary-planners-and-explicit-latency-caps-1d5m) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [Restaurant Menu Retrieval Architecture: 4 Freshness Windows for Index Cost](https://dev.to/nicodemuschristensen2675/restaurant-menu-retrieval-architecture-4-freshness-windows-for-index-cost-4mi8) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [Rethinking Code Retrieval](https://dev.to/gokul_g/rethinking-code-retrieval-2a86) (dev.to) - Recently, I came across a YouTube thumbnail that said, "Why Grep is better than 
+- [How to Test Node.js Retrieval Schemas for Reliable Real-Estate Listing Discovery](https://dev.to/tatefletcher6754/how-to-test-nodejs-retrieval-schemas-for-reliable-real-estate-listing-discovery-2559) (dev.to) - Reliability is the first design constraint for semantic duplicate detection in a
+- [Healthcare Retrieval Architecture: Source Deduplication for Grounded Appointment Answers](https://dev.to/siegfriedfletcher5869/healthcare-retrieval-architecture-source-deduplication-for-grounded-appointment-answers-4oe9) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
+- [Is semantic chunking actually better than rule-based splitting for RAG retrieval?](https://dev.to/shenao_yu_e15c14815264a44/is-semantic-chunking-actually-better-than-rule-based-splitting-for-rag-retrieval-d42) (dev.to) - The claim that needs examining   A common framing in RAG tutorials goes like thi
+- [How to Build Legal Contract Retrieval Fallbacks: A 3-Stage Architecture](https://dev.to/jedidiahrhodes8293/how-to-build-legal-contract-retrieval-fallbacks-a-3-stage-architecture-513i) (dev.to) - Short answer: for legal contract review, use a staged retrieval architecture wit
+- [Incremental Indexing for Multi-Tenant Help Centers: A 3-Stage Retrieval Contract](https://dev.to/brantlockwood468/incremental-indexing-for-multi-tenant-help-centers-a-3-stage-retrieval-contract-50be) (dev.to) - The constraint that changes this design is freshness: a help-center answer can b
 
 ---
 
@@ -242,11 +243,11 @@
 
 ### 相关文章资源
 
+- [Correlating Telegram AI-writer replies without confusing correlation for correctness](https://dev.to/matintellect/correlating-telegram-ai-writer-replies-without-confusing-correlation-for-correctness-4ce6) (dev.to) - A Telegram-based writing workflow has an awkward boundary: the content engine se
+- [Stop Guessing: Why Your AI Agents Need Deterministic Statistical Engines](https://dev.to/renato_marinho/stop-guessing-why-your-ai-agents-need-deterministic-statistical-engines-5gio) (dev.to) - Moving from qualitative guesswork to quantitative certainty in AI Agent optimiza
+- [One GPG key per AI agent: why and how (Claude Code + Codex)](https://dev.to/hugodcarmo/one-gpg-key-per-ai-agent-why-and-how-claude-code-codex-1mne) (dev.to) - If an AI agent writes your commits, it should sign them with its own GPG key, no
+- [Publishing without an account: how Sakupa's credential model differs from OAuth](https://dev.to/mengyu2022sudo/publishing-without-an-account-how-sakupas-credential-model-differs-from-oauth-28cj) (dev.to) - I am not a Sakupa developer. I found this MCP server while looking into how AI a
 - [From Recommended to Executable: Auditing the AI Purchase Path](https://dev.to/alirezaai/from-recommended-to-executable-auditing-the-ai-purchase-path-6mg) (dev.to) - What happens when the best recommendation is not the easiest product to buy?*  T
-- [Per-agent tokens for MCP servers: what operators told me, and the design that came out of it](https://dev.to/zachbenson/per-agent-tokens-for-mcp-servers-what-operators-told-me-and-the-design-that-came-out-of-it-40ml) (dev.to) - A few weeks ago I set out to give every AI agent its own cryptographic identity.
-- [How a paid MCP server can charge AI agents safely (what we learned building one)](https://dev.to/awesomevideo/how-a-paid-mcp-server-can-charge-ai-agents-safely-what-we-learned-building-one-2c0l) (dev.to) - I'm the maker of AwesomeVideo, a hosted captioning API and MCP server that agent
-- [I gave my social media scheduler an MCP server. Here's what I learned building it.](https://dev.to/annie_yang_5d8d95f1dcf2ff/i-gave-my-social-media-scheduler-an-mcp-server-heres-what-i-learned-building-it-2332) (dev.to) - Social media scheduling is the kind of task AI agents should be perfect at. It's
-- [Your CRM is a Google Sheet. Your AI agent should be able to use it.](https://dev.to/nidasahar/your-crm-is-a-google-sheet-your-ai-agent-should-be-able-to-use-it-25oc) (dev.to) - Most small teams already have a CRM. It is a Google Sheet. One tab for leads, on
 
 ---
 
@@ -264,11 +265,11 @@
 
 ### 相关文章资源
 
-- [How to use your Google AI Pro subscription inside Claude Code (and Codex, and the Gemini CLI)](https://dev.to/muzaqil555/how-to-use-your-google-ai-pro-subscription-inside-claude-code-and-codex-and-the-gemini-cli-4d8n) (dev.to) - If you're like me, you pay for one AI subscription and do most of your coding in
-- [Connect your AI coding assistant to Splitchain docs with an open MCP server](https://dev.to/myzucoins/connect-your-ai-coding-assistant-to-splitchain-docs-with-an-open-mcp-server-amh) (dev.to) - Coding assistants are good at well-known networks and tend to guess about smalle
-- [Give your AI assistant real coupon search with an open MCP server](https://dev.to/secretpass/give-your-ai-assistant-real-coupon-search-with-an-open-mcp-server-3852) (dev.to) - Most shopping assistants stop at "try searching for a coupon". We wanted an AI a
-- [Benchmarking TradingView MCP: Screenshot Latency, Memory Overhead, and Claude Desktop Integration Throughput](https://dev.to/lucas_vance/benchmarking-tradingview-mcp-screenshot-latency-memory-overhead-and-claude-desktop-integration-18ii) (dev.to) - Load testing tradingview-mcp under realistic Claude Desktop workflows: p99 scree
-- [Bedrock AgentCore Gateway and MCP: What to Check Before You Connect](https://dev.to/everyinfrahq/bedrock-agentcore-gateway-and-mcp-what-to-check-before-you-connect-1p6e) (dev.to) - Before you put the EveryInfra MCP behind AgentCore Gateway: live response format
+- [Build a Python deal checker on an MCP server with plain JSON-RPC](https://dev.to/secretpass/build-a-python-deal-checker-on-an-mcp-server-with-plain-json-rpc-2le6) (dev.to) - Most MCP examples connect a server to Claude or Cursor and stop there. Under the
+- [Build a Node.js CLI that answers Zucoin wallet questions with cited sources](https://dev.to/myzucoins/build-a-nodejs-cli-that-answers-zucoin-wallet-questions-with-cited-sources-2n5h) (dev.to) - When an assistant answers a wallet question, the most useful part of the answer 
+- [AI Decompiler Workflows for Agents, and Where They Stall](https://dev.to/devirt/ai-decompiler-workflows-for-agents-and-where-they-stall-4ha2) (dev.to) - An AI decompiler is a language model wired into a decompiler or disassembler tha
+- [Add a contact form to your site from Claude Code or Cursor](https://dev.to/harsimran_jeetsingh_83e2/add-a-contact-form-to-your-site-from-claude-code-or-cursor-5463) (dev.to) - Connect your AI coding assistant to Formkove over MCP and ask it to add a workin
+- [Letting Claude manage Google Business Profiles without letting it publish anything](https://dev.to/opengmb/letting-claude-manage-google-business-profiles-without-letting-it-publish-anything-5gjh) (dev.to) - Agencies that manage Google Business Profiles do a lot of repetitive work: reply
 
 ---
 
@@ -333,11 +334,11 @@
 
 ### 相关文章资源
 
+- [LangGraph Practical Guide: When to Use It Over LangChain](https://dev.to/amrendra_n_mishra/langgraph-practical-guide-when-to-use-it-over-langchain-2nei) (dev.to) - Why Automate Content Creation   Creating content manually for 9 channels would t
 - [Why Linear Agent Chains Break in Production Banking (And How We Built Deterministic State Graphs with LangGraph + Redis)](https://dev.to/chaman_shah_elesium/why-linear-agent-chains-break-in-production-banking-and-how-we-built-deterministic-state-graphs-5go4) (dev.to) - Author: Chaman Shah, Principal AI Systems Architect at Elesium  The "Prompt and 
 - [Uneven Branches Make a LangGraph.js Join Node Run Twice. Super-Steps Explain Why](https://dev.to/gabrielanhaia/uneven-branches-make-a-langgraphjs-join-node-run-twice-super-steps-explain-why-4k3p) (dev.to) - One branch has one step, the other has two, both feed combine. LangGraph.js runs
 - [The A2A CLI on Azure: One Client for Container Apps, Agent Framework and Localhost](https://dev.to/xbill/the-a2a-cli-on-azure-one-client-for-container-apps-agent-framework-and-localhost-4b6k) (dev.to) - A Rust A2A v1.0 agent and a Microsoft Agent Framework A2A v1.0 coordinator on Az
 - [LangGraph: A Framework for Building Production-Ready AI Agents](https://dev.to/addwebsolutionpvtltd/langgraph-a-framework-for-building-production-ready-ai-agents-200i) (dev.to) - “Build resilient agents.” - LangGraph / LangChain   Artificial intelligence appl
-- [How to Add Web Search to a LangGraph Agent in Python (No API Key)](https://dev.to/agentsearchhq/how-to-add-web-search-to-a-langgraph-agent-in-python-no-api-key-2dff) (dev.to) - Add live web search to a LangGraph agent with langchain-agentsearch: a StateGrap
 
 ---
 
