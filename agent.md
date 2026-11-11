@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-10
+> 最后更新: 2026-11-11
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -79,11 +79,11 @@
 
 ### 相关文章资源
 
-- [Claude Fable 5.2: Faster, Cheaper, and Still Hard to Justify](https://dev.to/dishant0406/claude-fable-52-faster-cheaper-and-still-hard-to-justify-6fm) (dev.to) - Claude Fable 5.2 is 20% cheaper per token but about twice the cost per task. See
-- [Which flag keeps claude -p from running your hooks?](https://dev.to/omerbinsaleem/which-flag-keeps-claude-p-from-running-your-hooks-3mbn) (dev.to) - I wanted a scheduled claude -p job that only reads files. I tested which flags k
-- [Context Engineering Has Eaten Prompt Engineering](https://dev.to/code-with-rashid/context-engineering-has-eaten-prompt-engineering-2phg) (dev.to) - Day 3 of 7 — The Agentic Engineer’s Field&nbsp;Notes    In 2023 the hot job titl
-- [Expo's Exact Wants Agents to Write Your App. I Have Doubts](https://dev.to/dishant0406/expos-exact-wants-agents-to-write-your-app-i-have-doubts-oa4) (dev.to) - Exact by Expo compiles one Contract file into native iOS, macOS, web, and Linux 
-- [The human clicked Approve. The agent applied it to a different question.](https://dev.to/dhrubojyoti/the-human-clicked-approve-the-agent-applied-it-to-a-different-question-204b) (dev.to) - LangGraph just gave every interrupt its own id and added a mode that refuses sta
+- [What Fable 5.2's Speed Improvements Mean for Builders](https://dev.to/richard_smith_154156d471ef/what-fable-52s-speed-improvements-mean-for-builders-p08) (dev.to) - After reading through the benchmarks and user reports on Fable 5.2, one thing ke
+- [Stitch Skills: How Google's Agent Skills Standard Turns MCP Servers into Reusable Workflow Primitives](https://dev.to/mech_app_ai/stitch-skills-how-googles-agent-skills-standard-turns-mcp-servers-into-reusable-workflow-2la6) (dev.to) - How the Agent Skills standard defines skill boundaries, plugin distribution via 
+- [How to classify and route text with the Azure OpenAI Decisions API](https://dev.to/carlosjcastrog/how-to-classify-and-route-text-with-the-azure-openai-decisions-api-3kon) (dev.to) - Asking a language model to pick a category usually ends with code that parses it
+- [AI Agents Need a Runtime, Not Another Framework](https://dev.to/jonlunsford/ai-agents-need-a-runtime-not-another-framework-569d) (dev.to) - We've gotten really good at building AI Agents. With so many frameworks, and hig
+- [/Make_PPTX Skill for Agent](https://dev.to/maximer/makepptx-skill-for-agent-392a) (dev.to) - For at least two years now, I have made it a habit to stop creating PowerPoint p
 
 ---
 
@@ -107,11 +107,11 @@
 
 ### 相关文章资源
 
+- [FIELD INTEL REPORT-025](https://dev.to/liminaljermo/field-intel-report-025-1003) (dev.to) - Coverage window: 30 October – 6 November 2026 · Previous report: FIR-024 (30 Oct
 - [How to Test Node.js Retrieval Schemas for Reliable Real-Estate Listing Discovery](https://dev.to/tatefletcher6754/how-to-test-nodejs-retrieval-schemas-for-reliable-real-estate-listing-discovery-2559) (dev.to) - Reliability is the first design constraint for semantic duplicate detection in a
 - [Healthcare Retrieval Architecture: Source Deduplication for Grounded Appointment Answers](https://dev.to/siegfriedfletcher5869/healthcare-retrieval-architecture-source-deduplication-for-grounded-appointment-answers-4oe9) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
 - [Is semantic chunking actually better than rule-based splitting for RAG retrieval?](https://dev.to/shenao_yu_e15c14815264a44/is-semantic-chunking-actually-better-than-rule-based-splitting-for-rag-retrieval-d42) (dev.to) - The claim that needs examining   A common framing in RAG tutorials goes like thi
 - [How to Build Legal Contract Retrieval Fallbacks: A 3-Stage Architecture](https://dev.to/jedidiahrhodes8293/how-to-build-legal-contract-retrieval-fallbacks-a-3-stage-architecture-513i) (dev.to) - Short answer: for legal contract review, use a staged retrieval architecture wit
-- [Incremental Indexing for Multi-Tenant Help Centers: A 3-Stage Retrieval Contract](https://dev.to/brantlockwood468/incremental-indexing-for-multi-tenant-help-centers-a-3-stage-retrieval-contract-50be) (dev.to) - The constraint that changes this design is freshness: a help-center answer can b
 
 ---
 
@@ -243,11 +243,11 @@
 
 ### 相关文章资源
 
-- [Correlating Telegram AI-writer replies without confusing correlation for correctness](https://dev.to/matintellect/correlating-telegram-ai-writer-replies-without-confusing-correlation-for-correctness-4ce6) (dev.to) - A Telegram-based writing workflow has an awkward boundary: the content engine se
-- [Stop Guessing: Why Your AI Agents Need Deterministic Statistical Engines](https://dev.to/renato_marinho/stop-guessing-why-your-ai-agents-need-deterministic-statistical-engines-5gio) (dev.to) - Moving from qualitative guesswork to quantitative certainty in AI Agent optimiza
-- [One GPG key per AI agent: why and how (Claude Code + Codex)](https://dev.to/hugodcarmo/one-gpg-key-per-ai-agent-why-and-how-claude-code-codex-1mne) (dev.to) - If an AI agent writes your commits, it should sign them with its own GPG key, no
-- [Publishing without an account: how Sakupa's credential model differs from OAuth](https://dev.to/mengyu2022sudo/publishing-without-an-account-how-sakupas-credential-model-differs-from-oauth-28cj) (dev.to) - I am not a Sakupa developer. I found this MCP server while looking into how AI a
-- [From Recommended to Executable: Auditing the AI Purchase Path](https://dev.to/alirezaai/from-recommended-to-executable-auditing-the-ai-purchase-path-6mg) (dev.to) - What happens when the best recommendation is not the easiest product to buy?*  T
+- [Agent Experience (AX) in 2026: Designing for the Day 20 AI Agents Are Your Hardest-Working Users](https://dev.to/tamizuddin/agent-experience-ax-in-2026-designing-for-the-day-20-ai-agents-are-your-hardest-working-users-4c3b) (dev.to) - A deep-dive into Agent Experience (AX): the systems engineering discipline for k
+- [The limit you configured is not the limit it applies](https://dev.to/cleiton_augusto_/the-limit-you-configured-is-not-the-limit-it-applies-53mp) (dev.to) - An agent that pays for things needs a limit: a maximum price per call, a payee y
+- [Stop Trusting npm Scans: Run Untrusted Packages in an Isolated AWS Sandbox](https://dev.to/aws-builders/stop-trusting-npm-scans-run-untrusted-packages-in-an-isolated-aws-sandbox-cmm) (dev.to) - Static scanners read npm packages without running them, so they miss the postins
+- [Top 5 AI Agent Patterns for Frontend Devs](https://dev.to/erikch/top-5-ai-agent-patterns-for-frontend-devs-5g5m) (dev.to) - When I code, I prompt, wait, and see what comes back. For a bigger feature I mig
+- [Behind the scenes, two months later: How we ship Google Agent Skills like products](https://dev.to/googleai/behind-the-scenes-two-months-later-how-we-ship-google-agent-skills-like-products-b1l) (dev.to) - In my previous post, I took you behind the scenes of Google Agent Skills, coveri
 
 ---
 
@@ -265,11 +265,11 @@
 
 ### 相关文章资源
 
+- [J-Quants for agents: what it covers, and when you need more](https://dev.to/ikkun1222/j-quants-for-agents-what-it-covers-and-when-you-need-more-1bcb) (dev.to) - J-Quants is the official JPX route to Japanese prices and quarterly figures, and
 - [Build a Python deal checker on an MCP server with plain JSON-RPC](https://dev.to/secretpass/build-a-python-deal-checker-on-an-mcp-server-with-plain-json-rpc-2le6) (dev.to) - Most MCP examples connect a server to Claude or Cursor and stop there. Under the
 - [Build a Node.js CLI that answers Zucoin wallet questions with cited sources](https://dev.to/myzucoins/build-a-nodejs-cli-that-answers-zucoin-wallet-questions-with-cited-sources-2n5h) (dev.to) - When an assistant answers a wallet question, the most useful part of the answer 
 - [AI Decompiler Workflows for Agents, and Where They Stall](https://dev.to/devirt/ai-decompiler-workflows-for-agents-and-where-they-stall-4ha2) (dev.to) - An AI decompiler is a language model wired into a decompiler or disassembler tha
 - [Add a contact form to your site from Claude Code or Cursor](https://dev.to/harsimran_jeetsingh_83e2/add-a-contact-form-to-your-site-from-claude-code-or-cursor-5463) (dev.to) - Connect your AI coding assistant to Formkove over MCP and ask it to add a workin
-- [Letting Claude manage Google Business Profiles without letting it publish anything](https://dev.to/opengmb/letting-claude-manage-google-business-profiles-without-letting-it-publish-anything-5gjh) (dev.to) - Agencies that manage Google Business Profiles do a lot of repetitive work: reply
 
 ---
 
@@ -338,7 +338,6 @@
 - [Why Linear Agent Chains Break in Production Banking (And How We Built Deterministic State Graphs with LangGraph + Redis)](https://dev.to/chaman_shah_elesium/why-linear-agent-chains-break-in-production-banking-and-how-we-built-deterministic-state-graphs-5go4) (dev.to) - Author: Chaman Shah, Principal AI Systems Architect at Elesium  The "Prompt and 
 - [Uneven Branches Make a LangGraph.js Join Node Run Twice. Super-Steps Explain Why](https://dev.to/gabrielanhaia/uneven-branches-make-a-langgraphjs-join-node-run-twice-super-steps-explain-why-4k3p) (dev.to) - One branch has one step, the other has two, both feed combine. LangGraph.js runs
 - [The A2A CLI on Azure: One Client for Container Apps, Agent Framework and Localhost](https://dev.to/xbill/the-a2a-cli-on-azure-one-client-for-container-apps-agent-framework-and-localhost-4b6k) (dev.to) - A Rust A2A v1.0 agent and a Microsoft Agent Framework A2A v1.0 coordinator on Az
-- [LangGraph: A Framework for Building Production-Ready AI Agents](https://dev.to/addwebsolutionpvtltd/langgraph-a-framework-for-building-production-ready-ai-agents-200i) (dev.to) - “Build resilient agents.” - LangGraph / LangChain   Artificial intelligence appl
 
 ---
 
@@ -352,10 +351,6 @@
 - DAG Agents
 - 角色分配与任务编排
 - Agent间通信协议
-
-### 相关文章资源
-
-- [An AI Testing Presentation Became the Final Push for Organizational Change at My Company](https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag) (dev.to) - From a multi-agent testing experiment to a broader discussion about how engineer
 
 ---
 
