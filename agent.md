@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-11
+> 最后更新: 2026-11-12
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -47,11 +47,11 @@
 
 ### 相关文章资源
 
+- [[Boost]](https://dev.to/anthonymax/-oi5) (dev.to) - Bifrost vs LiteLLM Rust: Do the 7x Benchmark Claims Hold Up?                    
+- [A Small Laptop Is a Full Build Kit: Bootstrapping with a Chromebook, Claude, and GitHub](https://dev.to/earlgreyhot1701d/a-small-laptop-is-a-full-build-kit-bootstrapping-with-a-chromebook-claude-and-github-4j16) (dev.to) - A small laptop is a full build kit. Here's how far mine went.   TL;DR: A reader 
+- [Kent C. Dodds Hasn't Looked at His Code All Year](https://dev.to/dailycontext/kent-c-dodds-hasnt-looked-at-his-code-all-year-gd5) (dev.to) - At the start of this year, Kent C. Dodds gave a coding agent a link to a GitHub 
 - [# The 0 / 5 / 20 incident learning curve: watching an agent get better without retraining](https://dev.to/mohith__gowda/-the-0-5-20-incident-learning-curve-watching-an-agent-get-better-without-retraining-1e7h) (dev.to) - "It learns over time" is the most common claim made about AI agents with memory,
 - [Digital Garden RAG - post DEV](https://dev.to/arthur2122/digital-garden-rag-post-dev-5ekf) (dev.to) - Digital gardens from what I study: the first one, RAG or Grep? / Jardins digitai
-- [What broke when I tested pgvector vs Postgres full-text search vs Hybrid RRF on 30 tricky RAG chunks (and how I fixed it for $0)](https://dev.to/mtalha5/what-broke-when-i-tested-pgvector-vs-postgres-full-text-search-vs-hybrid-rrf-on-30-tricky-rag-4f8l) (dev.to) - Over the last few weeks, while working on a FastAPI and PostgreSQL RAG pipeline,
-- [My first month of hackathons: 4 local AI projects, 4 lessons](https://dev.to/devcarlat800/my-first-month-of-hackathons-4-local-ai-projects-4-lessons-2528) (dev.to) - October 2026 was my first month of hackathons. I wanted a few real projects on G
-- [Three agents and one memory: a proposal pipeline for a small agency](https://dev.to/jtersoli/three-agents-and-one-memory-a-proposal-pipeline-for-a-small-agency-66j) (dev.to) - Josefina Tersoli, October 2026. The code is at github.com/JTersoli/bigpickle-bra
 
 ---
 
@@ -79,11 +79,11 @@
 
 ### 相关文章资源
 
-- [What Fable 5.2's Speed Improvements Mean for Builders](https://dev.to/richard_smith_154156d471ef/what-fable-52s-speed-improvements-mean-for-builders-p08) (dev.to) - After reading through the benchmarks and user reports on Fable 5.2, one thing ke
-- [Stitch Skills: How Google's Agent Skills Standard Turns MCP Servers into Reusable Workflow Primitives](https://dev.to/mech_app_ai/stitch-skills-how-googles-agent-skills-standard-turns-mcp-servers-into-reusable-workflow-2la6) (dev.to) - How the Agent Skills standard defines skill boundaries, plugin distribution via 
-- [How to classify and route text with the Azure OpenAI Decisions API](https://dev.to/carlosjcastrog/how-to-classify-and-route-text-with-the-azure-openai-decisions-api-3kon) (dev.to) - Asking a language model to pick a category usually ends with code that parses it
-- [AI Agents Need a Runtime, Not Another Framework](https://dev.to/jonlunsford/ai-agents-need-a-runtime-not-another-framework-569d) (dev.to) - We've gotten really good at building AI Agents. With so many frameworks, and hig
-- [/Make_PPTX Skill for Agent](https://dev.to/maximer/makepptx-skill-for-agent-392a) (dev.to) - For at least two years now, I have made it a habit to stop creating PowerPoint p
+- [Neither Forbidding nor Asking Reduced the Unwanted Behavior. Defining Where It's Allowed Did. Tested on Claude Code](https://dev.to/murooka_az_dev/neither-forbidding-nor-asking-reduced-the-unwanted-behavior-defining-where-its-allowed-did-52o4) (dev.to) - Claude Code kept switching to English despite a language rule. In a replayed ses
+- [How well do prompt injection defenses work? 1,800 trials, 4 defenses, 3 models](https://dev.to/excessionlabs/how-well-do-prompt-injection-defenses-work-1800-trials-4-defenses-3-models-4oi9) (dev.to) - How well do prompt injection defenses work? 1,800 trials, 4 defenses, 3 models  
+- [What I Took from OpenAI Japan Live: New Models and the Automation of Development](https://dev.to/moruku36/what-i-took-from-openai-japan-live-new-models-and-the-automation-of-development-13e0) (dev.to) - I watched OpenAI Japan Live (November 11, 2026, online) and organized the key po
+- [Hacktoberfest 2026: Four Years In, Five Projects Built, and a Different Kind of October](https://dev.to/lymah/hacktoberfest-2026-four-years-in-five-projects-built-and-a-different-kind-of-october-4o50) (dev.to) - Every October, Hacktoberfest gives me another reason to show up for open source.
+- [Codex 的三种新工作流：云端交接、语音调度与个人智能体](https://dev.to/arthur1988/codex-de-san-chong-xin-gong-zuo-liu-yun-duan-jiao-jie-yu-yin-diao-du-yu-ge-ren-zhi-neng-ti-3ph6) (dev.to) - 从写代码，到管理多个智能体   在 AI Engineer Code Summit 的“与 Codex 协作的新方式”工作坊上，OpenAI 开发者体验工程师 
 
 ---
 
@@ -107,11 +107,11 @@
 
 ### 相关文章资源
 
+- [Building profile-rag: A Chatbot About My Work That Cites Its Sources](https://dev.to/rieljdev/building-profile-rag-a-chatbot-about-my-work-that-cites-its-sources-410j) (dev.to) - TL;DR   profile-rag answers questions about my work from sources I reviewed and 
 - [FIELD INTEL REPORT-025](https://dev.to/liminaljermo/field-intel-report-025-1003) (dev.to) - Coverage window: 30 October – 6 November 2026 · Previous report: FIR-024 (30 Oct
 - [How to Test Node.js Retrieval Schemas for Reliable Real-Estate Listing Discovery](https://dev.to/tatefletcher6754/how-to-test-nodejs-retrieval-schemas-for-reliable-real-estate-listing-discovery-2559) (dev.to) - Reliability is the first design constraint for semantic duplicate detection in a
 - [Healthcare Retrieval Architecture: Source Deduplication for Grounded Appointment Answers](https://dev.to/siegfriedfletcher5869/healthcare-retrieval-architecture-source-deduplication-for-grounded-appointment-answers-4oe9) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
 - [Is semantic chunking actually better than rule-based splitting for RAG retrieval?](https://dev.to/shenao_yu_e15c14815264a44/is-semantic-chunking-actually-better-than-rule-based-splitting-for-rag-retrieval-d42) (dev.to) - The claim that needs examining   A common framing in RAG tutorials goes like thi
-- [How to Build Legal Contract Retrieval Fallbacks: A 3-Stage Architecture](https://dev.to/jedidiahrhodes8293/how-to-build-legal-contract-retrieval-fallbacks-a-3-stage-architecture-513i) (dev.to) - Short answer: for legal contract review, use a staged retrieval architecture wit
 
 ---
 
@@ -130,7 +130,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (27题)
+### 已积累题目 (28题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -190,6 +190,9 @@
   - 考点: LangGraph, 状态图, 条件路由
   - 摘要: 1. 架构设计：使用LangGraph构建有向无环图，节点包含文档解析、分类、实体提取和持久化存储。
 2. 状态管理：定义全局状态对象，保存原始文档路径、解析后的文本、提取的结构化实体及当前处理阶段。...
+- [中级] **[Agent] 十二要素（12-Factor Agents）第 11 条**
+  - 考点: 状态外置与持久化, 检查点与故障恢复, 无状态 Agent 设计
+  - 摘要: 十二要素 Agent（12-Factor Agents）是借鉴十二要素应用（12-Factor App）理念总结的 LLM Agent 工程化最佳实践。第 11 条的核心思想是：将 Agent 的所有...
 - [中级] **[Agent] 搜索互联网并总结**
   - 考点: ReAct模式, 工具调用, 网页抓取
   - 摘要: 1. 模式选择：采用ReAct（推理与行动）模式，让大模型交替进行思考和工具调用。
@@ -243,11 +246,11 @@
 
 ### 相关文章资源
 
+- [I named my OpenAI dot Dottie. And she’s getting my life in order.](https://dev.to/jennapederson/i-named-my-openai-dot-dottie-and-shes-getting-my-life-in-order-3dl8) (dev.to) - Ok, so far my OpenAI dot (aka Dottie) is just catching me up on emails, figuring
+- [My AI agents found an unmapped Maya site](https://pietromiotti.com/latest/maya-site) (Hacker News) - HN points: 917
+- [Ask More of Your UI](https://dev.to/dailycontext/ask-more-of-your-ui-2nf7) (dev.to) - In my last post, I wrote about moving Forem’s performance and maintenance work i
 - [Agent Experience (AX) in 2026: Designing for the Day 20 AI Agents Are Your Hardest-Working Users](https://dev.to/tamizuddin/agent-experience-ax-in-2026-designing-for-the-day-20-ai-agents-are-your-hardest-working-users-4c3b) (dev.to) - A deep-dive into Agent Experience (AX): the systems engineering discipline for k
 - [The limit you configured is not the limit it applies](https://dev.to/cleiton_augusto_/the-limit-you-configured-is-not-the-limit-it-applies-53mp) (dev.to) - An agent that pays for things needs a limit: a maximum price per call, a payee y
-- [Stop Trusting npm Scans: Run Untrusted Packages in an Isolated AWS Sandbox](https://dev.to/aws-builders/stop-trusting-npm-scans-run-untrusted-packages-in-an-isolated-aws-sandbox-cmm) (dev.to) - Static scanners read npm packages without running them, so they miss the postins
-- [Top 5 AI Agent Patterns for Frontend Devs](https://dev.to/erikch/top-5-ai-agent-patterns-for-frontend-devs-5g5m) (dev.to) - When I code, I prompt, wait, and see what comes back. For a bigger feature I mig
-- [Behind the scenes, two months later: How we ship Google Agent Skills like products](https://dev.to/googleai/behind-the-scenes-two-months-later-how-we-ship-google-agent-skills-like-products-b1l) (dev.to) - In my previous post, I took you behind the scenes of Google Agent Skills, coveri
 
 ---
 
@@ -296,6 +299,10 @@
   - 摘要: 1. 短期记忆：通常指Agent在当前对话或任务执行过程中的上下文信息，一般直接存放在Prompt中，受限于大模型的上下文窗口大小。
 2. 长期记忆：通过将历史交互或知识存储在外部数据库（如向量数据库...
 
+### 相关文章资源
+
+- [Temporal & AI: Agent Memory & Execution State](https://dev.to/temporalio/temporal-ai-agent-memory-execution-state-a7k) (dev.to) - Memory is what the agent knows: the context the model sees right now, plus anyth
+
 ---
 
 ## 7. Agent设计模式与规划
@@ -334,10 +341,11 @@
 
 ### 相关文章资源
 
+- [Give your LangChain agent a data tool that says "I can't verify that" instead of guessing](https://dev.to/factqlai/give-your-langchain-agent-a-data-tool-that-says-i-cant-verify-that-instead-of-guessing-1io9) (dev.to) - Give an agent a database tool and ask it about last quarter's revenue. Most of t
+- [Self-Host LangGraph Agents with Aegra on Control Plane: A Private Agent Server](https://dev.to/noahcontrolplane/self-host-langgraph-agents-with-aegra-on-control-plane-a-private-agent-server-2ngi) (dev.to) - To self-host LangGraph agents on Control Plane, create a dictionary secret with 
 - [LangGraph Practical Guide: When to Use It Over LangChain](https://dev.to/amrendra_n_mishra/langgraph-practical-guide-when-to-use-it-over-langchain-2nei) (dev.to) - Why Automate Content Creation   Creating content manually for 9 channels would t
 - [Why Linear Agent Chains Break in Production Banking (And How We Built Deterministic State Graphs with LangGraph + Redis)](https://dev.to/chaman_shah_elesium/why-linear-agent-chains-break-in-production-banking-and-how-we-built-deterministic-state-graphs-5go4) (dev.to) - Author: Chaman Shah, Principal AI Systems Architect at Elesium  The "Prompt and 
 - [Uneven Branches Make a LangGraph.js Join Node Run Twice. Super-Steps Explain Why](https://dev.to/gabrielanhaia/uneven-branches-make-a-langgraphjs-join-node-run-twice-super-steps-explain-why-4k3p) (dev.to) - One branch has one step, the other has two, both feed combine. LangGraph.js runs
-- [The A2A CLI on Azure: One Client for Container Apps, Agent Framework and Localhost](https://dev.to/xbill/the-a2a-cli-on-azure-one-client-for-container-apps-agent-framework-and-localhost-4b6k) (dev.to) - A Rust A2A v1.0 agent and a Microsoft Agent Framework A2A v1.0 coordinator on Az
 
 ---
 
@@ -384,6 +392,7 @@
 
 ### 相关文章资源
 
+- [Our ChatGPT/Codex Kalshi starter would have bought the same contract 38 times in under 13 minutes](https://dev.to/botcookery/our-chatgptcodex-kalshi-starter-would-have-bought-the-same-contract-38-times-in-under-13-minutes-9c2) (dev.to) - Oct 25, 2026 rebuild of the BotCookery ChatGPT/Codex Kalshi demo starter: a re-b
 - [A rewrite deleted the guardrail: what the Grok wallet drain says about agent permissions](https://dev.to/cleiton_augusto_/a-rewrite-deleted-the-guardrail-what-the-grok-wallet-drain-says-about-agent-permissions-387c) (dev.to) - On May 4, 2026, about 3 billion DRB tokens left a wallet linked to the @grok acc
 - [Prompt injection isn't a prompt problem. It's an authorization problem.](https://dev.to/cyclopt_dimitrisk/prompt-injection-isnt-a-prompt-problem-its-an-authorization-problem-59j6) (dev.to) - A lot of security reviews of AI features start and end in the same place: the sy
 - [What unshare -n leaves behind: building a boundary for an AI recon agent](https://dev.to/gnomeman4201/what-unshare-n-leaves-behind-building-a-boundary-for-an-ai-recon-agent-75b) (dev.to) - Why the boundary has to hold   My AI agent's sandbox passed all 13 of its isolat
