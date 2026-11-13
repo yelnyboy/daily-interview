@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-12
+> 最后更新: 2026-11-13
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -47,11 +47,11 @@
 
 ### 相关文章资源
 
+- [¿Por qué osFoundry obliga a Claude Code a indicar el commit cuando pide volver a ejecutar un check de GitNest?](https://dev.to/bbt-es/por-que-osfoundry-obliga-a-claude-code-a-indicar-el-commit-cuando-pide-volver-a-ejecutar-un-check-1jf4) (dev.to) - Esta es la herramienta que llama Claude Code cuando quiere que un check fallido 
+- [Perché osFoundry obbliga Claude Code a indicare il commit quando chiede di rilanciare un check GitNest?](https://dev.to/bbt-it/perche-osfoundry-obbliga-claude-code-a-indicare-il-commit-quando-chiede-di-rilanciare-un-check-2jk4) (dev.to) - Questo è il tool che Claude Code chiama quando vuole rieseguire un check GitNest
+- [Warum verlangt osFoundry von Claude Code den Commit, wenn es einen GitNest-Check neu starten will?](https://dev.to/bbt-de/warum-verlangt-osfoundry-von-claude-code-den-commit-wenn-es-einen-gitnest-check-neu-starten-will-5ee6) (dev.to) - Das ist das Tool, das Claude Code aufruft, wenn ein fehlgeschlagener GitNest-Che
+- [I Wrote a Release Workflow So My Fix Would Ship. It Has Never Run.](https://dev.to/spranab/i-wrote-a-release-workflow-so-my-fix-would-ship-it-has-never-run-48mn) (dev.to) - In August I fixed a TrueNAS bug, tagged v1.0.1, and added a GitHub Actions workf
 - [[Boost]](https://dev.to/anthonymax/-oi5) (dev.to) - Bifrost vs LiteLLM Rust: Do the 7x Benchmark Claims Hold Up?                    
-- [A Small Laptop Is a Full Build Kit: Bootstrapping with a Chromebook, Claude, and GitHub](https://dev.to/earlgreyhot1701d/a-small-laptop-is-a-full-build-kit-bootstrapping-with-a-chromebook-claude-and-github-4j16) (dev.to) - A small laptop is a full build kit. Here's how far mine went.   TL;DR: A reader 
-- [Kent C. Dodds Hasn't Looked at His Code All Year](https://dev.to/dailycontext/kent-c-dodds-hasnt-looked-at-his-code-all-year-gd5) (dev.to) - At the start of this year, Kent C. Dodds gave a coding agent a link to a GitHub 
-- [# The 0 / 5 / 20 incident learning curve: watching an agent get better without retraining](https://dev.to/mohith__gowda/-the-0-5-20-incident-learning-curve-watching-an-agent-get-better-without-retraining-1e7h) (dev.to) - "It learns over time" is the most common claim made about AI agents with memory,
-- [Digital Garden RAG - post DEV](https://dev.to/arthur2122/digital-garden-rag-post-dev-5ekf) (dev.to) - Digital gardens from what I study: the first one, RAG or Grep? / Jardins digitai
 
 ---
 
@@ -71,19 +71,23 @@
 - 微调与提示工程权衡
 - 流式响应(SSE)
 
-### 已积累题目 (1题)
+### 已积累题目 (2题)
 
+- [中级] **LLM/Agent 岗位面经高频考点梳理**
+  - 考点: 自注意力机制, 位置编码（RoPE）, KV Cache与推理优化
+  - 摘要: 该面经汇总了 LLM/Agent 方向校招与社招面试的高频问题，核心考点可归纳为以下几类：
+1. Transformer 基础：自注意力机制的 Q/K/V 计算与复杂度分析、多头注意力的作用、Laye...
 - [高级] **分布式系统面试连环炮**
   - 考点: CAP与BASE理论, 分布式事务（2PC/TCC/Saga）, Raft/Paxos共识协议
   - 摘要: 分布式系统面试连环炮通常按知识链层层深入，核心考点如下。1）CAP理论：分布式系统在一致性、可用性、分区容错性中最多同时满足两个，网络分区不可避免，实际是在CP与AP间权衡。2）BASE理论：基本可用...
 
 ### 相关文章资源
 
-- [Neither Forbidding nor Asking Reduced the Unwanted Behavior. Defining Where It's Allowed Did. Tested on Claude Code](https://dev.to/murooka_az_dev/neither-forbidding-nor-asking-reduced-the-unwanted-behavior-defining-where-its-allowed-did-52o4) (dev.to) - Claude Code kept switching to English despite a language rule. In a replayed ses
-- [How well do prompt injection defenses work? 1,800 trials, 4 defenses, 3 models](https://dev.to/excessionlabs/how-well-do-prompt-injection-defenses-work-1800-trials-4-defenses-3-models-4oi9) (dev.to) - How well do prompt injection defenses work? 1,800 trials, 4 defenses, 3 models  
-- [What I Took from OpenAI Japan Live: New Models and the Automation of Development](https://dev.to/moruku36/what-i-took-from-openai-japan-live-new-models-and-the-automation-of-development-13e0) (dev.to) - I watched OpenAI Japan Live (November 11, 2026, online) and organized the key po
-- [Hacktoberfest 2026: Four Years In, Five Projects Built, and a Different Kind of October](https://dev.to/lymah/hacktoberfest-2026-four-years-in-five-projects-built-and-a-different-kind-of-october-4o50) (dev.to) - Every October, Hacktoberfest gives me another reason to show up for open source.
-- [Codex 的三种新工作流：云端交接、语音调度与个人智能体](https://dev.to/arthur1988/codex-de-san-chong-xin-gong-zuo-liu-yun-duan-jiao-jie-yu-yin-diao-du-yu-ge-ren-zhi-neng-ti-3ph6) (dev.to) - 从写代码，到管理多个智能体   在 AI Engineer Code Summit 的“与 Codex 协作的新方式”工作坊上，OpenAI 开发者体验工程师 
+- [The 2B model scored 10%. 93% of its answers were right](https://dev.to/ikkun1222/the-2b-model-scored-10-93-of-its-answers-were-right-2l2p) (dev.to) - On 250-row Japanese classification sets, a local 2B model scored 10.8% overall b
+- [Why one message after a break eats your Claude Code usage limit](https://dev.to/dinesh_rajendran_46fc29b4/the-hidden-cost-of-a-cold-session-why-your-claude-code-bill-spikes-after-lunch-4n8c) (dev.to) - When Claude Code's prompt cache expires, the first message back costs 12–80× a w
+- [Reverse Engineering GPT-6 Cyber](https://dev.to/om_shree_0709/reverse-engineering-gpt-6-cyber-54gj) (dev.to) - OpenAI Just Shipped GPT-6 Cyber. Here's How It Actually Works, Reverse-Engineere
+- [What Presidio misses for Canadian PII, and what I did about it](https://dev.to/arthur_jin_2aae6a72b94c25/what-presidio-misses-for-canadian-pii-and-what-i-did-about-it-2c2) (dev.to) - I'm Arthur, a systems engineer at Geek+ in Toronto, where I work on warehouse au
+- [hinglish isn't free: measuring what three models pay to answer in romanized hindi](https://dev.to/sansk_ya/hinglish-isnt-free-measuring-what-three-models-pay-to-answer-in-romanized-hindi-342o) (dev.to) - hinglish - the romanized hindi-english code-mix typed across india every day - i
 
 ---
 
@@ -107,11 +111,11 @@
 
 ### 相关文章资源
 
-- [Building profile-rag: A Chatbot About My Work That Cites Its Sources](https://dev.to/rieljdev/building-profile-rag-a-chatbot-about-my-work-that-cites-its-sources-410j) (dev.to) - TL;DR   profile-rag answers questions about my work from sources I reviewed and 
-- [FIELD INTEL REPORT-025](https://dev.to/liminaljermo/field-intel-report-025-1003) (dev.to) - Coverage window: 30 October – 6 November 2026 · Previous report: FIR-024 (30 Oct
-- [How to Test Node.js Retrieval Schemas for Reliable Real-Estate Listing Discovery](https://dev.to/tatefletcher6754/how-to-test-nodejs-retrieval-schemas-for-reliable-real-estate-listing-discovery-2559) (dev.to) - Reliability is the first design constraint for semantic duplicate detection in a
-- [Healthcare Retrieval Architecture: Source Deduplication for Grounded Appointment Answers](https://dev.to/siegfriedfletcher5869/healthcare-retrieval-architecture-source-deduplication-for-grounded-appointment-answers-4oe9) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [Is semantic chunking actually better than rule-based splitting for RAG retrieval?](https://dev.to/shenao_yu_e15c14815264a44/is-semantic-chunking-actually-better-than-rule-based-splitting-for-rag-retrieval-d42) (dev.to) - The claim that needs examining   A common framing in RAG tutorials goes like thi
+- [Legal Contract Workspace Search Explained: Controlled Evidence Fallbacks in Go](https://dev.to/darkveilcorvyn26/legal-contract-workspace-search-explained-controlled-evidence-fallbacks-in-go-7p1) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
+- [Python Caption Retrieval for E-Commerce PDFs (Chunking Around Image Freshness)](https://dev.to/solomonfletcher5872/python-caption-retrieval-for-e-commerce-pdfs-chunking-around-image-freshness-4ojc) (dev.to) - TL;DR: For image caption search over a changing folder of e-commerce PDFs, index
+- [Implementing Retrieval Architecture in Developer Changelog Tracker: Canonical Source Control](https://dev.to/jethrorhodes8268/implementing-retrieval-architecture-in-developer-changelog-tracker-canonical-source-control-4g2d) (dev.to) - Short answer: use a staged retrieval design with an explicit collection, bounded
+- [Retrieval Architecture for Product Search: Freshness Windows That Hold Up](https://dev.to/jasperflint6947/retrieval-architecture-for-product-search-freshness-windows-that-hold-up-1jf2) (dev.to) - For e-commerce product search, use a two-speed retrieval architecture: a small, 
+- [E-commerce Product Search Retrieval Architecture: Audit Logs for Replayable Decisions](https://dev.to/tony_chen_2026/e-commerce-product-search-retrieval-architecture-audit-logs-for-replayable-decisions-124p) (dev.to) - Short answer: for e-commerce product search, keep an append-only audit stream be
 
 ---
 
@@ -130,7 +134,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (28题)
+### 已积累题目 (29题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -227,6 +231,10 @@
 
 核心设计要点：
 1. 状态图建模：LangGraph ...
+- [高级] **基于轨迹（Trace-based）的 Agent 评估**
+  - 考点: 轨迹采集与tracing, 步骤级评估, LLM-as-Judge
+  - 摘要: 基于轨迹的评估是 Agent 领域区别于传统 LLM 评估的关键方法，核心思想是不只看最终答案，而是检查 Agent 执行的完整中间步骤（思考、工具调用、观察）是否正确。要点如下：
+1. 动机：Age...
 - [中级] **构建简单的数据分析 Agent（Notebook 实践）**
   - 考点: ReAct循环, 工具定义与JSON Schema, 代码沙箱执行
   - 摘要: 核心思路：以LLM为大脑，采用ReAct模式（推理→行动→观察循环）驱动数据分析流程。关键设计点：1）工具定义：封装代码执行器（Python REPL/沙箱）、数据加载（read_csv）、可视化（m...
@@ -246,11 +254,11 @@
 
 ### 相关文章资源
 
-- [I named my OpenAI dot Dottie. And she’s getting my life in order.](https://dev.to/jennapederson/i-named-my-openai-dot-dottie-and-shes-getting-my-life-in-order-3dl8) (dev.to) - Ok, so far my OpenAI dot (aka Dottie) is just catching me up on emails, figuring
-- [My AI agents found an unmapped Maya site](https://pietromiotti.com/latest/maya-site) (Hacker News) - HN points: 917
-- [Ask More of Your UI](https://dev.to/dailycontext/ask-more-of-your-ui-2nf7) (dev.to) - In my last post, I wrote about moving Forem’s performance and maintenance work i
-- [Agent Experience (AX) in 2026: Designing for the Day 20 AI Agents Are Your Hardest-Working Users](https://dev.to/tamizuddin/agent-experience-ax-in-2026-designing-for-the-day-20-ai-agents-are-your-hardest-working-users-4c3b) (dev.to) - A deep-dive into Agent Experience (AX): the systems engineering discipline for k
-- [The limit you configured is not the limit it applies](https://dev.to/cleiton_augusto_/the-limit-you-configured-is-not-the-limit-it-applies-53mp) (dev.to) - An agent that pays for things needs a limit: a maximum price per call, a payee y
+- [How to Stop Your PC Sleeping During Long AI Agent Runs](https://dev.to/codexam/how-to-stop-your-pc-sleeping-during-long-ai-agent-runs-23jc) (dev.to) - By Subham Maity · November 13, 2026  Download from:...
+- [A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)](https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1jfb) (dev.to) - So, why should I bring this up again?  Because Qoder (Alibaba’s AI IDE) free pro
+- [How to stop a runaway AI agent loop before it runs up your OpenAI or Anthropic bill](https://dev.to/akhil_5d07/how-to-stop-a-runaway-ai-agent-loop-before-it-runs-up-your-openai-or-anthropic-bill-58oi) (dev.to) - TL;DR: A runaway agent loop shows up in your API traffic before it shows up on y
+- [MCP Is Dead Simple. And That's Exactly the Problem](https://dev.to/sylwia-lask/mcp-is-dead-simple-and-thats-exactly-the-problem-5811) (dev.to) - What exactly is MCP? Is it some mysterious technology that requires secret knowl
+- [Very Well Written](https://dev.to/therealmrmumba/very-well-written-2k6k) (dev.to) - How to Build an AI Agent That Fixes Bugs Reliably: Practice in Sharkly          
 
 ---
 
@@ -268,11 +276,11 @@
 
 ### 相关文章资源
 
+- [¿Por qué osFoundry separa el progreso de Claude Code en una nota de sesión y un estado?](https://dev.to/bbt-es/por-que-osfoundry-separa-el-progreso-de-claude-code-en-una-nota-de-sesion-y-un-estado-14df) (dev.to) - Estas son las dos herramientas de escritura que usa un agente de programación pa
+- [Kenapa osFoundry memisahkan progres Claude Code menjadi catatan sesi dan status?](https://dev.to/bbt-id/kenapa-osfoundry-memisahkan-progres-claude-code-menjadi-catatan-sesi-dan-status-202a) (dev.to) - Berikut dua tool tulis yang dipakai coding agent untuk melaporkan progres ke osF
+- [Why We Built an MCP Server for AI Founders’ Go to Market](https://dev.to/tedcarstensen/why-we-built-an-mcp-server-for-ai-founders-go-to-market-4hge) (dev.to) - Launching a technical startup in the age of AI is challenging. So we built a ful
+- [I Pointed 3 Static Scanners at an MCP Server That Fails 8 Auth Tests. They Found 0, Including Mine](https://dev.to/kielltampubolon/i-pointed-3-static-scanners-at-an-mcp-server-that-fails-8-auth-tests-they-found-0-including-mine-2fha) (dev.to) - mcpscan, Semgrep (200 rules) and Bandit gave a broken MCP server and its fixed t
 - [J-Quants for agents: what it covers, and when you need more](https://dev.to/ikkun1222/j-quants-for-agents-what-it-covers-and-when-you-need-more-1bcb) (dev.to) - J-Quants is the official JPX route to Japanese prices and quarterly figures, and
-- [Build a Python deal checker on an MCP server with plain JSON-RPC](https://dev.to/secretpass/build-a-python-deal-checker-on-an-mcp-server-with-plain-json-rpc-2le6) (dev.to) - Most MCP examples connect a server to Claude or Cursor and stop there. Under the
-- [Build a Node.js CLI that answers Zucoin wallet questions with cited sources](https://dev.to/myzucoins/build-a-nodejs-cli-that-answers-zucoin-wallet-questions-with-cited-sources-2n5h) (dev.to) - When an assistant answers a wallet question, the most useful part of the answer 
-- [AI Decompiler Workflows for Agents, and Where They Stall](https://dev.to/devirt/ai-decompiler-workflows-for-agents-and-where-they-stall-4ha2) (dev.to) - An AI decompiler is a language model wired into a decompiler or disassembler tha
-- [Add a contact form to your site from Claude Code or Cursor](https://dev.to/harsimran_jeetsingh_83e2/add-a-contact-form-to-your-site-from-claude-code-or-cursor-5463) (dev.to) - Connect your AI coding assistant to Formkove over MCP and ask it to add a workin
 
 ---
 
@@ -344,8 +352,6 @@
 - [Give your LangChain agent a data tool that says "I can't verify that" instead of guessing](https://dev.to/factqlai/give-your-langchain-agent-a-data-tool-that-says-i-cant-verify-that-instead-of-guessing-1io9) (dev.to) - Give an agent a database tool and ask it about last quarter's revenue. Most of t
 - [Self-Host LangGraph Agents with Aegra on Control Plane: A Private Agent Server](https://dev.to/noahcontrolplane/self-host-langgraph-agents-with-aegra-on-control-plane-a-private-agent-server-2ngi) (dev.to) - To self-host LangGraph agents on Control Plane, create a dictionary secret with 
 - [LangGraph Practical Guide: When to Use It Over LangChain](https://dev.to/amrendra_n_mishra/langgraph-practical-guide-when-to-use-it-over-langchain-2nei) (dev.to) - Why Automate Content Creation   Creating content manually for 9 channels would t
-- [Why Linear Agent Chains Break in Production Banking (And How We Built Deterministic State Graphs with LangGraph + Redis)](https://dev.to/chaman_shah_elesium/why-linear-agent-chains-break-in-production-banking-and-how-we-built-deterministic-state-graphs-5go4) (dev.to) - Author: Chaman Shah, Principal AI Systems Architect at Elesium  The "Prompt and 
-- [Uneven Branches Make a LangGraph.js Join Node Run Twice. Super-Steps Explain Why](https://dev.to/gabrielanhaia/uneven-branches-make-a-langgraphjs-join-node-run-twice-super-steps-explain-why-4k3p) (dev.to) - One branch has one step, the other has two, both feed combine. LangGraph.js runs
 
 ---
 
