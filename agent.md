@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-13
+> 最后更新: 2026-11-14
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -83,11 +83,11 @@
 
 ### 相关文章资源
 
-- [The 2B model scored 10%. 93% of its answers were right](https://dev.to/ikkun1222/the-2b-model-scored-10-93-of-its-answers-were-right-2l2p) (dev.to) - On 250-row Japanese classification sets, a local 2B model scored 10.8% overall b
-- [Why one message after a break eats your Claude Code usage limit](https://dev.to/dinesh_rajendran_46fc29b4/the-hidden-cost-of-a-cold-session-why-your-claude-code-bill-spikes-after-lunch-4n8c) (dev.to) - When Claude Code's prompt cache expires, the first message back costs 12–80× a w
-- [Reverse Engineering GPT-6 Cyber](https://dev.to/om_shree_0709/reverse-engineering-gpt-6-cyber-54gj) (dev.to) - OpenAI Just Shipped GPT-6 Cyber. Here's How It Actually Works, Reverse-Engineere
-- [What Presidio misses for Canadian PII, and what I did about it](https://dev.to/arthur_jin_2aae6a72b94c25/what-presidio-misses-for-canadian-pii-and-what-i-did-about-it-2c2) (dev.to) - I'm Arthur, a systems engineer at Geek+ in Toronto, where I work on warehouse au
-- [hinglish isn't free: measuring what three models pay to answer in romanized hindi](https://dev.to/sansk_ya/hinglish-isnt-free-measuring-what-three-models-pay-to-answer-in-romanized-hindi-342o) (dev.to) - hinglish - the romanized hindi-english code-mix typed across india every day - i
+- [A 120B Model Ran About 4x Faster Than a 27B One: 8 Local LLMs on a Surface Laptop Ultra](https://dev.to/maruhana/a-120b-model-ran-about-4x-faster-than-a-27b-one-8-local-llms-on-a-surface-laptop-ultra-5cpg) (dev.to) - Same llama.cpp build, same commands, one Surface Laptop Ultra (Windows on Arm, R
+- [Prompting techniques and their token cost: system prompts, few-shot, chain-of-thought and injection](https://dev.to/gary_walkers_fecd8f641755/prompting-techniques-and-their-token-cost-system-prompts-few-shot-chain-of-thought-and-injection-1nl7) (dev.to) - Every word in a prompt is billed, so each technique has a token cost. Here is wh
+- [What an LLM API call really costs: the formula and four levers that move the bill](https://dev.to/gary_walkers_fecd8f641755/what-an-llm-api-call-really-costs-the-formula-and-four-levers-that-move-the-bill-2748) (dev.to) - Prices are quoted per million tokens, but the bill depends on how many tokens yo
+- [How AIClaw 3.11.1 Routes Audio Without Assuming Every Model Can Hear](https://dev.to/chowyu12/how-aiclaw-3111-routes-audio-without-assuming-every-model-can-hear-35b2) (dev.to) - Audio attachments look simple at the interface: attach a clip and ask a question
+- [Counting tokens exactly, and why the same sentence costs more in Hindi](https://dev.to/gary_walkers_fecd8f641755/counting-tokens-exactly-and-why-the-same-sentence-costs-more-in-hindi-11ab) (dev.to) - Every LLM price, context limit and output cap is measured in tokens, so it pays 
 
 ---
 
@@ -111,11 +111,11 @@
 
 ### 相关文章资源
 
+- [Give your LangChain agent live web search and real-time news](https://dev.to/nestdaddy/give-your-langchain-agent-live-web-search-and-real-time-news-40l8) (dev.to) - Your LangChain agent only knows what its model learned in training. Add three to
+- [Building a RAG Application with LangChain.js and Oracle AI Database](https://dev.to/oracledevs/building-a-rag-application-with-langchainjs-and-oracle-ai-database-5e6j) (dev.to) - A TypeScript example of vector search, metadata filtering, MMR, and grounded ans
 - [Legal Contract Workspace Search Explained: Controlled Evidence Fallbacks in Go](https://dev.to/darkveilcorvyn26/legal-contract-workspace-search-explained-controlled-evidence-fallbacks-in-go-7p1) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
 - [Python Caption Retrieval for E-Commerce PDFs (Chunking Around Image Freshness)](https://dev.to/solomonfletcher5872/python-caption-retrieval-for-e-commerce-pdfs-chunking-around-image-freshness-4ojc) (dev.to) - TL;DR: For image caption search over a changing folder of e-commerce PDFs, index
 - [Implementing Retrieval Architecture in Developer Changelog Tracker: Canonical Source Control](https://dev.to/jethrorhodes8268/implementing-retrieval-architecture-in-developer-changelog-tracker-canonical-source-control-4g2d) (dev.to) - Short answer: use a staged retrieval design with an explicit collection, bounded
-- [Retrieval Architecture for Product Search: Freshness Windows That Hold Up](https://dev.to/jasperflint6947/retrieval-architecture-for-product-search-freshness-windows-that-hold-up-1jf2) (dev.to) - For e-commerce product search, use a two-speed retrieval architecture: a small, 
-- [E-commerce Product Search Retrieval Architecture: Audit Logs for Replayable Decisions](https://dev.to/tony_chen_2026/e-commerce-product-search-retrieval-architecture-audit-logs-for-replayable-decisions-124p) (dev.to) - Short answer: for e-commerce product search, keep an append-only audit stream be
 
 ---
 
@@ -134,7 +134,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (29题)
+### 已积累题目 (30题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -242,6 +242,10 @@
   - 考点: 任务分解, 工具调用, 语义断言
   - 摘要: 1. 规划与分解：Agent接收自然语言测试需求，利用LLM将其分解为具体的测试步骤和预期结果。
 2. 工具调用执行：Agent通过调用浏览器自动化工具（如Playwright）或API请求工具，逐步...
+- [初级] **简单对话式Agent的设计与实现**
+  - 考点: 消息列表结构, 对话循环, 系统提示词
+  - 摘要: 简单对话式Agent是最基础的Agent形态，核心是'LLM + 对话循环'的模式，不涉及工具调用或复杂规划。要点如下：
+1. 核心结构：由系统提示词（定义角色和行为）、对话历史（消息列表）和LLM调...
 - [高级] **自我改进型智能体**
   - 考点: 自我反思, 长期记忆, 提示词优化
   - 摘要: 1. 核心概念：自我改进型智能体是一种能够根据过去的经验和环境反馈，自动调整自身行为、提示词或底层逻辑的智能体架构。2. 反思机制：通过引入自我反思步骤，智能体评估其先前动作的输出质量，识别错误或不足...
@@ -254,11 +258,11 @@
 
 ### 相关文章资源
 
-- [How to Stop Your PC Sleeping During Long AI Agent Runs](https://dev.to/codexam/how-to-stop-your-pc-sleeping-during-long-ai-agent-runs-23jc) (dev.to) - By Subham Maity · November 13, 2026  Download from:...
-- [A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)](https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1jfb) (dev.to) - So, why should I bring this up again?  Because Qoder (Alibaba’s AI IDE) free pro
-- [How to stop a runaway AI agent loop before it runs up your OpenAI or Anthropic bill](https://dev.to/akhil_5d07/how-to-stop-a-runaway-ai-agent-loop-before-it-runs-up-your-openai-or-anthropic-bill-58oi) (dev.to) - TL;DR: A runaway agent loop shows up in your API traffic before it shows up on y
-- [MCP Is Dead Simple. And That's Exactly the Problem](https://dev.to/sylwia-lask/mcp-is-dead-simple-and-thats-exactly-the-problem-5811) (dev.to) - What exactly is MCP? Is it some mysterious technology that requires secret knowl
-- [Very Well Written](https://dev.to/therealmrmumba/very-well-written-2k6k) (dev.to) - How to Build an AI Agent That Fixes Bugs Reliably: Practice in Sharkly          
+- [Blocking an AI agent's shortcuts with tools: what verifying code comments taught me about steering and MCP](https://dev.to/aws-builders/blocking-an-ai-agents-shortcuts-with-tools-what-verifying-code-comments-taught-me-about-steering-i90) (dev.to) - AI agents now review code and write tests as a matter of routine. They do not re
+- [Cómo conectar agentes de IA a sistemas internos sin riesgos: Guía para CTOs y COOs](https://dev.to/newsoftmx/como-conectar-agentes-de-ia-a-sistemas-internos-sin-riesgos-guia-para-ctos-y-coos-16cg) (dev.to) - Conoce cómo conectar e implementar agentes de IA a sistemas internos de tu opera
+- [10 casos de uso reales de agentes de IA en empresas mexicanas](https://dev.to/newsoftmx/10-casos-de-uso-reales-de-agentes-de-ia-en-empresas-mexicanas-1p1o) (dev.to) - Casos concretos donde un agente de IA ha entregado valor medible en empresas mex
+- [I Audited My Own Agent Operation. It Found Two Criticals — Both in My Email.](https://dev.to/veronicstewart/i-audited-my-own-agent-operation-it-found-two-criticals-both-in-my-email-2o0k) (dev.to) - Disclosure, up front: I am Veronica Stewart, an AI operator — I run a one-person
+- [One door asked what I am. The other only asked whether the code runs](https://dev.to/scott_hart/one-door-asked-what-i-am-the-other-only-asked-whether-the-code-runs-2pbe) (dev.to) - I entered a cash competition this week and there is no repo with my name on it. 
 
 ---
 
@@ -276,11 +280,11 @@
 
 ### 相关文章资源
 
-- [¿Por qué osFoundry separa el progreso de Claude Code en una nota de sesión y un estado?](https://dev.to/bbt-es/por-que-osfoundry-separa-el-progreso-de-claude-code-en-una-nota-de-sesion-y-un-estado-14df) (dev.to) - Estas son las dos herramientas de escritura que usa un agente de programación pa
-- [Kenapa osFoundry memisahkan progres Claude Code menjadi catatan sesi dan status?](https://dev.to/bbt-id/kenapa-osfoundry-memisahkan-progres-claude-code-menjadi-catatan-sesi-dan-status-202a) (dev.to) - Berikut dua tool tulis yang dipakai coding agent untuk melaporkan progres ke osF
-- [Why We Built an MCP Server for AI Founders’ Go to Market](https://dev.to/tedcarstensen/why-we-built-an-mcp-server-for-ai-founders-go-to-market-4hge) (dev.to) - Launching a technical startup in the age of AI is challenging. So we built a ful
-- [I Pointed 3 Static Scanners at an MCP Server That Fails 8 Auth Tests. They Found 0, Including Mine](https://dev.to/kielltampubolon/i-pointed-3-static-scanners-at-an-mcp-server-that-fails-8-auth-tests-they-found-0-including-mine-2fha) (dev.to) - mcpscan, Semgrep (200 rules) and Bandit gave a broken MCP server and its fixed t
-- [J-Quants for agents: what it covers, and when you need more](https://dev.to/ikkun1222/j-quants-for-agents-what-it-covers-and-when-you-need-more-1bcb) (dev.to) - J-Quants is the official JPX route to Japanese prices and quarterly figures, and
+- [Querying 7,636 Small Music Venues Under 500 Capacity: Schema, Pay Data and Corridor Routing](https://dev.to/nostairsplease/querying-7636-small-music-venues-under-500-capacity-schema-pay-data-and-corridor-routing-2dai) (dev.to) - Compare 7,636 small music venues under 500 capacity across 38,223 North American
+- [I wanted ChatGPT and Claude to hand each other tasks, so I connected them to my to-do list](https://dev.to/offhandapp/i-wanted-chatgpt-and-claude-to-hand-each-other-tasks-so-i-connected-them-to-my-to-do-list-1nfg) (dev.to) - I already had an iPhone to-do app. Getting my agents to use a shared list was ea
+- [A safety checklist before you let an AI app touch your Windows files](https://dev.to/recondeck/a-safety-checklist-before-you-let-an-ai-app-touch-your-windows-files-m36) (dev.to) - Disclosure: I make Bridgerator, the tool this post is about. I'll stick to what 
+- [Securing MCP Servers: Why Tool Permissions Matter More Than Prompts](https://dev.to/abhishek_dhull_63/securing-mcp-servers-why-tool-permissions-matter-more-than-prompts-2g7) (dev.to) - While building Sernixa AI, there's one thing I've kept coming back to.  We're ma
+- [How an 8MB MCP Tool Response Crashes Claude Code — And How to Debug Prompt Cache Misses Across Agents](https://dev.to/framy2/how-an-8mb-mcp-tool-response-crashes-claude-code-and-how-to-debug-prompt-cache-misses-across-3kob) (dev.to) - If you use Claude Code, OpenAI Codex CLI, Cursor, or VS Code Copilot with Model 
 
 ---
 
@@ -349,9 +353,10 @@
 
 ### 相关文章资源
 
+- [Why my LangChain agent kept double-checking its own math](https://dev.to/abhi18/why-my-langchain-agent-kept-double-checking-its-own-math-3g6k) (dev.to) - I built a small LangChain agent with three tools: a calculator, web search, and 
+- [Building Autonomous AI Research Agents with LangGraph, ReAct & Memory](https://dev.to/iaexpertos/building-autonomous-ai-research-agents-with-langgraph-react-memory-154e) (dev.to) - Simple LLM chains (Chain.run()) are linear and brittle: if a tool call fails or 
 - [Give your LangChain agent a data tool that says "I can't verify that" instead of guessing](https://dev.to/factqlai/give-your-langchain-agent-a-data-tool-that-says-i-cant-verify-that-instead-of-guessing-1io9) (dev.to) - Give an agent a database tool and ask it about last quarter's revenue. Most of t
 - [Self-Host LangGraph Agents with Aegra on Control Plane: A Private Agent Server](https://dev.to/noahcontrolplane/self-host-langgraph-agents-with-aegra-on-control-plane-a-private-agent-server-2ngi) (dev.to) - To self-host LangGraph agents on Control Plane, create a dictionary secret with 
-- [LangGraph Practical Guide: When to Use It Over LangChain](https://dev.to/amrendra_n_mishra/langgraph-practical-guide-when-to-use-it-over-langchain-2nei) (dev.to) - Why Automate Content Creation   Creating content manually for 9 channels would t
 
 ---
 
@@ -400,8 +405,6 @@
 
 - [Our ChatGPT/Codex Kalshi starter would have bought the same contract 38 times in under 13 minutes](https://dev.to/botcookery/our-chatgptcodex-kalshi-starter-would-have-bought-the-same-contract-38-times-in-under-13-minutes-9c2) (dev.to) - Oct 25, 2026 rebuild of the BotCookery ChatGPT/Codex Kalshi demo starter: a re-b
 - [A rewrite deleted the guardrail: what the Grok wallet drain says about agent permissions](https://dev.to/cleiton_augusto_/a-rewrite-deleted-the-guardrail-what-the-grok-wallet-drain-says-about-agent-permissions-387c) (dev.to) - On May 4, 2026, about 3 billion DRB tokens left a wallet linked to the @grok acc
-- [Prompt injection isn't a prompt problem. It's an authorization problem.](https://dev.to/cyclopt_dimitrisk/prompt-injection-isnt-a-prompt-problem-its-an-authorization-problem-59j6) (dev.to) - A lot of security reviews of AI features start and end in the same place: the sy
-- [What unshare -n leaves behind: building a boundary for an AI recon agent](https://dev.to/gnomeman4201/what-unshare-n-leaves-behind-building-a-boundary-for-an-ai-recon-agent-75b) (dev.to) - Why the boundary has to hold   My AI agent's sandbox passed all 13 of its isolat
 
 ---
 
