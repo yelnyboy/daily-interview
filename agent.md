@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-14
+> 最后更新: 2026-11-16
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -83,11 +83,11 @@
 
 ### 相关文章资源
 
-- [A 120B Model Ran About 4x Faster Than a 27B One: 8 Local LLMs on a Surface Laptop Ultra](https://dev.to/maruhana/a-120b-model-ran-about-4x-faster-than-a-27b-one-8-local-llms-on-a-surface-laptop-ultra-5cpg) (dev.to) - Same llama.cpp build, same commands, one Surface Laptop Ultra (Windows on Arm, R
-- [Prompting techniques and their token cost: system prompts, few-shot, chain-of-thought and injection](https://dev.to/gary_walkers_fecd8f641755/prompting-techniques-and-their-token-cost-system-prompts-few-shot-chain-of-thought-and-injection-1nl7) (dev.to) - Every word in a prompt is billed, so each technique has a token cost. Here is wh
-- [What an LLM API call really costs: the formula and four levers that move the bill](https://dev.to/gary_walkers_fecd8f641755/what-an-llm-api-call-really-costs-the-formula-and-four-levers-that-move-the-bill-2748) (dev.to) - Prices are quoted per million tokens, but the bill depends on how many tokens yo
-- [How AIClaw 3.11.1 Routes Audio Without Assuming Every Model Can Hear](https://dev.to/chowyu12/how-aiclaw-3111-routes-audio-without-assuming-every-model-can-hear-35b2) (dev.to) - Audio attachments look simple at the interface: attach a clip and ask a question
-- [Counting tokens exactly, and why the same sentence costs more in Hindi](https://dev.to/gary_walkers_fecd8f641755/counting-tokens-exactly-and-why-the-same-sentence-costs-more-in-hindi-11ab) (dev.to) - Every LLM price, context limit and output cap is measured in tokens, so it pays 
+- [AI Execution Governance, Part 12: Closing an Unknown Is Not a Verdict](https://dev.to/rain6fish/ai-execution-governance-part-12-closing-an-unknown-is-not-a-verdict-1mb7) (dev.to) - An outbound write times out. The claim sits at claimed, and nobody knows the out
+- [Docker security: read-only, no-new-privileges](https://dev.to/ikkun1222/docker-security-read-only-no-new-privileges-4e37) (dev.to) - Docker security flags like read-only root filesystem, no-new-privileges, and dro
+- [How to export Substack posts to clean Markdown for RAG (no browser needed)](https://dev.to/alejandro_robledo_e838933/how-to-export-substack-posts-to-clean-markdown-for-rag-no-browser-needed-4f5g) (dev.to) - If you have tried to feed a Substack newsletter into an LLM or a RAG pipeline, y
+- [Why 1 Gbps Ethernet Doesn't Bottleneck Distributed Local LLMs (Weights vs. Activations)](https://dev.to/trademavllc/why-1-gbps-ethernet-doesnt-bottleneck-distributed-local-llms-weights-vs-activations-43c) (dev.to) - RAMDeck eliminates the network bandwidth bottleneck in distributed local AI by k
+- [We lost our own benchmark the first time. Web search vs. one API call on 25 companies](https://dev.to/boscolabs/we-lost-our-own-benchmark-the-first-time-web-search-vs-one-api-call-on-25-companies-4cmh) (dev.to) - If you build an agent that onboards suppliers or customers, sooner or later it h
 
 ---
 
@@ -111,11 +111,11 @@
 
 ### 相关文章资源
 
-- [Give your LangChain agent live web search and real-time news](https://dev.to/nestdaddy/give-your-langchain-agent-live-web-search-and-real-time-news-40l8) (dev.to) - Your LangChain agent only knows what its model learned in training. Add three to
-- [Building a RAG Application with LangChain.js and Oracle AI Database](https://dev.to/oracledevs/building-a-rag-application-with-langchainjs-and-oracle-ai-database-5e6j) (dev.to) - A TypeScript example of vector search, metadata filtering, MMR, and grounded ans
-- [Legal Contract Workspace Search Explained: Controlled Evidence Fallbacks in Go](https://dev.to/darkveilcorvyn26/legal-contract-workspace-search-explained-controlled-evidence-fallbacks-in-go-7p1) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [Python Caption Retrieval for E-Commerce PDFs (Chunking Around Image Freshness)](https://dev.to/solomonfletcher5872/python-caption-retrieval-for-e-commerce-pdfs-chunking-around-image-freshness-4ojc) (dev.to) - TL;DR: For image caption search over a changing folder of e-commerce PDFs, index
-- [Implementing Retrieval Architecture in Developer Changelog Tracker: Canonical Source Control](https://dev.to/jethrorhodes8268/implementing-retrieval-architecture-in-developer-changelog-tracker-canonical-source-control-4g2d) (dev.to) - Short answer: use a staged retrieval design with an explicit collection, bounded
+- [How I Evaluate a RAG System Before It Touches Healthcare Data](https://dev.to/oceancoldiron/how-i-evaluate-a-rag-system-before-it-touches-healthcare-data-m7b) (dev.to) - In healthcare data, a confident wrong answer is worse than a slow right one. A r
+- [I read ChatGPT's new business terms so you don't have to](https://dev.to/agustaon/i-read-chatgpts-new-business-terms-so-you-dont-have-to-4p8n) (dev.to) - OpenAI now lets businesses claim a profile inside ChatGPT. The features got the 
+- [Build a Local RAG App With Citations in One Database (28 Lines of Python)](https://dev.to/synapcores/build-a-local-rag-app-with-citations-in-one-database-28-lines-of-python-i1f) (dev.to) - Step-by-step: a local RAG app with citations in 28 lines of Python on one self-h
+- [Choosing an Embedding Model for RAG: A Beginner Guide](https://dev.to/who_ai/choosing-an-embedding-model-for-rag-a-beginner-guide-50f6) (dev.to) - What embeddings do in RAG, the criteria that matter for beginners, how small vs 
+- [Restaurant Menu Search: Metadata Filters That Keep RAG Answers Honest](https://dev.to/xaviorcross6845/restaurant-menu-search-metadata-filters-that-keep-rag-answers-honest-17j9) (dev.to) - Short answer: treat metadata filters as a typed policy checked before vector sea
 
 ---
 
@@ -134,7 +134,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (30题)
+### 已积累题目 (31题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -231,6 +231,9 @@
 
 核心设计要点：
 1. 状态图建模：LangGraph ...
+- [中级] **基于LangGraph的TTS诗歌生成Agent**
+  - 考点: LangGraph状态图, 节点与边, LLM生成节点
+  - 摘要: 这是一个用LangGraph构建的文本转语音（TTS）诗歌生成Agent项目，考察对Agent工作流编排的理解。核心要点：1) LangGraph将Agent建模为状态图（StateGraph），节点...
 - [高级] **基于轨迹（Trace-based）的 Agent 评估**
   - 考点: 轨迹采集与tracing, 步骤级评估, LLM-as-Judge
   - 摘要: 基于轨迹的评估是 Agent 领域区别于传统 LLM 评估的关键方法，核心思想是不只看最终答案，而是检查 Agent 执行的完整中间步骤（思考、工具调用、观察）是否正确。要点如下：
@@ -258,11 +261,11 @@
 
 ### 相关文章资源
 
-- [Blocking an AI agent's shortcuts with tools: what verifying code comments taught me about steering and MCP](https://dev.to/aws-builders/blocking-an-ai-agents-shortcuts-with-tools-what-verifying-code-comments-taught-me-about-steering-i90) (dev.to) - AI agents now review code and write tests as a matter of routine. They do not re
-- [Cómo conectar agentes de IA a sistemas internos sin riesgos: Guía para CTOs y COOs](https://dev.to/newsoftmx/como-conectar-agentes-de-ia-a-sistemas-internos-sin-riesgos-guia-para-ctos-y-coos-16cg) (dev.to) - Conoce cómo conectar e implementar agentes de IA a sistemas internos de tu opera
-- [10 casos de uso reales de agentes de IA en empresas mexicanas](https://dev.to/newsoftmx/10-casos-de-uso-reales-de-agentes-de-ia-en-empresas-mexicanas-1p1o) (dev.to) - Casos concretos donde un agente de IA ha entregado valor medible en empresas mex
-- [I Audited My Own Agent Operation. It Found Two Criticals — Both in My Email.](https://dev.to/veronicstewart/i-audited-my-own-agent-operation-it-found-two-criticals-both-in-my-email-2o0k) (dev.to) - Disclosure, up front: I am Veronica Stewart, an AI operator — I run a one-person
-- [One door asked what I am. The other only asked whether the code runs](https://dev.to/scott_hart/one-door-asked-what-i-am-the-other-only-asked-whether-the-code-runs-2pbe) (dev.to) - I entered a cash competition this week and there is no repo with my name on it. 
+- [[Boost]](https://dev.to/imfelipeoliveira/-2ig8) (dev.to) - I built a standup orchestrator that runs inside your AI agent (and doesn't spy o
+- [I built a tool-routing graph for agents on HydraDB — what worked, what broke, and what I fixed](https://dev.to/aayushi_goel_56f2e6e461f6/i-built-a-tool-routing-graph-for-agents-on-hydradb-what-worked-what-broke-and-what-i-fixed-3j1l) (dev.to) - My agent was spending 27,000 tokens before it did any work.  Not on the task — o
+- [eMondrian Community now has authentication: Keycloak sign-in, rights per group, and AI agents that act as the user](https://dev.to/sergeisemenkov/emondrian-community-now-has-authentication-keycloak-sign-in-rights-per-group-and-ai-agents-that-1kp0) (dev.to) - As of 16 November 2026. Applies to eMondrian Community release 2026.11.16 and la
+- [MCP, A2A, UCP, AP2... Confused? A Simple Map of AI Agent Protocols (November 2026)](https://dev.to/gde/mcp-a2a-ucp-ap2-confused-a-simple-map-of-ai-agent-protocols-november-2026-3ph) (dev.to) - MCP. A2A. AG-UI. A2UI. UCP. AP2. ACP. x402. And as of this week, Poppy.  If your
+- [I still can't get an agent to build a good memory. So I build them by hand.](https://dev.to/hunterbryson/i-still-cant-get-an-agent-to-build-a-good-memory-so-i-build-them-by-hand-4adm) (dev.to) - I've been building agents with memory for a long time, and here's the honest tru
 
 ---
 
@@ -280,11 +283,11 @@
 
 ### 相关文章资源
 
-- [Querying 7,636 Small Music Venues Under 500 Capacity: Schema, Pay Data and Corridor Routing](https://dev.to/nostairsplease/querying-7636-small-music-venues-under-500-capacity-schema-pay-data-and-corridor-routing-2dai) (dev.to) - Compare 7,636 small music venues under 500 capacity across 38,223 North American
-- [I wanted ChatGPT and Claude to hand each other tasks, so I connected them to my to-do list](https://dev.to/offhandapp/i-wanted-chatgpt-and-claude-to-hand-each-other-tasks-so-i-connected-them-to-my-to-do-list-1nfg) (dev.to) - I already had an iPhone to-do app. Getting my agents to use a shared list was ea
-- [A safety checklist before you let an AI app touch your Windows files](https://dev.to/recondeck/a-safety-checklist-before-you-let-an-ai-app-touch-your-windows-files-m36) (dev.to) - Disclosure: I make Bridgerator, the tool this post is about. I'll stick to what 
-- [Securing MCP Servers: Why Tool Permissions Matter More Than Prompts](https://dev.to/abhishek_dhull_63/securing-mcp-servers-why-tool-permissions-matter-more-than-prompts-2g7) (dev.to) - While building Sernixa AI, there's one thing I've kept coming back to.  We're ma
-- [How an 8MB MCP Tool Response Crashes Claude Code — And How to Debug Prompt Cache Misses Across Agents](https://dev.to/framy2/how-an-8mb-mcp-tool-response-crashes-claude-code-and-how-to-debug-prompt-cache-misses-across-3kob) (dev.to) - If you use Claude Code, OpenAI Codex CLI, Cursor, or VS Code Copilot with Model 
+- [One Desktop App Instead of 100+ MCP Server Setups](https://dev.to/w4p/one-desktop-app-instead-of-100-mcp-server-setups-5do) (dev.to) - Giving an AI assistant access to one database is straightforward. Giving it usef
+- [Elementor MCP Is Officially Live — Build Real Elementor Pages From Plain-English Prompts](https://dev.to/ahtisham_lala_a1af953f29b/elementor-mcp-is-officially-live-build-real-elementor-pages-from-plain-english-prompts-e47) (dev.to) - Originally published on ConvertElementor.  Elementor's official MCP connector is
+- [How to vet an MCP server before you install it (a 10-minute checklist)](https://dev.to/stackregistry/how-to-vet-an-mcp-server-before-you-install-it-a-10-minute-checklist-29gn) (dev.to) - MCP servers give your AI client (Claude Code, Cursor, VS Code and others) real p
+- [One edit, three aspect ratios: production versions as sequences, not file copies](https://dev.to/frankshan001/one-edit-three-aspect-ratios-production-versions-as-sequences-not-file-copies-j) (dev.to) - I build CutVoke, an open-source (MIT) local video editor that Claude Code / Code
+- [How I Built an 8-Skill Research Engineering Plugin, Studio MCP Server & Vector Comic Studio for Google Antigravity](https://dev.to/gde/how-i-built-an-8-skill-research-engineering-plugin-stdio-mcp-server-vector-comic-studio-for-lfb) (dev.to) - Reading, auditing, and explaining dense machine learning or engineering papers s
 
 ---
 
@@ -404,7 +407,6 @@
 ### 相关文章资源
 
 - [Our ChatGPT/Codex Kalshi starter would have bought the same contract 38 times in under 13 minutes](https://dev.to/botcookery/our-chatgptcodex-kalshi-starter-would-have-bought-the-same-contract-38-times-in-under-13-minutes-9c2) (dev.to) - Oct 25, 2026 rebuild of the BotCookery ChatGPT/Codex Kalshi demo starter: a re-b
-- [A rewrite deleted the guardrail: what the Grok wallet drain says about agent permissions](https://dev.to/cleiton_augusto_/a-rewrite-deleted-the-guardrail-what-the-grok-wallet-drain-says-about-agent-permissions-387c) (dev.to) - On May 4, 2026, about 3 billion DRB tokens left a wallet linked to the @grok acc
 
 ---
 
