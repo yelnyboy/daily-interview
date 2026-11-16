@@ -85,9 +85,9 @@
 
 - [AI Execution Governance, Part 12: Closing an Unknown Is Not a Verdict](https://dev.to/rain6fish/ai-execution-governance-part-12-closing-an-unknown-is-not-a-verdict-1mb7) (dev.to) - An outbound write times out. The claim sits at claimed, and nobody knows the out
 - [Docker security: read-only, no-new-privileges](https://dev.to/ikkun1222/docker-security-read-only-no-new-privileges-4e37) (dev.to) - Docker security flags like read-only root filesystem, no-new-privileges, and dro
-- [How to export Substack posts to clean Markdown for RAG (no browser needed)](https://dev.to/alejandro_robledo_e838933/how-to-export-substack-posts-to-clean-markdown-for-rag-no-browser-needed-4f5g) (dev.to) - If you have tried to feed a Substack newsletter into an LLM or a RAG pipeline, y
-- [Why 1 Gbps Ethernet Doesn't Bottleneck Distributed Local LLMs (Weights vs. Activations)](https://dev.to/trademavllc/why-1-gbps-ethernet-doesnt-bottleneck-distributed-local-llms-weights-vs-activations-43c) (dev.to) - RAMDeck eliminates the network bandwidth bottleneck in distributed local AI by k
-- [We lost our own benchmark the first time. Web search vs. one API call on 25 companies](https://dev.to/boscolabs/we-lost-our-own-benchmark-the-first-time-web-search-vs-one-api-call-on-25-companies-4cmh) (dev.to) - If you build an agent that onboards suppliers or customers, sooner or later it h
+- [Google Agent Platform across clouds with SPIFFE: zero secrets between Google Cloud and Microsoft Entra](https://dev.to/gde/google-agent-platform-across-clouds-with-spiffe-zero-secrets-between-google-cloud-and-microsoft-1hjg) (dev.to) - As of November 2026. All identifiers in this post are examples.  We built a proo
+- [ChatGPT Wallet: How OpenAI Built Agent Payment Rails with Card Network Primitives](https://dev.to/mech_app_ai/chatgpt-wallet-how-openai-built-agent-payment-rails-with-card-network-primitives-42ol) (dev.to) - OpenAI's ChatGPT Wallet separates agent intent from user authorization using exi
+- [Como construir agentes de atendimento que não alucinam dinheiro: regras em código, guardrails MCP e avaliação τ-bench em português](https://dev.to/theandr3/como-construir-agentes-de-atendimento-que-nao-alucinam-dinheiro-regras-em-codigo-guardrails-mcp-e-42kc) (dev.to) - Quando colocamos um LLM para atender clientes de um app de delivery, um chatbot 
 
 ---
 
@@ -113,9 +113,9 @@
 
 - [How I Evaluate a RAG System Before It Touches Healthcare Data](https://dev.to/oceancoldiron/how-i-evaluate-a-rag-system-before-it-touches-healthcare-data-m7b) (dev.to) - In healthcare data, a confident wrong answer is worse than a slow right one. A r
 - [I read ChatGPT's new business terms so you don't have to](https://dev.to/agustaon/i-read-chatgpts-new-business-terms-so-you-dont-have-to-4p8n) (dev.to) - OpenAI now lets businesses claim a profile inside ChatGPT. The features got the 
-- [Build a Local RAG App With Citations in One Database (28 Lines of Python)](https://dev.to/synapcores/build-a-local-rag-app-with-citations-in-one-database-28-lines-of-python-i1f) (dev.to) - Step-by-step: a local RAG app with citations in 28 lines of Python on one self-h
-- [Choosing an Embedding Model for RAG: A Beginner Guide](https://dev.to/who_ai/choosing-an-embedding-model-for-rag-a-beginner-guide-50f6) (dev.to) - What embeddings do in RAG, the criteria that matter for beginners, how small vs 
-- [Restaurant Menu Search: Metadata Filters That Keep RAG Answers Honest](https://dev.to/xaviorcross6845/restaurant-menu-search-metadata-filters-that-keep-rag-answers-honest-17j9) (dev.to) - Short answer: treat metadata filters as a typed policy checked before vector sea
+- [Give your LangChain agent live web search and real-time news](https://dev.to/nestdaddy/give-your-langchain-agent-live-web-search-and-real-time-news-40l8) (dev.to) - Your LangChain agent only knows what its model learned in training. Add three to
+- [Building a RAG Application with LangChain.js and Oracle AI Database](https://dev.to/oracledevs/building-a-rag-application-with-langchainjs-and-oracle-ai-database-5e6j) (dev.to) - A TypeScript example of vector search, metadata filtering, MMR, and grounded ans
+- [Legal Contract Workspace Search Explained: Controlled Evidence Fallbacks in Go](https://dev.to/darkveilcorvyn26/legal-contract-workspace-search-explained-controlled-evidence-fallbacks-in-go-7p1) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
 
 ---
 
