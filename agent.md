@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-16
+> 最后更新: 2026-11-17
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -47,11 +47,11 @@
 
 ### 相关文章资源
 
+- [Both writes said “success”. One was lost. Test your MCP server for it](https://dev.to/isokron/both-writes-said-success-one-was-lost-test-your-mcp-server-for-it-12ih) (dev.to) - Two agents edit the same record through an MCP server. Both get "success" back. 
+- [What to Learn in 2027: AI Agents, Not Another Framework](https://dev.to/castillodk/what-to-learn-in-2027-ai-agents-not-another-framework-2023) (dev.to) - Disclaimer: I am not the person who predicts the market. I am a junior backend d
+- [Your AI Agent Retried the Tool Call. The First One Had Already Succeeded.](https://dev.to/rudratosh/your-ai-agent-retried-the-tool-call-the-first-one-had-already-succeeded-3pke) (dev.to) - A timeout tells you what the caller observed, not what the server committed. Why
 - [¿Por qué osFoundry obliga a Claude Code a indicar el commit cuando pide volver a ejecutar un check de GitNest?](https://dev.to/bbt-es/por-que-osfoundry-obliga-a-claude-code-a-indicar-el-commit-cuando-pide-volver-a-ejecutar-un-check-1jf4) (dev.to) - Esta es la herramienta que llama Claude Code cuando quiere que un check fallido 
 - [Perché osFoundry obbliga Claude Code a indicare il commit quando chiede di rilanciare un check GitNest?](https://dev.to/bbt-it/perche-osfoundry-obbliga-claude-code-a-indicare-il-commit-quando-chiede-di-rilanciare-un-check-2jk4) (dev.to) - Questo è il tool che Claude Code chiama quando vuole rieseguire un check GitNest
-- [Warum verlangt osFoundry von Claude Code den Commit, wenn es einen GitNest-Check neu starten will?](https://dev.to/bbt-de/warum-verlangt-osfoundry-von-claude-code-den-commit-wenn-es-einen-gitnest-check-neu-starten-will-5ee6) (dev.to) - Das ist das Tool, das Claude Code aufruft, wenn ein fehlgeschlagener GitNest-Che
-- [I Wrote a Release Workflow So My Fix Would Ship. It Has Never Run.](https://dev.to/spranab/i-wrote-a-release-workflow-so-my-fix-would-ship-it-has-never-run-48mn) (dev.to) - In August I fixed a TrueNAS bug, tagged v1.0.1, and added a GitHub Actions workf
-- [[Boost]](https://dev.to/anthonymax/-oi5) (dev.to) - Bifrost vs LiteLLM Rust: Do the 7x Benchmark Claims Hold Up?                    
 
 ---
 
@@ -83,11 +83,11 @@
 
 ### 相关文章资源
 
-- [AI Execution Governance, Part 12: Closing an Unknown Is Not a Verdict](https://dev.to/rain6fish/ai-execution-governance-part-12-closing-an-unknown-is-not-a-verdict-1mb7) (dev.to) - An outbound write times out. The claim sits at claimed, and nobody knows the out
-- [Docker security: read-only, no-new-privileges](https://dev.to/ikkun1222/docker-security-read-only-no-new-privileges-4e37) (dev.to) - Docker security flags like read-only root filesystem, no-new-privileges, and dro
-- [Google Agent Platform across clouds with SPIFFE: zero secrets between Google Cloud and Microsoft Entra](https://dev.to/gde/google-agent-platform-across-clouds-with-spiffe-zero-secrets-between-google-cloud-and-microsoft-1hjg) (dev.to) - As of November 2026. All identifiers in this post are examples.  We built a proo
-- [ChatGPT Wallet: How OpenAI Built Agent Payment Rails with Card Network Primitives](https://dev.to/mech_app_ai/chatgpt-wallet-how-openai-built-agent-payment-rails-with-card-network-primitives-42ol) (dev.to) - OpenAI's ChatGPT Wallet separates agent intent from user authorization using exi
-- [Como construir agentes de atendimento que não alucinam dinheiro: regras em código, guardrails MCP e avaliação τ-bench em português](https://dev.to/theandr3/como-construir-agentes-de-atendimento-que-nao-alucinam-dinheiro-regras-em-codigo-guardrails-mcp-e-42kc) (dev.to) - Quando colocamos um LLM para atender clientes de um app de delivery, um chatbot 
+- [My agent's verifier rejected 0 of 11 answers, and the score still dropped](https://dev.to/sarthak_bhardwaj_05aba55d/my-agents-verifier-rejected-0-of-11-answers-and-the-score-still-dropped-383o) (dev.to) - I added a verify-before-finish gate to a ReAct agent: before the loop accepts a 
+- [One AI model never disagreed with anyone in our study — and that isn't a compliment](https://dev.to/getmultio/one-ai-model-never-disagreed-with-anyone-in-our-study-and-that-isnt-a-compliment-423a) (dev.to) - When you ask several AI models the same question, some models keep ending up alo
+- [OpenAI Expands ChatGPT for Healthcare With 20+ Plugins and Computer-Use Agents](https://dev.to/alifar/openai-expands-chatgpt-for-healthcare-with-20-plugins-and-computer-use-agents-57ef) (dev.to) - OpenAI has expanded ChatGPT for Healthcare with more than 20 healthcare plugins,
+- [You PROBABLY DON'T NEED to Orchestrate Multiple Agents](https://dev.to/smokeeaasd/you-probably-dont-need-to-orchestrate-multiple-agents-2g28) (dev.to) - Spend a few minutes on X or LinkedIn and you'll probably run into someone showin
+- [LLM Batch API vs Real-Time Calls: When the Batch Discount Is Worth the Wait](https://dev.to/libme/llm-batch-api-vs-real-time-calls-when-the-batch-discount-is-worth-the-wait-2cge) (dev.to) - When an LLM batch API's discount beats real-time calls, what it costs you in lat
 
 ---
 
@@ -111,11 +111,11 @@
 
 ### 相关文章资源
 
-- [How I Evaluate a RAG System Before It Touches Healthcare Data](https://dev.to/oceancoldiron/how-i-evaluate-a-rag-system-before-it-touches-healthcare-data-m7b) (dev.to) - In healthcare data, a confident wrong answer is worse than a slow right one. A r
-- [I read ChatGPT's new business terms so you don't have to](https://dev.to/agustaon/i-read-chatgpts-new-business-terms-so-you-dont-have-to-4p8n) (dev.to) - OpenAI now lets businesses claim a profile inside ChatGPT. The features got the 
-- [Give your LangChain agent live web search and real-time news](https://dev.to/nestdaddy/give-your-langchain-agent-live-web-search-and-real-time-news-40l8) (dev.to) - Your LangChain agent only knows what its model learned in training. Add three to
-- [Building a RAG Application with LangChain.js and Oracle AI Database](https://dev.to/oracledevs/building-a-rag-application-with-langchainjs-and-oracle-ai-database-5e6j) (dev.to) - A TypeScript example of vector search, metadata filtering, MMR, and grounded ans
-- [Legal Contract Workspace Search Explained: Controlled Evidence Fallbacks in Go](https://dev.to/darkveilcorvyn26/legal-contract-workspace-search-explained-controlled-evidence-fallbacks-in-go-7p1) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
+- [Vector Search Limits: Why Similar Records Cannot Answer Fintech Questions](https://dev.to/callumreed2198/vector-search-limits-why-similar-records-cannot-answer-fintech-questions-3cj5) (dev.to) - A near-duplicate detector should pass only when retrieval finds the right record
+- [Vector Search vs Web Search for Insurance Claims Intake: Audit Logs and Freshness](https://dev.to/faelvorn538072/vector-search-vs-web-search-for-insurance-claims-intake-audit-logs-and-freshness-4l0) (dev.to) - Insurance claims intake is a retrieval problem with a clock attached. A claim an
+- [Citation Tracing for Retrieval Systems — Safer Healthcare Appointment Answers](https://dev.to/paswkeria/citation-tracing-for-retrieval-systems-safer-healthcare-appointment-answers-if8) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
+- [Property Listing Discovery Schema: Bounded Retrieval Controls Index Cost](https://dev.to/riftg84/property-listing-discovery-schema-bounded-retrieval-controls-index-cost-173l) (dev.to) - TL;DR   Use a staged retrieval design with explicit collections, bounded queries
+- [Postgres Metadata Filters: Multi-Tenant Vector Search Without Losing Relevant Answers](https://dev.to/judsonrhodes1569/postgres-metadata-filters-multi-tenant-vector-search-without-losing-relevant-answers-176l) (dev.to) - TL;DR: In multi-tenant vector search, metadata filters are the hard gate that de
 
 ---
 
@@ -134,7 +134,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (31题)
+### 已积累题目 (32题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -174,6 +174,9 @@
   - 摘要: Agentic Design Patterns是构建AI Agent时常用的架构模式，主要包括以下四种核心模式：
 
 1. 反思模式（Reflection）：Agent在生成输出后自我审查和修正。例如先...
+- [高级] **AI 驱动的机器学习与数据科学助手（Agent 设计模式）**
+  - 考点: ReAct 规划-执行-反思循环, 工具封装与代码沙箱, 上下文与状态管理
+  - 摘要: 这是将 LLM Agent 应用于 ML/数据科学工作流的典型设计问题，核心在于如何让 Agent 安全、可靠地执行数据分析与建模任务。要点如下：1. 整体架构：通常采用「规划器 + 执行器 + 反思...
 - [中级] **AutoGen中的研究团队模式**
   - 考点: 多智能体协作, 角色分工, GroupChat
   - 摘要: AutoGen的Research Team模式是一种经典的多智能体协作设计模式，旨在通过角色分工解决复杂研究任务。1. 核心思想是将复杂任务拆解给不同角色的Agent，如Planner（规划者）、Re...
@@ -261,11 +264,11 @@
 
 ### 相关文章资源
 
-- [[Boost]](https://dev.to/imfelipeoliveira/-2ig8) (dev.to) - I built a standup orchestrator that runs inside your AI agent (and doesn't spy o
-- [I built a tool-routing graph for agents on HydraDB — what worked, what broke, and what I fixed](https://dev.to/aayushi_goel_56f2e6e461f6/i-built-a-tool-routing-graph-for-agents-on-hydradb-what-worked-what-broke-and-what-i-fixed-3j1l) (dev.to) - My agent was spending 27,000 tokens before it did any work.  Not on the task — o
-- [eMondrian Community now has authentication: Keycloak sign-in, rights per group, and AI agents that act as the user](https://dev.to/sergeisemenkov/emondrian-community-now-has-authentication-keycloak-sign-in-rights-per-group-and-ai-agents-that-1kp0) (dev.to) - As of 16 November 2026. Applies to eMondrian Community release 2026.11.16 and la
-- [MCP, A2A, UCP, AP2... Confused? A Simple Map of AI Agent Protocols (November 2026)](https://dev.to/gde/mcp-a2a-ucp-ap2-confused-a-simple-map-of-ai-agent-protocols-november-2026-3ph) (dev.to) - MCP. A2A. AG-UI. A2UI. UCP. AP2. ACP. x402. And as of this week, Poppy.  If your
-- [I still can't get an agent to build a good memory. So I build them by hand.](https://dev.to/hunterbryson/i-still-cant-get-an-agent-to-build-a-good-memory-so-i-build-them-by-hand-4adm) (dev.to) - I've been building agents with memory for a long time, and here's the honest tru
+- [I planned to copy Composio's "reactions" into my agent dispatcher. My logs said it would have caught 1 redo out of 19.](https://dev.to/lizhuojunx86/i-planned-to-copy-composios-reactions-into-my-agent-dispatcher-my-logs-said-it-would-have-5a7c) (dev.to) - I run a homemade dispatcher called agent-dispatch. Claude plans the work and wri
+- [My AI agent kept quoting a number I had already corrected. What has yours remembered wrong?](https://dev.to/heinrichneb/my-ai-agent-kept-quoting-a-number-i-had-already-corrected-what-has-yours-remembered-wrong-34d0) (dev.to) - Stale answers look exactly like fresh ones. Collecting real cases of agent memor
+- [I sent an AI agent to earn real crypto. Here are the platforms that actually paid.](https://dev.to/int_dev_42dd88689212360d0/i-sent-an-ai-agent-to-earn-real-crypto-here-are-the-platforms-that-actually-paid-4c6n) (dev.to) - A field survey from a 21-day autonomous earning experiment. Day 5. All numbers a
+- [Beyond the Final Answer: Evaluating the Reliability of Tool-Using AI Agents](https://dev.to/chaitasi_patel_0feef273c0/beyond-the-final-answer-evaluating-the-reliability-of-tool-using-ai-agents-4emc) (dev.to) - An AI agent can give you the correct answer and still have done the wrong thing 
+- [Gemini Enterprise: Plataforma para conectar agentes, datos y aplicaciones empresariales](https://dev.to/johnbulla/gemini-enterprise-plataforma-para-conectar-agentes-datos-y-aplicaciones-empresariales-c39) (dev.to) - John BullaFollow             💼 Sr. Cloud Solutions...
 
 ---
 
@@ -283,11 +286,11 @@
 
 ### 相关文章资源
 
-- [One Desktop App Instead of 100+ MCP Server Setups](https://dev.to/w4p/one-desktop-app-instead-of-100-mcp-server-setups-5do) (dev.to) - Giving an AI assistant access to one database is straightforward. Giving it usef
-- [Elementor MCP Is Officially Live — Build Real Elementor Pages From Plain-English Prompts](https://dev.to/ahtisham_lala_a1af953f29b/elementor-mcp-is-officially-live-build-real-elementor-pages-from-plain-english-prompts-e47) (dev.to) - Originally published on ConvertElementor.  Elementor's official MCP connector is
-- [How to vet an MCP server before you install it (a 10-minute checklist)](https://dev.to/stackregistry/how-to-vet-an-mcp-server-before-you-install-it-a-10-minute-checklist-29gn) (dev.to) - MCP servers give your AI client (Claude Code, Cursor, VS Code and others) real p
-- [One edit, three aspect ratios: production versions as sequences, not file copies](https://dev.to/frankshan001/one-edit-three-aspect-ratios-production-versions-as-sequences-not-file-copies-j) (dev.to) - I build CutVoke, an open-source (MIT) local video editor that Claude Code / Code
-- [How I Built an 8-Skill Research Engineering Plugin, Studio MCP Server & Vector Comic Studio for Google Antigravity](https://dev.to/gde/how-i-built-an-8-skill-research-engineering-plugin-stdio-mcp-server-vector-comic-studio-for-lfb) (dev.to) - Reading, auditing, and explaining dense machine learning or engineering papers s
+- [I Tried to Trick My Own MCP Server Into Deleting a Database. The Filter Failed.](https://dev.to/tarunagarwal1981/i-tried-to-trick-my-own-mcp-server-into-deleting-a-database-the-filter-failed-3kam) (dev.to) - How to build a read-only MCP server in Python that connects Claude to your data,
+- [Giving Claude Code and Cursor a web fetch that can read JS-rendered pages](https://dev.to/kafkaqueueuee/giving-claude-code-and-cursor-a-web-fetch-that-can-read-js-rendered-pages-1lml) (dev.to) - I got tired of my coding agent telling me a page was empty when I could see the 
+- [Notes from a 2 AM On-Call: Why Our Stitch MCP Server Died Silently on Tool Timeouts](https://dev.to/lucas_vance/notes-from-a-2-am-on-call-why-our-stitch-mcp-server-died-silently-on-tool-timeouts-2l2b) (dev.to) - Postmortem of a silent Stitch MCP server crash caused by unhandled skill timeout
+- [Let the agent draft, make a human send: approval gates for MCP tools that touch the real world](https://dev.to/manoj7ar/let-the-agent-draft-make-a-human-send-approval-gates-for-mcp-tools-that-touch-the-real-world-5bh3) (dev.to) - Read-only MCP tools are easy to trust. search_notes can't hurt anyone.  The trou
+- [How MCP authorization works and what it leaves to you](https://dev.to/bigcircle/how-mcp-authorization-works-and-what-it-leaves-to-you-3i16) (dev.to) - How MCP authorization works under OAuth 2.1, why the agent should never hold the
 
 ---
 
@@ -356,10 +359,11 @@
 
 ### 相关文章资源
 
+- [LangGraph GraphRecursionError: Why max_retries Fails (And How It's Draining Your Budget)](https://dev.to/belalshafeq/langgraph-graphrecursionerror-why-maxretries-fails-and-how-its-draining-your-budget-397d) (dev.to) - If you are building multi-agent systems with LangGraph, you have probably seen t
+- [We built an AI documentary engine that refuses to make things up](https://dev.to/kashish219/we-built-an-ai-documentary-engine-that-refuses-to-make-things-up-3mf0) (dev.to) - It is 1 AM, the essay is due at 9, and you have three tabs open: a YouTube docum
+- [LangChain raised $300 million and its value reached 3 billion](https://dev.to/hacksgr/langchain-raised-300-million-and-its-value-reached-3-billion-2if0) (dev.to) - LangChain raises $300M in Series C funding, pushing its valuation to $3 billion.
 - [Why my LangChain agent kept double-checking its own math](https://dev.to/abhi18/why-my-langchain-agent-kept-double-checking-its-own-math-3g6k) (dev.to) - I built a small LangChain agent with three tools: a calculator, web search, and 
 - [Building Autonomous AI Research Agents with LangGraph, ReAct & Memory](https://dev.to/iaexpertos/building-autonomous-ai-research-agents-with-langgraph-react-memory-154e) (dev.to) - Simple LLM chains (Chain.run()) are linear and brittle: if a tool call fails or 
-- [Give your LangChain agent a data tool that says "I can't verify that" instead of guessing](https://dev.to/factqlai/give-your-langchain-agent-a-data-tool-that-says-i-cant-verify-that-instead-of-guessing-1io9) (dev.to) - Give an agent a database tool and ask it about last quarter's revenue. Most of t
-- [Self-Host LangGraph Agents with Aegra on Control Plane: A Private Agent Server](https://dev.to/noahcontrolplane/self-host-langgraph-agents-with-aegra-on-control-plane-a-private-agent-server-2ngi) (dev.to) - To self-host LangGraph agents on Control Plane, create a dictionary secret with 
 
 ---
 
@@ -403,10 +407,6 @@
 - 偏见与毒性防护栏
 - 红队测试
 - 构建可信赖的Agent
-
-### 相关文章资源
-
-- [Our ChatGPT/Codex Kalshi starter would have bought the same contract 38 times in under 13 minutes](https://dev.to/botcookery/our-chatgptcodex-kalshi-starter-would-have-bought-the-same-contract-38-times-in-under-13-minutes-9c2) (dev.to) - Oct 25, 2026 rebuild of the BotCookery ChatGPT/Codex Kalshi demo starter: a re-b
 
 ---
 
