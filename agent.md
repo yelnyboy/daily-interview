@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-20
+> 最后更新: 2026-11-21
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -49,8 +49,6 @@
 
 - [Running my agent's code through DigitalOcean's Action Gateway](https://dev.to/alexgeorgiev17/running-my-agents-code-through-digitaloceans-action-gateway-7o7) (dev.to) - I connected Claude Code to DigitalOcean Managed Agents' Action Gateway and measu
 - [AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.](https://dev.to/aws-builders/ai-agents-open-17-million-pull-requests-a-month-i-built-a-gate-that-rejects-the-ones-that-lie-46n7) (dev.to) - AI agents now open pull requests on their own. I gave Amazon Nova Pro a real Git
-- [Both writes said “success”. One was lost. Test your MCP server for it](https://dev.to/isokron/both-writes-said-success-one-was-lost-test-your-mcp-server-for-it-12ih) (dev.to) - Two agents edit the same record through an MCP server. Both get "success" back. 
-- [What to Learn in 2027: AI Agents, Not Another Framework](https://dev.to/castillodk/what-to-learn-in-2027-ai-agents-not-another-framework-2023) (dev.to) - Disclaimer: I am not the person who predicts the market. I am a junior backend d
 
 ---
 
@@ -77,16 +75,18 @@
   - 摘要: 该面经汇总了 LLM/Agent 方向校招与社招面试的高频问题，核心考点可归纳为以下几类：
 1. Transformer 基础：自注意力机制的 Q/K/V 计算与复杂度分析、多头注意力的作用、Laye...
 - [高级] **分布式系统面试连环炮**
-  - 考点: CAP与BASE理论, 分布式事务（2PC/TCC/Saga）, Raft/Paxos共识协议
-  - 摘要: 分布式系统面试连环炮通常按知识链层层深入，核心考点如下。1）CAP理论：分布式系统在一致性、可用性、分区容错性中最多同时满足两个，网络分区不可避免，实际是在CP与AP间权衡。2）BASE理论：基本可用...
+  - 考点: CAP与BASE理论, 分布式事务方案, Raft一致性算法
+  - 摘要: 分布式系统面试常以连环炮形式考察知识体系，核心考点如下：
+
+1. CAP理论：分布式系统在一致性（C）、可用性（A）、分区容错性（P）三者中最多同时满足两个；网络分区不可避免，实际是CP与AP的取舍。...
 
 ### 相关文章资源
 
-- [Who is hiring right now? I scanned 8,000 company career sites (November 2026)](https://dev.to/prostyropor_data/who-is-hiring-right-now-i-scanned-8000-company-career-sites-november-2026-o83) (dev.to) - Job boards repost, duplicate and keep stale ads alive. So I went to the source: 
-- [Weight-space programming needs triage first, so I built it](https://dev.to/ayushh0110/weight-space-programming-needs-triage-first-so-i-built-it-3ek9) (dev.to) - This month MIT CSAIL researchers showed that an LLM can read and edit another mo
-- [Beyond Closed-World Jev: Training-Free Choice, Yes/No, and Open-Word Extraction in One Tree Pass](https://dev.to/akintunde102/beyond-closed-world-jev-training-free-choice-yesno-and-open-word-extraction-in-one-tree-pass-46m2) (dev.to) - Using Tree Attention and the model's built-in vocabulary table (lm_head) to get 
-- [Evals for a Claude agent in 140 lines of TypeScript: golden cases, tool checks and a CI gate](https://dev.to/agentwright/evals-for-a-claude-agent-in-140-lines-of-typescript-golden-cases-tool-checks-and-a-ci-gate-2mk) (dev.to) - A minimal eval harness that runs real cases through your actual agent loop, chec
-- [Extracting roof measurements from PDFs with LLMs, and why the model is the smallest part](https://dev.to/ahmad_dogar_7d098f5e48f72/extracting-roof-measurements-from-pdfs-with-llms-and-why-the-model-is-the-smallest-part-41cb) (dev.to) - A roofing distributor cannot price a tile roof without numbers: total area, the 
+- [Long-term memory for an AI companion without a vector database: 40 messages verbatim + 15 distilled facts](https://dev.to/lovora/long-term-memory-for-an-ai-companion-without-a-vector-database-40-messages-verbatim-15-distilled-11gf) (dev.to) - I run Lovora, an AI companion service for adults in nine languages. The number o
+- [OpenAI presenta MedChemBench, un benchmark de química medicinal para el razonamiento de IA en el descubrimiento de fármacos](https://dev.to/iacompa/openai-presenta-medchembench-un-benchmark-de-quimica-medicinal-para-el-razonamiento-de-ia-en-el-3l0n) (dev.to) - MedChemBench en resumen   OpenAI presentó MedChemBench el 20 de noviembre de 202
+- [OpenAI introduces MedChemBench, a medicinal chemistry benchmark for AI drug discovery reasoning](https://dev.to/iacompa/openai-introduces-medchembench-a-medicinal-chemistry-benchmark-for-ai-drug-discovery-reasoning-27cb) (dev.to) - MedChemBench at a glance   OpenAI introduced MedChemBench on November 20, 2026, 
+- [Why Coding Agents Need a Real Browser (and Playbooks That Replay Without an LLM)](https://dev.to/oya-browser/why-coding-agents-need-a-real-browser-and-playbooks-that-replay-without-an-llm-4am2) (dev.to) - Giving coding agents (Claude Code, Codex, Cursor, VS Code) a real browser hits t
+- [Why I Built an Offline-First Writing IDE with Tauri, Angular, and a Local 9B LLM](https://dev.to/skilful_fox_ceo/why-i-built-an-offline-first-writing-ide-with-tauri-angular-and-a-local-9b-llm-50e) (dev.to) - When you are writing a 300-page sci-fi novel, most modern "AI writing tools" sol
 
 ---
 
@@ -110,11 +110,11 @@
 
 ### 相关文章资源
 
-- [Healthcare Scheduling Retrieval Architecture Explained With Evidence Trails for Assistants](https://dev.to/theophilushawkins9265/healthcare-scheduling-retrieval-architecture-explained-with-evidence-trails-for-assistants-5c6o) (dev.to) - The expensive part of a healthcare appointment assistant is not generating a flu
-- [Contract Review Retrieval Explained: Node.js Fallbacks for Cited Change Alerts](https://dev.to/lyrap22/contract-review-retrieval-explained-nodejs-fallbacks-for-cited-change-alerts-3n8d) (dev.to) - A legal contract review workspace should fail toward a smaller, cited answer, no
-- [Property Management Support Retrieval Architecture — Setting Query Limits for PDF Answers](https://dev.to/adalbertcross4085/property-management-support-retrieval-architecture-setting-query-limits-for-pdf-answers-13ge) (dev.to) - Short answer: for a customer-support knowledge base, use a retrieval architectur
-- [Rerank your RAG results with a cross-encoder: sentence-transformers CrossEncoder, with real CPU timings](https://dev.to/m_t_ramkrushna/rerank-your-rag-results-with-a-cross-encoder-sentence-transformers-crossencoder-with-real-cpu-3i7c) (dev.to) - Thursday AI Tool/Workflow. This week's tool: CrossEncoder from sentence-transfor
-- [A local AI agent whose citations cannot be invented](https://dev.to/gonzoblasco/a-local-ai-agent-whose-citations-cannot-be-invented-5df1) (dev.to) - Most RAG demos look great until the model invents a page number. This one refuse
+- [I let my AI assistant vote in planning poker. Here is what the MCP server looks like](https://dev.to/florianmousseau/i-let-my-ai-assistant-vote-in-planning-poker-here-is-what-the-mcp-server-looks-like-2c8j) (dev.to) - I maintain PokerAgile, a free planning poker app: one person opens a room, share
+- [Semantic Retrieval for Real-Estate Listing Discovery: A Source Deduplication Test](https://dev.to/mortimernilsson7694/semantic-retrieval-for-real-estate-listing-discovery-a-source-deduplication-test-5324) (dev.to) - Semantic retrieval gets blamed for bad real-estate answers when the real culprit
+- [Semantic Retrieval for Travel Itinerary Planners: 3 Rules for Delete Semantics](https://dev.to/lyrap22/semantic-retrieval-for-travel-itinerary-planners-3-rules-for-delete-semantics-3hne) (dev.to) - Short answer: treat deletion as a retrieval contract, not as an embedding detail
+- [How to Shrink a Multi-Vector Search Index Without Losing Recall](https://dev.to/theaicommit/how-to-shrink-a-multi-vector-search-index-without-losing-recall-3gj0) (dev.to) - Merge each document's most similar word vectors into their average, and a multi-
+- [An Embedding of Personal Data Is Still Personal Data: 4 Controls for Your RAG Vector Store](https://dev.to/yusuf_arslan_bm/an-embedding-of-personal-data-is-still-personal-data-4-controls-for-your-rag-vector-store-3oc1) (dev.to) - An embedding looks like a meaningless list of numbers. That is exactly why teams
 
 ---
 
@@ -133,7 +133,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (35题)
+### 已积累题目 (36题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -173,6 +173,11 @@
   - 摘要: Agentic Design Patterns是构建AI Agent时常用的架构模式，主要包括以下四种核心模式：
 
 1. 反思模式（Reflection）：Agent在生成输出后自我审查和修正。例如先...
+- [初级] **AI Agent 入门介绍**
+  - 考点: Agent定义与核心循环, LLM+工具+记忆+规划, Agent与Chatbot区别
+  - 摘要: AI Agent（智能体）是能够感知环境、自主决策并采取行动以达成目标的系统。核心要点如下：
+
+1. 定义：Agent = LLM（大脑）+ 记忆 + 工具调用 + 规划能力，能自主循环执行"思考→行...
 - [高级] **AI 驱动的机器学习与数据科学助手（Agent 设计模式）**
   - 考点: ReAct 规划-执行-反思循环, 工具封装与代码沙箱, 上下文与状态管理
   - 摘要: 这是将 LLM Agent 应用于 ML/数据科学工作流的典型设计问题，核心在于如何让 Agent 安全、可靠地执行数据分析与建模任务。要点如下：1. 整体架构：通常采用「规划器 + 执行器 + 反思...
@@ -278,11 +283,11 @@
 
 ### 相关文章资源
 
-- [Your Agent Retried the Tool Call and Charged the Card Twice: A Zero-Cost Resilience Layer in Python](https://dev.to/yuya_ai_lab/your-agent-retried-the-tool-call-and-charged-the-card-twice-a-zero-cost-resilience-layer-in-python-2geg) (dev.to) - A ~310-line standard-library Python layer for AI agent tool calls: jittered back
-- [NYC: Escape the IVR at Twilio Assemble (Dec 8, Brooklyn)](https://dev.to/twilio/nyc-escape-the-ivr-at-twilio-assemble-dec-8-brooklyn-2dmb) (dev.to) - If you're building AI agents in New York, this one's worth a weeknight.  Twilio 
-- [Multi-Agent Systems Don't Fail Inside Agents. They Fail in the Handoffs](https://dev.to/vivekdaily_1122/multi-agent-systems-dont-fail-inside-agents-they-fail-in-the-handoffs-3m46) (dev.to) - Splitting one big agent into a team of specialists feels like good engineering. 
-- [Give your AI agent live sports prices with one MCP server](https://dev.to/terminalup/give-your-ai-agent-live-sports-prices-with-one-mcp-server-1jc9) (dev.to) - A remote MCP server that gives Claude, Cursor and other agents live sports price
-- [GPT-6 Luna for C#: The Cheap First Stage for High-Volume Agents](https://dev.to/taswar_bhatti/gpt-6-luna-for-c-the-cheap-first-stage-for-high-volume-agents-36ch) (dev.to) - Most of the work an AI agent does all day is dull. Sort this ticket. Pull the fi
+- [Building AgentEval Forge with Kiro: Specs First, Then Code](https://dev.to/arwani_suhud_7395b3bc8cd4/building-agenteval-forge-with-kiro-specs-first-then-code-l48) (dev.to) - This post was written as part of the Kiroween 2026 hackathon.  Most tools I buil
+- [Harvard Says Most Organizations are Using AI Write More Code but Don't Deliver More. Here's How to Fix It.](https://dev.to/remojansen/harvard-says-most-organizations-are-using-ai-write-more-code-but-dont-deliver-more-heres-how-to-1jjk) (dev.to) - We gave developers coding agents but kept the old way of working. Then we were s
+- [Architecting Reliable Claude Agent Loops & MCP Tools (CCAR-F Study Notes)](https://dev.to/jimmy_fa_df2a6d4a40947e2a/architecting-reliable-claude-agent-loops-mcp-tools-ccar-f-study-notes-36ih) (dev.to) - When designing production workflows with Claude—especially multi-step agent loop
+- [The Verification Phase: Why Testing Matters More When Agents Write the Code](https://dev.to/maikotrindade/the-verification-phase-why-testing-matters-more-when-agents-write-the-code-38i2) (dev.to) - Coding agents made writing code cheap. They didn't make knowing the code works c
+- [When AGENTS.md, CLAUDE.md, and a Skill Disagree, Which One Wins?](https://dev.to/debashish_ghosal/when-agentsmd-claudemd-and-a-skill-disagree-which-one-wins-cp2) (dev.to) - When AGENTS.md, CLAUDE.md, and a Skill Disagree, Which One Wins?   Your repo has
 
 ---
 
@@ -300,11 +305,11 @@
 
 ### 相关文章资源
 
-- [A Japan stock data API an agent can actually call](https://dev.to/ikkun1222/a-japan-stock-data-api-an-agent-can-actually-call-3i0) (dev.to) - Three routes to Japanese market data, measured: EDINET filings, the JPX route an
-- [My Mac Kept Freezing Because of 555 Idle MCP Servers](https://dev.to/ar9avg/my-mac-kept-freezing-because-of-555-idle-mcp-servers-321c) (dev.to) - My Mac kept freezing while I ran coding agents  It has 24 GB of RAM. Swap sat at
-- [CodeGraph: Pre-Indexed Code Knowledge Graphs for Agent Tool Calls](https://dev.to/mech_app_ai/codegraph-pre-indexed-code-knowledge-graphs-for-agent-tool-calls-1fg0) (dev.to) - How pre-indexing code structure into a queryable graph reduces token waste and t
-- [How we check 1,600 Gulf recruitment agencies against government registers](https://dev.to/aicom_38ddfdcb2a74af67683/how-we-check-1600-gulf-recruitment-agencies-against-government-registers-3cb0) (dev.to) - Why a "verified" badge should point to MOHRE or Musaned, not to us.  Finding a d
-- [OAuth for MCP Servers on Neon: 4 AI Clients Connect Without DCR](https://dev.to/devopsdaily/oauth-for-mcp-servers-on-neon-4-ai-clients-connect-without-dcr-bmk) (dev.to) - We replaced the static bearer token on our Neon MCP server with OAuth 2.1 from N
+- [Incorporating a startup from Codex: connecting Corply's MCP server](https://dev.to/corply/incorporating-a-startup-from-codex-connecting-corplys-mcp-server-59fc) (dev.to) - Codex can incorporate a Delaware C-corp once it's connected to a formation servi
+- [Forming a Delaware C-corp from Claude Code through an MCP server](https://dev.to/corply/forming-a-delaware-c-corp-from-claude-code-through-an-mcp-server-4340) (dev.to) - Claude Code can incorporate a Delaware C-corp if you connect it to a formation s
+- [I re-ran a rival's memory benchmark. It tied mine. Here is the interesting part.](https://dev.to/calasdansketch/i-re-ran-a-rivals-memory-benchmark-it-tied-mine-here-is-the-interesting-part-191c) (dev.to) - I build Monomem, shared memory for AI coding agents. It records which app wrote 
+- [Apify MCP tool cost: 10 live Actor definitions plus the tokens in their results](https://dev.to/kirkins/apify-mcp-tool-cost-10-live-actor-definitions-plus-the-tokens-in-their-results-2beg) (dev.to) - I enabled ten of our Apify Actors on the hosted MCP server and counted 27,797 re
+- [How I Cut AI Coding Token Usage by 90% Using Local AST Pruning](https://dev.to/toprak_a/how-i-cut-ai-coding-token-usage-by-90-using-local-ast-pruning-4lkh) (dev.to) - I'm Toprak, a 15-year-old software engineer from Turkey building open-source dev
 
 ---
 
@@ -369,11 +374,11 @@
 
 ### 相关文章资源
 
-- [Give a LangChain agent web search for under half a cent a query](https://dev.to/cyberwarex/give-a-langchain-agent-web-search-for-under-half-a-cent-a-query-5096) (dev.to) - Most search APIs want an API key, a monthly plan, or both. Your agent just needs
-- [Building NovaDesk AI: Moving Beyond Basic RAG with Query Rewriting and HyDE](https://dev.to/zeroshotanu/building-novadesk-ai-moving-beyond-basic-rag-with-query-rewriting-and-hyde-2m0g) (dev.to) - Setting up a basic RAG (Retrieval-Augmented Generation) pipeline takes ten minut
-- [Deploy a LangGraph agent to a public URL](https://dev.to/uagents8/deploy-a-langgraph-agent-to-a-public-url-1odc) (dev.to) - You have a LangGraph graph that works in a notebook. Now someone else needs to c
-- [I built SaliBot, my own agentic ChatGPT, with LangGraph, FastAPI and Gemini](https://dev.to/salima_iddrisu/i-built-salibot-my-own-agentic-chatgpt-with-langgraph-fastapi-and-gemini-15hd) (dev.to) - I wanted my own ChatGPT, so I built one and named it after myself: SaliBot, afte
-- [One sentence stopped my AI agents inventing data. Bad data that looked normal still fooled them.](https://dev.to/houssain_elmarouni_09942/one-sentence-stopped-my-ai-agents-inventing-data-bad-data-that-looked-normal-still-fooled-them-2n35) (dev.to) - 1,680 runs across crewAI, LangGraph, OpenAI Agents SDK and Google ADK: what agen
+- [GPT-6.1 Terra with Microsoft Agent Framework: A PDF Invoice Agent in C#](https://dev.to/taswar_bhatti/gpt-61-terra-with-microsoft-agent-framework-a-pdf-invoice-agent-in-c-1ec7) (dev.to) - GPT-6.1 Terra with Microsoft Agent Framework: A PDF Invoice Agent in C   In the 
+- [LangChain for Beginners: Build Your First AI App With Chains](https://dev.to/arhan_khan/langchain-for-beginners-build-your-first-ai-app-with-chains-2o17) (dev.to) - Calling a language model API is easy. Building a real app around it — with promp
+- [A LangChain chat model that doesn't refuse your security tasks (Python and JS)](https://dev.to/majikdev/a-langchain-chat-model-that-doesnt-refuse-your-security-tasks-python-and-js-379i) (dev.to) - Disclosure: I work on InterOdin, the API used in this tutorial. Any OpenAI-compa
+- [Day 27/90 — Reusable Subgraphs in LangGraph: Building Modular AI Agent Systems](https://dev.to/rimsha_kanwal/day-2790-reusable-subgraphs-in-langgraph-building-modular-ai-agent-systems-a04) (dev.to) - What happens when your AI application grows from one agent to ten?  Building the
+- [What team-wide AI adoption actually takes](https://dev.to/peter/what-team-wide-ai-adoption-actually-takes-1gbh) (dev.to) - I've tried nearly every way to make AI practical at work: new models, routers, a
 
 ---
 
@@ -390,6 +395,7 @@
 
 ### 相关文章资源
 
+- [Feeling vs Data: My Multi-Agent Workflow measured](https://dev.to/jebertacchi/feeling-vs-data-my-multi-agent-workflow-measured-3lmp) (dev.to) - Two months of agent logs, about 1,100 agents and 45 features. What the data conf
 - [Field Notes: Where the deny belongs in a multi-agent bank assistant, and the case policy cannot stop](https://dev.to/rajmurugan/field-notes-where-the-deny-belongs-in-a-multi-agent-bank-assistant-and-the-case-policy-cannot-stop-3ne3) (dev.to) - A fictional bank assistant on AgentCore: Cedar policy on the user's token stoppe
 
 ---
@@ -429,6 +435,7 @@
 
 ### 相关文章资源
 
+- [Safer agents start with the world we build for them](https://dev.to/jdueadev/safer-agents-start-with-the-world-we-build-for-them-dc) (dev.to) - A containment prototype that stacks proven methods around an agent and lets a cl
 - [Three ways out of my coding agent's sandbox](https://dev.to/madhusudhan_suv/three-ways-out-of-my-coding-agents-sandbox-8hn) (dev.to) - First published on Garuda's blog.  Garuda is an open-source coding agent. Its co
 
 ---
