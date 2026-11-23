@@ -90,8 +90,8 @@
 - [Regex first, judgment model second: leak recall went from 0.25 to 0.95 for about $1 a month](https://dev.to/uehara/regex-first-judgment-model-second-leak-recall-went-from-025-to-095-for-about-1-a-month-3555) (dev.to) - Our in-house regex caught 0.25 of the confidential items in a test set. With a j
 - [ARC pesquisa métodos matemáticos para manter a IA sob controle humano](https://dev.to/guiadeti/arc-pesquisa-metodos-matematicos-para-manter-a-ia-sob-controle-humano-4jld) (dev.to) - Pesquisadores do ARC estudam métodos matemáticos para explicar comportamentos in
 - [Live VLM WebUI on Jetson Orin: Real-Time Visual AI with Ollama](https://dev.to/cavedu/live-vlm-webui-on-jetson-orin-real-time-visual-ai-with-ollama-2pi8) (dev.to) - Live VLM WebUI combines a camera stream, a vision-language model, and a browser 
+- [Managed to run Kimi K3.1 Pro (2.8T) on a single consumer GPU, looking for some feedback](https://dev.to/esat_bozu_6041a691e6b2dff/managed-to-run-kimi-k31-pro-28t-on-a-single-consumer-gpu-looking-for-some-feedback-c02) (dev.to) - Managed to run Kimi K3.1 Pro (2.8T) on a single consumer GPU, looking for some f
 - [유지·갱신하도록 강제하는 단계별 실행 프롬프트](https://dev.to/shingyeongseon/yujigaengsinhadorog-gangjehaneun-dangyebyeol-silhaeng-peurompeuteu-13m0) (dev.to) - 너는 지금부터 나의 개인 지식 관리 및 엔지니어링 리서치 파트너다. 단순 채팅으로 지식이 휘발되는 문제를 해결하기 위해, 로컬 파일 시스템(~/
-- [Reading Sakana AI's Five Papers: The Lineage of 'Evolving AI,' from Model Merging to Self-Improving Agents](https://dev.to/moruku36/reading-sakana-ais-five-papers-the-lineage-of-evolving-ai-from-model-merging-to-self-improving-f7l) (dev.to) - Introduction   Where does The AI Scientist — the system that automates research 
 
 ---
 
