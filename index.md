@@ -2,6 +2,12 @@
 
 > 按日期倒序排列
 
+## 2026-11-24
+
+- [算法] [Easy] [Maximum Subarray With Equal Products](13-算法/Maximum-Subarray-With-Equal-Products.md)
+- [理论] [高级] [基于 LangGraph 的汽车购买 Agent 设计](04-Agent基础与架构原则/基于-LangGraph-的汽车购买-Agent-设计.md)
+- [理论] [] [Redis是什么？](14-编程基础/Redis是什么？.md)
+
 ## 2026-11-23
 
 - [算法] [中级] [最后 K 个数字的乘积（数据流设计题）](13-算法/最后-K-个数字的乘积（数据流设计题）.md)
