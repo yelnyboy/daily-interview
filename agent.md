@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-23
+> 最后更新: 2026-11-24
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -47,6 +47,7 @@
 
 ### 相关文章资源
 
+- [Twenty's Open CRM Architecture: How Agent-First Design Turns Customer Data into Executable Workflows](https://dev.to/mech_app_ai/twentys-open-crm-architecture-how-agent-first-design-turns-customer-data-into-executable-workflows-mfb) (dev.to) - Twenty exposes CRM entities as GraphQL primitives, letting agents query contacts
 - [Inference Skill Adds Gates to Local LLM Tuning](https://dev.to/dd8888/inference-skill-adds-gates-to-local-llm-tuning-bao) (dev.to) - A GitHub project turns local LLM tuning into controlled trials, measuring decode
 - [Aider: How to Install and Use the AI Pair Programmer in Your Terminal](https://dev.to/mallikarjun_ht_719608538/aider-how-to-install-and-use-the-ai-pair-programmer-in-your-terminal-ad7) (dev.to) - If you want an AI coding assistant that edits files directly in your repository,
 - [Running my agent's code through DigitalOcean's Action Gateway](https://dev.to/alexgeorgiev17/running-my-agents-code-through-digitaloceans-action-gateway-7o7) (dev.to) - I connected Claude Code to DigitalOcean Managed Agents' Action Gateway and measu
@@ -87,11 +88,11 @@
 
 ### 相关文章资源
 
-- [Regex first, judgment model second: leak recall went from 0.25 to 0.95 for about $1 a month](https://dev.to/uehara/regex-first-judgment-model-second-leak-recall-went-from-025-to-095-for-about-1-a-month-3555) (dev.to) - Our in-house regex caught 0.25 of the confidential items in a test set. With a j
-- [ARC pesquisa métodos matemáticos para manter a IA sob controle humano](https://dev.to/guiadeti/arc-pesquisa-metodos-matematicos-para-manter-a-ia-sob-controle-humano-4jld) (dev.to) - Pesquisadores do ARC estudam métodos matemáticos para explicar comportamentos in
-- [Live VLM WebUI on Jetson Orin: Real-Time Visual AI with Ollama](https://dev.to/cavedu/live-vlm-webui-on-jetson-orin-real-time-visual-ai-with-ollama-2pi8) (dev.to) - Live VLM WebUI combines a camera stream, a vision-language model, and a browser 
-- [Managed to run Kimi K3.1 Pro (2.8T) on a single consumer GPU, looking for some feedback](https://dev.to/esat_bozu_6041a691e6b2dff/managed-to-run-kimi-k31-pro-28t-on-a-single-consumer-gpu-looking-for-some-feedback-c02) (dev.to) - Managed to run Kimi K3.1 Pro (2.8T) on a single consumer GPU, looking for some f
-- [유지·갱신하도록 강제하는 단계별 실행 프롬프트](https://dev.to/shingyeongseon/yujigaengsinhadorog-gangjehaneun-dangyebyeol-silhaeng-peurompeuteu-13m0) (dev.to) - 너는 지금부터 나의 개인 지식 관리 및 엔지니어링 리서치 파트너다. 단순 채팅으로 지식이 휘발되는 문제를 해결하기 위해, 로컬 파일 시스템(~/
+- [Hermes Agent + local Gemma(llama)](https://dev.to/metis_atelier_studio/hermes-agent-local-gemmallama-593p) (dev.to) - Switching Between a Home LLM and a Free Cloud Model — Safely   A practical setup
+- [Why Claude Code Ignores Your Rules: CLAUDE.md and Harnesses](https://dev.to/bgprogramming79/why-claude-code-ignores-your-rules-claudemd-and-harnesses-emp) (dev.to) - Would Longer Instructions Solve the Problem?   What should you do when an AI ign
+- [Day 1 of Building an AI SQL Assistant: What I Learned Just Calling the LLM](https://dev.to/hernanchilabert/day-1-of-building-an-ai-sql-assistant-what-i-learned-just-calling-the-llm-1ca4) (dev.to) - Before any SQL, I spent Day 1 on the LLM call itself: OpenAI SDK against Ollama,
+- [Great breakdown of the PACE paper! Always benchmark multi-agent setups against a token-matched single agent before paying the coordination tax.](https://dev.to/mahmoud_sajjadi_2ce7349cd/great-breakdown-of-the-pace-paper-always-benchmark-multi-agent-setups-against-a-token-matched-5d9g) (dev.to) - More Agents. Worse Results. Eight Times the Bill.                               
+- [Tired of catching Claude, Gemini, and ChatGPT up on the same project?](https://dev.to/naw103/tired-of-catching-claude-gemini-and-chatgpt-up-on-the-same-project-hif) (dev.to) - If you pay for more than one AI assistant, you probably keep the same project in
 
 ---
 
@@ -115,11 +116,11 @@
 
 ### 相关文章资源
 
-- [Vector Collections Explained: Go Guardrails for Marketplace Duplicate Detection](https://dev.to/callumreed2198/vector-collections-explained-go-guardrails-for-marketplace-duplicate-detection-3l6l) (dev.to) - A vector collection groups records whose embeddings can be compared under one nu
-- [Giving Agents Memory: Self-Hosted Qdrant + Mem0](https://dev.to/ikkun1222/giving-agents-memory-self-hosted-qdrant-mem0-5gca) (dev.to) - A self-hosted memory stack using Qdrant and Mem0 provides long-term storage for 
-- [How to convert PDFs to Markdown for RAG with Python (tables, columns and scanned pages)](https://dev.to/mustapha11/how-to-convert-pdfs-to-markdown-for-rag-with-python-tables-columns-and-scanned-pages-o8) (dev.to) - Disclosure: I built the Apify actor used in the second half of this post. It is 
-- [Chunk Boundaries and Freshness in Travel Itinerary Retrieval Architecture](https://dev.to/quentinbarrett5281/chunk-boundaries-and-freshness-in-travel-itinerary-retrieval-architecture-1h0m) (dev.to) - Short answer: use staged retrieval with explicit collections, bounded queries, a
-- [Restaurant Menu Retrieval: Vector Search vs Web Search Crawl Boundaries Explained](https://dev.to/ulricdonovan1564/restaurant-menu-retrieval-vector-search-vs-web-search-crawl-boundaries-explained-5756) (dev.to) - Short answer: use vector search for the menu corpus you are allowed to crawl and
+- [AI Audit Evidence, Part 8: An Interval Is Not Coverage](https://dev.to/rain6fish/ai-audit-evidence-part-8-an-interval-is-not-coverage-ao5) (dev.to) - We build a runtime that lets AI agents take real write actions inside enterprise
+- [EmbeddingGemma 2 still outputs 768 dimensions. Can you reuse the old index?](https://dev.to/uulab/embeddinggemma-2-still-outputs-768-dimensions-can-you-reuse-the-old-index-5agg) (dev.to) - A customer asks about a refund and gets the billing guide first. The request suc
+- [E-commerce Product Search Retrieval: Go's 5 Freshness Checks for Evaluation Sets](https://dev.to/irvincole5861/e-commerce-product-search-retrieval-gos-5-freshness-checks-for-evaluation-sets-23f7) (dev.to) - Catalog changes are the constraint that decides whether an evaluation set is use
+- [Finance Diffs: Privacy-Focused Personal Manager Retrieval Architecture in Four Budgets](https://dev.to/elibennett128/finance-diffs-privacy-focused-personal-manager-retrieval-architecture-in-four-budgets-5fhd) (dev.to) - Short answer: for a privacy-focused personal knowledge manager that watches fina
+- [Chunk Boundaries in Privacy-Focused SaaS Retrieval (A 3-Layer Freshness Model)](https://dev.to/arthurfinley2291/chunk-boundaries-in-privacy-focused-saas-retrieval-a-3-layer-freshness-model-3a2b) (dev.to) - Short answer: for a privacy-focused personal knowledge manager that searches B2B
 
 ---
 
@@ -288,11 +289,11 @@
 
 ### 相关文章资源
 
+- [Atrium, part two: turning my agentic support tool into a product other engineers use](https://dev.to/mkash25/atrium-part-two-turning-my-agentic-support-tool-into-a-product-other-engineers-use-4j7j) (dev.to) - I'm Mayank, an engineer at Snowflake supporting security and connectivity. Atriu
+- [Your Team Needs to Know When to Take Over From the Agent.](https://dev.to/rick_leffke_6541e28129e2a/your-team-needs-to-know-when-to-take-over-from-the-agent-cg1) (dev.to) - A good answer from an AI agent is not enough if your team cannot take over when 
 - [Slimemold Diaries Week 3: Agent-to-Agent Communication Kickoff](https://dev.to/nlsmdn/slimemold-diaries-week-3-agent-to-agent-communication-kickoff-3kc7) (dev.to) - My Claude subscription resets on Saturday morning. Last Friday evening I still h
 - [Hire a Stock Clerk for the HagiCode Skill Library](https://dev.to/newbe36524/hire-a-stock-clerk-for-the-hagicode-skill-library-5349) (dev.to) - Skills can sit deep in folders and still be found. How HagiCode's skill library 
 - [Give Your AI Agent a Wallet It Can't Overspend (Telegraph + MCP)](https://dev.to/aghazie_david_4dc30f4c9a8/give-your-ai-agent-a-wallet-it-cant-overspend-telegraph-mcp-kd6) (dev.to) - Disclosure: I built this for Telegraph Hackathon Season II (Apps &amp; Agents, M
-- [Building AgentEval Forge with Kiro: Specs First, Then Code](https://dev.to/arwani_suhud_7395b3bc8cd4/building-agenteval-forge-with-kiro-specs-first-then-code-l48) (dev.to) - This post was written as part of the Kiroween 2026 hackathon.  Most tools I buil
-- [Harvard Says Most Organizations are Using AI Write More Code but Don't Deliver More. Here's How to Fix It.](https://dev.to/remojansen/harvard-says-most-organizations-are-using-ai-write-more-code-but-dont-deliver-more-heres-how-to-1jjk) (dev.to) - We gave developers coding agents but kept the old way of working. Then we were s
 
 ---
 
@@ -310,11 +311,11 @@
 
 ### 相关文章资源
 
-- [Platform engineering 2026: five challenges and how observability helps meet them](https://dev.to/spanobserver/platform-engineering-2026-five-challenges-and-how-observability-helps-meet-them-49oh) (dev.to) - Platform engineering 2026: integration, automation, value, compliance and AI gov
-- [Our Proxy Refused Chromium but Waved Firefox Through](https://dev.to/eliashivemind/our-proxy-refused-chromium-but-waved-firefox-through-o6k) (dev.to) - We built our own browser stack last week — Playwright plus an MCP server, persis
-- [Elementum: An AI-Native UI Platform with Built-in MCP, Agent Runtime & 109 Zero-Dep Web Components](https://dev.to/pinguxx/elementum-an-ai-native-ui-platform-with-built-in-mcp-agent-runtime-109-zero-dep-web-components-9oi) (dev.to) - When you build modern web applications (especially AI-assisted or agentic ones),
-- [How to answer Claude Code and Codex permission prompts from your phone](https://dev.to/joexk1/how-to-answer-claude-code-and-codex-permission-prompts-from-your-phone-257c) (dev.to) - Claude Code and Codex stop and ask you things: "Allow this Bash command?", "Whic
-- [How to get TikTok, Instagram Reels and YouTube transcripts in Claude and ChatGPT (MCP)](https://dev.to/david_ghetto_5e1274b3df0a/how-to-get-tiktok-instagram-reels-and-youtube-transcripts-in-claude-and-chatgpt-mcp-23pi) (dev.to) - You paste an Instagram Reel into Claude and ask "what's the recipe?". Claude can
+- [How to Query Live B2B Signals from Claude, Cursor, and VS Code (ATS Jobs, Google Ads, Telegram, EU VAT) via MCP](https://dev.to/wordhalm/how-to-query-live-b2b-signals-from-claude-cursor-and-vs-code-ats-jobs-google-ads-telegram-eu-54da) (dev.to) - Short answer: You can give Claude Code, Claude Desktop, Cursor, or VS Code live 
+- [Give Claude live access to UK Companies House, government tenders and more with MCP](https://dev.to/jdzy/give-claude-live-access-to-uk-companies-house-government-tenders-and-more-with-mcp-8d1) (dev.to) - Connect official UK, EU and US business data to Claude, ChatGPT, Cursor or VS Co
+- [How I Connected My $20 Google AI Pro Plan to Claude Code, Cursor & Codex (Zero Gemini API Bill)](https://dev.to/muzaqil_hesenli_3ab136d5c/how-i-connected-my-20-google-ai-pro-plan-to-claude-code-cursor-codex-zero-gemini-api-bill-46lh) (dev.to) - If you already pay $20/month for Google AI Pro (or Ultra) and code every day in 
+- [The Anthropic Ecosystem Blueprint: How Open-Source Hook & MCP Kernels Turn Coding CLIs into Deterministic Engineering Teams](https://dev.to/bennialencar/the-anthropic-ecosystem-blueprint-how-open-source-hook-mcp-kernels-turn-coding-clis-into-kbc) (dev.to) - End-to-end reference architecture for enterprise AI coding teams: combining clau
+- [How to check an MCP server is safe before you install it](https://dev.to/pickaplugin/how-to-check-an-mcp-server-is-safe-before-you-install-it-1ei1) (dev.to) - Disclosure: I run PickAPlugin, an independent catalog of ChatGPT and Codex plugi
 
 ---
 
@@ -418,10 +419,6 @@
 - 结构化日志与追踪
 - 可观测性平台(LangSmith/Helicone/LangFuse/openllmetry)
 
-### 相关文章资源
-
-- [Langfuse vs LangSmith vs Arize for conversation analytics: sessions, frustration and topics (2026)](https://dev.to/shubhampalriwala/langfuse-vs-langsmith-vs-arize-for-conversation-analytics-sessions-frustration-and-topics-2026-3911) (dev.to) - Can Langfuse, LangSmith or Arize do conversation analytics? What each documents 
-
 ---
 
 ## 11. 安全与可信赖性
@@ -439,6 +436,7 @@
 
 ### 相关文章资源
 
+- [Your agent's tool registry is an API. Stop reviewing it like config.](https://dev.to/cyclopt_dimitrisk/your-agents-tool-registry-is-an-api-stop-reviewing-it-like-config-40op) (dev.to) - Most agent security conversations start with the model. Can it be jailbroken? Wi
 - [Safer agents start with the world we build for them](https://dev.to/jdueadev/safer-agents-start-with-the-world-we-build-for-them-dc) (dev.to) - A containment prototype that stacks proven methods around an agent and lets a cl
 
 ---
