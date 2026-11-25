@@ -2,6 +2,12 @@
 
 > 按日期倒序排列
 
+## 2026-11-25
+
+- [算法] [高级] [最小唯一子数组](13-算法/最小唯一子数组.md)
+- [理论] [高级] [LangGraph 图检查器系统（Graph Inspector）](04-Agent基础与架构原则/LangGraph-图检查器系统（Graph-Inspector）.md)
+- [理论] [初级] [Python 自省机制](14-编程基础/Python-自省机制.md)
+
 ## 2026-11-24
 
 - [算法] [Easy] [Maximum Subarray With Equal Products](13-算法/Maximum-Subarray-With-Equal-Products.md)
