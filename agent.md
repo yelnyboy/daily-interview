@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-24
+> 最后更新: 2026-11-25
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -47,10 +47,10 @@
 
 ### 相关文章资源
 
+- [Why Your AI Release Notes Hallucinate: The "Why vs What" Problem in Git History](https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0) (dev.to) - Passing raw git diffs to LLMs produces plausible but hallucinated changelogs. He
 - [Twenty's Open CRM Architecture: How Agent-First Design Turns Customer Data into Executable Workflows](https://dev.to/mech_app_ai/twentys-open-crm-architecture-how-agent-first-design-turns-customer-data-into-executable-workflows-mfb) (dev.to) - Twenty exposes CRM entities as GraphQL primitives, letting agents query contacts
 - [Inference Skill Adds Gates to Local LLM Tuning](https://dev.to/dd8888/inference-skill-adds-gates-to-local-llm-tuning-bao) (dev.to) - A GitHub project turns local LLM tuning into controlled trials, measuring decode
 - [Aider: How to Install and Use the AI Pair Programmer in Your Terminal](https://dev.to/mallikarjun_ht_719608538/aider-how-to-install-and-use-the-ai-pair-programmer-in-your-terminal-ad7) (dev.to) - If you want an AI coding assistant that edits files directly in your repository,
-- [Running my agent's code through DigitalOcean's Action Gateway](https://dev.to/alexgeorgiev17/running-my-agents-code-through-digitaloceans-action-gateway-7o7) (dev.to) - I connected Claude Code to DigitalOcean Managed Agents' Action Gateway and measu
 
 ---
 
@@ -88,11 +88,11 @@
 
 ### 相关文章资源
 
-- [Hermes Agent + local Gemma(llama)](https://dev.to/metis_atelier_studio/hermes-agent-local-gemmallama-593p) (dev.to) - Switching Between a Home LLM and a Free Cloud Model — Safely   A practical setup
-- [Why Claude Code Ignores Your Rules: CLAUDE.md and Harnesses](https://dev.to/bgprogramming79/why-claude-code-ignores-your-rules-claudemd-and-harnesses-emp) (dev.to) - Would Longer Instructions Solve the Problem?   What should you do when an AI ign
-- [Day 1 of Building an AI SQL Assistant: What I Learned Just Calling the LLM](https://dev.to/hernanchilabert/day-1-of-building-an-ai-sql-assistant-what-i-learned-just-calling-the-llm-1ca4) (dev.to) - Before any SQL, I spent Day 1 on the LLM call itself: OpenAI SDK against Ollama,
-- [Great breakdown of the PACE paper! Always benchmark multi-agent setups against a token-matched single agent before paying the coordination tax.](https://dev.to/mahmoud_sajjadi_2ce7349cd/great-breakdown-of-the-pace-paper-always-benchmark-multi-agent-setups-against-a-token-matched-5d9g) (dev.to) - More Agents. Worse Results. Eight Times the Bill.                               
-- [Tired of catching Claude, Gemini, and ChatGPT up on the same project?](https://dev.to/naw103/tired-of-catching-claude-gemini-and-chatgpt-up-on-the-same-project-hif) (dev.to) - If you pay for more than one AI assistant, you probably keep the same project in
+- [Chunking YouTube transcripts for RAG, with timestamps that link back](https://dev.to/yyildiz/chunking-youtube-transcripts-for-rag-with-timestamps-that-link-back-3fph) (dev.to) - Merge caption lines into ~200-word chunks that keep their start time and a deep 
+- [We ran four agent stacks through one 12-hour shift. Three hit their spend cap first.](https://dev.to/organisely/we-ran-four-agent-stacks-through-one-12-hour-shift-three-hit-their-spend-cap-first-3n2o) (dev.to) - I'm building Argentic, an engine that runs the agent you already wrote for hours
+- [Persistent State Can Outlive Its Authority A control gap in persistent AI-agent systems.](https://dev.to/ghostwolftech/persistent-state-can-outlive-its-authoritya-control-gap-in-persistent-ai-agent-systems-5ehc) (dev.to) - ```Modern agent-security work is advancing rapidly around memory poisoning, agen
+- [Removing a Hidden Effort Prompt Made My Local Qwen 27B Run Valid. It Still Missed the Bar.](https://dev.to/hexisteme/removing-a-hidden-effort-prompt-made-my-local-qwen-27b-run-valid-it-still-missed-the-bar-51kj) (dev.to) - A retry with top-level reasoning_effort medium fixed my local Qwen 27B prompt on
+- [I Tried to Fit a Trillion-Parameter Model in a Gigabyte. The Measurements Said No.](https://dev.to/omollohzack/i-tried-to-fit-a-trillion-parameter-model-in-a-gigabyte-the-measurements-said-no-462) (dev.to) - Modern AI models are files. Very large files.  Moonshot's Kimi K3.1 Pro — the mo
 
 ---
 
@@ -116,11 +116,11 @@
 
 ### 相关文章资源
 
-- [AI Audit Evidence, Part 8: An Interval Is Not Coverage](https://dev.to/rain6fish/ai-audit-evidence-part-8-an-interval-is-not-coverage-ao5) (dev.to) - We build a runtime that lets AI agents take real write actions inside enterprise
-- [EmbeddingGemma 2 still outputs 768 dimensions. Can you reuse the old index?](https://dev.to/uulab/embeddinggemma-2-still-outputs-768-dimensions-can-you-reuse-the-old-index-5agg) (dev.to) - A customer asks about a refund and gets the billing guide first. The request suc
-- [E-commerce Product Search Retrieval: Go's 5 Freshness Checks for Evaluation Sets](https://dev.to/irvincole5861/e-commerce-product-search-retrieval-gos-5-freshness-checks-for-evaluation-sets-23f7) (dev.to) - Catalog changes are the constraint that decides whether an evaluation set is use
-- [Finance Diffs: Privacy-Focused Personal Manager Retrieval Architecture in Four Budgets](https://dev.to/elibennett128/finance-diffs-privacy-focused-personal-manager-retrieval-architecture-in-four-budgets-5fhd) (dev.to) - Short answer: for a privacy-focused personal knowledge manager that watches fina
-- [Chunk Boundaries in Privacy-Focused SaaS Retrieval (A 3-Layer Freshness Model)](https://dev.to/arthurfinley2291/chunk-boundaries-in-privacy-focused-saas-retrieval-a-3-layer-freshness-model-3a2b) (dev.to) - Short answer: for a privacy-focused personal knowledge manager that searches B2B
+- [Your RAG's Chunk Size Decides What Fits: 92% vs 31% at the Same 512 Tokens](https://dev.to/yuya_ai_lab/your-rags-chunk-size-decides-what-fits-92-vs-31-at-the-same-512-tokens-3d72) (dev.to) - Five chunkers, BM25, budget-aware selection, 384 seeded questions, no model call
+- [How to Build Travel Retrieval in 2026: Versioned Sources for Grounded Itineraries](https://dev.to/ottoneumann8425/how-to-build-travel-retrieval-in-2026-versioned-sources-for-grounded-itineraries-59dl) (dev.to) - Short answer: keep every fetched travel page as an immutable, content-addressed 
+- [How I Would Build a RAG App in 2026: FastAPI + Postgres/pgvector + React](https://dev.to/gopigugan/how-i-would-build-a-rag-app-in-2026-fastapi-postgrespgvector-react-502b) (dev.to) - As a software engineer, I have spent a lot of time this year learning how to bui
+- [Semantic Retrieval for Healthcare Appointment Assistants — 4 Fallback Stages](https://dev.to/ironspiredraven77/semantic-retrieval-for-healthcare-appointment-assistants-4-fallback-stages-9a) (dev.to) - Short answer: semantic retrieval, explained for a healthcare appointment assista
+- [Node.js Retrieval Architecture — Instrumenting Customer-Support Knowledge-Base Reranking](https://dev.to/godfreysterling1574/nodejs-retrieval-architecture-instrumenting-customer-support-knowledge-base-reranking-4jjd) (dev.to) - Short answer: for a customer-support knowledge base, make the retrieval architec
 
 ---
 
@@ -139,7 +139,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (36题)
+### 已积累题目 (37题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -197,6 +197,9 @@
   - 考点: ReAct模式, 工具调用, 上下文管理
   - 摘要: Claude AI的Agent设计模式主要围绕如何利用大语言模型进行自主任务规划与执行。
 1. ReAct模式：结合推理与行动，Agent在每一步先思考当前状态和目标，再决定调用哪个外部工具，并根据工...
+- [高级] **LangGraph 图检查器系统（Graph Inspector）**
+  - 考点: StateGraph 状态图建模, checkpointer 状态持久化, 时间旅行调试
+  - 摘要: LangGraph 的图检查器系统是用于观测、调试和验证 Agent 工作流的基础设施，核心要点如下：1. LangGraph 将 Agent 建模为状态图（StateGraph），节点是函数或子图，...
 - [中级] **Spring Cloud 微服务架构**
   - 考点: 服务注册与发现, 配置中心, 服务网关
   - 摘要: Spring Cloud是构建微服务架构的一站式框架体系，核心组件要点：
@@ -289,11 +292,11 @@
 
 ### 相关文章资源
 
-- [Atrium, part two: turning my agentic support tool into a product other engineers use](https://dev.to/mkash25/atrium-part-two-turning-my-agentic-support-tool-into-a-product-other-engineers-use-4j7j) (dev.to) - I'm Mayank, an engineer at Snowflake supporting security and connectivity. Atriu
-- [Your Team Needs to Know When to Take Over From the Agent.](https://dev.to/rick_leffke_6541e28129e2a/your-team-needs-to-know-when-to-take-over-from-the-agent-cg1) (dev.to) - A good answer from an AI agent is not enough if your team cannot take over when 
-- [Slimemold Diaries Week 3: Agent-to-Agent Communication Kickoff](https://dev.to/nlsmdn/slimemold-diaries-week-3-agent-to-agent-communication-kickoff-3kc7) (dev.to) - My Claude subscription resets on Saturday morning. Last Friday evening I still h
-- [Hire a Stock Clerk for the HagiCode Skill Library](https://dev.to/newbe36524/hire-a-stock-clerk-for-the-hagicode-skill-library-5349) (dev.to) - Skills can sit deep in folders and still be found. How HagiCode's skill library 
-- [Give Your AI Agent a Wallet It Can't Overspend (Telegraph + MCP)](https://dev.to/aghazie_david_4dc30f4c9a8/give-your-ai-agent-a-wallet-it-cant-overspend-telegraph-mcp-kd6) (dev.to) - Disclosure: I built this for Telegraph Hackathon Season II (Apps &amp; Agents, M
+- [What your AI agent loads, costs and exposes: a free offline check](https://dev.to/psyseal/what-your-ai-agent-loads-costs-and-exposes-a-free-offline-check-2hpa) (dev.to) - Personal AI agents like OpenClaw, Hermes Agent or nanobot keep their memory, ski
+- [How do you hand a half-finished task from one AI agent session to the next?](https://dev.to/gautamtalksdev/how-do-you-hand-a-half-finished-task-from-one-ai-agent-session-to-the-next-1kn) (dev.to) - Long tasks rarely finish in one agent session. Context fills up, the session end
+- [How AIClaw 3.12.20 Batches Browser Actions and Returns the Evidence](https://dev.to/chowyu12/how-aiclaw-31220-batches-browser-actions-and-returns-the-evidence-f2c) (dev.to) - A filter form can take several trips through an agent loop. Pick a category, rea
+- [Google Ships Official Skills for AI Agents, and They're Free](https://dev.to/dimsbuild/google-ships-official-skills-for-ai-agents-and-theyre-free-5d91) (dev.to) - The google/skills repo ships ready-to-use Google Cloud skills, compatible with C
+- [Anthropic’s Siren Evaluation Shows Why AI Agent Sandboxes Need More Than Boundaries](https://dev.to/alifar/anthropics-siren-evaluation-shows-why-ai-agent-sandboxes-need-more-than-boundaries-gip) (dev.to) - Anthropic has published Siren, a safety evaluation designed to test whether AI a
 
 ---
 
@@ -311,11 +314,11 @@
 
 ### 相关文章资源
 
-- [How to Query Live B2B Signals from Claude, Cursor, and VS Code (ATS Jobs, Google Ads, Telegram, EU VAT) via MCP](https://dev.to/wordhalm/how-to-query-live-b2b-signals-from-claude-cursor-and-vs-code-ats-jobs-google-ads-telegram-eu-54da) (dev.to) - Short answer: You can give Claude Code, Claude Desktop, Cursor, or VS Code live 
-- [Give Claude live access to UK Companies House, government tenders and more with MCP](https://dev.to/jdzy/give-claude-live-access-to-uk-companies-house-government-tenders-and-more-with-mcp-8d1) (dev.to) - Connect official UK, EU and US business data to Claude, ChatGPT, Cursor or VS Co
-- [How I Connected My $20 Google AI Pro Plan to Claude Code, Cursor & Codex (Zero Gemini API Bill)](https://dev.to/muzaqil_hesenli_3ab136d5c/how-i-connected-my-20-google-ai-pro-plan-to-claude-code-cursor-codex-zero-gemini-api-bill-46lh) (dev.to) - If you already pay $20/month for Google AI Pro (or Ultra) and code every day in 
-- [The Anthropic Ecosystem Blueprint: How Open-Source Hook & MCP Kernels Turn Coding CLIs into Deterministic Engineering Teams](https://dev.to/bennialencar/the-anthropic-ecosystem-blueprint-how-open-source-hook-mcp-kernels-turn-coding-clis-into-kbc) (dev.to) - End-to-end reference architecture for enterprise AI coding teams: combining clau
-- [How to check an MCP server is safe before you install it](https://dev.to/pickaplugin/how-to-check-an-mcp-server-is-safe-before-you-install-it-1ei1) (dev.to) - Disclosure: I run PickAPlugin, an independent catalog of ChatGPT and Codex plugi
+- [Read here, act there: one command to stop it on any MCP server](https://dev.to/cleiton_augusto_/read-here-act-there-one-command-to-stop-it-on-any-mcp-server-43a6) (dev.to) - What your agent reads can't decide what it does. One command puts any MCP server
+- [Prompt Injection vs. the Gateway: Round One](https://dev.to/yosolita1978/prompt-injection-vs-the-gateway-round-one-5b7o) (dev.to) - Anzuelo, my lead-finding agent, reads strangers' posts all day. It looks for peo
+- [print("Hello, World!")](https://dev.to/duhbob/printhello-world-3p88) (dev.to) - The agents' conflict over the two MCP files of the night and its false reports  
+- [I Gave ChatGPT Access to 11 US Cities of Property Sales Data. The Tool Descriptions Mattered More Than the Code](https://dev.to/tianninglab/i-gave-chatgpt-access-to-11-us-cities-of-property-sales-data-the-tool-descriptions-mattered-more-1g8a) (dev.to) - Description: How I shipped an MCP server for property comparables and wired it i
+- [Install and Use the Google Workspace CLI: gwscli on Linux, From curl to Agent Skills](https://dev.to/gde/install-and-use-the-google-workspace-cli-gwscli-on-linux-from-curl-to-agent-skills-12dm) (dev.to) - A step by step guide to the generally available Google Workspace CLI: one-line i
 
 ---
 
@@ -383,8 +386,6 @@
 - [One Chat, Three Clouds: An A2UI 1.0 Agent Mesh Over A2A on Google Cloud, AWS and Azure](https://dev.to/gde/one-chat-three-clouds-an-a2ui-10-agent-mesh-over-a2a-on-google-cloud-aws-and-azure-2j83) (dev.to) - Three A2UI 1.0 currency agents, one per cloud, joined over A2A behind one AG-UI 
 - [GPT-6.1 Terra with Microsoft Agent Framework: A PDF Invoice Agent in C#](https://dev.to/taswar_bhatti/gpt-61-terra-with-microsoft-agent-framework-a-pdf-invoice-agent-in-c-1ec7) (dev.to) - GPT-6.1 Terra with Microsoft Agent Framework: A PDF Invoice Agent in C   In the 
 - [LangChain for Beginners: Build Your First AI App With Chains](https://dev.to/arhan_khan/langchain-for-beginners-build-your-first-ai-app-with-chains-2o17) (dev.to) - Calling a language model API is easy. Building a real app around it — with promp
-- [A LangChain chat model that doesn't refuse your security tasks (Python and JS)](https://dev.to/majikdev/a-langchain-chat-model-that-doesnt-refuse-your-security-tasks-python-and-js-379i) (dev.to) - Disclosure: I work on InterOdin, the API used in this tutorial. Any OpenAI-compa
-- [Day 27/90 — Reusable Subgraphs in LangGraph: Building Modular AI Agent Systems](https://dev.to/rimsha_kanwal/day-2790-reusable-subgraphs-in-langgraph-building-modular-ai-agent-systems-a04) (dev.to) - What happens when your AI application grows from one agent to ten?  Building the
 
 ---
 
