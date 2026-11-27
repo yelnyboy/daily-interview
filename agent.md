@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-26
+> 最后更新: 2026-11-27
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -49,7 +49,6 @@
 
 - [Why Your AI Release Notes Hallucinate: The "Why vs What" Problem in Git History](https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0) (dev.to) - Passing raw git diffs to LLMs produces plausible but hallucinated changelogs. He
 - [Twenty's Open CRM Architecture: How Agent-First Design Turns Customer Data into Executable Workflows](https://dev.to/mech_app_ai/twentys-open-crm-architecture-how-agent-first-design-turns-customer-data-into-executable-workflows-mfb) (dev.to) - Twenty exposes CRM entities as GraphQL primitives, letting agents query contacts
-- [Inference Skill Adds Gates to Local LLM Tuning](https://dev.to/dd8888/inference-skill-adds-gates-to-local-llm-tuning-bao) (dev.to) - A GitHub project turns local LLM tuning into controlled trials, measuring decode
 
 ---
 
@@ -87,11 +86,11 @@
 
 ### 相关文章资源
 
-- [Your agent is about to pay a stranger's API](https://dev.to/paydlux/your-agent-is-about-to-pay-a-strangers-api-46po) (dev.to) - You built an agent. It found an API that answers 402 Payment Required — the new 
-- [Before OpenAI retires prompt objects, is moving the prompt text enough?](https://dev.to/uulab/before-openai-retires-prompt-objects-is-moving-the-prompt-text-enough-2mo4) (dev.to) - Imagine a support-ticket classifier that calls a saved prompt and expects JSON. 
-- [My AI sleeps, forgets, and still knows where we left off](https://dev.to/enrique_velasquez_6899d97/my-ai-sleeps-forgets-and-still-knows-where-we-left-off-101m) (dev.to) - I build 53ON, a desktop harness for AI agents on Windows, with a small team. The
-- [Treat LLM Output as a Build Artifact: Batch APIs and Jev](https://dev.to/rustam_kolumbayev_e97ba1d/treat-llm-output-as-a-build-artifact-batch-apis-and-jev-4b3b) (dev.to) - How precomputing every answer turned a 31-second request into a 2 KB static file
-- [Can Your Agent Review Your Cloud Architecture?](https://dev.to/aws/can-your-agent-review-your-cloud-architecture-4coh) (dev.to) - A Well-Architected review used to be a multi-day effort when I was a solutions a
+- [The Auto-Merge Question Nobody Talks About Enough](https://dev.to/richard_smith_154156d471ef/the-auto-merge-question-nobody-talks-about-enough-hco) (dev.to) - I've been thinking about agent trust boundaries lately, especially when shipping
+- [How I built a newsroom for my Telegram channel on DeepSeek and taught it to stop writing 'plays a pivotal role'](https://dev.to/diberlog/how-i-built-a-newsroom-for-my-telegram-channel-on-deepseek-and-taught-it-to-stop-writing-plays-a-3g32) (dev.to) - I run a Telegram channel about development, AI, games and tech. Doing it by hand
+- [When five AI models all agree, that still isn't proof they're right](https://dev.to/getmultio/when-five-ai-models-all-agree-that-still-isnt-proof-theyre-right-3nm5) (dev.to) - Most writing about AI disagreement — including ours — focuses on where models sp
+- [How I Build an AI Agent That Calls Real Tools — Without Letting It Run Wild - By Gopi Gugan](https://dev.to/gopigugan/how-i-build-an-ai-agent-that-calls-real-tools-without-letting-it-run-wild-by-gopi-gugan-2m7a) (dev.to) - I'm Gopi Gugan, a software engineer building AI features with FastAPI, Postgres/
+- [GPT-6.2 Astra vs Sol: a practical split for real refactors](https://dev.to/karim_559017914c52/gpt-62-astra-vs-sol-a-practical-split-for-real-refactors-4ok6) (dev.to) - Most teams I look at are paying frontier-model prices for work that does not nee
 
 ---
 
@@ -115,11 +114,11 @@
 
 ### 相关文章资源
 
-- [E-commerce Product Search: Evidence Trails for Retrieval Cost Control](https://dev.to/kellanrhodes1542/e-commerce-product-search-evidence-trails-for-retrieval-cost-control-31c4) (dev.to) - Short answer: keep an append-only decision record for every retrieval, but store
-- [7 Node.js Chunk Boundary Patterns: Retrieval Architecture for Game Listings](https://dev.to/elibennett128/7-nodejs-chunk-boundary-patterns-retrieval-architecture-for-game-listings-1kf8) (dev.to) - Short answer: for a retrieval architecture serving a travel itinerary planner or
-- [Clinical RAG Release Gates: Why Retrieval Evaluation Matters First](https://dev.to/loganpierce2073/clinical-rag-release-gates-why-retrieval-evaluation-matters-first-25ne) (dev.to) - A clinical search service has two constraints that refuse to stay separate: the 
-- [RAG Evaluation Guide: Separate Retrieval Quality from Answer Quality (Runnable Node.js Example)](https://dev.to/umutgungor/rag-evaluation-guide-separate-retrieval-quality-from-answer-quality-runnable-nodejs-example-a61) (dev.to) - Original guide + downloadable runnable script: Read on umutgungorr.com · Downloa
-- [Designing Retrieval Architecture and Audit Evidence for Media Engineering Knowledge Bases](https://dev.to/ellisvance1273/designing-retrieval-architecture-and-audit-evidence-for-media-engineering-knowledge-bases-o7o) (dev.to) - Short answer: build the internal engineering documentation bot as a staged retri
+- [2026 Node.js Retrieval for Restaurant Menu Assistants: 5 Metadata Filters](https://dev.to/yatesholloway6872/2026-nodejs-retrieval-for-restaurant-menu-assistants-5-metadata-filters-5h0c) (dev.to) - Short answer: put hard menu facts in metadata first, then run semantic retrieval
+- [Private RAG for Enterprises: Architecture and Data-Leakage Controls](https://dev.to/aeitch/private-rag-for-enterprises-architecture-and-data-leakage-controls-1lo4) (dev.to) - Architecting zero-data-leakage Retrieval-Augmented Generation for enterprise dat
+- [Mem0 alternatives in 2026: Cognee, Letta, Supermemory, Zep](https://dev.to/maxmartella/mem0-alternatives-in-2026-cognee-korely-letta-supermemory-zep-2eod) (dev.to) - Four Mem0 alternatives compared on open source, self-hosting, free plans and fac
+- [How to Extract YouTube Transcripts at Scale: 4 Real Methods (2026)](https://dev.to/tony_cerundolotony87pis/how-to-extract-youtube-transcripts-at-scale-4-real-methods-2026-3m6m) (dev.to) - You need YouTube transcripts — for a RAG pipeline, content repurposing, or resea
+- [We Indexed 57,638 Documents in 1.6 Seconds on a 6-Core CPU. Here's What We Built.](https://dev.to/ab_as_62eafcb6a433008952b/we-indexed-57638-documents-in-16-seconds-on-a-6-core-cpu-heres-what-we-built-54bc) (dev.to) - No GPU. No embedding API. No external vector database. Just Rust, a lightweight 
 
 ---
 
@@ -294,11 +293,11 @@
 
 ### 相关文章资源
 
-- [Your AI Agent Says It's Done. Here's How to Check Before You Believe It](https://dev.to/binateai/your-ai-agent-says-its-done-heres-how-to-check-before-you-believe-it-3880) (dev.to) - If you've built anything with AI agents, you've probably seen this. The agent fi
-- [Your agent's memory is an attack surface](https://dev.to/willcheah/your-agents-memory-is-an-attack-surface-1fi7) (dev.to) - Code review can't see the Markdown that drives your agent. This maps four memory
-- [What actually happens when you run a shared email domain for AI agents](https://dev.to/uriv/what-actually-happens-when-you-run-a-shared-email-domain-for-ai-agents-3mi7) (dev.to) - Giving an AI agent an email address looks simple on paper. Spin up an SMTP relay
-- [Everyone Is Building AI Agents. But Who Is Making Them Reliable? 🤖☕](https://dev.to/johnclentoira/everyone-is-building-ai-agents-but-who-is-making-them-reliable-3ao2) (dev.to) - I've been thinking about something lately. We spend so much time discussing how 
-- [Stop AI Agents Acting on Bluffs? A Strands Decider 2B Tool Gate Test](https://dev.to/aws-builders/stop-ai-agents-acting-on-bluffs-a-strands-decider-2b-tool-gate-test-5004) (dev.to) - I tested Strands Decider 2B as an AI agent tool gate on 16 refund cases against 
+- [Your Agent Approved $40 and Charged $60: Binding Spend to the Approval in Pure Python](https://dev.to/yuya_ai_lab/your-agent-approved-40-and-charged-60-binding-spend-to-the-approval-in-pure-python-76l) (dev.to) - A frozen approval value, a ceiling check, and an HMAC-chained receipt. In 1,200 
+- [I built a place where AI agents form companies, teams and other associations and organizations](https://dev.to/vincent_marioul_11fe7cf34/i-built-a-place-where-ai-agents-form-companies-teams-and-other-associations-and-organizations-32dg) (dev.to) - Most agent setups are one person's agents talking to each other. I wanted to see
+- [OpenAI Agents API: qué es el harness y cómo se arma un agente alrededor de él](https://dev.to/julian_cardozo_dev/openai-agents-api-que-es-el-harness-y-como-se-arma-un-agente-alrededor-de-el-3kmj) (dev.to) - Una introducción breve a la arquitectura de la Agents API de OpenAI: qué es el h
+- [I Audited 19 Ways AI Agents Earn Money. 14/14 Pools Paid, 0/20 Judged Tasks Did.](https://dev.to/pauljackson77/i-audited-19-ways-ai-agents-earn-money-1414-pools-paid-020-judged-tasks-did-5g5j) (dev.to) - I've spent the last month doing something unglamorous: pointing an agent at ever
+- [How to Create Stock Analysis AI Agent | Langchain & Parallel API](https://dev.to/devnamipress/how-to-create-stock-analysis-ai-agent-langchain-parallel-api-4fni) (dev.to) - Building AI agents can show you the type of possibilities you have and things th
 
 ---
 
@@ -316,11 +315,11 @@
 
 ### 相关文章资源
 
-- [What 32,919 MCP servers tell us about the ecosystem (November 2026)](https://dev.to/ghosts/what-32919-mcp-servers-tell-us-about-the-ecosystem-november-2026-13cf) (dev.to) - I run AllMCPs, a directory that indexes public Model Context Protocol servers fr
-- [Three people connected our app from Claude's connector directory, and none of them shipped an app: what we fixed](https://dev.to/mike_tofu/three-people-connected-our-app-from-claudes-connector-directory-and-none-of-them-shipped-an-app-220d) (dev.to) - We make Tofu, a service that puts apps and websites online from a chat. Tofu has
-- [How to install an MCP server in Claude Desktop, Cursor and Codex](https://dev.to/pickaplugin/how-to-install-an-mcp-server-in-claude-desktop-cursor-and-codex-4b3c) (dev.to) - Disclosure: I run PickAPlugin, an independent catalog of ChatGPT and Codex plugi
-- [An agent that pays for its own timestamps: x402 on a CPU-mined coin](https://dev.to/polarkamonitor/an-agent-that-pays-for-its-own-timestamps-x402-on-a-cpu-mined-coin-1ki9) (dev.to) - Every night at 23:41 an agent we run, on OpenClaw on a Mac mini, makes a list of
-- [GAtrends is now in the Claude connectors directory: ask Claude what is spiking right now (free, no key)](https://dev.to/bondarchuk_bohdan_7777/gatrends-is-now-in-the-claude-connectors-directory-ask-claude-what-is-spiking-right-now-free-no-2f0c) (dev.to) - I built GAtrends, a trend radar for games and big tech, and its free MCP server 
+- [My AI game master lied about who was in the room. That bug became an agent-honesty checker.](https://dev.to/rollsolo/my-ai-game-master-lied-about-who-was-in-the-room-that-bug-became-an-agent-honesty-checker-5dao) (dev.to) - The narrator told me a character standing next to me was not there.  That was on
+- [How I connected a ChatGPT dot to my Mac with MCP](https://dev.to/apoorvdarshan/how-i-connected-a-chatgpt-dot-to-my-mac-with-mcp-2f1o) (dev.to) - I wanted to ask my dot a small question from my phone: what’s in a project folde
+- [Remote or local: choosing between Sandscale's two MCP servers](https://dev.to/sandscale/remote-or-local-choosing-between-sandscales-two-mcp-servers-566c) (dev.to) - mcp.sandscale.dev and sandscale mcp compared tool by tool: transport, sign-in, w
+- [Adding the Sandscale MCP server to Codex: config.toml, OAuth login and approval modes](https://dev.to/sandscale/adding-the-sandscale-mcp-server-to-codex-configtoml-oauth-login-and-approval-modes-36b) (dev.to) - Configure the remote or local Sandscale MCP server in OpenAI Codex, sign in with
+- [Connecting Cursor to the Sandscale MCP server: global or per project, remote or local](https://dev.to/sandscale/connecting-cursor-to-the-sandscale-mcp-server-global-or-per-project-remote-or-local-1ek7) (dev.to) - The mcp.json entries for the remote and local Sandscale MCP servers in Cursor, w
 
 ---
 
@@ -385,10 +384,11 @@
 
 ### 相关文章资源
 
+- [Add long-term memory to a LangChain chatbot in Python (no vector DB)](https://dev.to/belcore/add-long-term-memory-to-a-langchain-chatbot-in-python-no-vector-db-33ba) (dev.to) - Most chat apps already store the conversation in their own database. The hard pa
+- [Read Xiaohongshu (RedNote), Douyin and Bilibili links with the Firecrawl SDK you already have](https://dev.to/programming_withjackche/read-xiaohongshu-rednote-douyin-and-bilibili-links-with-the-firecrawl-sdk-you-already-have-4aj4) (dev.to) - Short answer: if your code already calls Firecrawl's scrape, you can keep that c
 - [What happens to a long-running LangChain agent after hour 6 (measured on five stacks)](https://dev.to/neilluo/what-happens-to-a-long-running-langchain-agent-after-hour-6-measured-on-five-stacks-2p9j) (dev.to) - If you run a LangChain or LangGraph agent for hours, the first thing that change
 - [Self-Correcting RAG With LangGraph](https://dev.to/boilershelf/self-correcting-rag-with-langgraph-kd) (dev.to) - Short answer: A self-correcting RAG agent searches for evidence, checks whether 
 - [How I Bridged LangChain, CrewAI, AutoGen & Hermes in 1 Line (Without a Vector DB or Token Bloat)](https://dev.to/dk_oh_8c0e314e47d2f3dcf2d/how-i-bridged-langchain-crewai-autogen-hermes-in-1-line-without-a-vector-db-or-token-bloat-1o4p) (dev.to) - Solving multi-agent glue code, <think> reasoning loops, MCP schema bloat, and cr
-- [LangGraph agents with LangChain: build an agent and trace every one of its steps](https://dev.to/spanobserver/langgraph-agents-with-langchain-build-an-agent-and-trace-every-one-of-its-steps-5hbm) (dev.to) - Build LangGraph agents with LangChain on a local model, then trace every node, L
 
 ---
 
@@ -405,8 +405,8 @@
 
 ### 相关文章资源
 
+- [[Kalamos Devlog] After Open-Sourcing: v0.2 to v0.7 Feature Evolution and Using Multi-Agents to Review External PRs](https://dev.to/evanlin/kalamos-devlog-after-open-sourcing-feature-evolution-from-v02-to-v07-and-using-multiple-agents-2ef9) (dev.to) - 前情提要   在上一篇開發紀錄裡，我用 Herdr 讓 Claude Code 當 PM、右邊開兩個 worktree coder Pane，三天內從零做出 T
 - [I Built My First Multi-Agent System on AWS, and It Was Easier Than I Expected](https://dev.to/hemapriya_kanagala/i-built-my-first-multi-agent-system-on-aws-and-it-was-easier-than-i-expected-58c2) (dev.to) - TL;DR  I recently completed the final project of Udacity's Future AWS Agent Engi
-- [Beyond Chatbots: Building an Observable Multi-Agent Study Coach with Gemini, Google ADK & Docker](https://dev.to/hjangid/beyond-chatbots-building-an-observable-multi-agent-study-coach-with-gemini-google-adk-docker-460e) (dev.to) - Build. Learn. Evaluate. Observe.  What if an AI study assistant could do more th
 
 ---
 
