@@ -1,6 +1,6 @@
 # AI Agent 开发知识库
 
-> 最后更新: 2026-11-27
+> 最后更新: 2026-11-28
 > 基于 roadmap.sh/ai-agents + Microsoft AI Agents + 12-Factor Agents
 > 每日自动抓取 + 面试题积累
 
@@ -47,8 +47,8 @@
 
 ### 相关文章资源
 
+- [How many tokens does Jira MCP cost vs files in Git?](https://dev.to/weiwen-weng/how-many-tokens-does-jira-mcp-cost-vs-files-in-git-1mp3) (dev.to) - MCP tool lists and Jira JSON both cost tokens on every task. Here is how they co
 - [Why Your AI Release Notes Hallucinate: The "Why vs What" Problem in Git History](https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0) (dev.to) - Passing raw git diffs to LLMs produces plausible but hallucinated changelogs. He
-- [Twenty's Open CRM Architecture: How Agent-First Design Turns Customer Data into Executable Workflows](https://dev.to/mech_app_ai/twentys-open-crm-architecture-how-agent-first-design-turns-customer-data-into-executable-workflows-mfb) (dev.to) - Twenty exposes CRM entities as GraphQL primitives, letting agents query contacts
 
 ---
 
@@ -86,11 +86,11 @@
 
 ### 相关文章资源
 
-- [The Auto-Merge Question Nobody Talks About Enough](https://dev.to/richard_smith_154156d471ef/the-auto-merge-question-nobody-talks-about-enough-hco) (dev.to) - I've been thinking about agent trust boundaries lately, especially when shipping
-- [How I built a newsroom for my Telegram channel on DeepSeek and taught it to stop writing 'plays a pivotal role'](https://dev.to/diberlog/how-i-built-a-newsroom-for-my-telegram-channel-on-deepseek-and-taught-it-to-stop-writing-plays-a-3g32) (dev.to) - I run a Telegram channel about development, AI, games and tech. Doing it by hand
-- [When five AI models all agree, that still isn't proof they're right](https://dev.to/getmultio/when-five-ai-models-all-agree-that-still-isnt-proof-theyre-right-3nm5) (dev.to) - Most writing about AI disagreement — including ours — focuses on where models sp
-- [How I Build an AI Agent That Calls Real Tools — Without Letting It Run Wild - By Gopi Gugan](https://dev.to/gopigugan/how-i-build-an-ai-agent-that-calls-real-tools-without-letting-it-run-wild-by-gopi-gugan-2m7a) (dev.to) - I'm Gopi Gugan, a software engineer building AI features with FastAPI, Postgres/
-- [GPT-6.2 Astra vs Sol: a practical split for real refactors](https://dev.to/karim_559017914c52/gpt-62-astra-vs-sol-a-practical-split-for-real-refactors-4ok6) (dev.to) - Most teams I look at are paying frontier-model prices for work that does not nee
+- [Two Sisters Tinctures, Now in Motion: An AI Ad Made with Migoo](https://dev.to/earlgreyhot1701d/two-sisters-tinctures-now-in-motion-an-ai-ad-made-with-migoo-3lo7) (dev.to) - Spike the story first. Spend the credits on the shots.   TL;DR: I entered the B.
+- [Turn 1,000 PDFs into clean Markdown for your RAG pipeline (no GPU, ~$1 per 1,000 pages)](https://dev.to/chalidade/turn-1000-pdfs-into-clean-markdown-for-your-rag-pipeline-no-gpu-1-per-1000-pages-4bjn) (dev.to) - Every RAG tutorial starts the same way: "just load your documents" 🙂  Then you p
+- [6 Agent Failure Modes We Keep Hitting in Production (and How We Handle Them)](https://dev.to/jk576/6-agent-failure-modes-we-keep-hitting-in-production-and-how-we-handle-them-2a27) (dev.to) - One of our agents was chugging along for four and a half hours. When we finally 
+- [Claude Fable 5.2 for Coding: Price, Effort Levels, When to Use](https://dev.to/agentic_architect/claude-fable-52-for-coding-price-effort-levels-when-to-use-40im) (dev.to) - Claude Fable 5.2 and Mythos 5.2 for coding: $8/$40 pricing, AA Index 65, effort 
+- [I rented an H100 to find out what a shared API was hiding](https://dev.to/kingkonsole/i-rented-an-h100-to-find-out-what-a-shared-api-was-hiding-1afh) (dev.to) - $13.80 of GPU time · a practical exercise from Chapter 4 of Inference Engineerin
 
 ---
 
@@ -114,11 +114,11 @@
 
 ### 相关文章资源
 
-- [2026 Node.js Retrieval for Restaurant Menu Assistants: 5 Metadata Filters](https://dev.to/yatesholloway6872/2026-nodejs-retrieval-for-restaurant-menu-assistants-5-metadata-filters-5h0c) (dev.to) - Short answer: put hard menu facts in metadata first, then run semantic retrieval
-- [Private RAG for Enterprises: Architecture and Data-Leakage Controls](https://dev.to/aeitch/private-rag-for-enterprises-architecture-and-data-leakage-controls-1lo4) (dev.to) - Architecting zero-data-leakage Retrieval-Augmented Generation for enterprise dat
-- [Mem0 alternatives in 2026: Cognee, Letta, Supermemory, Zep](https://dev.to/maxmartella/mem0-alternatives-in-2026-cognee-korely-letta-supermemory-zep-2eod) (dev.to) - Four Mem0 alternatives compared on open source, self-hosting, free plans and fac
-- [How to Extract YouTube Transcripts at Scale: 4 Real Methods (2026)](https://dev.to/tony_cerundolotony87pis/how-to-extract-youtube-transcripts-at-scale-4-real-methods-2026-3m6m) (dev.to) - You need YouTube transcripts — for a RAG pipeline, content repurposing, or resea
-- [We Indexed 57,638 Documents in 1.6 Seconds on a 6-Core CPU. Here's What We Built.](https://dev.to/ab_as_62eafcb6a433008952b/we-indexed-57638-documents-in-16-seconds-on-a-6-core-cpu-heres-what-we-built-54bc) (dev.to) - No GPU. No embedding API. No external vector database. Just Rust, a lightweight 
+- [Inside Claude Code's PreCompact and SessionStart Hooks: Deterministic Memory Injection Without RAG Noise](https://dev.to/bennialencar/inside-claude-codes-precompact-and-sessionstart-hooks-deterministic-memory-injection-without-rag-5apm) (dev.to) - Inside Claude Code's PreCompact and SessionStart Hooks: Deterministic Memory Inj
+- [BM25 vs Semantic Search vs Hybrid RAG: What My Benchmarks Revealed](https://dev.to/borjanladinski/bm25-vs-semantic-search-vs-hybrid-rag-what-my-benchmarks-revealed-2klk) (dev.to) - I built a codebase RAG system using BM25, semantic search, reciprocal rank fusio
+- [Metadata Filtering for Grounded Multi-Tenant Logistics Knowledge Base Vector Retrieval](https://dev.to/drummondreed8257/metadata-filtering-for-grounded-multi-tenant-logistics-knowledge-base-vector-retrieval-23og) (dev.to) - Short answer: metadata filters restrict vector search to records a tenant and us
+- [Stop paying $99/mo to feed docs into your AI agent or track competitor UI changes](https://dev.to/aliasdatastudio/256-mb-web-to-markdown-set-of-mark-visual-grounding-pixel-diff-for-ai-agents-without-8-gb-527l) (dev.to) - If you run an AI support bot, a RAG knowledge base, or competitive tracking for 
+- [Building a Root Cause Analysis Agent with RAG — and the first thing that broke](https://dev.to/technobonal/building-a-root-cause-analysis-agent-with-rag-and-the-first-thing-that-broke-2k2) (dev.to) - How I built a RAG agent that returns structured root cause, fix and confidence —
 
 ---
 
@@ -137,7 +137,7 @@
 - 小型专注的Agent设计
 - 统一执行状态与无状态Reducer
 
-### 已积累题目 (38题)
+### 已积累题目 (39题)
 
 - [初级] **12-Factor原则第7条：端口绑定**
   - 考点: 端口绑定概念, 自包含服务, 本地与生产一致性
@@ -273,6 +273,9 @@
 - [中级] **构建简单的数据分析 Agent（Notebook 实践）**
   - 考点: ReAct循环, 工具定义与JSON Schema, 代码沙箱执行
   - 摘要: 核心思路：以LLM为大脑，采用ReAct模式（推理→行动→观察循环）驱动数据分析流程。关键设计点：1）工具定义：封装代码执行器（Python REPL/沙箱）、数据加载（read_csv）、可视化（m...
+- [高级] **欧盟绿色合规 FAQ 智能体（Agent设计模式实战）**
+  - 考点: RAG架构, Router路由模式, ReAct模式
+  - 摘要: 这是一个面向欧盟绿色合规（如EU Green Deal、CSRD、CBAM等法规）的FAQ问答Agent项目，考察Agent设计模式的综合应用。核心设计要点：1) 整体架构：采用RAG + Agent...
 - [中级] **端到端测试Agent设计模式**
   - 考点: 任务分解, 工具调用, 语义断言
   - 摘要: 1. 规划与分解：Agent接收自然语言测试需求，利用LLM将其分解为具体的测试步骤和预期结果。
@@ -293,11 +296,11 @@
 
 ### 相关文章资源
 
-- [Your Agent Approved $40 and Charged $60: Binding Spend to the Approval in Pure Python](https://dev.to/yuya_ai_lab/your-agent-approved-40-and-charged-60-binding-spend-to-the-approval-in-pure-python-76l) (dev.to) - A frozen approval value, a ceiling check, and an HMAC-chained receipt. In 1,200 
-- [I built a place where AI agents form companies, teams and other associations and organizations](https://dev.to/vincent_marioul_11fe7cf34/i-built-a-place-where-ai-agents-form-companies-teams-and-other-associations-and-organizations-32dg) (dev.to) - Most agent setups are one person's agents talking to each other. I wanted to see
-- [OpenAI Agents API: qué es el harness y cómo se arma un agente alrededor de él](https://dev.to/julian_cardozo_dev/openai-agents-api-que-es-el-harness-y-como-se-arma-un-agente-alrededor-de-el-3kmj) (dev.to) - Una introducción breve a la arquitectura de la Agents API de OpenAI: qué es el h
-- [I Audited 19 Ways AI Agents Earn Money. 14/14 Pools Paid, 0/20 Judged Tasks Did.](https://dev.to/pauljackson77/i-audited-19-ways-ai-agents-earn-money-1414-pools-paid-020-judged-tasks-did-5g5j) (dev.to) - I've spent the last month doing something unglamorous: pointing an agent at ever
-- [How to Create Stock Analysis AI Agent | Langchain & Parallel API](https://dev.to/devnamipress/how-to-create-stock-analysis-ai-agent-langchain-parallel-api-4fni) (dev.to) - Building AI agents can show you the type of possibilities you have and things th
+- [Detecting Skill Drift in AI Agents: A Practical Baseline-and-Alert Technique](https://dev.to/mr_thankyou_58b14997d0c77/detecting-skill-drift-in-ai-agents-a-practical-baseline-and-alert-technique-1c0f) (dev.to) - How to detect when an AI agent's skills degrade over time using baselines, struc
+- [Seven things an automation tool structurally cannot do](https://dev.to/tamtree_io/seven-things-an-automation-tool-structurally-cannot-do-3lmg) (dev.to) - Your automation tool can call a language model. That was never the hard part. He
+- [Your agent plans badly because it has no context profile. Here is the shape one needs](https://dev.to/nityasha/your-agent-plans-badly-because-it-has-no-context-profile-here-is-the-shape-one-needs-4pbg) (dev.to) - A few weeks ago I wrote that your AI agent cannot plan your day because there is
+- [Does your AI agent know what it is not allowed to touch?](https://dev.to/gautamtalksdev/does-your-ai-agent-know-what-it-is-not-allowed-to-touch-3cba) (dev.to) - Most agent setups say a lot about what the agent should do and very little about
+- [I'm one of the AI agents trying to grow one account to 10,000 followers. We have 15.](https://dev.to/slime_scout/im-one-of-the-ai-agents-trying-to-grow-one-account-to-10000-followers-we-have-15-kn5) (dev.to) - Written by an AI agent: dozens of autonomous agents on one server, one social ac
 
 ---
 
@@ -315,11 +318,11 @@
 
 ### 相关文章资源
 
-- [My AI game master lied about who was in the room. That bug became an agent-honesty checker.](https://dev.to/rollsolo/my-ai-game-master-lied-about-who-was-in-the-room-that-bug-became-an-agent-honesty-checker-5dao) (dev.to) - The narrator told me a character standing next to me was not there.  That was on
-- [How I connected a ChatGPT dot to my Mac with MCP](https://dev.to/apoorvdarshan/how-i-connected-a-chatgpt-dot-to-my-mac-with-mcp-2f1o) (dev.to) - I wanted to ask my dot a small question from my phone: what’s in a project folde
-- [Remote or local: choosing between Sandscale's two MCP servers](https://dev.to/sandscale/remote-or-local-choosing-between-sandscales-two-mcp-servers-566c) (dev.to) - mcp.sandscale.dev and sandscale mcp compared tool by tool: transport, sign-in, w
-- [Adding the Sandscale MCP server to Codex: config.toml, OAuth login and approval modes](https://dev.to/sandscale/adding-the-sandscale-mcp-server-to-codex-configtoml-oauth-login-and-approval-modes-36b) (dev.to) - Configure the remote or local Sandscale MCP server in OpenAI Codex, sign in with
-- [Connecting Cursor to the Sandscale MCP server: global or per project, remote or local](https://dev.to/sandscale/connecting-cursor-to-the-sandscale-mcp-server-global-or-per-project-remote-or-local-1ek7) (dev.to) - The mcp.json entries for the remote and local Sandscale MCP servers in Cursor, w
+- [Auditing JSON-LD Entity Graphs & llms.txt GEO Readiness with Model Context Protocol (noir-seo-geo-mcp)](https://dev.to/shashank_shetty_cfb327fae/auditing-json-ld-entity-graphs-llmstxt-geo-readiness-with-model-context-protocol-3iok) (dev.to) - How to audit Schema.org JSON-LD @id entity graphs, XML sitemap redirect hops, an
+- [A safe MCP server for a payment API](https://dev.to/stablevoy/a-safe-mcp-server-for-a-payment-api-3enc) (dev.to) - What an AI assistant can do with a payment API when a prompt injection gets thro
+- [Free security scan MCP server for Claude Code, Cursor, Windsurf and VS Code: setup and the four tools](https://dev.to/proofforge_live/free-security-scan-mcp-server-for-claude-code-cursor-windsurf-and-vs-code-setup-and-the-four-2e6k) (dev.to) - If you use Claude Code, Cursor, Windsurf or VS Code to build, you can add a free
+- [A confirmation with no session](https://dev.to/wolfejam/a-confirmation-with-no-session-268i) (dev.to) - What a sealed requestState can and can't promise on MCP 2026-07-28  Some tools s
+- [How I measure coding-agent memory retrieval, including where it fails](https://dev.to/icegaming/how-i-measure-coding-agent-memory-retrieval-including-where-it-fails-5dl3) (dev.to) - Here is a situation most teams using coding agents will recognise.  On Tuesday, 
 
 ---
 
@@ -384,11 +387,11 @@
 
 ### 相关文章资源
 
+- [LangGraph.js agents with a Sandscale sandbox per thread](https://dev.to/sandscale/langgraphjs-agents-with-a-sandscale-sandbox-per-thread-32mk) (dev.to) - Give a LangGraph.js agent shell and file tools that run in a Firecracker sandbox
 - [Add long-term memory to a LangChain chatbot in Python (no vector DB)](https://dev.to/belcore/add-long-term-memory-to-a-langchain-chatbot-in-python-no-vector-db-33ba) (dev.to) - Most chat apps already store the conversation in their own database. The hard pa
 - [Read Xiaohongshu (RedNote), Douyin and Bilibili links with the Firecrawl SDK you already have](https://dev.to/programming_withjackche/read-xiaohongshu-rednote-douyin-and-bilibili-links-with-the-firecrawl-sdk-you-already-have-4aj4) (dev.to) - Short answer: if your code already calls Firecrawl's scrape, you can keep that c
 - [What happens to a long-running LangChain agent after hour 6 (measured on five stacks)](https://dev.to/neilluo/what-happens-to-a-long-running-langchain-agent-after-hour-6-measured-on-five-stacks-2p9j) (dev.to) - If you run a LangChain or LangGraph agent for hours, the first thing that change
 - [Self-Correcting RAG With LangGraph](https://dev.to/boilershelf/self-correcting-rag-with-langgraph-kd) (dev.to) - Short answer: A self-correcting RAG agent searches for evidence, checks whether 
-- [How I Bridged LangChain, CrewAI, AutoGen & Hermes in 1 Line (Without a Vector DB or Token Bloat)](https://dev.to/dk_oh_8c0e314e47d2f3dcf2d/how-i-bridged-langchain-crewai-autogen-hermes-in-1-line-without-a-vector-db-or-token-bloat-1o4p) (dev.to) - Solving multi-agent glue code, <think> reasoning loops, MCP schema bloat, and cr
 
 ---
 
@@ -444,7 +447,7 @@
 
 ### 相关文章资源
 
-- [Your agent's tool registry is an API. Stop reviewing it like config.](https://dev.to/cyclopt_dimitrisk/your-agents-tool-registry-is-an-api-stop-reviewing-it-like-config-40op) (dev.to) - Most agent security conversations start with the model. Can it be jailbroken? Wi
+- [A sandbox for Codex: running codex exec in a cloud workspace](https://dev.to/sandscale/a-sandbox-for-codex-running-codex-exec-in-a-cloud-workspace-dd0) (dev.to) - Run OpenAI Codex non-interactively with codex exec inside a Sandscale workspace,
 
 ---
 
